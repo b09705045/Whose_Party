@@ -56,25 +56,25 @@
     - {
     	startTime: "08:00",
     	endTime: "09:00",
-    	sessionIds: [101]
+    	sessionIds: [100]
     }
     - {
     	startTime: "09:00",
     	endTime: "12:00",
-    	sessionIds: [102]
+    	sessionIds: [101]
     }
     - {
         startTime: "12:00",
         endTime: "13:00",
-        sessionIds: [103]
+        sessionIds: [102]
     }
     - {
     	startTime: "13:00",
     	endTime: "17:00",
-    	sessionIds: [104]
+    	sessionIds: [103]
     }
     - {
     	startTime: "17:00",
     	endTime: "19:00",
-    	sessionIds: [105]
+    	sessionIds: [104]
     }
