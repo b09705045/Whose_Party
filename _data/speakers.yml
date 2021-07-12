@@ -1,5 +1,5 @@
 - 
-  id: 3
+  id: 0
   name: "傅彥齊"
   surname: ""
   company: "物治系總召"
@@ -10,9 +10,9 @@
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+DawidOstrowski/"}
 - 
-  id: 4
+  id: 1
   name: "吳宇璇"
-  surname: ""
+  surname: "Max"
   company: "資管系總召"
   title: "Android Developer"
   bio: '<p>Developer. Nominated to apply for the <a href="http://goo.gl/V7qHc">Google Developer Expert Program</a>. Finalist of <a href="http://goo.gl/HO2kLf">Google Apps Developer Challenge 2012</a>. Author of open source <a href="http://goo.gl/Sp5Pel">libraries</a> 1000+ stars. Writer. When Dmytro has free time he is writing <a href="http://goo.gl/AoOVru">technical articles</a>. Speaker. Always trying to share his knowledge &amp; experience on different <a href="http://goo.gl/PNolZY">events</a>. Big fan of android, flat design, stackoverflow, git, Intellij IDEA. Eclipse IDE hater.</p>'
@@ -23,7 +23,7 @@
     - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
     - {name: "github", link: "https://github.com/dmytrodanylyk"}
 - 
-  id: 5
+  id: 2
   name: "陳怡靜"
   surname: ""
   company: "護理系總召"
@@ -31,14 +31,14 @@
   bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
   thumbnailUrl: MateuszHerych.jpg
   rockstar: true
-  ribbon: 
-    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
-    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
+  # ribbon: 
+  #   - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+  #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
     - {name: "twitter", link: "https://twitter.com/mherych"}
 - 
-  # id: 6
+  # id: 3
   # name: "Roman"
   # surname: "Mazur"
   # company: "Stanfy, GDG Kyiv"
@@ -52,7 +52,7 @@
   #   - {name: "google-plus", link: "https://plus.google.com/+RomanMazur/"}
   #   - {name: "twitter", link: "http://twitter.com/roman_mazur"}
 - 
-  # id: 7
+  # id: 4
   # name: "Valentyn"
   # surname: "Shybanov"
   # company: "Twinfield, GDG Kyiv"
