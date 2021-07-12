@@ -42,13 +42,13 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 # Navigation
 navigationLinks:
- - {permalink: "/", text: "首頁"}
- - {permalink: "/blog/", text: "最新消息"}
+ - {permalink: "/main/", text: "首頁"}
+ - {permalink: "/news/", text: "最新消息"}
  - {permalink: "/schedule/", text: "活動時程"}
- - {permalink: "/speakers/", text: "團隊介紹"}
+ - {permalink: "/crew/", text: "團隊介紹"}
  - {permalink: "/team/", text: "小隊資訊"}
- - {permalink: "/logistics/", text: "下載區"}
- - {permalink: "/hackathon/", text: "FAQ"}
+ - {permalink: "/download/", text: "下載區"}
+ - {permalink: "/faq/", text: "FAQ"}
 # bottomNavigationLinks:
 #  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 # rightNavigationButtons:
