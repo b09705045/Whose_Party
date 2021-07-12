@@ -45,7 +45,7 @@ navigationLinks:
  - {permalink: "/", text: "主頁"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/crew/", text: "召部"}
+ - {permalink: "/speakers/", text: "召部"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/hackathon/", text: "Hackathon"}
