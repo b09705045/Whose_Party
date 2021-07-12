@@ -10,9 +10,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "2021 WHOSE Party"
+title: "2021 WHOSE Party - 資管 X 物治 X 護理 三系聯合宿營"
 email: "devfest@gdg.org.ua"
-description: "09/18 ~ 09/20 | Join us!"
+description: "mid October | Join us!"
 baseurl: "/Whose_Party"
 url: "https://gdg-x.github.io"
 permalink: "/blog/:title"
