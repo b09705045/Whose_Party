@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "2021 WHOSE Party"
 email: "devfest@gdg.org.ua"
 description: "09/18 ~ 09/20 | Join us!"
-baseurl: "/zeppelin"
+baseurl: "/Whose_Party"
 url: "https://gdg-x.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
