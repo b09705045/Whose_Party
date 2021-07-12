@@ -1,95 +1,120 @@
--
-  id: 000
-  title: "Coffee Break"
-  place: "Hall"
+- id: 000
+  title: "抵達流星花園 💫"
+  description: "想辦法去這裡 👉🏽 <code>台中市豐原區水源路坪頂巷8號</code>"
+  # place: "餐廳"
   service: true
-  description: "The best time to talk with speakers and attendees"
--
-  id: 001
-  title: "Coffee Break"
-  place: "Hall"
+
+- id: 104
+  title: "起床 🛏"
+  # place: "餐廳"
   service: true
-  description: "The best time to talk with speakers and attendees"
--
-  id: 002
-  title: "Lunch Break"
-  place: "Dining room"
+  description: "珍惜早起的時光，這可能是你今年最後一次七點起床。"
+
+- id: 105
+  title: "集合 ＋ 吃早餐 🍳"
+  # place: "餐廳"
   service: true
--
-  id: 003
-  title: "Material design: Visual style and imagery"
-  description: "This session will reveal the invisible structures behind the material design system. Designers will show how to use the new color systems, typographic strategies, and the underlying grids that hold it together. They will show how imagery and the new framework material rendering can make apps more interesting and communicate more quickly."
-  subtype: workshop
-  speakers: [3, 6]
-  language: en
-  complexity: "Intermediate"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
--
-  id: 004
-  title: "Building Cloud-powered wearable Apps"
-  description: "I will speak and show how to:<br>- Respond to touch events in your views with touch feedback animations.<br>- Hide and show views with reveal effect animations.<br>- Switch between activities with custom activity transition animations.<br>- Create more natural animations with curved motion.<br>- Animate changes in one or more view properties with view state change animations.<br>- Create icon morphing transition"
-  subtype: presentation
-  speakers: [4, 5]
-  language: en
-  complexity: "Intermediate" 
-  presentation: "https://speakerdeck.com/gdglviv/dmytro-danylyk-android-l-animation"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
--
-  id: 005
-  title: "Android L Animation"
-  description: "More than ever before, developing for global audience is a necessity than a luxury in today's world. Are you ready ... where to start? what does it entail? how do I do it? how to promote in local markets? This talk will address above questions for android, chrome and web developers. In our journey of the where, what and how, we will take an in-depth look at various internationalization and localization tools & strategies available to you."
-  subtype: presentation
-  speakers: [4]
-  language: en
-  complexity: "Intermediate" 
-  presentation: "https://speakerdeck.com/gdglviv/dmytro-danylyk-android-l-animation"
--
-  id: 006
-  title: "Polymer: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  subtype: keynote
-  speakers: [6]
-  language: uk
-  complexity: "Beginner"
-  presentation: "https://speakerdeck.com/gdglviv/mateusz-herych-guava-beyond-collections"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
--
-  id: 007
-  title: "Test: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  subtype: keynote
-  speakers: [7]
-  language: en
-  complexity: "Expert"
-  presentation: "https://speakerdeck.com/gdglviv/michal-tajchert-wearables-views"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
--
-id: 100
-  title: "Coffee Break"
-  place: "Hall"
+  description: "賭你各位一定是睡眼惺忪 xD"
+
+- id: 307
+  title: "中餐 🍱"
+  # place: "餐廳"
   service: true
-  description: "The best time to talk with speakers and attendees"
--
-id: 101
-  title: "Coffee Break"
-  place: "Hall"
+  description: "吃飯就吃飯，有什麼好解釋的。跟隊輔趁機喇賽的好時機。"
+
+- id: 308
+  title: "晚餐 🍛"
+  # place: "餐廳"
   service: true
-  description: "The best time to talk with speakers and attendees"
-  -
-id: 102
-  title: "Coffee Break"
-  place: "Hall"
+  description: "同中餐"
+
+- id: 3081
+  title: "晚餐（烤肉） 🥓"
+  # place: "餐廳"
   service: true
-  description: "The best time to talk with speakers and attendees"
-  -
-id: 103
-  title: "Coffee Break"
-  place: "Hall"
+  description: "本質上就是晚餐的一種。<br>為什麼不天天烤肉？每天烤肉會得癌症的。"
+
+- id: 309
+  title: "宵夜 🥮"
+  # place: "餐廳"
   service: true
-  description: "The best time to talk with speakers and attendees"
-  -
-id: 104
-  title: "Coffee Break"
-  place: "Hall"
+  description: "宵夜... 祝大家變大胖子 🤪"
+
+- id: 310
+  title: "返家/校"
+  # place: "餐廳"
   service: true
-  description: "The best time to talk with speakers and attendees"
+  description: "收心準備明天開學ㄅ。<br>欸，其實你要返家不是不可以啦，資管系禮拜一應該是有會計課的，你只要不要睡掉基本上都沒事。<br>呃，更正，明天應該沒會計。愚人節快樂。"
+
+- id: 503
+  title: "Not Found"
+  place: "Not Found"
+  service: true
+  description: "Yet keyed in"
+
+- id: 001
+  title: "啟程"
+  # place: "遊覽車"
+  service: true
+  description: "條條大路通羅馬。你只要可以到流星花園即可！"
+
+- id: 002
+  title: "大型破冰 + 開幕 🧊"
+  service: true
+  description: "以為破冰遊戲可以化解尷尬嗎？不，破冰本身就是個尷尬的環節。"
+
+- id: 003
+  title: "大地 👣"
+  # service: true
+  place: "很大的流星花園（服務中心、露營區草皮、涼亭、烤肉區）"
+  description: "在大太陽底下消耗體力，讓你知道流星花園真的很大（順便努力認識新朋友）。"
+  detail: "大地遊戲，顧名思義就是在很大的地方玩遊戲。在這<mark>兩個半小時內</mark>，你們會到各個關卡和不同小隊對戰。努力獲得勝利的同時，也多花點心力認識來自各方的新朋友吧!"
+
+- id: 004
+  title: "策略 🧠"
+  # service: true
+  place: "不是美食沙漠的公館（2100 會館）"
+  description: "在升上大學來到公館吃香喝辣之前，先想想怎麼發大財吧！經營和交易可不是你們想像的那麼容易 😎"
+  detail: "「身為飢腸轆轆的大學生，你們每個人都擁有吃垮商家並佔有他的能力。」在策略遊戲中，各小隊要用自己手上的資金和僅有的短短時間，規劃好如何在美食商圈中拓展出自己的一片天地。（同時，也別忘記公館可是個競爭激烈的美食商圈，好好想清楚什麼策略才能讓自己發大財吧！）"
+- id: 005
+  title: "密室假案 👻"
+  description: "離鄉背井之際，住宿舍？租房子？先解決眼前的問題比較實在。"
+  place: "陌生的租屋處附近（服務中心、涼亭、烤肉區、迷宮、住宿區）"
+  detail: "<p>密室假案，3 間密室、5 個角色，從中尋找有關案件的線索、調查出的真相，在最後還原出故事的原貌吧，所有小細節都別忘記！
+</p><p><code>小劇場</code>：<br>「欸假案很可怕捏」<br>「假案：顧名思義就是<strong>假（fake）</strong>的。是有什麼好怕。」</p>"
+
+- id: 006
+  title: "RPG 👾"
+  # service: true
+  place: "112 國立臺灣大公園（整個流星花園）"
+  description: "RPG 我不懂，但 <a href='https://www.ptt.cc/bbs/NTU/M.1504087401.A.60E.html'>NPC</a> 倒是知道不少（也知道在台中酷熱太陽下奔跑的感覺，哈哈）"
+  detail: "掌管臺大的守護神掌管了長年保護著臺大的結界，然而每年都需要更新認證，這個任務就交給你們了！RPG 需要你們在大大的流星花園找尋到不同角色、協助他們完成未了的心願，也同時更了解臺大！"
+- id: 007
+  title: "賭場 ＋ 競標 🤑"
+  place: "花錢買快樂的賭場（2100 會館）"
+  # teamMember: "ㄎㄎ"
+  description: "大學生不好好讀書在那邊賭博，以為這樣真的能發大財嗎？"
+  detail: "<p>不再被小隊束縛，盡情拿手上的金錢在賭場裡玩樂吧，為數不少的小遊戲、股票交易所、競標前的秘密活動，絕對讓你們玩得開心，至於能不能發大財？就看個人造化了</p><p><code>阿公講古時間：</code><br>澳門、拉斯維加斯賭場規定要 21 歲才能進入，啊你今年幾歲？小大一到底在賭個毛？！嗯哼嗯哼嗯哼 🤪</p>"
+
+- id: 100
+  title: "晚會 🕺🏾"
+  # service: true
+  place: "大型晚會現場（2100 會館）"
+  description: "不普通的晚會，絕對超乎你想像"
+  video: "//www.youtube.com/embed/6RNPLsZzBIo"
+  detail: "好好欣賞學長姐表演的時間，但就不劇透不普通的晚會有多厲害了，好好期待！（<strong>一定比哇嘎哇嘎精彩！</strong>）"
+
+- id: 101
+  title: "水大地 🌊"
+  # service: true
+  place: "艷陽下的水災現場（停車場、後草皮、露營區草皮）"
+  description: "暑假的太陽需要用冰涼的水球對抗，想要乾著離開肯定是不可能的！"
+  detail: "<p>玩水玩水 👉🏽 著涼 👉🏽 感冒</p><p>除了和不同小隊在關卡的對抗，還有充滿水的大型團康。在水花四濺的艷陽下，輸贏好像沒那麼重要了，但怎麼乾著離開？這就值得好好思考了ㄎㄎ</p>"
+- id: 102
+  title: "閉幕"
+  service: true
+  description: "這次旅程的結束，是下段旅程的開始！"
+- id: 103
+  title: "解惑 🤯"
+  service: true
+  description: "讓學長姐帶你入手大學生活！舉凡系隊（歡迎加入院級網球隊）、社團、學業、系上活動，學長姐通通報你知！"
