@@ -42,7 +42,7 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 # Navigation
 navigationLinks:
- - {permalink: "/main/", text: "首頁"}
+ - {permalink: "/", text: "首頁"}
  - {permalink: "/news/", text: "最新消息"}
  - {permalink: "/schedule/", text: "活動時程"}
  - {permalink: "/crew/", text: "團隊介紹"}
