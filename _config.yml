@@ -68,7 +68,7 @@ heroButtons:
 # About Block
 aboutTitle: "參與科系"
 aboutBlock:
- - {title: "資訊管理學系", image: "conference.jpg", text: "" }
+ - {title: "資訊管理學系", image: "ntu_im.png", text: "" }
  - {title: "物理治療學系", image: "workshop.jpg", text: "" }
  - {title: "護理學系", image: "hackathon.jpg", text: "" }
 
