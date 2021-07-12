@@ -45,7 +45,7 @@ navigationLinks:
  - {permalink: "/", text: "主頁"}
  - {permalink: "/blog/", text: "最新消息"}
  - {permalink: "/schedule/", text: "活動時程"}
- - {permalink: "/speakers/", text: "認識召部"}
+ - {permalink: "/speakers/", text: "團隊介紹"}
  - {permalink: "/team/", text: "小隊資訊"}
  - {permalink: "/logistics/", text: "暫定為空"}
  - {permalink: "/hackathon/", text: "暫定為空"}
