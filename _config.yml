@@ -58,7 +58,7 @@ navigationLinks:
 heroImage: "hero.jpg"
 heroTitle: "WHOSE PARTY"
 heroTitle2: "2021 三系聯合迎新宿營"
-eventDate: "September 18th - September 20th"
+eventDate: "mid Oct 2021"
 typeoutTextValues: '"", "資訊管理學系x", "資訊管理學系x物理治療學系x", "資訊管理學系x物理治療學系x護理學系"'
 typeoutFallback: "NTU"
 heroButtons:
@@ -75,10 +75,10 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "3", specialCharacter: "", info: "參與科系", detail: "資管、物治、護理!"}
- - {count: "100", specialCharacter: "+", info: "工人", detail: "來自各系!"}
- - {count: "500", specialCharacter: "+", info: "準備時間", detail: "有夠用心!"}
- - {count: "10", specialCharacter: "+", info: "精彩活動", detail: "讓小大一們玩得開心!"}
+ - {count: "3", specialCharacter: "", info: "參與科系", detail: ""}
+ - {count: "100", specialCharacter: "+", info: "工人", detail: ""}
+ - {count: "500", specialCharacter: "+", info: "準備時間", detail: ""}
+ - {count: "10", specialCharacter: "+", info: "精彩活動", detail: ""}
 
 # Latest News Block
 latestNewsTitle: ""
@@ -87,7 +87,7 @@ latestNewsTitle: ""
 rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 3
 rockstarSpeakersTitle: "認識召部"
-rockstarSpeakersButtonText: "See all speakers"
+rockstarSpeakersButtonText: "團隊介紹"
 
 # Location Block
 locationBlockTitle: "舉辦地點"
