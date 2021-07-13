@@ -6,4 +6,10 @@ modal: all
 ---
 
 {% include top-section.html %}
-{% include crew.html %}
+{% if site.showSessions %}
+    {% include crew.html %}
+{% else %}
+    {% include speakers-list-2.html %}
+{% endif %}
+
+
