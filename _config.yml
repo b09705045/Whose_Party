@@ -62,8 +62,8 @@ eventDate: "mid Oct 2021"
 typeoutTextValues: '"", "資訊管理學系x", "資訊管理學系x物理治療學系x", "資訊管理學系x物理治療學系x護理學系"'
 typeoutFallback: "NTU"
 heroButtons:
- - {link: "https://www.youtube.com/watch?v=072tU1tamd0", text: "了解我們"}
- - {permalink: "//#subscribes/", text: "現在報名"}
+ - {link: "", text: "了解我們"}
+ - {permalink: "", text: "現在報名"}
 
 # About Block
 aboutTitle: "參與科系"
