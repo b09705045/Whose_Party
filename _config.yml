@@ -84,10 +84,10 @@ statisticBlock:
 latestNewsTitle: ""
 
 # Rockstar Speakers Block
-rockstarSpeakersImage: "rockstar-speakers.jpg"
-rockstarSpeakersCount: 3
+rockstarSpeakersImage: "rockstar-speakers.png"
+rockstarSpeakersCount: 4
 rockstarSpeakersTitle: "認識召部"
-rockstarSpeakersButtonText: "團隊介紹"
+rockstarSpeakersButtonText: "點我看團隊介紹"
 
 # Location Block
 locationBlockTitle: "舉辦地點"
