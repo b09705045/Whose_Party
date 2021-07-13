@@ -1,6 +1,6 @@
 <!-- Begin Speakers Modals -->
 <div class="modals" class="modals">
-	{% for speaker in site.data.speakers %}
+	{% for speaker in site.data.crew %}
 	{% if page.modal == "all" or (page.modal == 'team' and (speaker.team != null or speaker.subTeam != null)) %}
 	<div class="modal fade text-left people-modal" id="speakerDetail-{{ speaker.id }}" tabindex="-1" role="dialog"
 		aria-labelledby="speakerDetailLabel-{{ speaker.id }}" aria-hidden="true">
@@ -15,7 +15,7 @@
 					</div>
 					{% if site.showSessions %}
 						{% for session in site.data.sessions %}
-							{% for session_speaker in session.speakers %}
+							{% for session_speaker in session.crew %}
 								{% if session_speaker == speaker.id %}
 									<h4>{{ session.title }}</h4>
 							{% if session.language != null %}
