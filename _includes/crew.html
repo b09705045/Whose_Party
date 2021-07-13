@@ -7,12 +7,13 @@
                 <div class="effect-wrapper appear-animation col-md-4 col-sm-6 col-xs-12">
                     <div class="lily-effect ribbon-activator">
                         <div class="lily-head" data-toggle="modal" data-target="#speakerDetail-{{ speaker.id }}">
-                            <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }})">
+                            <figure class="waves-effect waves-block waves-light"
+                                style="background-image: url({{ site.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl }})">
                                 <div class="overlay solid-overlay"></div>
                                 {% if speaker.ribbon != null %}
                                 <ul class="ribbon-wrapper">
                                     {% for ribbon in speaker.ribbon %}
-                                    <li class="{{ ribbon["abbr"] | downcase }}">
+                                    <li class="{{ ribbon[" abbr"] | downcase }}">
                                         <p class="ribbon abbr">{{ ribbon["abbr"] }}</p>
                                         <p class="ribbon full-title">{{ ribbon["title"] }}</p>
                                     </li>
@@ -30,18 +31,18 @@
                         <div class="lily-bottom">
                             <ul class="slider">
                                 {% assign sessionsNumber = 0 %}
-                                {% if site.showSessions %} 
-                                    {% for session in site.data.sessions %} 
-                                        {% for session_speaker in session.crew %} 
-                                            {% if session_speaker == speaker.id %}
-                                            {% assign sessionsNumber = sessionsNumber | plus: 1 %}
-                                                <li class="title slider-item animated fadeInRight hidden">{{ session.title }}</li>
-                                            {% endif %} 
-                                        {% endfor %} 
-                                    {% endfor %} 
+                                {% if site.showSessions %}
+                                {% for session in site.data.sessions %}
+                                {% for session_speaker in session.crew %}
+                                {% if session_speaker == speaker.id %}
+                                {% assign sessionsNumber = sessionsNumber | plus: 1 %}
+                                <li class="title slider-item animated fadeInRight hidden">{{ session.title }}</li>
+                                {% endif %}
+                                {% endfor %}
+                                {% endfor %}
                                 {% else %}
-                                    <h2 class="name">{{ speaker.name }} <span>{{ speaker.surname }}</span></h2>
-                                    <p class="position">{{ speaker.company }}</p>
+                                <h2 class="name">{{ speaker.name }} <span>{{ speaker.surname }}</span></h2>
+                                <p class="position">{{ speaker.company }}</p>
                                 {% endif %}
                             </ul>
                             <a href="#" class="slider-next-item {% if sessionsNumber < 2 %}hidden{% endif %}">Next</a>
@@ -49,8 +50,9 @@
                     </div>
                 </div>
                 {% endfor %}
-            </div> 
-            <a href="{{ site.c4pUrl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float" target="_blank">Become a speaker</a>     
+            </div>
+            <a href="{{ site.c4pUrl }}" class="btn btn-primary waves-effect waves-button waves-light waves-float"
+                target="_blank">Become a speaker</a>
         </div>
     </div>
 </section>
