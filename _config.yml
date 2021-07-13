@@ -62,8 +62,8 @@ eventDate: "mid Oct 2021"
 typeoutTextValues: '"", "資訊管理學系x", "資訊管理學系x物理治療學系x", "資訊管理學系x物理治療學系x護理學系"'
 typeoutFallback: "NTU"
 heroButtons:
- - {link: "https://www.youtube.com/watch?v=072tU1tamd0", text: "了解我們"}
- - {permalink: "//#subscribes/", text: "現在報名"}
+ - {link: "", text: "了解我們"}
+ - {permalink: "", text: "現在報名"}
 
 # About Block
 aboutTitle: "參與科系"
@@ -90,29 +90,29 @@ rockstarSpeakersTitle: "認識召部"
 rockstarSpeakersButtonText: "點我看團隊介紹"
 
 # Location Block
-locationBlockTitle: "舉辦地點"
-eventLocationName: "埔心牧場"
-eventLocationLink: "https://www.pushin-ranch.com/"
-eventStreetAddress: "桃園市楊梅區幼獅路一段439號"
-eventAddressLocality: ""
-eventAddressLocalityRegion: ""
-eventPostalCode: ""
-eventAddressCountry: ""
-eventStartTime: ""
-eventDoorTime: ""
-eventEndTime: ""
-eventPlaceCoordinates: ""
-mapCenterCoordinates: ""
-mapMobileCenterCoordinates: ""
+# locationBlockTitle: "舉辦地點"
+# eventLocationName: "埔心牧場"
+# eventLocationLink: "https://www.pushin-ranch.com/"
+# eventStreetAddress: "桃園市楊梅區幼獅路一段439號"
+# eventAddressLocality: ""
+# eventAddressLocalityRegion: ""
+# eventPostalCode: ""
+# eventAddressCountry: ""
+# eventStartTime: ""
+# eventDoorTime: ""
+# eventEndTime: ""
+# eventPlaceCoordinates: ""
+# mapCenterCoordinates: ""
+# mapMobileCenterCoordinates: ""
 
 # Venue Block
-# venueBlockTitle: "Venue"
-# venueBigImage: "venue_0.jpg"
-# venueSmallImage1: "venue_1.jpg"
-# venueSmallImage2: "venue_2.jpg"
-# venueSmallImage3: "venue_3.jpg"
-# venueTitle: "Kinopalace Cinema"
-# venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueBlockTitle: "舉辦地點"
+venueBigImage: "venue_0.jpg"
+venueSmallImage1: "venue_1.jpg"
+venueSmallImage2: "venue_2.jpg"
+venueSmallImage3: "venue_3.jpg"
+venueTitle: "埔心牧場"
+venueFeatures: ["桃園市楊梅區幼獅路一段439號","https://www.pushin-ranch.com/"]
 
 # Tweets Feed Block
 # tweetsFeedImage: "twitter-feed.jpg"
