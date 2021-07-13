@@ -200,7 +200,7 @@ subscribeInfo: ""
 # discusShortName: "devfestua"
 
 # Speakers List Block
-# showSessions: true
+showSessions: true
 
 # Team Block
 # teamBlockTitle: "About us"
