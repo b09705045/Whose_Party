@@ -1,9 +1,9 @@
 - 
   id: 1
-  name: "吳宇璇"
-  surname: "MAX"
+  name: "MAX"
+  surname: "吳宇璇"
   title: "資管系總召"
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: patrick_2.jpg
   exec: true
   bio: "<code> HI! </code><br>
   cool"
@@ -16,8 +16,8 @@
     - {name: "site", link: "http://zasadnyy.com/"}
 - 
   id: 2
-  name: "Oleh"
-  surname: "Zasadnyy"
+  name: ""
+  surname: "陳怡靜"
   title: "Designer and Web Developer"
   thumbnailUrl: OlehZasadnyy.jpg
   team: true
