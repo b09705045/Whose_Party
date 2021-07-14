@@ -14,7 +14,7 @@
                         {% if crewMember.ribbon != null %}
                         <ul class="ribbon-wrapper">
                             {% for ribbon in crewMember.ribbon %}
-                            <li class="{{ ribbon[" abbr"] | downcase }}">
+                            <li class="{{ ribbon[" abbr "] | downcase }}">
                                 <p class="ribbon abbr">{{ ribbon["abbr"] }}</p>
                                 <p class="ribbon full-title">{{ ribbon["title"] }}</p>
                             </li>
@@ -27,7 +27,7 @@
                                 <div class="clearfix"></div>
                                 <span class="position">{{ crewMember.title }}</span>
                             </div>
-                            <div class="col-md-8 col-xs-8 text-right">
+                            <div class="col-md-4 col-xs-8 text-right">
                                 <h2 class="company">{{ crewMember.company}}</h2>
                                 <div class="clearfix"></div>
                             </div>
