@@ -27,10 +27,10 @@
                                 <div class="clearfix"></div>
                                 <span class="position">{{ crewMember.title }}</span>
                             </div>
-                            <div class="col-md-4 col-xs-8 text-right">
+                            <!-- <div class="col-md-4 col-xs-8 text-right">
                                 <h2 class="company">{{ crewMember.company}}</h2>
                                 <div class="clearfix"></div>
-                            </div>
+                            </div> -->
                             {% for social in crewMember.social %}
                             <a href="{{ social[" link"] }}" target="_blank">
                                 <svg class="icon icon-{{ social[" name"] }}" viewBox="0 0 30 32">
@@ -46,7 +46,7 @@
             </div>
             {% endif %} {% endfor %}
         </div>
-        <div class="col-lg-10 col-lg-offset-1 text-center">
+        <div class="col-lg-10 col-lg-offset-1 text-center">部長123
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">部長
             </h4>
             {% for crewMember in site.data.crew %} {% if crewMember.leader != null %}
