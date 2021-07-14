@@ -1,0 +1,62 @@
+- 
+  id: 1
+  name: "MAX"
+  surname: "吳宇璇"
+  title: "資管系總召"
+  thumbnailUrl: patrick_2.jpg
+  exec: true
+  bio: "<code> HI! </code><br>
+  cool"
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
+    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
+    - {name: "github", link: "https://github.com/zasadnyy"}
+    - {name: "site", link: "http://zasadnyy.com/"}
+- 
+  id: 2
+  name: ""
+  surname: "陳怡靜"
+  title: "Designer and Web Developer"
+  thumbnailUrl: OlehZasadnyy.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
+    - {name: "github", link: "https://github.com/ozasadnyy"}
+- 
+  id: 3
+  name: "Ostap"
+  surname: "Andrusiv"
+  title: "Sponsors and Speakers Manager"
+  thumbnailUrl: OstapAndrusiv.jpg
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
+    - {name: "twitter", link: "https://twitter.com/p1f"}
+    - {name: "site", link: "http://andrusiv.com/"}
+- 
+  id: 4
+  name: "Dmytro"
+  surname: "Danylyk"
+  title: "Android Program Committee"
+  thumbnailUrl: DmytroDanylyk.jpg
+  subTeam: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
+    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
+    - {name: "github", link: "https://github.com/dmytrodanylyk"}
+- 
+  id: 7
+  name: "Valentyn"
+  surname: "Shybanov"
+  title: "Web and Cloud Program Committee"
+  thumbnailUrl: ValentynShybanov.jpg
+  subTeam: true
+  social: 
+    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+    - {name: "site", link: "http://olostan.name/"}
