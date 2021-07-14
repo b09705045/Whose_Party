@@ -1,10 +1,12 @@
 - 
-  id: 0
-  name: "Vitaliy"
-  surname: "Zasadnyy"
-  title: "Sponsors and Speakers Manager"
-  thumbnailUrl: VitaliyZasadnyy.jpg
-  team: true
+  id: 1
+  name: "吳宇璇"
+  surname: "MAX"
+  title: "資管系總召"
+  thumbnailUrl: patrick_1.jpg
+  exec: true
+  bio: "<code> HI! </code><br>
+  cool"
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
@@ -13,7 +15,7 @@
     - {name: "github", link: "https://github.com/zasadnyy"}
     - {name: "site", link: "http://zasadnyy.com/"}
 - 
-  id: 1
+  id: 2
   name: "Oleh"
   surname: "Zasadnyy"
   title: "Designer and Web Developer"
@@ -25,7 +27,7 @@
     - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
     - {name: "github", link: "https://github.com/ozasadnyy"}
 - 
-  id: 2
+  id: 3
   name: "Ostap"
   surname: "Andrusiv"
   title: "Sponsors and Speakers Manager"
