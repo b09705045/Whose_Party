@@ -22,9 +22,9 @@
   bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
   thumbnailUrl: patrick_3.jpg
   exec: true
-  # ribbon: 
-  #   - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
-  #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
+  ribbon: 
+    - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+    - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
     - {name: "twitter", link: "https://twitter.com/mherych"}
