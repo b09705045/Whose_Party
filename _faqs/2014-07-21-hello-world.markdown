@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "常見問題"
+title:  "升大學知識"
+date:   2014-07-21 08:00:00
 isStaticPost: false
 ---
 
-隨便打一點東西在這
+先打點東西在這
