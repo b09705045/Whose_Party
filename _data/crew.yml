@@ -38,13 +38,13 @@
     - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
     - {name: "twitter", link: "https://twitter.com/mherych"}
 - 
-  # id: 3
-  # name: "Roman"
-  # surname: "Mazur"
-  # company: "Stanfy, GDG Kyiv"
-  # title: "Head of Android/Java Unit"
-  # bio: "Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv."
-  # thumbnailUrl: RomanMazur.jpg
+  id: 3
+  name: "陸品孜"
+  surname: ""
+  company: "物治系副召"
+  title: "Head of Android/Java Unit"
+  bio: "Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv."
+  # thumbnailUrl: ntu_pt.png
   # rockstar: true
   # ribbon:
   #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
