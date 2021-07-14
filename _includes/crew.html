@@ -9,11 +9,11 @@
                 <div class="zoe-effect ribbon-activator" data-toggle="modal"
                     data-target="#speakerDetail-{{ crewMember.id }}">
                     <figure class="waves-effect waves-block waves-light"
-                        style="background-image: url({{ site.baseurl | append: '/img/speakers/' | append: crewMember.thumbnailUrl }})">
+                        style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
                         <div class="overlay solid-overlay"></div>
                         {% if crewMember.ribbon != null %}
                         <ul class="ribbon-wrapper">
-                            {% for ribbon in teamMember.ribbon %}
+                            {% for ribbon in crewMember.ribbon %}
                             <li class="{{ ribbon[" abbr"] | downcase }}">
                                 <p class="ribbon abbr">{{ ribbon["abbr"] }}</p>
                                 <p class="ribbon full-title">{{ ribbon["title"] }}</p>
@@ -26,6 +26,10 @@
                                 <h2 class="name">{{ crewMember.name }} <span>{{ crewMember.surname }}</span></h2>
                                 <div class="clearfix"></div>
                                 <span class="position">{{ crewMember.title }}</span>
+                            </div>
+                            <div class="col-md-8 col-xs-8 text-right">
+                                <h2 class="company">{{ crewMember.company}}</h2>
+                                <div class="clearfix"></div>
                             </div>
                             {% for social in crewMember.social %}
                             <a href="{{ social[" link"] }}" target="_blank">
@@ -50,7 +54,7 @@
                 <div class="zoe-effect ribbon-activator" data-toggle="modal"
                     data-target="#speakerDetail-{{ crewMember.id }}">
                     <figure class="waves-effect waves-block waves-light"
-                        style="background-image: url({{ site.baseurl | append: '/img/speakers/' | append: crewMember.thumbnailUrl }})">
+                        style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
                         <div class="overlay solid-overlay"></div>
                         {% if crewMember.ribbon != null %}
                         <ul class="ribbon-wrapper">
@@ -92,7 +96,7 @@
                 <div class="zoe-effect ribbon-activator" data-toggle="modal"
                     data-target="#speakerDetail-{{ crewMember.id }}">
                     <figure class="waves-effect waves-block waves-light"
-                        style="background-image: url({{ site.baseurl | append: '/img/speakers/' | append: crewMember.thumbnailUrl }})">
+                        style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
                         <div class="overlay solid-overlay"></div>
                         {% if crewMember.ribbon != null %}
                         <ul class="ribbon-wrapper">
