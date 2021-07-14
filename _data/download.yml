@@ -1,0 +1,16 @@
+- 
+  id: 1
+  name: "MAX"
+  surname: "吳宇璇"
+  title: "資管系總召"
+  thumbnailUrl: patrick_2.jpg
+  exec: true
+  bio: "<code> HI! </code><br>
+  cool"
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
+    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
+    - {name: "github", link: "https://github.com/zasadnyy"}
+    - {name: "site", link: "http://zasadnyy.com/"}
