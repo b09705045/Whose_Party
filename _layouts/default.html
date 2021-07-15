@@ -24,9 +24,11 @@ layout: compress
         </div>
     </div>
 
-    {% if page.modal != null %} 
-    	{% include speakers-modals.html %} 
-    {% endif %} 
+    {% if page.modal == 'all' %}
+        {% include speakers-modals.html %}
+    {% elsif page.modal == 'crew' %}
+        {% include crew-modal.html %}
+    {% endif %}
 
     {% if page.permalink == '/schedule/' %}
         {% include sessions-modals.html %}
