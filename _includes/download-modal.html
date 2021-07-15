@@ -1,7 +1,7 @@
 <!-- Begin Download Modals -->
 <div class="modals" class="modals">
     {% for crewMember in site.data.download %} {% if crewMember.bio != null %}
-    {% if page.modal == "download" %}
+    {% if page.modal == "crew" %}
     <div aria-hidden="true" aria-labelledby="crewDetailLabel-{{ crewMember.id }}"
       class="modal fade text-left people-modal" id="crewDetail-{{ crewMember.id }}" tabindex="-1" role="dialog">
       <div class="modal-dialog">
