@@ -45,6 +45,7 @@
   bio: "Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv."
   thumbnailUrl: patrick_2.jpg
   exec: true
+  leader: true
   # ribbon:
   #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
   social: 
