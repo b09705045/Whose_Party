@@ -1,10 +1,10 @@
 ---
 layout: post
-title: FAQ 常見問題錦囊
+title: 常見問題
 permalink: /faq/
 isStaticPost: true
 ---
-<img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/cod.jpg" style="display:none">
+<!-- <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/cod.jpg" style="display:none"> -->
 
 ##### 宿營辦在何時？
 `2020-09-11 星期五` - `2020-09-13 星期日`。是的，就是在開學前一天結束噢！
