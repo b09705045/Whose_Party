@@ -2,13 +2,13 @@
 <div class="modals" class="modals">
   {% for crewMember in site.data.crew %} {% if crewMember.bio != null %}
   {% if page.modal == "crew" %}
-  <div class="modal fade text-left people-modal" id="speakerDetail-{{ crewMember.id }}" tabindex="-1" role="dialog"
-    aria-labelledby="speakerDetailLabel-{{ crewMember.id }}" aria-hidden="true">
+  <div aria-hidden="true" aria-labelledby="crewDetailLabel-{{ crewMember.id }}"
+    class="modal fade text-left people-modal" id="crewDetail-{{ crewMember.id }}" tabindex="-1" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-body">
           <div class="close">
-            <svg class="icon icon-cross" viewBox="0 0 30 32">
+            <svg class="icon icon-cross" viewBox="0 0 32 32">
               <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-cross"></use>
             </svg>
             <div class="close-mask" data-dismiss="modal"></div>
@@ -36,7 +36,7 @@
                   {% for social in crewMember.social %}
                   <li>
                     <a href="{{ social[" link"] }}" target="_blank">
-                      <svg class="icon icon-{{ social[" name"] }}" viewBox="0 0 30 32">
+                      <svg class="icon icon-{{ social[" name"] }}" viewBox="0 0 32 32">
                         <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social[" name"] }}"></use>
                       </svg>
                     </a>
