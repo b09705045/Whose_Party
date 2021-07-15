@@ -7,4 +7,4 @@
   exec: true
   bio: "HI!"
   button: 
-  - {permalink: "/assets/GDG_DevFest_Partnership.pdf/", text: "下載"}
+  - {link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", text: "下載"}
