@@ -36,8 +36,8 @@
                                 </a>
                                 {% endfor %}
                             </div>
+                            <p class="bio">{{ crewMember.bio | strip_html | truncate: 72 }}</p>
                         </figcaption>
-                        <p class="bio">{{ crewMember.bio | strip_html | truncate: 72 }}</p>
                     </figure>
                 </div>
             </div>
