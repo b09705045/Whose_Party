@@ -5,8 +5,7 @@
   title: ""
   thumbnailUrl: patrick_2.jpg
   exec: true
-  bio: "<code> HI! </code><br>
-  cool"
+  bio: "<code> HI! </code>"
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
