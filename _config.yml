@@ -107,10 +107,10 @@ rockstarSpeakersButtonText: "點我看團隊介紹"
 
 # Venue Block
 venueBlockTitle: "舉辦地點"
-venueBigImage: "venue_0.jpg"
-venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
-venueSmallImage3: "venue_3.jpg"
+venueBigImage: "pushin_1.jpg"
+venueSmallImage1: "pushin_2.jpg"
+venueSmallImage2: "pushin_3.jpg"
+venueSmallImage3: "pushin_3.jpg"
 venueTitle: "埔心牧場"
 venueFeatures: ["桃園市楊梅區幼獅路一段439號","https://www.pushin-ranch.com/"]
 
