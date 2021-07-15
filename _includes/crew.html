@@ -7,15 +7,13 @@
             </h4>
             {% for crewMember in site.data.crew %} {% if crewMember.exec %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
-                <div class="zoe-effect ribbon-activator" data-toggle="modal"
-                    data-target="#crewDetail-{{ crewMember.id }}">
-                    <figure class="waves-effect waves-block waves-light"
-                        style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
+                <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#crewDetail-{{ crewMember.id }}">
+                    <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
                         <div class="overlay solid-overlay"></div>
                         {% if crewMember.ribbon != null %}
                         <ul class="ribbon-wrapper">
                             {% for ribbon in crewMember.ribbon %}
-                            <li class="{{ ribbon["abbr"] | downcase }}">
+                            <li class="{{ ribbon[" abbr "] | downcase }}">
                                 <p class="ribbon abbr">{{ ribbon["abbr"] }}</p>
                                 <p class="ribbon full-title">{{ ribbon["title"] }}</p>
                             </li>
@@ -29,8 +27,8 @@
                                 <span class="position">{{ crewMember.title }}</span>
                             </div>
                             {% for social in crewMember.social %}
-                            <a href="{{ social["link"] }}" target="_blank">
-                                <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
+                            <a href="{{ social[" link "] }}" target="_blank">
+                                <svg class="icon icon-{{ social[" name "] }}" viewBox="0 0 30 32">
                                     <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"]
                                         }}"></use>
                                 </svg>
@@ -48,15 +46,13 @@
             </h4>
             {% for crewMember in site.data.crew %} {% if crewMember.leader %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
-                <div class="zoe-effect ribbon-activator" data-toggle="modal"
-                    data-target="#speakerDetail-{{ crewMember.id }}">
-                    <figure class="waves-effect waves-block waves-light"
-                        style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
+                <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#crewDetail-{{ crewMember.id }}">
+                    <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
                         <div class="overlay solid-overlay"></div>
                         {% if crewMember.ribbon != null %}
                         <ul class="ribbon-wrapper">
                             {% for ribbon in crewMember.ribbon %}
-                            <li class="{{ ribbon["abbr"] | downcase }}">
+                            <li class="{{ ribbon[" abbr "] | downcase }}">
                                 <p class="ribbon abbr">{{ ribbon["abbr"] }}</p>
                                 <p class="ribbon full-title">{{ ribbon["title"] }}</p>
                             </li>
@@ -65,13 +61,13 @@
                         {% endif %}
                         <figcaption>
                             <div class="col-md-8 col-xs-8 text-left">
-                                <h2 class="name">{{ crewMember.name }} <span>{{ crewMember.surname }}</span></h2>
                                 <div class="clearfix"></div>
+                                <h2 class="name">{{ crewMember.name }} <span>{{ crewMember.surname }}</span></h2>
                                 <span class="position">{{ crewMember.title }}</span>
                             </div>
                             {% for social in crewMember.social %}
-                            <a href="{{ social["link"] }}" target="_blank">
-                                <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
+                            <a href="{{ social[" link "] }}" target="_blank">
+                                <svg class="icon icon-{{ social[" name "] }}" viewBox="0 0 30 32">
                                     <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"]
                                         }}"></use>
                                 </svg>
@@ -90,15 +86,13 @@
             </h4>
             {% for crewMember in site.data.crew %} {% if crewMember.dev %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
-                <div class="zoe-effect ribbon-activator" data-toggle="modal"
-                    data-target="#speakerDetail-{{ crewMember.id }}">
-                    <figure class="waves-effect waves-block waves-light"
-                        style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
+                <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#speakerDetail-{{ crewMember.id }}">
+                    <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
                         <div class="overlay solid-overlay"></div>
                         {% if crewMember.ribbon != null %}
                         <ul class="ribbon-wrapper">
                             {% for ribbon in crewMember.ribbon %}
-                            <li class="{{ ribbon["abbr"] | downcase }}">
+                            <li class="{{ ribbon[" abbr "] | downcase }}">
                                 <p class="ribbon abbr">{{ ribbon["abbr"] }}</p>
                                 <p class="ribbon full-title">{{ ribbon["title"] }}</p>
                             </li>
@@ -107,13 +101,13 @@
                         {% endif %}
                         <figcaption>
                             <div class="col-md-8 col-xs-8 text-left">
-                                <h2 class="name">{{ crewMember.name }} <span>{{ crewMember.surname }}</span></h2>
                                 <div class="clearfix"></div>
+                                <h2 class="name">{{ crewMember.name }} <span>{{ crewMember.surname }}</span></h2>
                                 <span class="position">{{ crewMember.title }}</span>
                             </div>
                             {% for social in crewMember.social %}
-                            <a href="{{ social["link"] }}" target="_blank">
-                                <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 30 32">
+                            <a href="{{ social[" link "] }}" target="_blank">
+                                <svg class="icon icon-{{ social[" name "] }}" viewBox="0 0 30 32">
                                     <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"]
                                         }}"></use>
                                 </svg>
