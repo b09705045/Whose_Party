@@ -21,7 +21,7 @@
                                 <span class="position">{{ teamMember.title }}</span>
                             </div>
                         {% for button in teamMember.button %}
-                            <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
+                            <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}><h1 style="font-weight: 500; font-family: 'Monda', sans-serif;">{{ button.text }}</h1></a>
                         {% endfor %}
                         </figcaption>
                     </figure>
