@@ -6,3 +6,5 @@
   thumbnailUrl: patrick_2.jpg
   exec: true
   bio: "HI!"
+  button: 
+  - {permalink: "/assets/GDG_DevFest_Partnership.pdf/", text: "下載"}
