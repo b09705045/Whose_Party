@@ -86,7 +86,7 @@
             </h4>
             {% for crewMember in site.data.crew %} {% if crewMember.dev %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
-                <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#speakerDetail-{{ crewMember.id }}">
+                <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#crewDetail-{{ crewMember.id }}">
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
                         <div class="overlay solid-overlay"></div>
                         {% if crewMember.ribbon != null %}
