@@ -28,6 +28,8 @@ layout: compress
         {% include speakers-modals.html %}
     {% elsif page.modal == 'crew' %}
         {% include crew-modal.html %}
+    {% elsif page.modal == 'team' %}
+        {% include team-modal.html %}
     {% endif %}
 
     {% if page.permalink == '/schedule/' %}
@@ -51,7 +53,7 @@ layout: compress
     <script>
         if ($(window).width() > 767) {
             document.write('<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"><\/script>')
-        } 
+        }
     </script>
     {% elsif page.permalink == '/logistics/' %}
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry"></script>
@@ -128,7 +130,7 @@ layout: compress
         //         icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
         //     }
 
-        {% endif %} 
+        {% endif %}
     </script>
     <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
     {% if page.permalink == '/schedule/' %}
