@@ -28,6 +28,8 @@ layout: compress
         {% include speakers-modals.html %}
     {% elsif page.modal == 'crew' %}
         {% include crew-modal.html %}
+    {% elsif page.modal == 'download' %}
+        {% include download-modal.html %}
     {% endif %}
 
     {% if page.permalink == '/schedule/' %}
