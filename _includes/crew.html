@@ -28,16 +28,14 @@
                                 <h2 class="name">{{ crewMember.name }} <span>{{ crewMember.surname }}</span></h2>
                                 <span class="position">{{ crewMember.title }}</span>
                             </div>
-                            <div class="col-md-4 col-xs-8 text-left">
-                                {% for social in crewMember.social %}
-                                <a href="{{ social[" link"] }}" target="_blank">
-                                    <svg class="icon icon-{{ social[" name"] }}" viewBox="0 0 32 32">
-                                        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["
-                                            name"] }}"></use>
-                                    </svg>
-                                </a>
-                                {% endfor %}
-                            </div>
+                            {% for social in crewMember.social %}
+                            <a href="{{ social[" link"] }}" target="_blank">
+                                <svg class="icon icon-{{ social[" name"] }}" viewBox="0 0 30 32">
+                                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social[" name"]
+                                        }}"></use>
+                                </svg>
+                            </a>
+                            {% endfor %}
                         </figcaption>
                         <p class="bio">{{ crewMember.bio | strip_html | truncate: 72 }}</p>
                     </figure>
