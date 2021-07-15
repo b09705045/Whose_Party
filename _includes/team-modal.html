@@ -1,6 +1,6 @@
 <!-- Begin Team Modals -->
 <div class="modals" class="modals">
-    {% for teamMember in site.data.team %} {% if teamMember.bio != null %} {% if page.modal == "team" %}
+    {% for teamMember in site.data.team %} {% if page.modal == "team" %}
     <div aria-hidden="true" aria-labelledby="teamDetailLabel-{{ teamMember.id }}" class="modal fade text-left people-modal" id="teamDetail-{{ teamMember.id }}" tabindex="-1" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -46,6 +46,6 @@
             </div>
         </div>
     </div>
-    {% endif %} {% endif %} {% endfor %}
+    {% endif %} {% endfor %}
 </div>
 <!-- End Team Modals -->
