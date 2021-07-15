@@ -1,10 +1,10 @@
 - 
   id: 1
-  name: "MAX"
-  surname: "吳宇璇"
-  title: "資管系總召"
-  thumbnailUrl: patrick_2.jpg
-  exec: true
+  name: ""
+  surname: "AAA"
+  title: ""
+  thumbnailUrl: patrick_1.jpg
+  family: true
   bio: "<code> HI! </code><br>
   cool"
   ribbon: 
@@ -17,10 +17,10 @@
 - 
   id: 2
   name: ""
-  surname: "陳怡靜"
+  surname: "BBB"
   title: "Designer and Web Developer"
-  thumbnailUrl: OlehZasadnyy.jpg
-  team: true
+  thumbnailUrl: patrick_1.jpg
+  family: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
@@ -28,11 +28,11 @@
     - {name: "github", link: "https://github.com/ozasadnyy"}
 - 
   id: 3
-  name: "Ostap"
-  surname: "Andrusiv"
+  name: ""
+  surname: "CCC"
   title: "Sponsors and Speakers Manager"
-  thumbnailUrl: OstapAndrusiv.jpg
-  team: true
+  thumbnailUrl: patrick_1.jpg
+  family: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
   social: 
@@ -41,22 +41,52 @@
     - {name: "site", link: "http://andrusiv.com/"}
 - 
   id: 4
-  name: "Dmytro"
-  surname: "Danylyk"
+  name: ""
+  surname: "DDD"
   title: "Android Program Committee"
-  thumbnailUrl: DmytroDanylyk.jpg
-  subTeam: true
+  thumbnailUrl: patrick_1.jpg
+  family: true
   social: 
     - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
     - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
     - {name: "github", link: "https://github.com/dmytrodanylyk"}
 - 
-  id: 7
-  name: "Valentyn"
-  surname: "Shybanov"
+  id: 5
+  name: ""
+  surname: "EEE"
   title: "Web and Cloud Program Committee"
-  thumbnailUrl: ValentynShybanov.jpg
-  subTeam: true
+  thumbnailUrl: patrick_1.jpg
+  family: true
+  social: 
+    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+    - {name: "site", link: "http://olostan.name/"}
+- 
+  id: 6
+  name: ""
+  surname: "FFF"
+  title: "Web and Cloud Program Committee"
+  thumbnailUrl: patrick_1.jpg
+  family: true
+  social: 
+    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+    - {name: "site", link: "http://olostan.name/"}
+- 
+  id: 7
+  name: ""
+  surname: "GGG"
+  title: "Web and Cloud Program Committee"
+  thumbnailUrl: patrick_1.jpg
+  family: true
+  social: 
+    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+    - {name: "site", link: "http://olostan.name/"}
+- 
+  id: 8
+  name: ""
+  surname: "HHH"
+  title: "Web and Cloud Program Committee"
+  thumbnailUrl: patrick_1.jpg
+  family: true
   social: 
     - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
     - {name: "site", link: "http://olostan.name/"}
