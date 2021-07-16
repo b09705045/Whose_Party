@@ -3,7 +3,7 @@
 	<div class="column">
 		{% for block in site.footerBlocks %}
         {% assign colWidth = 9 | divided_by: forloop.length %}
-		<div class="col-xs-12 col-md-{{ colWidth }}">
+		<div class="col-xs-12 col-md-12">
 			<h5>{{ block.title }}</h5>
 			<ul>
 				{% for linkElement in block.links %}
