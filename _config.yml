@@ -189,6 +189,8 @@ footerBlocks:
         - {link: "https://nol.ntu.edu.tw/nol/guest/index.php", text: "臺大課程網"}
         - {link: "http://www.cc.ntu.edu.tw/chinese/services/servicesqa.asp", text: "臺大計算機及資訊網路中心"}
         - {link: "https://pdogs.ntu.im/judge/", text: "PDOGS"}
+        - {link: "https://pdogs.ntu.im/judge/", text: "PDOGS"}
+
 
 
   - title: "合作夥伴"
