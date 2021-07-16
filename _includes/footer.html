@@ -2,7 +2,7 @@
 <footer id="footer" class="footer">
 	<div class="row">
 		{% for block in site.footerBlocks %} {% assign colWidth = 12 |
-		divided_by: {{forloop.length + 1}} %}
+		divided_by: forloop.length %}
 		<div class="col-md-3 col-xs-6">
 			<h5>{{ block.title }}</h5>
 			<ul>
@@ -15,7 +15,7 @@
 			</ul>
 		</div>
 		{% endfor %}
-		<div class="col-md-3 col-xs-6">
+		<div class="column">
 			<div class="logo logo-footer logo-dark col-md-6 col-xs-6"></div>
 			<div class="col-md-6 col-xs-6">
 				<ul class="social-links">
