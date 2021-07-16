@@ -182,15 +182,13 @@ socialLinks:
 
 footerBlocks:
   - title: "常用連結"
-    links:
+    links:   
         - {link: "https://ceiba.ntu.edu.tw/student/index.php", text: "NTU CEIBA"}
         - {link: "https://cool.ntu.edu.tw/", text: "NTU COOL"}
         - {link: "https://if192.aca.ntu.edu.tw/index.php", text: "臺大選課系統" }
         - {link: "https://nol.ntu.edu.tw/nol/guest/index.php", text: "臺大課程網"}
         - {link: "http://www.cc.ntu.edu.tw/chinese/services/servicesqa.asp", text: "臺大計算機及資訊網路中心"}
         - {link: "https://pdogs.ntu.im/judge/", text: "PDOGS"}
-
-
 
   - title: "合作夥伴"
     links:
