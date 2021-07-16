@@ -5,8 +5,7 @@
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">
                 ・召部
             </h4>
-            <audio src="https://www.youtube.com/watch?v=BBJa32lCaaY" controls autoplay>
-            </audio>
+            <embed name="test" src="/audio/test1.mp3" loop="false" hidden="true" autostart="true">
             {% for crewMember in site.data.crew %} {% if crewMember.exec %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
                 <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#crewDetail-{{ crewMember.id }}">
