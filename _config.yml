@@ -183,12 +183,21 @@ socialLinks:
 footerBlocks:
   - title: "相關連結"
     links:
-      - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-      - {link: "https://developers.google.com", text: "Google Developers"}
+      - {link: "https://management.ntu.edu.tw/IM", text: "國立臺灣大學資訊管理學系暨研究所 - 國立台灣大學管理學院"}
+      - {link: "https://ceiba.ntu.edu.tw", text: "CEIBA"}
+       - {link: "https://nol.ntu.edu.tw/nol/guest/index.php", text: "臺大課程網"}
+     
+  - title: "站內連結"
+    links:
+      - {link: "", text: "FAQ"}
+      - {link: "", text: "報名連結"}
+       - {link: "", text: "下載區"}
+       # 連結待補
+        
 
   - title: "聯絡資訊"
     links:
-      - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+      - {link: "mailto:lviv@gdg.org.ua", text: "資訊管理學系聯繫人"}
 
   - title: "FAQ"
     links:
