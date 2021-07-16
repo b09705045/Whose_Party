@@ -1,20 +1,23 @@
-- 
+-
   id: 1
   name: "MAX"
   surname: "吳宇璇"
   company: "資管系總召"
   title: "Android Developer"
-  bio: '<code> HI! </code><br>
+  bio: '<code>
+          p { color: yellow; }
+          body { background-color: #eee; }
+          HI! </code><br>
   cool<p>Developer. Nominated to apply for the <a href="http://goo.gl/V7qHc">Google Developer Expert Program</a>. Finalist of <a href="http://goo.gl/HO2kLf">Google Apps Developer Challenge 2012</a>. Author of open source <a href="http://goo.gl/Sp5Pel">libraries</a> 1000+ stars. Writer. When Dmytro has free time he is writing <a href="http://goo.gl/AoOVru">technical articles</a>. Speaker. Always trying to share his knowledge &amp; experience on different <a href="http://goo.gl/PNolZY">events</a>. Big fan of android, flat design, stackoverflow, git, Intellij IDEA. Eclipse IDE hater.</p>'
   thumbnailUrl: patrick_2.jpg
   exec: true
   leader: true
   dev: true
-  social: 
+  social:
     - {name: "google-plus", link: "https://github.com/maxyhwu/Whose_Party"}
     - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
     - {name: "github", link: "https://github.com/dmytrodanylyk"}
-- 
+-
   id: 2
   name: ""
   surname: "陳怡靜"
@@ -23,10 +26,10 @@
   bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
   thumbnailUrl: patrick_1.jpg
   exec: true
-  social: 
+  social:
     - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
     - {name: "twitter", link: "https://twitter.com/mherych"}
-- 
+-
   id: 3
   name: ""
   surname: "傅彥齊"
@@ -35,9 +38,9 @@
   bio: "Dawid is true technology enthusiast, who loves to work in areas where humans and machines meet to create amazing new products and services. He is experienced program manager with strong technical background, who is able to establish priorities for complex projects and execute across multiple organizations, according to long-term objectives. Dawid has worked in Poland, USA, Germany, Belgium and The Netherlands and truly values diversity of international working environment. His most visible characteristics are individualization (when dealing directly with people), ideation&intellection (inexhaustible source of new concepts) and strong communication (experienced trainer, community manager). He is also an activator constantly impatient for action."
   thumbnailUrl: patrick_3.jpg
   exec: true
-  social: 
+  social:
     - {name: "google-plus", link: "https://plus.google.com/+DawidOstrowski/"}
--    
+-
   id: 4
   name: ""
   surname: "洪韻蕎"
@@ -49,11 +52,11 @@
   leader: true
   # ribbon:
   #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
-  social: 
+  social:
      - {name: "google-plus", link: "https://plus.google.com/+RomanMazur/"}
      - {name: "twitter", link: "http://twitter.com/roman_mazur"}
 
-- 
+-
   id: 5
   name: ""
   surname: "邱子恬"
@@ -65,11 +68,11 @@
   leader: false
   # ribbon:
   #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
-  social: 
+  social:
     - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
     - {name: "site", link: "http://olostan.name/"}
 
--    
+-
   id: 6
   name: ""
   surname: "陸品孜"
@@ -80,7 +83,6 @@
   exec: true
   # ribbon:
   #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
-  social: 
+  social:
      - {name: "google-plus", link: "https://plus.google.com/+RomanMazur/"}
      - {name: "twitter", link: "http://twitter.com/roman_mazur"}
-       
