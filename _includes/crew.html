@@ -44,9 +44,11 @@
         <div class="col-lg-10 col-lg-offset-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"> ・部長
             </h4>
-            <audio src="/audio/test1.mp3" autoplay controls>
-                <p>If you are reading this, it is because your browser does not support the audio element.</p>
-            </audio>
+            <figure>
+                <audio src="/audio/test1.mp3" autoplay>
+                    <p>If you are reading this, it is because your browser does not support the audio element.</p>
+                </audio>
+            </figure>
             {% for crewMember in site.data.crew %} {% if crewMember.leader %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
                 <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#crewDetail-{{ crewMember.id }}">
