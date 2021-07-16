@@ -83,6 +83,11 @@ statisticBlock:
 # Latest News Block
 # latestNewsTitle: ""
 
+# Story Block
+storyTitle: "故事概要"
+storyButtonText: "點我看八大家族介紹"
+storyImage: "crimson.jpg"
+
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 6

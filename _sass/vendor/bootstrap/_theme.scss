@@ -76,6 +76,7 @@
 .btn-info    { @include btn-styles($btn-info-bg); }
 .btn-warning { @include btn-styles($btn-warning-bg); }
 .btn-danger  { @include btn-styles($btn-danger-bg); }
+.btn-story { @include btn-styles($btn-story-bg); }
 
 
 //
