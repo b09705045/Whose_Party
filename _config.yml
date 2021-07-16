@@ -12,7 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Site Settings
 title: "2021 WHOSE Party - 資管 X 物治 X 護理 三系聯合宿營"
 email: "devfest@gdg.org.ua"
-description: "mid October | Join us!"
+description: "Oct. 23 ~ Oct. 24" | Join us!"
 baseurl: "/Whose_Party"
 url: "https://gdg-x.github.io"
 permalink: "/blog/:title"
@@ -21,15 +21,15 @@ googleAnalyticsSiteUrl: "gdg-x.github.io"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
+organizerName: "NTU IM"
+organizerAlternateName: "Department of Information Management, National Taiwan University"
+organizerDescription: ""
 organizerEmail: "lviv@gdg.org.ua"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://lviv.gdg.org.ua/"
 
 # Head
-metaKeywords: "whose party,2021 whose party"
+metaKeywords: "whose party,2021 whose party,"
 twitterAccount: "@DevFest"
 socialImageSrcGooglePlus: "/img/people/webicon.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
@@ -174,25 +174,25 @@ subscribeInfo: ""
   # soldOutText: "Sold Out"
 
 # Footer
-# socialLinks:
-#  - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
-#  - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
-#  - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
-#  - {permalink: "/feed.xml", icon: "rss"}
-# footerBlocks:
-#  -
-#   title: "Links"
-#   links:
-#    - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-#    - {link: "https://developers.google.com", text: "Google Developers"}
-#  -
-#   title: "Contacts"
-#   links:
-#    - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
-#  -
-#   title: "FAQ"
-#   links:
-#    - {permalink: "/cod/", text: "Code of Conduct"}
+socialLinks:
+  - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
+  - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
+  - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+  - {permalink: "/feed.xml", icon: "rss"}
+
+footerBlocks:
+  - title: "Links"
+    links:
+      - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
+      - {link: "https://developers.google.com", text: "Google Developers"}
+
+  - title: "Contacts"
+    links:
+      - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+
+  - title: "FAQ"
+    links:
+      - {permalink: "/cod/", text: "Code of Conduct"}
 
 # Blog
 # blogTitle: "Latest news"
