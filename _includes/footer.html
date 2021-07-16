@@ -3,7 +3,7 @@
 	<div class="row">
 		{% for block in site.footerBlocks %} {% assign colWidth = 12 |
 		divided_by: {{forloop.length + 1}} %}
-		<div class="col-md-{{colWidth}} col-xs-6">
+		<div class="col-md-3 col-xs-6">
 			<h5>{{ block.title }}</h5>
 			<ul>
 				{% for linkElement in block.links %}
@@ -15,7 +15,23 @@
 			</ul>
 		</div>
 		{% endfor %}
-		<div class="logo logo-footer logo-dark col-md-3 col-xs-6"></div>
+		<div class="col-md-3 col-xs-6">
+			<div class="logo logo-footer logo-dark col-md-6 col-xs-6"></div>
+			<div class="col-md-6 col-xs-6">
+				<ul class="social-links">
+					{% for social in site.socialLinks %}
+					<li>
+						<a href="{% if social.permalink != null %} {{ social.permalink | prepend: site.baseurl }} {% else %} {{ social.link }} {% endif %}"
+							target="_blank">
+							<svg class="icon icon-{{ social.icon }}" viewBox="0 0 30 32">
+								<use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social.icon }}"></use>
+							</svg>
+						</a>
+					</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
 	</div>
 
 	<div class="row">
