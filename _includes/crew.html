@@ -1,10 +1,12 @@
 <!-- Begin Crew List-->
 <section id="crew" class="crew">
-    <audio> src ="https://www.youtube.com/watch?v=ZnUSIK9uhys" autoplay controls</audio>
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">
                 ・召部
+            </h4>
+            <h4>
+                <audio> src ="https://www.youtube.com/watch?v=ZnUSIK9uhys" autoplay controls</audio>
             </h4>
             {% for crewMember in site.data.crew %} {% if crewMember.exec %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
