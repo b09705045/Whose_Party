@@ -142,4 +142,30 @@ FPBe8af6YflD/Bgf6W57JfxPfob/rL5kUMelHuKxcifUUq67fgDYbdh7oaaYM87y5csIh1NN0w5N
 Dr9HuV7r0gAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMS0wNy0xNlQxMDo1NTo0NSswMDowMFm+jPMA
 AAAldEVYdGRhdGU6bW9kaWZ5ADIwMjEtMDctMTZUMTA6NTU6NDUrMDA6MDAo4zRPAAAAG3RFWHRT
 b2Z0d2FyZQBDZWxzeXMgU3R1ZGlvIFRvb2zBp+F8AAAAAElFTkSuQmCC" />
+<g fill="#464646">
+	<use xlink:href="#icon-driving" transform="translate(0 0)"></use>
+	<use xlink:href="#icon-email" transform="translate(48 0)"></use>
+	<use xlink:href="#icon-navigate" transform="translate(96 0)"></use>
+	<use xlink:href="#icon-geolocation" transform="translate(144 0)"></use>
+	<use xlink:href="#icon-flag" transform="translate(192 0)"></use>
+	<use xlink:href="#icon-transit" transform="translate(240 0)"></use>
+	<use xlink:href="#icon-walking" transform="translate(290 0)"></use>
+	<use xlink:href="#icon-bicycling" transform="translate(338 0)"></use>
+	<use xlink:href="#icon-cross" transform="translate(386 0)"></use>
+	<use xlink:href="#icon-menu" transform="translate(434 0)"></use>
+	<use xlink:href="#icon-twitter" transform="translate(482 0)"></use>
+	<use xlink:href="#icon-facebook" transform="translate(528 0)"></use>
+	<use xlink:href="#icon-github" transform="translate(558 0)"></use>
+	<use xlink:href="#icon-rss" transform="translate(606 0)"></use>
+	<use xlink:href="#icon-site" transform="translate(647 0)"></use>
+	<use xlink:href="#icon-pinterest" transform="translate(693 0)"></use>
+	<use xlink:href="#icon-google-plus" transform="translate(0 48)"></use>
+	<use xlink:href="#icon-linkedin" transform="translate(48 48)"></use>
+	<use xlink:href="#icon-youtube" transform="translate(96 48)"></use>
+	<use xlink:href="#icon-stack-overflow" transform="translate(144 48)"></use>
+	<use xlink:href="#icon-skype" transform="translate(192 48)"></use>
+	<use xlink:href="#icon-vk" transform="translate(240 48)"></use>
+	<use xlink:href="#icon-arrow-down" transform="translate(290 48)"></use>
+	<use xlink:href="#icon-direction" transform="translate(338 48)"></use>
+</g>
 </svg>
