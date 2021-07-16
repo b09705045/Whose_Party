@@ -272,12 +272,8 @@
        id="use241" />
     <use
        xlink:href="#icon-google-plus"
-       transform="matrix(1.5018425,0,0,1.5035841,-0.0732751,45.540638)"
-       id="use243"
-       x="0"
-       y="0"
-       width="200%"
-       height="200%" />
+       transform="translate(24 24)"
+       id="use243" />
     <use
        xlink:href="#icon-linkedin"
        transform="translate(48 48)"
