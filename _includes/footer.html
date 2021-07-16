@@ -10,7 +10,7 @@
 	<div class="row">
 		{% for block in site.footerBlocks %} {% assign colWidth = 12 |
 		divided_by: forloop.length %}
-		<div class="col-md-{{ colWidth }} col-xs-6">
+		<div class="col-md-3 col-xs-6">
 			<h5>{{ block.title }}</h5>
 			<ul>
 				{% for linkElement in block.links %}
@@ -22,6 +22,7 @@
 			</ul>
 		</div>
 		{% endfor %}
+		<div class="logo logo-footer logo-dark col-md-3 col-xs-6"></div>
 	</div>
 
 	<div class="row">
