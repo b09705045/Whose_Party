@@ -115,9 +115,9 @@ venueBlockTitle: "舉辦地點"
 venueBigImage: "pushin_1.jpg"
 venueSmallImage1: "pushin_2.jpg"
 venueSmallImage2: "pushin_4.jpg"
-venueSmallImage3: "pushin_4.jpg"
+venueSmallImage3: "pushin_5.jpg"
 venueTitle: "埔心牧場"
-venueFeatures: ["桃園市楊梅區幼獅路一段439號","https://www.pushin-ranch.com/"]
+venueFeatures: ["桃園市楊梅區幼獅路一段439號","TEL: 03 464 4132"]
 
 # Tweets Feed Block
 # tweetsFeedImage: "twitter-feed.jpg"
@@ -126,9 +126,9 @@ venueFeatures: ["桃園市楊梅區幼獅路一段439號","https://www.pushin-ra
 # twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-# organizersTitle: ""
-# partnersTitle: ""
-# partnersC4sponsorsButton: ""
+organizersTitle: "協辦單位"
+partnersTitle: ""
+partnersC4sponsorsButton: ""
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
