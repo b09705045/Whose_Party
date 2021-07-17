@@ -1,6 +1,6 @@
 -
   id: 1
-  name: ""
+  name: "Max"
   surname: "吳宇璇"
   company: ""
   title: "<b>總召</b> ｜ 資管二"
@@ -9,10 +9,10 @@
   <b> 這是粗體 </b> <br>
   '
   thumbnailUrl: patrick_1.jpg
-  executive: false
+  executive: true
   vice: false
   leader: false
-  dev: true
+  dev: false
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
