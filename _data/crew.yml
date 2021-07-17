@@ -10,6 +10,7 @@
   👋 嗨這是簡單的排版教學，希望大家自行插入指令至妳/你的簡介中，讓開發團隊減少輸入大量指令的時間！<br>
   教學如下：<br>
   </p>
+  <p>
   要換行請幫我們加這個！👉🏽<br>
   都不加的話
   只按Enter是沒有用的喔！<br>
@@ -18,7 +19,7 @@
   <s> 這是刪除線 </s><br>
   <code> 這是畫重點 </code><br>
   <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">這是超連結</a><br>
-
+  </p>
   <p><code><b> 感謝！！ </b></code></p>
   '
   thumbnailUrl: patrick_1.jpg
