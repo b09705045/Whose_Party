@@ -17,6 +17,8 @@
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
+    - {name: "site", link: "https://github.com/maxyhwu/Whose_Party"}
+    - {name: "twitter", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 2
@@ -121,7 +123,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 8
@@ -141,7 +142,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 9
@@ -161,7 +161,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 10
@@ -181,7 +180,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 11
@@ -241,7 +239,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 14
@@ -261,7 +258,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 15
@@ -281,7 +277,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 16
@@ -301,7 +296,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 17
@@ -321,7 +315,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 18
@@ -341,7 +334,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 19
@@ -361,7 +353,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 20
@@ -381,7 +372,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 21
@@ -401,7 +391,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 22
@@ -421,7 +410,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 23
