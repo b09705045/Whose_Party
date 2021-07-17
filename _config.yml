@@ -131,13 +131,13 @@ partnersTitle: ""
 partnersC4sponsorsButton: ""
 
 # Subscribe Block
-subscribeImage: "subscribe.jpg"
-subscribeTitle: "在此報名"
-subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-subscribeInfo: ""
+# subscribeImage: "subscribe.jpg"
+# subscribeTitle: "在此報名"
+# subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
+# subscribeInfo: ""
 
 # Tickets Block
-ticketsTitle: ""
+ticketsTitle: "在此報名"
 ticketsInfo: ""
 ticketsOffers:
  -
