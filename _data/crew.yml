@@ -9,7 +9,7 @@
   cool<br>
   <b> 這是粗體 </b> <br>
   '
-  thumbnailUrl: patrick_2.jpg
+  thumbnailUrl: patrick_1.jpg
   executive: true
   vice: false
   leader: false
@@ -29,7 +29,7 @@
   title: "<b>總召</b> ｜ 護理三"
   modalTitle: "<b>總召</b><br>護理三"
   bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
-  thumbnailUrl: patrick_3.jpg
+  thumbnailUrl: patrick_1.jpg
   executive: true
   vice: false
   leader: false
