@@ -6,14 +6,14 @@
   title: "<b>總召</b> ｜ 資管二"
   modalTitle: "<b>總召<br>Developer</b><br>資管二"
   bio: '
-
-  👋 嗨大家，這是簡單的語法教學！為了讓個介不要太尷尬，適當的加入一些emoji或是指令是必須的啦！也因為網頁還有太多東西要處理🥲，希望大家自行插入指令至妳/你的簡介中，讓開發團隊減去輸入大量指令的時間！<br>
-  （如果妳/你看完下面這些說明還是無法理解，導致心情低落吃不下飯睡不著覺，那只好請妳/你手動換行或註明要什麼樣的效果，我們再來幫你個別處理！）<br>
+  👋 嗨大家，這是簡單的語法教學！<br>
+  為了讓個介不要太尷尬，適當的加入一些emoji或是指令是必須的啦！也因為網頁還有太多東西要處理🥲，希望大家自行插入指令至妳/你的簡介中，讓開發團隊減去輸入大量指令的時間！<br>
+  （如果妳/你看完下面這些說明還是無法理解，導致心情低落吃不下飯睡不著覺，那只好請妳/你手動換行或註明要什麼樣的效果，我們再來幫你個別處理👌！）<br>
   <br>
   教學如下：<br>
   要換行請幫我們加這個！👉🏽<br>
   都不加的話
-  只按Enter是沒有用的喔！<br>
+  只按Enter換行是沒有用的喔！<br>
   <b> 這是粗體 </b><br>
   <u> 這是底線 </u><br>
   <s> 這是刪除線 </s><br>
@@ -33,8 +33,8 @@
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
-    - {name: "twitter", link: "https://github.com/maxyhwu/Whose_Party"}
-    - {name: "site", link: "https://github.com/maxyhwu/Whose_Party"}
+    # - {name: "twitter", link: "https://github.com/maxyhwu/Whose_Party"}
+    # - {name: "site", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 2
