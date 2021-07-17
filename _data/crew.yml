@@ -1,9 +1,10 @@
 -
   id: 1
-  name: "MAX"
+  name: "Max"
   surname: "吳宇璇"
-  company: "資管系總召"
-  title: "資管系總召"
+  company: ""
+  title: "<b>總召</b> ｜ 資管二"
+  modalTitle: "<b>總召<br>Developer</b><br>資管二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -17,13 +18,16 @@
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
+    - {name: "twitter", link: "https://github.com/maxyhwu/Whose_Party"}
+    - {name: "site", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 2
   name: ""
   surname: "陳怡靜"
   company: "護理系總召"
-  title: "護理系總召"
+  title: "<b>總召</b> ｜ 護理三"
+  modalTitle: "<b>總召</b><br>護理三"
   bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
   thumbnailUrl: patrick_1.jpg
   executive: true
@@ -39,7 +43,8 @@
   name: ""
   surname: "傅彥齊"
   company: "物治系總召"
-  title: "物治系總召"
+  title: "<b>總召</b> ｜ 物治二"
+  modalTitle: "<b>總召</b><br>物治二"
   bio: "Dawid is true technology enthusiast, who loves to work in areas where humans and machines meet to create amazing new products and services. He is experienced program manager with strong technical background, who is able to establish priorities for complex projects and execute across multiple organizations, according to long-term objectives. Dawid has worked in Poland, USA, Germany, Belgium and The Netherlands and truly values diversity of international working environment. His most visible characteristics are individualization (when dealing directly with people), ideation&intellection (inexhaustible source of new concepts) and strong communication (experienced trainer, community manager). He is also an activator constantly impatient for action."
   thumbnailUrl: patrick_1.jpg
   executive: true
@@ -55,7 +60,8 @@
   name: ""
   surname: "洪韻蕎"
   company: "資管系副召"
-  title: "資管系副召"
+  title: "<b>副召</b> ｜ 資管二"
+  modalTitle: "<b>副召</b><br>資管二"
   bio: "Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv."
   thumbnailUrl: patrick_1.jpg
   executive: true
@@ -73,7 +79,8 @@
   name: ""
   surname: "邱子恬"
   company: "護理系副召"
-  title: "護理系副召"
+  title: "<b>副召</b> ｜ 護理三"
+  modalTitle: "<b>副召</b><br>護理三"
   bio: "Valentyn focuses on Polymer and Web Components. In previous roles he’s helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for a better web and to help developers build great experiences."
   thumbnailUrl: patrick_1.jpg
   executive: true
@@ -91,7 +98,8 @@
   name: ""
   surname: "陸品孜"
   company: "物治系副召"
-  title: "物治系副召"
+  title: "<b>副召</b> ｜ 物治二"
+  modalTitle: "<b>副召</b><br>物治二"
   bio: "Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv."
   thumbnailUrl: patrick_1.jpg
   executive: true
@@ -109,7 +117,8 @@
   name: ""
   surname: "蔣詠心"
   company: ""
-  title: "資管系活動長"
+  title: "<b>活動長</b> ｜ 資管二"
+  modalTitle: "<b>活動長</b><br>資管二"
   bio: '<code> HI! </code><br>
   cool<br>
   Developer. Nominated to apply for the <a href="http://goo.gl/V7qHc">Google Developer Expert Program</a>. Finalist of <a href="http://goo.gl/HO2kLf">Google Apps Developer Challenge 2012</a>. Author of open source <a href="http://goo.gl/Sp5Pel">libraries</a> 1000+ stars. Writer. When Dmytro has free time he is writing <a href="http://goo.gl/AoOVru">technical articles</a>. Speaker. Always trying to share his knowledge &amp; experience on different <a href="http://goo.gl/PNolZY">events</a>. Big fan of android, flat design, stackoverflow, git, Intellij IDEA. Eclipse IDE hater.'
@@ -121,14 +130,14 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 8
   name: ""
   surname: "許圃菘"
   company: ""
-  title: "資管系活動長"
+  title: "<b>活動長</b> ｜ 資管二"
+  modalTitle: "<b>活動長</b><br>資管二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -141,14 +150,14 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 9
   name: ""
   surname: "丁純彗"
   company: ""
-  title: "護理系活動長"
+  title: "<b>活動長</b> ｜ 護理二"
+  modalTitle: "<b>活動長</b><br>護理二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -161,14 +170,14 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 10
   name: ""
   surname: "呂存笙"
   company: ""
-  title: "物治系活動長"
+  title: "<b>活動長</b> ｜ 物治二"
+  modalTitle: "<b>活動長</b><br>物治二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -181,14 +190,14 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 11
   name: ""
   surname: "蕭又筑"
   company: ""
-  title: "資管系美宣長/公關長"
+  title: "<b>美宣長/公關長</b> ｜ 資管二"
+  modalTitle: "<b>美宣長<br>公關長<br>Developer</b><br>資管二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -208,7 +217,8 @@
   name: ""
   surname: "詹景棠"
   company: ""
-  title: "資管系美宣長/公關長"
+  title: "<b>美宣長/公關長</b> ｜ 資管二"
+  modalTitle: "<b>美宣長<br>公關長<br>Head Developer</b><br>資管二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -228,7 +238,8 @@
   name: ""
   surname: "陳奕溱"
   company: ""
-  title: "護理系美宣長"
+  title: "<b>美宣長</b> ｜ 護理二"
+  modalTitle: "<b>美宣長</b><br>護理二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -241,14 +252,14 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 14
   name: ""
   surname: "楊子瑩"
   company: ""
-  title: "物治系美宣長"
+  title: "<b>美宣長</b> ｜ 物治二"
+  modalTitle: "<b>美宣長</b><br>物治二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -261,14 +272,14 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 15
   name: ""
   surname: "梁雨晏"
   company: ""
-  title: "護理系公關長"
+  title: "<b>公關長</b> ｜ 護理二"
+  modalTitle: "<b>公關長</b><br>護理二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -281,14 +292,14 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 16
   name: ""
   surname: "劉冠昀"
   company: ""
-  title: "物治系公關長"
+  title: "<b>公關長</b> ｜ 物治二"
+  modalTitle: "<b>公關長</b><br>物治二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -301,14 +312,14 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 17
   name: ""
   surname: "張天瑋"
   company: ""
-  title: "資管系隊輔長"
+  title: "<b>隊輔長</b> ｜ 資管二"
+  modalTitle: "<b>隊輔長</b><br>資管二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -321,14 +332,14 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 18
   name: ""
   surname: "李雨倢"
   company: ""
-  title: "護理系隊輔長"
+  title: "<b>隊輔長</b> ｜ 護理二"
+  modalTitle: "<b>隊輔長</b><br>護理二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -341,14 +352,14 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 19
   name: ""
   surname: "游雅芮"
   company: ""
-  title: "物治系隊輔長"
+  title: "<b>隊輔長</b> ｜ 物治二"
+  modalTitle: "<b>隊輔長</b><br>物治二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -361,14 +372,14 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 20
   name: ""
   surname: "王紹安"
   company: ""
-  title: "資管系總務長"
+  title: "<b>總務長</b> ｜ 資管二"
+  modalTitle: "<b>總務長</b><br>資管二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -381,14 +392,14 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 21
   name: ""
   surname: "陳庭萱"
   company: ""
-  title: "護理系總務長"
+  title: "<b>總務長</b> ｜ 護理二"
+  modalTitle: "<b>總務長</b><br>護理二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -401,14 +412,14 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 22
   name: ""
   surname: "陳映瑋"
   company: ""
-  title: "物治系總務長"
+  title: "<b>總務長</b> ｜ 物治二"
+  modalTitle: "<b>總務長</b><br>物治二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -421,14 +432,14 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
   id: 23
   name: "Jasper"
   surname: "詹景棠"
   company: ""
-  title: "Head Developer"
+  title: "<b>Head Developer</b> ｜ 資管二"
+  modalTitle: "<b>美宣長<br>公關長<br>Head Developer</b><br>資管二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -448,7 +459,8 @@
   name: ""
   surname: "王灝融"
   company: ""
-  title: "Developer"
+  title: "<b>Developer</b> ｜ 資管二"
+  modalTitle: "<b>Developer</b><br>資管二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -468,7 +480,8 @@
   name: ""
   surname: "吳宇璇"
   company: ""
-  title: "Developer"
+  title: "<b>Developer</b> ｜ 資管二"
+  modalTitle: "<b>總召<br>Developer</b><br>資管二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -488,7 +501,8 @@
   name: ""
   surname: "蕭又筑"
   company: ""
-  title: "Developer"
+  title: "<b>Developer</b> ｜ 資管二"
+  modalTitle: "<b>美宣長<br>公關長<br>Developer</b><br>資管二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>

@@ -20,9 +20,8 @@
                   style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
                 </div>
               </div>
-              <div class="col-md-10 col-sm-10 details">
+              <div class="col-md-8 col-sm-8 details">
                 <p class="name" style="color:#7c2222">{{ crewMember.name }} {{ crewMember.surname }}
-                  <span class="position" style="color:#7c2222">{{ crewMember.title }}</span>
                 </p>
                 {% if crewMember.ribbon != null %}
                 <div class="modal-ribbon-wrapper">
@@ -43,6 +42,9 @@
                   </li>
                   {% endfor %}
                 </ul>
+              </div>
+              <div class="col-md-2 col-sm-2 details">
+                <span class="position" style="color:#7c2222">{{ crewMember.modalTitle }}</span>
               </div>
             </div>
           </div>
