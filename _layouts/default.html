@@ -91,7 +91,7 @@ layout: compress
                 });
         var rockstarSpeakers = [
             {% for speaker in site.data.crew %}
-                {% if speaker.executive == true %}
+                {% if speaker.executive %}
                 // {% if speaker.vice == false %}
                     { name: "{{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}" } {% if forloop.index != forloop.length %}, {% endif %}
                 // {% endif %}
