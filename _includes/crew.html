@@ -41,7 +41,6 @@
         </div>
         <div class="col-lg-10 col-lg-offset-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0" style="color:#7c2222"><b>・部長</b></h4>
-            <br>
             {% for crewMember in site.data.crew %} {% if crewMember.leader %}
             <div class="effect-wrapper col-md-3 col-sm-6 col-xs-12 cols-centered appear-animation">
                 <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#crewDetail-{{ crewMember.id }}">
