@@ -2,14 +2,14 @@
 <section id="crew" class="crew">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1 text-center">
-            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">
+            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="5">
                 ・召部
             </h4>
             {% for crewMember in site.data.crew %} {% if crewMember.executive %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
                 <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#crewDetail-{{ crewMember.id }}">
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
-                        <div class="overlay white-solid"></div>
+                        <div class="overlay solid-overlay"></div>
                         {% if crewMember.ribbon != null %}
                         <ul class="ribbon-wrapper">
                             {% for ribbon in crewMember.ribbon %}
@@ -24,7 +24,7 @@
                             <div class="col-md-8 col-xs-8 text-left">
                                 <div class="clearfix"></div>
                                 <h2 class="name">{{ crewMember.name }} <span>{{ crewMember.surname }}</span></h2>
-                                <span class="position">{{ crewMember.title }}</span>
+                                <span class="position">{{ crewMember.title }}{{ crewMember.company }}</span>
                                 <span class="position">{{ crewMember.company }}</span>
 
                             </div>
