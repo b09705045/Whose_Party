@@ -101,7 +101,7 @@ layout: compress
             var animationDelay = 1500,
                 count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length),
         colWidth = 12 / count;
-        for (i = 0; i < count; i++) {
+        for (i = count-1; i >= 0; i--) {
             var clearfix = '<div class="clearfix visible-xs"></div>';
             if ((i) % 2 != 0) {
                 clearfix = ""
