@@ -3,8 +3,8 @@
   <msapplication>
     <tile>
       <square70x70logo src="/img/favicons/icons8-instagram-70.png"/>
-      <square150x150logo src="/img/favicons/favicons/icons8-instagram-150.png"/>
-      <square310x310logo src="/img/favicons/favicons/icons8-instagram-310.png"/>
+      <square150x150logo src="/img/favicons/icons8-instagram-150.png"/>
+      <square310x310logo src="/img/favicons/icons8-instagram-310.png"/>
       <wide310x150logo src="/img/favicons/mstile-310x150.png"/>
       <TileColor>#2b5797</TileColor>
     </tile>
