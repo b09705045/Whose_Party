@@ -5,9 +5,15 @@
   company: "資管系總召"
   title: "<b>總召</b> ｜ 資管二"
   modalTitle: "<b>總召<br>Developer</b><br>資管二"
-  bio: '<code> HI! </code><br>
-  cool<br>
+  bio: '👋 嗨這是簡單的排版教學，希望大家自行加入妳/你的簡介，讓開發團隊減少輸入大量指令的時間！
+  要換行請幫我們加這個！👉🏽<br>
   <b> 這是粗體 </b> <br>
+  <strong> 這是重點字 </strong> <br>
+  <i> 這是斜體 </i> <br>
+  <u> 這是底線 </u> <br>
+  <s> 這是刪除線 </s> <br>
+  <code> 這是畫重點 </code><br>
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">這是超連結</a> <br>
   '
   thumbnailUrl: patrick_1.jpg
   executive: true
