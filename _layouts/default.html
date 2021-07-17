@@ -96,7 +96,7 @@ layout: compress
                         executive:"{{speaker.executive}}",vice:"{{speaker.vice}}" } {% if forloop.index != forloop.length %}, {% endif %}
             {% endfor %}
                 ];
-        rockstarSpeakers.sort(function () { return 0.5 - Math.random() });
+        rockstarSpeakers.sort(function () { return 0 });
         if (rockstarSpeakers.length > 0) {
             var animationDelay = 1500,
                 count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length),
