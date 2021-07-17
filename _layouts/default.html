@@ -91,8 +91,15 @@ layout: compress
                 });
         var rockstarSpeakers = [
             {% for speaker in site.data.crew %}
-        { name: "{{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}" } {% if forloop.index != forloop.length %}, {% endif %}
-        {% endfor %}
+            {% if speaker.executive == true && speaker.vice == false %}
+                { name: "{{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}" } {% if forloop.index != forloop.length %}, {% endif %}
+            {% endif %}
+            {% endfor %}
+            {% for speaker in site.data.crew %}
+                {% if speaker.executive == false && speaker.vice == true %}
+                    { name: "{{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}" } {% if forloop.index != forloop.length %}, {% endif %}
+                {% endif %}
+            {% endfor %}
                 ];
         rockstarSpeakers.sort(function () { return 0.5 - Math.random() });
         if (rockstarSpeakers.length > 0) {
