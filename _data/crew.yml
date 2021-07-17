@@ -453,6 +453,8 @@
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
+  ribbon:
+    - {abbr: "Head Developer", title: "Head Developer"}
 
 -
   id: 24
