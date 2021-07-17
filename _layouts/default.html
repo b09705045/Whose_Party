@@ -104,10 +104,8 @@ layout: compress
             if ((i) % 2 != 0) {
                 clearfix = ""
             }
-            if (rockstarSpeakers[i].executive){
-                $('#rockstar-speaker-title').after('<div class="col-md-' + colWidth + ' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay + '"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
-                animationDelay -= 500;
-            }
+            $('#rockstar-speaker-title').after('<div class="col-md-' + colWidth + ' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay + '"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
+            animationDelay -= 500;
         }
                 }
             });
