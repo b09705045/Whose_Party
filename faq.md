@@ -2,6 +2,7 @@
 layout: post
 title: 常見問題
 permalink: /faq/
+image: brook.jpg
 isStaticPost: true
 ---
 <!-- <img class="img-responsive feature-image" src="{{ site.baseurl }}/img/posts/cod.jpg" style="display:none"> -->
