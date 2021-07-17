@@ -21,8 +21,8 @@
                 </div>
               </div>
               <div class="col-md-10 col-sm-10 details">
-                <p class="name">{{ crewMember.name }} {{ crewMember.surname }}
-                  <span class="position">{{ crewMember.title }}</span>
+                <p class="name" style="color:#7c2222">{{ crewMember.name }} {{ crewMember.surname }}
+                  <span class="position" style="color:#7c2222">{{ crewMember.title }}</span>
                 </p>
                 {% if crewMember.ribbon != null %}
                 <div class="modal-ribbon-wrapper">
@@ -31,7 +31,7 @@
                   {% endfor %}
                 </div>
                 {% endif %}
-                <p class="about">{{ crewMember.bio }}</p>
+                <p class="bio" style="color:#7c2222">{{ crewMember.bio }}</p>
                 <ul class="social">
                   {% for social in crewMember.social %}
                   <li>
