@@ -218,7 +218,7 @@
   surname: "詹景棠"
   company: ""
   title: "<b>美宣長/公關長</b> ｜ 資管二"
-  modalTitle: "<b>美宣長<br>公關長<br>Head Developer</b><br>資管二"
+  modalTitle: "<b>美宣長<br>公關長<br>Developer</b><br>資管二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -439,7 +439,7 @@
   surname: "詹景棠"
   company: ""
   title: "<b>Head Developer</b> ｜ 資管二"
-  modalTitle: "<b>美宣長<br>公關長<br>Head Developer</b><br>資管二"
+  modalTitle: "<b>美宣長<br>公關長<br>Developer</b><br>資管二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
@@ -453,6 +453,8 @@
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
+  ribbon:
+    - {abbr: "Head Developer", title: "Head Developer"}
 
 -
   id: 24

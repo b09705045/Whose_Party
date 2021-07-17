@@ -23,13 +23,6 @@
               <div class="col-md-8 col-sm-8 details">
                 <p class="name" style="color:#7c2222">{{ crewMember.name }} {{ crewMember.surname }}
                 </p>
-                {% if crewMember.ribbon != null %}
-                <div class="modal-ribbon-wrapper">
-                  {% for ribbon in crewMember.ribbon %}
-                  <a class="modal-ribbon" href="{{ ribbon["url"] }}" target="_blank">{{ ribbon["title"] }}</a>
-                  {% endfor %}
-                </div>
-                {% endif %}
                 <p class="bio" style="color:#7c2222">{{ crewMember.bio }}</p>
                 <ul class="social">
                   {% for social in crewMember.social %}
