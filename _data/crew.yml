@@ -434,10 +434,10 @@
   <b> 這是粗體 </b> <br>
   '
   thumbnailUrl: patrick_1.jpg
-  executive: true
+  executive: false
   vice: false
   leader: false
-  dev: false
+  dev: true
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
@@ -454,10 +454,10 @@
   <b> 這是粗體 </b> <br>
   '
   thumbnailUrl: patrick_1.jpg
-  executive: true
+  executive: false
   vice: false
   leader: false
-  dev: false
+  dev: true
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
