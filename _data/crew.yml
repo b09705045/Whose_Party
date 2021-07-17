@@ -1,10 +1,11 @@
 ---
+
 -
   id: 1
   name: "MAX"
   surname: "吳宇璇"
   company: "資管系總召"
-  title: "<b>總召</b>-資管二"
+  title: "總召-資管二"
   bio: '<code> HI! </code><br>
   cool<br>
   <b> 這是粗體 </b> <br>
