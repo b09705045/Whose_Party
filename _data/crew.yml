@@ -5,8 +5,11 @@
   company: "資管系總召"
   title: "<b>總召</b> ｜ 資管二"
   modalTitle: "<b>總召<br>Developer</b><br>資管二"
-  bio: '👋 嗨這是簡單的排版教學，希望大家自行加入妳/你的簡介，讓開發團隊減少輸入大量指令的時間！<br>
+  bio: '
+  <p>
+  👋 嗨這是簡單的排版教學，希望大家自行插入指令至妳/你的簡介中，讓開發團隊減少輸入大量指令的時間！<br>
   教學如下：<br>
+  </p>
   要換行請幫我們加這個！👉🏽<br>
   都不加的話
   只按Enter是沒有用的喔！<br>
@@ -15,12 +18,8 @@
   <s> 這是刪除線 </s><br>
   <code> 這是畫重點 </code><br>
   <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">這是超連結</a><br>
-  要列點的畫像這樣：
-  <ul>
-  <li><b> 這是粗體 </b></li>
-  <li><u> 這是底線 </u><br></li>
-  </ul>
-  <code><b> 感謝！！ </b></code>
+
+  <p><code><b> 感謝！！ </b></code></p>
   '
   thumbnailUrl: patrick_1.jpg
   executive: true
