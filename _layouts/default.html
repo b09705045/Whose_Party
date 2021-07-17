@@ -91,10 +91,12 @@ layout: compress
                 });
         var rockstarSpeakers = [
             {% for speaker in site.data.crew %}
-                    { name: "{{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}" } {% if forloop.index != forloop.length %}, {% endif %}
+                    { name: "{{ speaker.surname }}", company: "{{ speaker.company }}", 
+                        image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}",
+                        executive:"{{speaker.executive}}",vice:"{{speaker.vice}}" } {% if forloop.index != forloop.length %}, {% endif %}
             {% endfor %}
                 ];
-        rockstarSpeakers.sort(function () { return 0.5 - Math.random() });
+        // rockstarSpeakers.sort(function () { return 0.5 - Math.random() });
         if (rockstarSpeakers.length > 0) {
             var animationDelay = 1500,
                 count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length),
