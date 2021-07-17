@@ -152,18 +152,18 @@ ticketsOffers:
   validFrom: "2014-08-25T10:00"
   validThrough: "2014-09-30T23:59"
  -
-  name: "Last Chance"
-  price: "450"
-  priceCurrency: "UAH"
-  ticketsNumber: "100"
-  ribbon: "-20%"
-  featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
-  disabled: true
+  # name: "Last Chance"
+  # price: "450"
+  # priceCurrency: "UAH"
+  # ticketsNumber: "100"
+  # ribbon: "-20%"
+  # featured: true
+  # buyButtonLink: "http://dfua.ticketforevent.com/"
+  # buyButtonText: "Buy Now"
+  # ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  # validFrom: "2014-10-01T00:00"
+  # validThrough: "2014-10-23T23:59"
+  # disabled: true
  -
   name: "Student"
   price: "200"
