@@ -46,7 +46,7 @@
             <b>・部長</b>
             </h4>
             {% for crewMember in site.data.crew %} {% if crewMember.leader %}
-            <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+            <div class="effect-wrapper col-md-3 col-sm-6 col-xs-12 cols-centered appear-animation">
                 <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#crewDetail-{{ crewMember.id }}">
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
                         <div class="overlay solid-overlay"></div>
@@ -85,7 +85,7 @@
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0" style="color:#7c2222"><b>・網頁開發人員</b>
             </h4>
             {% for crewMember in site.data.crew %} {% if crewMember.dev %}
-            <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
+            <div class="effect-wrapper col-md-3 col-sm-6 col-xs-12 cols-centered appear-animation">
                 <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#crewDetail-{{ crewMember.id }}">
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
                         <div class="overlay solid-overlay"></div>
