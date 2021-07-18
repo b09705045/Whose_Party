@@ -197,8 +197,8 @@ footerBlocks:
       - {link: "https://developers.google.com", text: "物治B09XB10臉書社團"}
       - {link: "https://developers.google.com", text: "資訊管理學系系學會"}
       - {link: "https://developers.google.com", text: "資管B09XB10臉書社團"}
-      - {link: "http://gdg.org.ua", text: "點我查看贊助方法"}
-      - {link: "http://gdg.org.ua", text: "點我進入贊助頁面"}
+      # - {link: "http://gdg.org.ua", text: "點我查看贊助方法"}
+      # - {link: "http://gdg.org.ua", text: "點我進入贊助頁面"}
 
 
   - title: "聯絡資訊"
