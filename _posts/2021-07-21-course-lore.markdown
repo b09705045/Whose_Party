@@ -2,6 +2,7 @@
 layout: post
 title:  "選課指南"
 date:   2021-07-21 08:00:00
+permalink: "/course-lore"
 isStaticPost: false
 ---
 
