@@ -450,6 +450,66 @@
 
 -
   id: 23
+  name: ""
+  surname: "侯維書"
+  company: ""
+  title: "<b>執行秘書</b> ｜ 資管二"
+  modalTitle: "<b>執行秘書</b><br>資管二"
+  bio: '<code> HI! </code><br>
+  cool<br>
+  <b> 這是粗體 </b> <br>
+  '
+  thumbnailUrl: patrick_1.jpg
+  executive: false
+  vice: false
+  leader: true
+  dev: false
+  social:
+    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+
+-
+  id: 24
+  name: ""
+  surname: "黃詠萱"
+  company: ""
+  title: "<b>執行秘書</b> ｜ 護理二"
+  modalTitle: "<b>執行秘書</b><br>護理二"
+  bio: '<code> HI! </code><br>
+  cool<br>
+  <b> 這是粗體 </b> <br>
+  '
+  thumbnailUrl: patrick_1.jpg
+  executive: false
+  vice: false
+  leader: true
+  dev: false
+  social:
+    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+
+-
+  id: 25
+  name: ""
+  surname: "林郁傑"
+  company: ""
+  title: "<b>執行秘書</b> ｜ 物治二"
+  modalTitle: "<b>執行秘書</b><br>物治二"
+  bio: '<code> HI! </code><br>
+  cool<br>
+  <b> 這是粗體 </b> <br>
+  '
+  thumbnailUrl: patrick_1.jpg
+  executive: false
+  vice: false
+  leader: true
+  dev: false
+  social:
+    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+
+-
+  id: 26
   name: "Jasper"
   surname: "詹景棠"
   company: ""
@@ -472,7 +532,7 @@
     - {abbr: "Head Developer", title: "Head Developer"}
 
 -
-  id: 24
+  id: 27
   name: ""
   surname: "王灝融"
   company: ""
@@ -493,7 +553,7 @@
     - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
-  id: 25
+  id: 28
   name: ""
   surname: "吳宇璇"
   company: ""
@@ -514,7 +574,7 @@
     - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
 
 -
-  id: 26
+  id: 29
   name: ""
   surname: "蕭又筑"
   company: ""
