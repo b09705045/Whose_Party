@@ -153,6 +153,8 @@ ticketsOffers:
   validThrough: "2021-09-30T23:59"
   soldOut: false
   disabled: true
+  # soldOutText: "Sold Out"
+
  -
   name: "報名連結"
   price: "2800"
@@ -163,9 +165,10 @@ ticketsOffers:
   buyButtonText: "點我購買"
   # additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
   ticketContentList: ["台大搭乘遊覽車出發！", "繳費期限至 止"]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
-  # soldOut: true
+  validFrom: "2021-09-02T09:00"
+  validThrough: "2021-09-30T23:59"
+  soldOut: false
+  disabled: true
   # soldOutText: "Sold Out"
 
 # Footer
