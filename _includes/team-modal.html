@@ -33,12 +33,16 @@
                                     <li>
                                         <a href="{{ social["link"] }}" target="_blank">
                                             <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 32 32">
-                        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
-                      </svg>
+                                                <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-{{ social["name"] }}"></use>
+                                            </svg>
                                         </a>
                                     </li>
                                     {% endfor %}
                                 </ul>
+                            </div>
+                            <div class="col-md-2 col-sm-2">
+                                <div class="flow-img img-circle people-img" style="background-image: url({{ site.baseurl | append: '/img/team/' | append: teamMember.thumbnailUrl }})">
+                                </div>
                             </div>
                         </div>
                     </div>
