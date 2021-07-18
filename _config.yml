@@ -149,8 +149,10 @@ ticketsOffers:
   buyButtonLink: "http://dfua.ticketforevent.com/"
   buyButtonText: "點我購買"
   ticketContentList: ["自行前往埔心農場參與派對！", "繳費期限至 止"]
-  validFrom: "2021-09-02 UTC+8 09:00"
-  validThrough: "2021-09-30 UTC+8 23:59"
+  validFrom: "2021-09-02T09:00"
+  validThrough: "2021-09-30T23:59"
+  soldOut: false
+  disabled: true
  -
   name: "報名連結"
   price: "2800"
