@@ -191,9 +191,12 @@ footerBlocks:
   - title: "合作夥伴"
     links:
       - {link: "http://gdg.org.ua", text: "完整贊助名單"}
-      - {link: "http://gdg.org.ua", text: "護理學系系學會"}
-      - {link: "https://developers.google.com", text: "物理治療學系系學會"}
+      - {link: "https://www.mc.ntu.edu.tw/nursing/Index.action", text: "護理學系系學會"}
+      - {link: "https://www.facebook.com/groups/ntucmnursing/?ref=share", text: "台大護理系交流版"}
+      - {link: "https://developers.google.com", text: "物理治療學系"}
+      - {link: "https://developers.google.com", text: "物治B09XB10臉書社團"}
       - {link: "https://developers.google.com", text: "資訊管理學系系學會"}
+      - {link: "https://developers.google.com", text: "資管B09XB10臉書社團"}
       - {link: "http://gdg.org.ua", text: "點我查看贊助方法"}
       - {link: "http://gdg.org.ua", text: "點我進入贊助頁面"}
 
@@ -203,7 +206,7 @@ footerBlocks:
       - {link: "tel:+886987953881", text: "物理治療學系窗口：傅彥齊"}
       - {link: "tel:+886987953881", text: "資訊管理學系窗口：吳宇璇"}
       - {link: "tel:+886987953881", text: "護理學系窗口：陳怡靜"}
-      - { link: "mailto:2021whoseparty@gmail.com", text: "2021 WHOSE Party 臺大護理物治資管聯合迎新宿營 官方信箱" }
+      - { link: "mailto:ptimnur2021@gmail.com", text: "2021 WHOSE Party 臺大護理物治資管聯合迎新宿營 官方信箱" }
 
 
   # - title: "重點專區"
