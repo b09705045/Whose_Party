@@ -131,12 +131,12 @@ time {
 .loader-gplus {
     display: inline-block;
     position: absolute;
-    top: calc(50% - 20px);
-    left: calc(50% - 20px);
-    width: 40px;
-    height: 40px;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    width: 200px;
+    height: 200px;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 1000px;
     animation: base 3s steps(1) 0s infinite;
     &::before, &::after {
         content: ' ';
