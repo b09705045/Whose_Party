@@ -104,10 +104,12 @@ img {
 
 // Perfect circle
 .img-circle {
+  border-radius: 50%; // set radius in percents
+}
+// Perfect square
+.img-square {
   border-radius: 0px; // set radius in percents
 }
-
-
 // Horizontal rules
 
 hr {
