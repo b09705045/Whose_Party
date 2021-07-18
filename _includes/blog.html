@@ -12,7 +12,7 @@
                                 <span class="caption">Posted:</span>
                                 <span class="publish-date" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</span>
                             </div>
-                            <div class="share col-md-6 col-xs-6 pull-right">
+                            <!-- <div class="share col-md-6 col-xs-6 pull-right">
                                 <ul class="social-links">
                                     {% assign postUrl = site.url | append: site.baseurl | append: post.url %} 
                                     <li>
@@ -37,7 +37,7 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                         <p class="post-body">{{ post.content | strip_html | truncate: 350 }} <a href="{{ site.baseurl | append: post.url }}">continue reading</a></p>
                     </article>
