@@ -157,7 +157,7 @@ ticketsOffers:
 
  -
   name: "台大集合"
-  price: "22,800"
+  price: "2,800"
   priceCurrency: "NTD"
   ticketsNumber: "150"
   ribbon: "台大集合"
