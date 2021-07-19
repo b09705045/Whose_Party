@@ -15,13 +15,13 @@
 {background-color:#d62408;-webkit-transform:rotate(180deg);transform:rotate(180deg)}50%
 {background-color:#ffcf00;-webkit-transform:rotate(0deg);transform:rotate(0deg)}75%
 {background-color:#441618;-webkit-transform:rotate(180deg);transform:rotate(180deg)}100%
-{background-color:#441618;-webkit-transform:rotate(0deg);transform:rotate(0deg)}}
+{background-color:#af6064;-webkit-transform:rotate(0deg);transform:rotate(0deg)}}
 @keyframes reveal
-{0%{background-color:#441618;-webkit-transform:rotate(0deg);transform:rotate(0deg)}25%
-{background-color:#441618;-webkit-transform:rotate(180deg);transform:rotate(180deg)}50%
-{background-color:#441618;-webkit-transform:rotate(0deg);transform:rotate(0deg)}75%
-{background-color:#441618;-webkit-transform:rotate(180deg);transform:rotate(180deg)}100%
-{background-color:#441618;-webkit-transform:rotate(0deg);transform:rotate(0deg)}}
+{0%{background-color:#c40072;-webkit-transform:rotate(0deg);transform:rotate(0deg)}25%
+{background-color:#026999;-webkit-transform:rotate(180deg);transform:rotate(180deg)}50%
+{background-color:#336137;-webkit-transform:rotate(0deg);transform:rotate(0deg)}75%
+{background-color:#ffae00;-webkit-transform:rotate(180deg);transform:rotate(180deg)}100%
+{background-color:#4d0049;-webkit-transform:rotate(0deg);transform:rotate(0deg)}}
 @-webkit-keyframes flip
 {0%{background-color:#441618;-webkit-transform:rotateY(0deg);transform:rotateY(0deg)}12.5%,
     87.56%{background-color:#441618}12.51%,
