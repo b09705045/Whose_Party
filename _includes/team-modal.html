@@ -1,4 +1,5 @@
 <!-- Begin Team Modals -->
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
 <link href="{{ "/css/team_modal.css" | prepend: site.baseurl }}" rel="stylesheet"> 
 <div class="modals" class="modals">
     {% for teamMember in site.data.team %} {% if page.modal == "team" %}
@@ -22,7 +23,7 @@
                                 </div>
                             </div>
                             <div style="text-align: center" class="col-md-10 col-sm-10 ">
-                                <p style="font-size:1cm; color:#7c2222; font-weight: 800;"><b>{{teamMember.clan}}</b></p>
+                                <p style="font-size:1cm; color:#7c2222; font-weight: 800; font-family: ‘cwTeXFangSong’, serif;"><b>{{teamMember.clan}}</b></p>
                                 <br>
                             </div>
                             <div style="text-align: center" class="col-md-10 col-sm-10 ">
