@@ -141,7 +141,6 @@ ticketsTitle: "在此報名"
 ticketsInfo: ""
 ticketsOffers:
  -
-  isOne: true
   name: "埔心集合"
   price: "2,500"
   priceCurrency: "NTD"
@@ -157,7 +156,6 @@ ticketsOffers:
   # soldOutText: "Sold Out"
 
  -
-  isOne: false
   name: "台大集合"
   price: "2,800"
   priceCurrency: "NTD"
