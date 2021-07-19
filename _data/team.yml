@@ -3,7 +3,7 @@
   team: "一小"
   clan: "第一家族"
   title: 
-  - {id: 1, name: "稱號一"}
+  - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   thumbnailUrl: emblem_1.jpg
@@ -14,7 +14,7 @@
   team: "二小"
   clan: "第二家族"
   title: 
-  - {id: 1, name: "稱號一"}
+  - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   thumbnailUrl: emblem_1.jpg
@@ -25,7 +25,7 @@
   team: "三小"
   clan: "第三家族"
   title: 
-  - {id: 1, name: "稱號一"}
+  - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   thumbnailUrl: emblem_1.jpg
@@ -36,7 +36,7 @@
   team: "四小"
   clan: "第四家族"
   title: 
-  - {id: 1, name: "稱號一"}
+  - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   thumbnailUrl: emblem_1.jpg
@@ -47,7 +47,7 @@
   team: "五小"
   clan: "第五家族"
   title: 
-  - {id: 1, name: "稱號一"}
+  - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   thumbnailUrl: emblem_1.jpg
@@ -58,7 +58,7 @@
   team: "六小"
   clan: "第六家族"
   title: 
-  - {id: 1, name: "稱號一"}
+  - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   thumbnailUrl: emblem_1.jpg
@@ -69,7 +69,7 @@
   team: "七小"
   clan: "第七家族"
   title: 
-  - {id: 1, name: "稱號一"}
+  - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   thumbnailUrl: emblem_1.jpg
@@ -80,7 +80,7 @@
   team: "八小"
   clan: "第八家族"
   title: 
-  - {id: 1, name: "稱號一"}
+  - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   thumbnailUrl: emblem_1.jpg
