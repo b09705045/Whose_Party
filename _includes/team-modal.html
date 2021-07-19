@@ -18,30 +18,33 @@
                                 <div class="flow-img img-square people-img" style="background-image: url({{ site.baseurl | append: '/img/team/' | append: teamMember.thumbnailUrl }})">
                                 </div>
                                 <div style="text-align: center">                           
-                                    <p style="font-size:0.6cm; color:#7c2222"><b>{{teamMember.team}}</b></p>
+                                    <p style="font-size:0.6cm; color:#7c2222; font-family: 'cwTeXFangSong', serif;"><b>{{teamMember.team}}</b></p>
                                 </div>
                             </div>
                             <div style="text-align: center" class="col-md-10 col-sm-10 ">
+                                
                                 <p style="font-size:1cm; color:#7c2222; font-weight: 800; font-family: 'cwTeXFangSong', serif;"><b>{{teamMember.clan}}</b></p>
                                 <br>
                             </div>
                             <div style="text-align: center" class="col-md-10 col-sm-10 ">
-                                <p style="font-size:0.6cm; color:#7c2222"><b>-家族介紹-</b></p>
-                                <p style="font-size:0.3cm; color:#000000"><b>{{teamMember.bio}}</b></p>
+                                <p style="font-size:0.6cm; color:#7c2222; font-family: 'cwTeXFangSong', serif;"><b>-家族介紹-</b></p>
+                                <p style="font-size:0.3cm; color:#000000; font-family: 'cwTeXFangSong', serif;"><b>{{teamMember.bio}}</b></p>
                             </div>
                         </div>
                         <div class="row">
                             <div style="text-align: center" class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                <p style="font-size:0.6cm; color:#7c2222"><b>-擁有的頭銜-</b></p>
+                                <p style="font-size:0.6cm; color:#7c2222; font-family: 'cwTeXFangSong', serif;"><b>-擁有的頭銜-</b></p>
                             </div>
                             {% for titles in teamMember.title %}
                                 {% if titles.offset %}
                                 <div style="text-align: center" class="col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2">
-                                    <p style="font-size:0.4cm; color:#000000"><b><strong style="background: #8fc7ff">{{titles.name}}</strong></b></p>
+                                    <p style="font-size:0.4cm; color:#000000; font-family: 'cwTeXFangSong', serif;">
+                                        <b><strong style="background: #8fc7ff">{{titles.name}}</strong></b></p>
                                 </div>
                                 {% else %}
                                 <div style="text-align: center" class="col-md-2 col-sm-2">
-                                    <p style="font-size:0.4cm; color:#000000"><b><strong style="background: #5fff87">{{titles.name}}</strong></b></p>
+                                    <p style="font-size:0.4cm; color:#000000"; font-family: 'cwTeXFangSong', serif;>
+                                        <b><strong style="background: #5fff87">{{titles.name}}</strong></b></p>
                                 </div>
                                 {% endif %}
                             {% endfor%}
