@@ -1,6 +1,6 @@
 $col-border-color: rgb(132, 31, 31);
-$title-background-color: #444377;
-$button-background-color: #333;
+$title-background-color: #895d5d;
+$button-background-color: rgb(38, 21, 187);
 $button-background-color-hover: #4d4d4d;
 
 .pricing-col {
@@ -112,7 +112,7 @@ $button-background-color-hover: #4d4d4d;
         right: -45px;
         padding: 5px 50px;
         transform: rotate(45deg);
-        color: #fff;
+        color: rgb(224, 215, 30);
         background: $button-background-color;
     }
 }
