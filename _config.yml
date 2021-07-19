@@ -167,7 +167,7 @@ ticketsOffers:
   ticketContentList: ["台大搭乘遊覽車出發！", "繳費期限至 止"]
   validFrom: "2021-09-02T09:00"
   validThrough: "2021-09-30T23:59"
-  soldOut: false
+  soldOut: true
   disabled: true
   soldOutText: "報名已截止！有疑問請洽各系負責人"
 
