@@ -152,8 +152,8 @@ ticketsOffers:
   validFrom: "2021-09-02T09:00"
   validThrough: "2021-09-30T23:59"
   soldOut: false
-  disabled: true
-  # soldOutText: "Sold Out"
+  disabled: false
+  soldOutText: "報名已截止！有疑問請洽各系負責人"
 
  -
   name: "台大集合"
@@ -169,7 +169,7 @@ ticketsOffers:
   validThrough: "2021-09-30T23:59"
   soldOut: false
   disabled: true
-  # soldOutText: "Sold Out"
+  soldOutText: "報名已截止！有疑問請洽各系負責人"
 
 # Footer
 socialLinks:
