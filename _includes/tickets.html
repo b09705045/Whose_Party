@@ -4,11 +4,33 @@
 	<div class="content-wrapper">
 		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
 			<h3>{{ site.ticketsTitle }}</h3>
-      	{% for ticketsOffer in site.ticketsOffers %}
-	    		{% assign colWidth = 12 | divided_by: forloop.length %}
-	        {% assign check = forloop.index | modulo:2 %}
-	        	<div class="ellipse col-md-{{ colWidth }} col-sm-{{ colWidth }} pricing-col {% if ticketsOffer.featured != null %}pricing-col-featured{% endif %} animated hiding" data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}" data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
-	          <!-- {% if ticketsOffer.ribbon != null %}<div class="pricing-ribbon">{{ ticketsOffer.ribbon }}</div>{% endif %} -->
+			{% if ticketsOffer.id == 1 %}
+				<div class="ellipse col-md-5 col-sm-5 pricing-col {% if ticketsOffer.featured != null %}pricing-col-featured{% endif %} animated hiding" data-animation="fadeInLeft" data-delay="0">
+				<!-- {% if ticketsOffer.ribbon != null %}<div class="pricing-ribbon">{{ ticketsOffer.ribbon }}</div>{% endif %} -->
+					<div class="pricing-header">
+						<p class="title">{{ ticketsOffer.name }}</p>
+						<p class="price"><b>{{ ticketsOffer.price }}</b><span class="currency">{{ ticketsOffer.priceCurrency }}</span></p>
+					</div>
+					<div class="pricing-content">
+						<ul>
+						{% for listItem in ticketsOffer.ticketContentList %}
+							<li>{{ listItem }}</li>
+						{% endfor %}
+						</ul>
+						{% if ticketsOffer.soldOut == true %}
+							<span class="button disabled">{{ ticketsOffer.soldOutText }}</span>
+						{% elsif ticketsOffer.disabled != true %}
+							<a class="button" href="{{ ticketsOffer.buyButtonLink }}" target="_blank">{{ ticketsOffer.buyButtonText }}</a>
+						{% else %}
+							{% assign ticketValidFrom = ticketsOffer.validFrom | split: "T" %}
+								<span class="button disabled fallback">{{ ticketValidFrom[0]}} {{ ticketValidFrom[1] }}開始報名！</span>
+						{% endif %}
+					</div>
+				</div>
+			<div class="col-md-2 col-sm-2"><br></div>
+			{% else %}
+				<div class="ellipse col-md-5 col-sm-5 pricing-col {% if ticketsOffer.featured != null %}pricing-col-featured{% endif %} animated hiding" data-animation="fadeInRight" data-delay="500">
+					<!-- {% if ticketsOffer.ribbon != null %}<div class="pricing-ribbon">{{ ticketsOffer.ribbon }}</div>{% endif %} -->
 					<div class="pricing-header">
 						<p class="title">{{ ticketsOffer.name }}</p>
 						<p class="price"><b>{{ ticketsOffer.price }}</b><span class="currency">{{ ticketsOffer.priceCurrency }}</span></p>
@@ -20,16 +42,16 @@
 							{% endfor %}
 						</ul>
 						{% if ticketsOffer.soldOut == true %}
-						<span class="button disabled">{{ ticketsOffer.soldOutText }}</span>
+							<span class="button disabled">{{ ticketsOffer.soldOutText }}</span>
 						{% elsif ticketsOffer.disabled != true %}
-						<a class="button" href="{{ ticketsOffer.buyButtonLink }}" target="_blank">{{ ticketsOffer.buyButtonText }}</a>
+							<a class="button" href="{{ ticketsOffer.buyButtonLink }}" target="_blank">{{ ticketsOffer.buyButtonText }}</a>
 						{% else %}
-		           		{% assign ticketValidFrom = ticketsOffer.validFrom | split: "T" %}
-						<span class="button disabled fallback">{{ ticketValidFrom[0]}} {{ ticketValidFrom[1] }}開始報名！</span>
+							{% assign ticketValidFrom = ticketsOffer.validFrom | split: "T" %}
+							<span class="button disabled fallback">{{ ticketValidFrom[0]}} {{ ticketValidFrom[1] }}開始報名！</span>
 						{% endif %}
 					</div>
 				</div>
-            {% endfor %}
+			{% endif %}
 		</div>
 	</div>
 </section>

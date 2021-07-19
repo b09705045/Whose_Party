@@ -141,6 +141,7 @@ ticketsTitle: "在此報名"
 ticketsInfo: ""
 ticketsOffers:
  -
+  id: 1
   name: "報名連結"
   price: "2,500"
   priceCurrency: "NTD"
@@ -156,6 +157,7 @@ ticketsOffers:
   # soldOutText: "Sold Out"
 
  -
+  id: 2
   name: "報名連結"
   price: "2,800"
   priceCurrency: "NTD"
