@@ -4,7 +4,7 @@
 	<div class="content-wrapper">
 		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
 			<h3>{{ site.ticketsTitle }}</h3>
-			{% if ticketsOffer.id == 1 %}
+			{% if ticketsOffer.isOne %}
 				<div class="ellipse col-md-5 col-sm-5 pricing-col {% if ticketsOffer.featured != null %}pricing-col-featured{% endif %} animated hiding" data-animation="fadeInLeft" data-delay="0">
 				<!-- {% if ticketsOffer.ribbon != null %}<div class="pricing-ribbon">{{ ticketsOffer.ribbon }}</div>{% endif %} -->
 					<div class="pricing-header">
