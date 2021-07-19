@@ -142,24 +142,24 @@ ticketsInfo: ""
 ticketsOffers:
  -
   isOne: true
-  name1: "埔心集合"
-  price1: "2,500"
-  priceCurrency1: "NTD"
-  ticketsNumber1: "150"
-  ribbon1: "埔心集合"
-  buyButtonLink1: "http://dfua.ticketforevent.com/"
-  buyButtonText1: "點我購買"
-  ticketContentList1: ["自行前往埔心農場參與派對！", "繳費期限至 止"]
-  validFrom1: "2021-09-02T09:00"
-  validThrough1: "2021-09-30T23:59"
-  soldOut1: false
-  disabled1: true
+  name: "埔心集合"
+  price: "2,500"
+  priceCurrency: "NTD"
+  ticketsNumber: "150"
+  ribbon: "埔心集合"
+  buyButtonLink: "http://dfua.ticketforevent.com/"
+  buyButtonText: "點我購買"
+  ticketContentList: ["自行前往埔心農場參與派對！", "繳費期限至 止"]
+  validFrom: "2021-09-02T09:00"
+  validThrough: "2021-09-30T23:59"
+  soldOut: false
+  disabled: true
   # soldOutText: "Sold Out"
 
  -
   isOne: false
-  name2: "台大集合"
-  price2: "2,800"
+  name: "台大集合"
+  price: "2,800"
   priceCurrency: "NTD"
   ticketsNumber: "150"
   ribbon: "台大集合"
