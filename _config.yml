@@ -142,7 +142,7 @@ ticketsInfo: ""
 ticketsOffers:
  -
   name: "報名連結"
-  price: "2500"
+  price: "2,500"
   priceCurrency: "NTD"
   ticketsNumber: "150"
   ribbon: "埔心集合"
@@ -157,7 +157,7 @@ ticketsOffers:
 
  -
   name: "報名連結"
-  price: "2800"
+  price: "2,800"
   priceCurrency: "NTD"
   ticketsNumber: "150"
   ribbon: "台大集合"
