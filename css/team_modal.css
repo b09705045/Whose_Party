@@ -1,7 +1,7 @@
 .score_bar{
-    width: 550px;
+    width: 560px;
     height: 40px;
-    background: #927777;
+    background: #ffffff;
     border: 2px #7c2222 solid;
     border-radius: 6px;
 }
