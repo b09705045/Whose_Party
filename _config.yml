@@ -147,7 +147,7 @@ ticketsOffers:
   ticketsNumber: "150"
   ribbon: "埔心集合"
   buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "點我購買"
+  buyButtonText: "點我報名"
   ticketContentList: ["自行前往埔心農場參與派對！", "繳費期限至 止"]
   validFrom: "2021-09-02T09:00"
   validThrough: "2021-09-30T23:59"
@@ -162,12 +162,12 @@ ticketsOffers:
   ticketsNumber: "150"
   ribbon: "台大集合"
   buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "點我購買"
+  buyButtonText: "點我報名"
   # additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
   ticketContentList: ["台大搭乘遊覽車出發！", "繳費期限至 止"]
   validFrom: "2021-09-02T09:00"
   validThrough: "2021-09-30T23:59"
-  soldOut: true
+  soldOut: false
   disabled: true
   soldOutText: "--報名已截止--"
 
