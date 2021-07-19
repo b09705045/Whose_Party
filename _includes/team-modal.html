@@ -1,5 +1,5 @@
 <!-- Begin Team Modals -->
-@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+<link href="{{ "https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css" | prepend: site.baseurl }}" rel="stylesheet"> 
 <link href="{{ "/css/team_modal.css" | prepend: site.baseurl }}" rel="stylesheet"> 
 <div class="modals" class="modals">
     {% for teamMember in site.data.team %} {% if page.modal == "team" %}
