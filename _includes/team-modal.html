@@ -35,7 +35,7 @@
                                 <p style="font-size:0.6cm; color:#7c2222"><b>-擁有的頭銜-</b></p>
                             </div>
                             {% for titles in teamMember.title %}
-                                {% if (titles.id-1)|divisibleby:3 %}
+                                {% if titles.id|divisibleby:3 %}
                                 <div style="text-align: center" class="col-md-3 col-md-offset-3 col-sm-3 col-sm-offset-3">
                                     <p style="font-size:0.4cm; color:#000000"><b><strong style="background: #8fc7ff">{{titles.name}}</strong></b></p>
                                 </div>
