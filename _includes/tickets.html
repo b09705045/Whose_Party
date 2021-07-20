@@ -9,7 +9,12 @@
 			{% assign check = forloop.index | modulo:2 %}
 			{% if forloop.index != 0 %}
 			<div class="col-lg-1 col-md-1">
-				<br>
+				<div class="col-lg-3 col-md-3">
+					<br>
+					<br>
+					<br>
+				</div>
+				<div class="col-lg-9 col-md-9"></div>
 			</div>
 			{% endif %}
 			<div class="ellipse col-md-5 col-sm-5 pricing-col {% if ticketsOffer.featured != null %}pricing-col-featured{% endif %} animated hiding"
