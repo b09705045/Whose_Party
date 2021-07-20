@@ -25,9 +25,14 @@ layout: compress
         }
     </style>
     <script>
-        $(window).load(function() {
-        $('#overlay').addClass('hide');
-        });
+        function hideLoader() {
+            $('#overlay').hide();
+        }
+
+        $(window).ready(hideLoader);
+
+        // Strongly recommended: Hide loader after 20 seconds, even if the page hasn't finished loading
+        setTimeout(hideLoader, 20 * 1000);
     </script>
     
     <div id="st-container" class="st-container disable-scrolling">
