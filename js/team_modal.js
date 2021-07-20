@@ -1,2 +1,4 @@
-var score = document.querySelector('.score');
-score.style = "background-color: black"
+function adjustBar(object){
+    var adjustment = document.querySelector('object');
+    adjustment.style = "background-color: black"
+}

@@ -1,5 +1,6 @@
 <!-- Begin Team Modals -->
 <link href="{{ "/css/team_modal.css" | prepend: site.baseurl }}" rel="stylesheet"> 
+<script type="text/javascript" src="team_modal.js"></script>
 <div class="modals" class="modals">
     {% for teamMember in site.data.team %} {% if page.modal == "team" %}
     <div aria-hidden="true" aria-labelledby="teamDetailLabel-{{ teamMember.id }}" class="modal fade text-left people-modal" id="teamDetail-{{ teamMember.id }}" tabindex="-1" role="dialog">
@@ -61,7 +62,8 @@
                             </div> 
                             <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
                                 <div class="score_bar"></div>
-                                <div class="score1"></div>
+                                <script>adjustbar(score1);</script>
+                                <div class="score1" ></div>
                                 <div class="score2"></div>
                                 <div class="score3"></div>
                                 <br><br>
@@ -73,9 +75,5 @@
         </div>
     </div>
     {% endif %} {% endfor %}
-    <script>
-        var score = document.querySelector('.score1');
-        score.style = "background-color: black"
-    </script>
 </div>
 <!-- End Team Modals -->
