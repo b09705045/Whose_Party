@@ -1,11 +1,10 @@
 .score_bar{
-    position: absolute;
+    position: relative;
     margin-top: 10px;
     width: 560px;
     height: 30px;
     border: 2px #7c2222 solid;
     border-radius: 6px;
-    z-index: 99;
 }
 .img-square{border-radius: 0px}hr{margin-top:0px;margin-bottom:0px;border:0;border-top:1px solid #eee}.sr-only
 {position:absolute;width:1px;height:1px;margin:0px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}
