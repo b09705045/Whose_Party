@@ -61,14 +61,22 @@
                                 <b>-總積分-</b></p>
                             </div> 
                             <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
+                                <script>
+                                    function initScoreBar(){
+                                        document.querySelector('.score_bar');
+                                        score_bar.backgroundColor = "#7c2222";
+                                        score_bar.width = 880;
+                                    }
+                                </script>
                                 <div class="score_bar"></div>
-                                <script>adjustBar(".score1")</script>
-                                <div class="score1" ></div>
-                                <script>adjustBar(".score1")</script>
-                                <div class="score2"></div>
-                                <script>var adjustment = document.querySelector('.score2');
-                                    adjustment.style = "background-color: #7c2222";</script>
-                                <div class="score3"></div>
+                                {% for score in teamMember.scores %}
+                                    <script>
+                                        var newBar = document.querySelector('.score_bar');
+                                        newBar.style.backgroundColor = score.color;    
+                                        newBar.style.width = score.width;                             
+                                    </script>
+                                    <div class="newBar"></div>
+                                {% endfor %}
                                 <br><br>
                             </div>
                         </div>
