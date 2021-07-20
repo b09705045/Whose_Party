@@ -10,27 +10,33 @@ layout: compress
 <body>
 
     <div id="preloader" class="preloader">
-        <div id="overlay">
-            <style>
-                #overlay {
-                    background: url('spinner.gif') no-repeat center center;
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    height: 100%;
-                    width: 100%;
-                    z-index: 9999999;
-                }
-                .hide {
-                    display: none;
-                }
+        <style>
+            .loader {
+                        position: fixed;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                        z-index: 9999;
+                        background-color: #ffffffcf;
+                    }
+                    .loader img{
+                        position: relative;
+                        left: 40%;
+                        top: 40%;
+                    }
             </style>
+            
+            <div class="loader" ><img src="{{asset('spinner.gif')}}"></div>
+            
             <script>
-                $(window).load(function() {
-                $('#overlay').addClass('hide');
-                });
+                window.onload = function() 
+                {
+                    //display loader on page load 
+                    $('.loader').fadeOut();
+                }
+            
             </script>
-        </div>
     </div>
     
     <div id="st-container" class="st-container disable-scrolling">
