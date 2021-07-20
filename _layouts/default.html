@@ -9,7 +9,7 @@ layout: compress
 <body>
 
     <div id="preloader" class="preloader">
-        <div class="loader-gplus"></div>
+        <div class="loading"></div>
     </div>
     
     <div id="st-container" class="st-container disable-scrolling">
@@ -23,7 +23,12 @@ layout: compress
             </div>
         </div>
     </div>
-
+    <script>
+        var preloader = document.getElementById('loader');
+        function preLoaderHandler(){
+            preloader.style.display = 'none';
+        }
+    </script>
     {% if page.modal == 'all' %}
         {% include speakers-modals.html %}
     {% elsif page.modal == 'crew' %}
@@ -147,6 +152,7 @@ layout: compress
     {% endif %}
 
     {% include schema-event.html %}
+    
 </body>
 
 </html>
