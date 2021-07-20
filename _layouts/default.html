@@ -4,40 +4,30 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="en">
-<link href="{{ "/css/team_modal.css" | prepend: site.baseurl }}" rel="stylesheet"> 
 {% include head.html %}
 
 <body>
 
-    <!-- <div id="preloader" class="preloader"> -->
-        <style>
-            .loader {
-                        position: fixed;
-                        left: 0px;
-                        top: 0px;
-                        width: 100%;
-                        height: 100%;
-                        z-index: 9999;
-                        background-color: #ffffff;
-                    }
-                    .loader img{
-                        position: relative;
-                        left: 40%;
-                        top: 40%;
-                    }
-            </style>
-            
-            <div class="loader" ><img src="{{asset('spinner.gif')}}"></div>
-            
-            <script>
-                window.onload = function() 
-                {
-                    //display loader on page load 
-                    $('.loader').fadeOut();
-                }
-            
-            </script>
-    <!-- </div> -->
+    <div id="overlay"><img src="spinner.gif"></div>
+
+    <style>
+        #overlay {
+            position: fixed;
+            background: rgba(0,0,0,0.8);
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+        }
+        .hide {
+            display: none;
+        }
+    </style>
+    <script>
+        $(window).load(function() {
+        $('#overlay').addClass('hide');
+        });
+    </script>
     
     <div id="st-container" class="st-container disable-scrolling">
         <div class="st-pusher">
