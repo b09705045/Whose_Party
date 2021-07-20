@@ -1,5 +1,6 @@
 .score_bar{
     position: absolute;
+    margin-top: 10px;
     width: 560px;
     height: 30px;
     border: 2px #7c2222 solid;
