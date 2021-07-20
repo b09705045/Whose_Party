@@ -1,8 +1,8 @@
-- 
+-
   date: "2021-10-23"
   dateReadable: "Oct. 23"
-  tracks: 
-    - {title: " 活動時程 ", color: "#90be4e"}
+  tracks:
+    - {title: "活動時程", color: "#7c2222"}
   timeslots:
     - {
       startTime: "09:00",
@@ -15,7 +15,7 @@
     - {
     	startTime: "10:00",
     	endTime: "10:45",
-    	sessionIds: [003] 
+    	sessionIds: [003]
     }
     - {
         startTime: "10:45",
@@ -51,12 +51,12 @@
       startTime: "23:45",
       sessionIds: [012]
     }
-- 
+-
   date: "2021-10-24"
   dateReadable: "Oct. 24"
-  tracks: 
+  tracks:
     - {title: " 活動時程 ", color: "#90be4e"}
-  timeslots: 
+  timeslots:
     - {
     	startTime: "08:00",
       endTime: "09:00",
