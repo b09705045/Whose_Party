@@ -1,2 +1,2 @@
-var score1 = document.querySelector('.score1');
-score1.style = "background-color: #114514"
+var score = document.querySelector('.score');
+score.style = "background-color: #114514"
