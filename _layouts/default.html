@@ -6,12 +6,10 @@ layout: compress
 <html lang="en">
 {% include head.html %}
 
-<body>
+<body onload="preLoaderHandler">
+    <div id="newLoading"></div>
+    <link href="{{ site.baseurl }}/css/newLoading.css" rel="stylesheet">
 
-    <div id="preloader" class="preloader">
-        <div class="loading"></div>
-    </div>
-    
     <div id="st-container" class="st-container disable-scrolling">
         <div class="st-pusher">
             <div class="st-content">
@@ -24,7 +22,7 @@ layout: compress
         </div>
     </div>
     <script>
-        var preloader = document.getElementById('loader');
+        var preloader = document.getElementById('newLoading');
         function preLoaderHandler(){
             preloader.style.display = 'none';
         }
@@ -96,7 +94,7 @@ layout: compress
                 });
         var rockstarSpeakers = [
             {% for speaker in site.data.crew %}
-                    { name: "{{ speaker.surname }}", company: "{{ speaker.company }}", 
+                    { name: "{{ speaker.surname }}", company: "{{ speaker.company }}",
                         image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}",
                         executive:"{{speaker.executive}}",vice:"{{speaker.vice}}" } {% if forloop.index != forloop.length %}, {% endif %}
             {% endfor %}
@@ -152,7 +150,7 @@ layout: compress
     {% endif %}
 
     {% include schema-event.html %}
-    
+
 </body>
 
 </html>
