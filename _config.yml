@@ -59,7 +59,7 @@ heroImage: "crimson.jpg"
 heroTitle: "WHOSE PARTY"
 heroTitle2: "2021 三系聯合迎新宿營"
 eventDate: "Oct. 23 ~ Oct. 24"
-typeoutTextValues: '"", "資訊管理學系x", "資訊管理學系x物理治療學系x", "資訊管理學系x物理治療學系x護理學系"'
+typeoutTextValues: '"", "資訊管理學系x", "資訊管理學系x物理治療學系x", "資訊管理學系x物理治療學系x護理學系", "護理學系x", "護理學系x物理治療學系x", "護理學系x物理治療學系x資訊管理學系", "物理治療學系x", "物理治療學系x護理學系x", "物理治療學系x護理學系x資訊管理學系"'
 typeoutFallback: "資訊管理學系x物理治療學系x護理學系"
 heroButtons:
 #  - {permalink: "/news/", text: "了解我們"}
