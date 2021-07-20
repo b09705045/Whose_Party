@@ -8,32 +8,9 @@ layout: compress
 
 <body>
 
-    <div id="overlay"></div>
-
-    <style>
-        #overlay {
-            position: fixed;
-            background: #ffffff;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            z-index: 9999;
-        }
-        .hide {
-            display: none;
-        }
-    </style>
-    <script>
-        function hideLoader() {
-            $('#overlay').hide();
-        }
-
-        $(window).ready(hideLoader);
-
-        // Strongly recommended: Hide loader after 20 seconds, even if the page hasn't finished loading
-        setTimeout(hideLoader, 20 * 1000);
-    </script>
+    <div class="container">  
+        <img src="spinner.gif" alt="">
+    </div>  
     
     <div id="st-container" class="st-container disable-scrolling">
         <div class="st-pusher">
