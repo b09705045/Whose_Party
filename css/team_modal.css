@@ -1,9 +1,11 @@
 .score_bar{
+    position: absolute;
     width: 560px;
     height: 30px;
     background: #ffffff;
     border: 2px #7c2222 solid;
     border-radius: 6px;
+    z-index: 1;
 }
 .img-square{border-radius: 0px}hr{margin-top:0px;margin-bottom:0px;border:0;border-top:1px solid #eee}.sr-only
 {position:absolute;width:1px;height:1px;margin:0px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}
@@ -13,4 +15,33 @@
     background: #ffffff;
     border: 2px #7c2222 solid;
     border-radius: 6px;
+}
+.score1{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background: #8fff95;
+    border: 2px #43a348 solid;
+    border-radius: 0px;
+    z-index: 2;
+}
+.score2{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    background: #f8ff8f;
+    border: 2px #a6ad3e solid;
+    border-radius: 0px;
+    margin-left: 200px;
+    z-index: 2;
+}
+.score3{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background: #8fcdff;
+    border: 2px #3775a8 solid;
+    border-radius: 0px;
+    margin-left: 100px;
+    z-index: 2;
 }
