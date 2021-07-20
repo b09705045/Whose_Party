@@ -1,11 +1,11 @@
 <!-- Begin Schedule Section -->
 <section id="schedule" class="schedule">
-    <div class="content-wrapper" style="color:#7c2222">
+    <div class="content-wrapper" style="font: weight 400px">
         {% for day in site.data.schedule %}
         <div class="schedule-table col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
             <h4 class="schedule-table-heading"><code><strong>{{ day.dateReadable }}</strong></code></h4>
             <div class="timeslot track-header stick-header">
-                <div class="track-header-label" style="color:#7c2222; font: weight 900px;">Day {{ forloop.index }}</div>
+                <div class="track-header-label">Day {{ forloop.index }}</div>
                 <div class="timeslot-elements flexbox-wrapper">
                     {% for track in day.tracks %}
                     {% assign trackColWidth = 12 | divided_by: forloop.length %}
