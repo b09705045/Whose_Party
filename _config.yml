@@ -142,7 +142,7 @@ ticketsInfo: ""
 ticketsOffers:
  -
   name: "埔心集合"
-  price: "2,500"
+  price: "$$$"
   priceCurrency: "NT$  "
   ticketsNumber: "150"
   ribbon: "埔心集合"
@@ -157,7 +157,7 @@ ticketsOffers:
 
  -
   name: "台大集合"
-  price: "2,700"
+  price: "$$$"
   priceCurrency: "NT$  "
   ticketsNumber: "150"
   ribbon: "台大集合"
