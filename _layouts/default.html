@@ -4,31 +4,12 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="en">
-<link href="{{ "/css/team_modal.css" | prepend: site.baseurl }}" rel="stylesheet"> 
 {% include head.html %}
 
 <body>
 
     <div id="preloader" class="preloader">
-        <div id="overlay"></div>
-        <style>
-            #overlay {
-                position: fixed;
-                background: url('spinner.gif') no-repeat center center;
-                width: 100%;
-                height: 100%;
-                top: 0;
-                left: 0;
-            }
-            .hide {
-                display: none;
-            }
-        </style>
-        <script>
-            $(window).load(function() {
-            $('#overlay').addClass('hide');
-            });
-        </script>
+        <div class="loading"></div>
     </div>
     
     <div id="st-container" class="st-container disable-scrolling">
@@ -42,7 +23,12 @@ layout: compress
             </div>
         </div>
     </div>
-
+    <script>
+        var preloader = document.getElementById('loader');
+        function preLoaderHandler(){
+            preloader.style.display = 'none';
+        }
+    </script>
     {% if page.modal == 'all' %}
         {% include speakers-modals.html %}
     {% elsif page.modal == 'crew' %}
@@ -166,6 +152,7 @@ layout: compress
     {% endif %}
 
     {% include schema-event.html %}
+    
 </body>
 
 </html>
