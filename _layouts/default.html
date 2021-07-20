@@ -4,15 +4,12 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="en">
-
+<link href="{{ "/css/preloader.css" | prepend: site.baseurl }}" rel="stylesheet"> 
 {% include head.html %}
 
 <body>
-    <div id="preloader" class="preloader">
-        <div class="loader-gplus">
-            <blockquote class="imgur-embed-pub" lang="en" data-id="Uk0i2nF"><a href="https://imgur.com/Uk0i2nF">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-        </div>
-    </div>
+
+    <div id="loading"></div>
 
     <div id="st-container" class="st-container disable-scrolling">
         <div class="st-pusher">
