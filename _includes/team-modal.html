@@ -70,12 +70,12 @@
                                 </script>
                                 <div class="score_bar"></div>
                                 {% for score in teamMember.scores %}
+                                    <div class="score_bar"></div>
                                     <script>
                                         var newBar = document.querySelector('.score_bar');
-                                        newBar.style.backgroundColor = score.color;    
+                                        newBar.style.backgroundColor = "red";    
                                         newBar.style.width = score.width;                             
-                                    </script>
-                                    <div class="newBar"></div>
+                                    </script>                                   
                                 {% endfor %}
                                 <br><br>
                             </div>
