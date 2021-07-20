@@ -1,5 +1,5 @@
 function hideLoader() {
-    $('#loading').hide();
+    $('.loading').hide();
 }
 
 $(window).ready(hideLoader);
