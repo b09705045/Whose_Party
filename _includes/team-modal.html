@@ -66,7 +66,7 @@
                                 </script>
                                 <div class="score_bar"></div>
                                 {% for score in teamMember.scores %}
-                                {% if forloop.index==1 %}
+                                {% if score.id==1 %}
                                 <div class="sub_bar1" style="margin-left: tempBorder;">
                                     <script>
                                         var newBar = document.querySelector('.sub_bar');
@@ -74,7 +74,7 @@
                                         tempBorder = score.width;
                                     </script>
                                 </div>
-                                {% elsif forloop.index==2 %}
+                                {% elsif score.id==2 %}
                                 <div class="sub_bar2" style="margin-left: tempBorder;">
                                     <script>
                                         var newBar = document.querySelector('.sub_bar');
