@@ -2,8 +2,8 @@
     $(document).ready(function() {
         $(window).load(function() {
             $('#st-container').removeClass('disable-scrolling');
-            $('#loading-animation').fadeOut(8000);
-            $('.preloader').delay(350).fadeOut(800);
+            //$('#loading-animation').fadeOut();
+            $('.preloader').delay(350).fadeOut(8000);
             initGooglePlus();
             equalheight('.same-height');
         });
