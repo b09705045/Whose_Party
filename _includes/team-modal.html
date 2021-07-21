@@ -61,69 +61,77 @@
                                 <b>-總積分-</b></p>
                             </div> 
                             <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                <div class="score_bar"></div>
-                                {% assign tempBorder=0 %}
+                                <div class="score_bar">
+                
+                                </div>
+                                <script>
+                                    localStorage.setItem('tempBorder', targetGroups.join('0'));
+                                </script>
                                 {% for score in teamMember.scores %}
                                 {% if score.id==1 %}
-                                <div class="sub_bar1" style="margin-left: tempBorder;">
+                                <div class="sub_bar1">
                                     <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
                                     <script>
+                                        var nowWidth=localStorage.getItem('tempBorder');
                                         var newBar = document.querySelector('.sub_bar1');
-                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: 100px";                
+                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: nowWidth";                
                                     </script>
                                 </div>
                                 {% elsif score.id==2 %}
-                                <div class="sub_bar2" style="margin-left: tempBorder;">
+                                <div class="sub_bar2">
                                     <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
                                     <script>
                                         var newBar = document.querySelector('.sub_bar1');
-                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: 200px";                
+                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: width: nowWidth";                
                                     </script>
                                 </div>
                                 {% elsif score.id==3 %}
-                                <div class="sub_bar3" style="margin-left: tempBorder;">
+                                <div class="sub_bar3">
                                     <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
                                     <script>
                                         var newBar = document.querySelector('.sub_bar1');
-                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: 300px";                
+                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.point}}/2";                
                                     </script>
                                 </div>
                                 {% elsif score.id==4 %}
-                                <div class="sub_bar4" style="margin-left: tempBorder;">
+                                <div class="sub_bar4">
                                     <script>
                                         var newBar = document.querySelector('.sub_bar4');
-                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
+                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.point}}/2";                
                                     </script>
                                 </div>
                                 {% elsif score.id==5 %}
-                                <div class="sub_bar5" style="margin-left: tempBorder;">
+                                <div class="sub_bar5">
                                     <script>
                                         var newBar = document.querySelector('.sub_bar5');
-                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
+                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.point}}/2";                
                                     </script>
                                 </div>
                                 {% elsif score.id==6 %}
-                                <div class="sub_bar6" style="margin-left: tempBorder;">
+                                <div class="sub_bar6">
                                     <script>
                                         var newBar = document.querySelector('.sub_bar6');
-                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
+                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.point}}/2";                
                                     </script>
                                 </div>
                                 {% elsif score.id==7 %}
-                                <div class="sub_bar7" style="margin-left: tempBorder;">
+                                <div class="sub_bar7">
                                     <script>
                                         var newBar = document.querySelector('.sub_bar7');
-                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
+                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.point}}/2";                
                                     </script>
                                 </div>
                                 {% elsif score.id==8 %}
-                                <div class="sub_bar8" style="margin-left: tempBorder;">
+                                <div class="sub_bar8">
                                     <script>
                                         var newBar = document.querySelector('.sub_bar8');
-                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
+                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.point}}/2";                
                                     </script>
                                 </div>
                                 {% endif %}
+                                <script>
+                                    localStorage.setItem('tempBorder', targetGroups.join('{{score.point}}/2'));
+                                </script>
                                 {% endfor %}
                                 <br><br>
                             </div>
