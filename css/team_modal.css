@@ -16,7 +16,70 @@
     border: 2px #7c2222 solid;
     border-radius: 6px;
 }
-.sub_bar{
+.sub_bar1{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background: #8fff95;
+    border: 2px #43a348 solid;
+    border-radius: 0px;
+    z-index: 2;
+}
+.sub_bar2{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background: #8fff95;
+    border: 2px #43a348 solid;
+    border-radius: 0px;
+    z-index: 2;
+}
+.sub_bar3{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background: #8fff95;
+    border: 2px #43a348 solid;
+    border-radius: 0px;
+    z-index: 2;
+}
+.sub_bar4{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background: #8fff95;
+    border: 2px #43a348 solid;
+    border-radius: 0px;
+    z-index: 2;
+}
+.sub_bar5{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background: #8fff95;
+    border: 2px #43a348 solid;
+    border-radius: 0px;
+    z-index: 2;
+}
+.sub_bar6{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background: #8fff95;
+    border: 2px #43a348 solid;
+    border-radius: 0px;
+    z-index: 2;
+}
+.sub_bar7{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background: #8fff95;
+    border: 2px #43a348 solid;
+    border-radius: 0px;
+    z-index: 2;
+}
+.sub_bar8{
     position: absolute;
     width: 100px;
     height: 30px;

@@ -66,13 +66,23 @@
                                 </script>
                                 <div class="score_bar"></div>
                                 {% for score in teamMember.scores %}
-                                <div class="sub_bar" style="margin-left: tempBorder;">
+                                {% if forloop.index==1 %}
+                                <div class="sub_bar1" style="margin-left: tempBorder;">
                                     <script>
                                         var newBar = document.querySelector('.sub_bar');
                                         newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
                                         tempBorder = score.width;
                                     </script>
                                 </div>
+                                {% elsif forloop.index==2 %}
+                                <div class="sub_bar2" style="margin-left: tempBorder;">
+                                    <script>
+                                        var newBar = document.querySelector('.sub_bar');
+                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
+                                        tempBorder = score.width;
+                                    </script>
+                                </div>
+                                {% endif %}
                                 {% endfor %}
                                 
                                 <br><br>
