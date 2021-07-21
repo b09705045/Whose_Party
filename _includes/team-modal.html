@@ -71,20 +71,21 @@
                                 {% if score.id==1 %}
                                 <div class="sub_bar1">
                                     <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    <script>
-                                        var nowWidth=localStorage.getItem('tempBorder');
-                                        var newBar = document.querySelector('.sub_bar1');
-                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: nowWidth";                
-                                    </script>
                                 </div>
+                                <script>
+                                    var nowWidth=localStorage.getItem('tempBorder');
+                                    var newBar = document.querySelector('.sub_bar1');
+                                    newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: nowWidth";                
+                                </script>
                                 {% elsif score.id==2 %}
                                 <div class="sub_bar2">
                                     <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    <script>
-                                        var newBar = document.querySelector('.sub_bar1');
-                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: width: nowWidth";                
-                                    </script>
                                 </div>
+                                <script>
+                                    var nowWidth=localStorage.getItem('tempBorder');
+                                    var newBar = document.querySelector('.sub_bar1');
+                                    newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: width: nowWidth";                
+                                </script>
                                 {% elsif score.id==3 %}
                                 <div class="sub_bar3">
                                     <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
