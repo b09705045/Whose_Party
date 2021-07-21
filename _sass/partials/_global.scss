@@ -121,7 +121,7 @@ time {
 }
 .preloader {
     position: fixed;
-    z-index: 0;
+    z-index: 999;
     top: 0;
     right: 0;
     bottom: 0;
@@ -141,6 +141,7 @@ time {
   background-repeat: no-repeat;
   background-position: center;
   margin: -100px 0 0 -100px;
+  z-index: 9999;
   /* is width and height divided by two */
 }
 .loader-gplus {
