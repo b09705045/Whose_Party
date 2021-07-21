@@ -3,7 +3,7 @@
         $(window).load(function() {
             $('#st-container').removeClass('disable-scrolling');
             $('#loading-animation').fadeOut();
-            $('#loading').delay(350).fadeOut(800);
+            $('.newPreloader').delay(350).fadeOut(800);
             //initGooglePlus();
             equalheight('.same-height');
         });
