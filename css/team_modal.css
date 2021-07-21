@@ -10,7 +10,7 @@
 .img-square{border-radius: 0px}hr{margin-top:0px;margin-bottom:0px;border:0;border-top:1px solid #eee}.sr-only
 {position:absolute;width:1px;height:1px;margin:0px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}
 .team_bar{
-    width: 100px;
+    width: 50px;
     height: 40px;
     background: #ffffff;
     border: 2px #7c2222 solid;
@@ -18,7 +18,7 @@
 }
 .sub_bar1{
     position: absolute;
-    width: 100px;
+    width: 50px;
     height: 30px;
     background: #8fff95;
     border: 2px #43a348 solid;
@@ -27,7 +27,7 @@
 }
 .sub_bar2{
     position: absolute;
-    width: 100px;
+    width: 50px;
     height: 30px;
     background: #8fff95;
     border: 2px #43a348 solid;
@@ -36,7 +36,7 @@
 }
 .sub_bar3{
     position: absolute;
-    width: 100px;
+    width: 50px;
     height: 30px;
     background: #8fff95;
     border: 2px #43a348 solid;
@@ -45,7 +45,7 @@
 }
 .sub_bar4{
     position: absolute;
-    width: 100px;
+    width: 50px;
     height: 30px;
     background: #8fff95;
     border: 2px #43a348 solid;
@@ -54,7 +54,7 @@
 }
 .sub_bar5{
     position: absolute;
-    width: 100px;
+    width: 50px;
     height: 30px;
     background: #8fff95;
     border: 2px #43a348 solid;
@@ -63,7 +63,7 @@
 }
 .sub_bar6{
     position: absolute;
-    width: 100px;
+    width: 50px;
     height: 30px;
     background: #8fff95;
     border: 2px #43a348 solid;
@@ -72,7 +72,7 @@
 }
 .sub_bar7{
     position: absolute;
-    width: 100px;
+    width: 50px;
     height: 30px;
     background: #8fff95;
     border: 2px #43a348 solid;
@@ -81,7 +81,7 @@
 }
 .sub_bar8{
     position: absolute;
-    width: 100px;
+    width: 50;
     height: 30px;
     background: #8fff95;
     border: 2px #43a348 solid;
