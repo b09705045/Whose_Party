@@ -61,19 +61,13 @@
                                 <b>-總積分-</b></p>
                             </div> 
                             <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                <div class="score_bar">
-                
-                                </div>
-                                <script>
-                                    localStorage.setItem('tempBorder', targetGroups.join('0'));
-                                </script>
+                                <div class="score_bar"></div>
                                 {% for score in teamMember.scores %}
                                 {% if score.id==1 %}
                                 <div class="sub_bar1">
                                     <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
                                 </div>
                                 <script>
-                                    var nowWidth=localStorage.getItem('tempBorder');
                                     var newBar = document.querySelector('.sub_bar1');
                                     newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: score.width;margin-left: score.border";                
                                 </script>
@@ -82,7 +76,6 @@
                                     <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
                                 </div>
                                 <script>
-                                    var nowWidth=localStorage.getItem('tempBorder');
                                     var newBar = document.querySelector('.sub_bar1');
                                     newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: score.width;margin-left: score.border";                
                                 </script>
@@ -91,7 +84,7 @@
                                     <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
                                     <script>
                                         var newBar = document.querySelector('.sub_bar1');
-                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.point}}/2";                
+                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: score.width;margin-left: score.border";                          
                                     </script>
                                 </div>
                                 {% elsif score.id==4 %}
@@ -130,9 +123,6 @@
                                     </script>
                                 </div>
                                 {% endif %}
-                                <script>
-                                    localStorage.setItem('tempBorder', targetGroups.join('{{score.point}}/2'));
-                                </script>
                                 {% endfor %}
                                 <br><br>
                             </div>
