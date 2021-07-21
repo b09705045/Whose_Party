@@ -61,17 +61,14 @@
                                 <b>-總積分-</b></p>
                             </div> 
                             <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                <script>
-                                    var tempBorder = 0;
-                                </script>
                                 <div class="score_bar"></div>
+                                {assign tempBorder=0}
                                 {% for score in teamMember.scores %}
                                 {% if score.id==1 %}
-                                <div class="sub_bar1" style="margin-left: 400px;">
+                                <div class="sub_bar1" style="margin-left: tempBorder;">
                                     <script>
                                         var newBar = document.querySelector('.sub_bar1');
                                         newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
-                                        tempBorder = score.width;
                                     </script>
                                 </div>
                                 {% elsif score.id==2 %}
@@ -79,7 +76,6 @@
                                     <script>
                                         var newBar = document.querySelector('.sub_bar2');
                                         newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
-                                        tempBorder = score.width;
                                     </script>
                                 </div>
                                 {% elsif score.id==3 %}
@@ -87,7 +83,6 @@
                                     <script>
                                         var newBar = document.querySelector('.sub_bar3');
                                         newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
-                                        tempBorder = score.width;
                                     </script>
                                 </div>
                                 {% elsif score.id==4 %}
@@ -95,7 +90,6 @@
                                     <script>
                                         var newBar = document.querySelector('.sub_bar4');
                                         newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
-                                        tempBorder = score.width;
                                     </script>
                                 </div>
                                 {% elsif score.id==5 %}
@@ -103,7 +97,6 @@
                                     <script>
                                         var newBar = document.querySelector('.sub_bar5');
                                         newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
-                                        tempBorder = score.width;
                                     </script>
                                 </div>
                                 {% elsif score.id==6 %}
@@ -111,7 +104,6 @@
                                     <script>
                                         var newBar = document.querySelector('.sub_bar6');
                                         newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
-                                        tempBorder = score.width;
                                     </script>
                                 </div>
                                 {% elsif score.id==7 %}
@@ -119,7 +111,6 @@
                                     <script>
                                         var newBar = document.querySelector('.sub_bar7');
                                         newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
-                                        tempBorder = score.width;
                                     </script>
                                 </div>
                                 {% elsif score.id==8 %}
@@ -127,12 +118,11 @@
                                     <script>
                                         var newBar = document.querySelector('.sub_bar8');
                                         newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
-                                        tempBorder = score.width;
                                     </script>
                                 </div>
                                 {% endif %}
+                                {tempBorder=score.width}
                                 {% endfor %}
-                                
                                 <br><br>
                             </div>
                         </div>
