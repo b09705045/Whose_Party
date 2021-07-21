@@ -62,11 +62,14 @@
                             </div> 
                             <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
                                 <script>
-                                    var tempBorder = 0;
+                                    function createBar(){
+                                        var className="sub_bar"
+                                        return className;
+                                    }
                                 </script>
                                 <div class="score_bar"></div>
                                 {% for score in teamMember.scores %}
-                                <div class="sub_bar">
+                                <div class=createBar()>
                                     <script>
                                         var newBar = document.querySelector('.sub_bar');
                                         newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}};margin-left: 200px";                
