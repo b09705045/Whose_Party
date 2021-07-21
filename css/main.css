@@ -7,7 +7,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
 .loading{background: url('spinner.gif') no-repeat center center;position: absolute;top: 0;left: 0;
 height: 100%;width: 100%;z-index: 9999999;}
-.loader-gplus{display:inline-block;position:absolute;top:calc(50% - 0px);left:calc(50% - 0px);width:40px;height:40px;overflow:hidden;border-radius:0px;-webkit-animation:base 3s steps(1) 0s infinite;animation:base 3s steps(1) 0s infinite;background-image: url('/img/people/patrick_1.jpg');}
+.loader-gplus{display:inline-block;position:absolute;top:calc(50% - 0px);left:calc(50% - 0px);width:40px;height:40px;overflow:hidden;border-radius:20px;background-image: url('/img/people/patrick_1.jpg');-webkit-animation:base 3s steps(1) 0s infinite;animation:base 3s steps(1) 0s infinite;}
 .loader-gplus::before,.loader-gplus::after{content:' ';display:block;width:50%;height:100%;overflow:hidden;position:absolute;top:0;left:50%;z-index:1;border-radius:0 0px 0px 0;-webkit-transform-origin:0 50%;-ms-transform-origin:0 50%;transform-origin:0 50%}
 .loader-gplus::before{z-index:2;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;-webkit-animation:flip 3s linear 0s infinite;animation:flip 3s linear 0s infinite}
 .loader-gplus::after{-webkit-animation:reveal 3s steps(1) 0s infinite;animation:reveal 3s steps(1) 0s infinite}
