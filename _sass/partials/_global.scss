@@ -136,7 +136,7 @@ time {
     width: 40px;
     height: 40px;
     overflow: hidden;
-    border-radius: 20px;
+    border-radius: 50px;
     animation: base 3s steps(1) 0s infinite;
     &::before, &::after {
         content: ' ';
