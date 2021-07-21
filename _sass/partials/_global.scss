@@ -126,7 +126,7 @@ time {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: "desktop.jpg";
+    background-image: url("/desktop.jpg");
 
 }
 #status {
@@ -140,6 +140,7 @@ time {
   /* path to your loading animation */
   background-repeat: no-repeat;
   background-position: center;
+  background-image: url("/desktop.jpg");
   margin: -100px 0 0 -100px;
   z-index: 1000;
   /* is width and height divided by two */
