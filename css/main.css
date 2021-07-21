@@ -14,6 +14,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
   top: 50%;
   /* centers the loading animation vertically one the screen */
   /* path to your loading animation */
+  display: block;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
