@@ -61,8 +61,8 @@
                                 <b>-總積分-</b></p>
                             </div> 
                             <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                <div class="score_bar">
-                                    {% for score in teamMember.scores %}
+                                <div class="score_bar"></div>
+                                {% for score in teamMember.scores %}
                                         {% if score.id==1 %}
                                         <div class="sub_bar1">
                                             <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
@@ -124,8 +124,7 @@
                                         </div>
                                         {% endif %}
                                     {% endfor %}
-                                </div>
-                                <br><br>
+                                <br><br><br>
                             </div>
                         </div>
                     </div>
