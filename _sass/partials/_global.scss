@@ -126,7 +126,7 @@ time {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: url('/img/sprites/desktop.jpg');
+    background-image: url("/img/sprites/desktop.jpg");
 
 }
 #status {
@@ -137,12 +137,11 @@ time {
   /* centers the loading animation horizontally one the screen */
   top: 50%;
   /* centers the loading animation vertically one the screen */
-  background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
   /* path to your loading animation */
   background-repeat: no-repeat;
   background-position: center;
   margin: -100px 0 0 -100px;
-  z-index: 9999;
+  z-index: 998;
   /* is width and height divided by two */
 }
 .loader-gplus {
