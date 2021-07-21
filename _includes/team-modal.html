@@ -75,7 +75,7 @@
                                 <script>
                                     var nowWidth=localStorage.getItem('tempBorder');
                                     var newBar = document.querySelector('.sub_bar1');
-                                    newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{{{score.point}}/2}}px";                
+                                    newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: score.width;margin-left: score.margin";                
                                 </script>
                                 {% elsif score.id==2 %}
                                 <div class="sub_bar2">
@@ -84,7 +84,7 @@
                                 <script>
                                     var nowWidth=localStorage.getItem('tempBorder');
                                     var newBar = document.querySelector('.sub_bar1');
-                                    newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{{{score.point}}/2}}px";                
+                                    newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: score.width;margin-left: score.margin";                
                                 </script>
                                 {% elsif score.id==3 %}
                                 <div class="sub_bar3">
