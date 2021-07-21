@@ -17,7 +17,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
   background-repeat: no-repeat;
   background-position: center;
   margin: -100px 0 0 -100px;
-  z-index: 998;
+  z-index: 1000;
   /* is width and height divided by two */
 }
 .loading{background: url('spinner.gif') no-repeat center center;position: absolute;top: 0;left: 0;
