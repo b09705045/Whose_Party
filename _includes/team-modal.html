@@ -65,7 +65,7 @@
                                 {% for score in teamMember.scores %}
                                 {% if score.id==10 %}
                                 <div class="sub_bar1">
-                                    <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
+                                    <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.id}}</p>
                                 </div>
                                 <script>
                                     var newBar = document.querySelector('.sub_bar1');
@@ -73,7 +73,7 @@
                                 </script>
                                 {% elsif score.id==2 %}
                                 <div class="sub_bar2">
-                                    <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
+                                    <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.id}}</p>
                                 </div>
                                 <script>
                                     var newBar = document.querySelector('.sub_bar2');
@@ -81,7 +81,7 @@
                                 </script>
                                 {% elsif score.id==3 %}
                                 <div class="sub_bar3">
-                                    <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
+                                    <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.id}}</p>
                                     <script>
                                         var newBar = document.querySelector('.sub_bar3');
                                         newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: score.width;margin-left: score.border";                          
