@@ -53,7 +53,7 @@
                                         <b><strong style="background: #5fff87">{{titles.name}}</strong></b></p>
                                 </div>
                                 {% endif %}
-                            {% endfor%}
+                            {% endfor %}
                         </div>
                         <div class="row">
                             <div style="text-align: center" class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
@@ -62,12 +62,14 @@
                             </div> 
                             <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
                                 <div class="score_bar"></div>
-                                <div class="score_bar">
+                                {% for score in teamMember.scores %}
+                                <div class="sub_bar">
                                     <script>
-                                        var newBar = document.querySelector('.score_bar');
-                                        newBar.style = "background-color: #114514;border: #191981 2px solid;width: 200px;z-index: 99";                
+                                        var newBar = document.querySelector('.sub_bar');
+                                        newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}};";                
                                     </script>
                                 </div>
+                                {% endfor %}
                                 
                                 <br><br>
                             </div>

@@ -16,32 +16,12 @@
     border: 2px #7c2222 solid;
     border-radius: 6px;
 }
-.score1{
+.sub_bar{
     position: absolute;
     width: 100px;
     height: 30px;
     background: #8fff95;
     border: 2px #43a348 solid;
     border-radius: 0px;
-    z-index: 2;
-}
-.score2{
-    position: absolute;
-    width: 200px;
-    height: 30px;
-    background: #f8ff8f;
-    border: 2px #a6ad3e solid;
-    border-radius: 0px;
-    margin-left: 200px;
-    z-index: 2;
-}
-.score3{
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    background: #8fcdff;
-    border: 2px #3775a8 solid;
-    border-radius: 0px;
-    margin-left: 100px;
     z-index: 2;
 }
