@@ -12,7 +12,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
   /* centers the loading animation horizontally one the screen */
   top: 50%;
   /* centers the loading animation vertically one the screen */
-  background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+  background-image: url('https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif');
   /* path to your loading animation */
   background-repeat: no-repeat;
   background-position: center;
