@@ -64,7 +64,7 @@
                                 <div class="score_bar"></div>
                                 {% assign tempBorder=0 %}
                                 {% for score in teamMember.scores %}
-                                {% cycle 'sub_bar1' 'sub_bar2' 'sub_bar3' 'sub_bar4' as sub_bar %}
+                                {% cycle 'sub_bar1' 'sub_bar2' as sub_bar %}
                                 <div class="{{sub_bar}}" style="margin-left: tempBorder;">
                                     <script>
                                         var newBar = document.querySelector('.sub_bar');
