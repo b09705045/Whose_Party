@@ -69,7 +69,7 @@
                                 {% if score.id==1 %}
                                 <div class="sub_bar1" style="margin-left: tempBorder;">
                                     <script>
-                                        var newBar = document.querySelector('.sub_bar');
+                                        var newBar = document.querySelector('.sub_bar1');
                                         newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
                                         tempBorder = score.width;
                                     </script>
@@ -77,7 +77,7 @@
                                 {% elsif score.id==2 %}
                                 <div class="sub_bar2" style="margin-left: tempBorder;">
                                     <script>
-                                        var newBar = document.querySelector('.sub_bar');
+                                        var newBar = document.querySelector('.sub_bar2');
                                         newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}}";                
                                         tempBorder = score.width;
                                     </script>
