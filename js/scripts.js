@@ -1,6 +1,6 @@
 (function($) {
     $(document).ready(function() {
-        $(window).load(function() {
+        $(window).on('load',function() {
             $('#st-container').removeClass('disable-scrolling');
             $('#status').fadeOut();
             $('.preloader').delay(350).fadeOut(800);
