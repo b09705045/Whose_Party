@@ -2,10 +2,11 @@
     $(document).ready(function() {
         $(window).load(function() {
             $('#st-container').removeClass('disable-scrolling');
-            //$('#loading-animation').fadeOut();
-            $('.preloader').delay(350).fadeOut(8000);
+            $('#status').fadeOut();
+            $('.preloader').delay(350).fadeOut(800);
             initGooglePlus();
             equalheight('.same-height');
+            $('body').delay(350).css({'overflow': 'visible'});
         });
 
         if ($(window).width() > 1500) {
