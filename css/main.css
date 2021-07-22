@@ -6,9 +6,9 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 .preloader{position:absolute;z-index:999;top:0;right:0;bottom:0;left:0; background-size: cover; background-position: center; background-color: rgb(253, 253, 253);
 }
 #status {
-  width: 400px;
-  height: 400px;
-  position: static;
+  width: 300px;
+  height: 300px;
+  position: absolute;
   left: 50%;
   /* centers the loading animation horizontally on the screen */
   top: 50%;
