@@ -8,17 +8,17 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 #status {
   width: 400px;
   height: 400px;
-  /*position: absolute;
-  left: 50%;*/
+  position: absolute;
+  left: auto;
   /* centers the loading animation horizontally one the screen */
-  /*top: 50%;*/
+  top: auto;
   /* centers the loading animation vertically one the screen */
   /* path to your loading animation */
   background-image: url("../img/sprites/logos_1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: 0px 0 0 0px;
+  margin: -100px 0 0 -100px;
   z-index: 1000;
   /* is width and height divided by two */
 }
