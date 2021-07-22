@@ -101,15 +101,15 @@
                                 <script>
                                     var newBar = document.querySelectorAll('.sub_bar1');
                                     for(var i=0;i<8;i++){
-                                        newBar[i].style = "background-color: {{teamMember.scores[0].color}};border: #191981 2px solid;width: {{teamMember.scores[0].width}};margin-left: {{teamMember.scores[0].border}}";
+                                        newBar[i].style = "background-color: {{teamMember.scores[0].color}};border: #191981 2px solid;width: {{teamMember.scores[0].width}};margin-left: {{teamMember.scores[0].color}}";
                                     }
                                     var newBar = document.querySelectorAll('.sub_bar2');
                                     for(var i=0;i<8;i++){
-                                        newBar[i].style = "background-color: #000000;border: #191981 2px solid;width: 50px;margin-left: 100px";
+                                        newBar[i].style = "background-color: {{teamMember.scores[1].color}};border: #191981 2px solid;width: {{teamMember.scores[1].width}};margin-left: {{teamMember.scores[1].color}}";
                                     }
                                     var newBar = document.querySelectorAll('.sub_bar3');
                                     for(var i=0;i<8;i++){
-                                        newBar[i].style = "background-color: #000000;border: #191981 2px solid;width: 50px;margin-left: 150px";
+                                        newBar[i].style = "background-color: {{teamMember.scores[2].color}};border: #191981 2px solid;width: {{teamMember.scores[2].width}};margin-left: {{teamMember.scores[2].color}}";
                                     }
                                     var newBar = document.querySelectorAll('.sub_bar4');
                                     for(var i=0;i<8;i++){
