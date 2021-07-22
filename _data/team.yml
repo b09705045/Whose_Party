@@ -15,6 +15,11 @@
   - {id: 1, color: "#7c2222", point: "100", width: "50px", border: "0px"}
   - {id: 2, color: "#114514", point: "80", width: "40px", border: "50px"}
   - {id: 3, color: "#7c2345", point: "75", width: "37.5px", border: "90px"}
+  - {id: 4, color: "#7c2222", point: "100", width: "50px", border: "140px"}
+  - {id: 5, color: "#114514", point: "80", width: "40px", border: "180px"}
+  - {id: 6, color: "#7c2345", point: "75", width: "37.5px", border: "217.5px"}
+  - {id: 7, color: "#7c2222", point: "100", width: "50px", border: "267.5px"}
+  - {id: 8, color: "#114514", point: "80", width: "40px", border: "307.5px"}
   thumbnailUrl: Gryffindor.png
   edited: false
   family: true
