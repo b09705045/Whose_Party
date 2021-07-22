@@ -6,15 +6,15 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 .preloader{position:absolute;z-index:999;top:0;right:0;bottom:0;left:0; background-size: cover; background-position: center; background-color: #fff;
 }
 #status {
-  width: 200px;
-  height: 200px;
+  width: 400px;
+  height: 400px;
   position: absolute;
   left: 50%;
   /* centers the loading animation horizontally one the screen */
   top: 50%;
   /* centers the loading animation vertically one the screen */
   /* path to your loading animation */
-  background-image: url("../img/sprites/logos.jpeg");
+  background-image: url("../img/sprites/logos_1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
