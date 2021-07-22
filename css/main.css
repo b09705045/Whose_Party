@@ -9,9 +9,9 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
   width: 300px;
   height: 300px;
   position: absolute;
-  left: 50%;
+  left: 40%;
   /* centers the loading animation horizontally on the screen */
-  top: 50%;
+  top: 40%;
   /* centers the loading animation vertically on the screen */
   /* path to your loading animation */
   background-image: url("../img/sprites/logos_1.jpg");
