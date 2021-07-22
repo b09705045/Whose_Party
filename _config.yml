@@ -55,7 +55,7 @@ navigationLinks:
 #  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
-heroImage: "crimson.jpg"
+heroImage: "crimson1.jpg"
 heroTitle: "WHOSE PARTY"
 heroTitle2: "2021 三系聯合迎新宿營"
 eventDate: "Oct. 23 ~ Oct. 24"
@@ -73,7 +73,7 @@ aboutBlock:
  - {title: "護理學系", image: "ntu_nur.png", text: "" }
 
 # Statistic Block
-statisticBlockImage: "statistic.jpg"
+statisticBlockImage: "statistic1.jpg"
 statisticBlock:
  - {count: "3", specialCharacter: "", info: "參與科系", detail: ""}
  - {count: "100", specialCharacter: "+", info: "工人", detail: ""}
@@ -89,7 +89,7 @@ storyButtonText: "點我看八大家族介紹"
 storyImage: ""
 
 # Rockstar Speakers Block
-rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersImage: "rockstar-speakers1.jpg"
 rockstarSpeakersCount: 6
 rockstarSpeakersTitle: "認識召部"
 rockstarSpeakersButtonText: "點我看團隊介紹"
@@ -114,7 +114,7 @@ rockstarSpeakersButtonText: "點我看團隊介紹"
 venueBlockTitle: "舉辦地點"
 venueBigImage: "pushin_1.jpg"
 venueSmallImage1: "pushin_2.jpg"
-venueSmallImage2: "pushin_4.jpg"
+venueSmallImage2: "pushin_4_1.jpg"
 venueSmallImage3: "pushin_5.jpg"
 venueTitle: "埔心牧場"
 venueFeatures: ["地址: 桃園市楊梅區幼獅路一段439號","TEL: 03 464 4132"]
