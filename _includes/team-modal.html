@@ -68,7 +68,7 @@
                                             <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
                                             <script>
                                                 var newBar = document.querySelectorAll('.sub_bar1');
-                                                newBar[forloop.parentloop.index0].style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}};margin-left: {{score.border}}";                
+                                                newBar[forloop.parentloop.counter-1].style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}};margin-left: {{score.border}}";                
                                             </script>
                                         </div>
                                         {% elsif score.id==2 %}
@@ -76,7 +76,7 @@
                                             <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
                                             <script>
                                                 var newBar = document.querySelectorAll('.sub_bar2');
-                                                newBar[forloop.parentloop.index0].style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}};margin-left: {{score.border}}";                
+                                                newBar[forloop.parentloop.counter-1].style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}};margin-left: {{score.border}}";                
                                             </script>
                                         </div>
                                         {% elsif score.id==3 %}
@@ -84,7 +84,7 @@
                                             <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
                                             <script>
                                                 var newBar = document.querySelectorAll('.sub_bar3');
-                                                newBar[forloop.parentloop.index0].style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}};margin-left: {{score.border}}";                          
+                                                newBar[forloop.parentloop.counter-1].style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}};margin-left: {{score.border}}";                          
                                             </script>
                                         </div>
                                         {% elsif score.id==4 %}
