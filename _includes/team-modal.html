@@ -68,7 +68,7 @@
                                             <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
                                             <script>
                                                 var temp = document.querySelectorAll('.sub_bar1');
-                                                var newBar = temp.item[teamMember.id-1];
+                                                var newBar = temp.item[0];
                                                 newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}};margin-left: {{score.border}}";
                                             </script>
                                         </div>
@@ -77,7 +77,7 @@
                                             <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
                                             <script>
                                                 var temp = document.querySelectorAll('.sub_bar2');
-                                                var newBar = temp.item[teamMember.id-1];
+                                                var newBar = temp.item[1];
                                                 newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}};margin-left: {{score.border}}";                
                                             </script>
                                         </div>
@@ -86,7 +86,7 @@
                                             <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
                                             <script>
                                                 var temp = document.querySelectorAll('.sub_bar3');
-                                                var newBar = temp.item[teamMember.id-1];
+                                                var newBar = temp.item[2];
                                                 newBar.style = "background-color: {{score.color}};border: #191981 2px solid;width: {{score.width}};margin-left: {{score.border}}";
                                             </script>
                                         </div>
