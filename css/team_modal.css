@@ -34,7 +34,7 @@
     border: 2px #43a348 solid;
     border-radius: 0px;
     z-index: 2;
-    margin-left: 0px;
+    margin-left: 100px;
 }
 .sub_bar3{
     position: absolute;
@@ -44,7 +44,7 @@
     border: 2px #43a348 solid;
     border-radius: 0px;
     z-index: 2;
-    margin-left: 0px;
+    margin-left: 200px;
 }
 .sub_bar4{
     position: absolute;
