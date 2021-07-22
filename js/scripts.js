@@ -2,7 +2,7 @@
     $(document).ready(function() {
         $(window).on('load',function() {
             //$('#st-container').removeClass('disable-scrolling');
-            $('#status').fadeOut();
+            $('#status').fadeOut(800);
             $('.preloader').delay(350).fadeOut(800);
             //initGooglePlus();
             //equalheight('.same-height');
