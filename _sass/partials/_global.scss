@@ -120,13 +120,30 @@ time {
     }
 }
 .preloader {
-    position: fixed;
-    z-index: 9999;
+    position: absolute;
+    z-index: 999;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #fff;
+    background-image: url("../desktop.jpg");
+
+}
+#status {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../desktop.jpg");
+  margin: -100px 0 0 -100px;
+  z-index: 1000;
+  /* is width and height divided by two */
 }
 .loader-gplus {
     display: inline-block;
