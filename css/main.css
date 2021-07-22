@@ -18,7 +18,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  margin: -100px 0 0 -100px;
+  /*margin: -100px 0 0 -100px;*/
   z-index: 1000;
   /* is width and height divided by two */
 }
