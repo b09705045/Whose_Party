@@ -1,6 +1,6 @@
 <!-- Begin Team Modals -->
 <link href="{{ "/css/team_modal.css" | prepend: site.baseurl }}" rel="stylesheet"> 
-<script type="text/javascript" src="/js/team_modal.js"></script>
+<script type="text/javascript" src="/js/team_modal.js"> var index=0; </script>
 <div class="modals" class="modals">
     {% for teamMember in site.data.team %} {% if page.modal == "team" %}
     <div aria-hidden="true" aria-labelledby="teamDetailLabel-{{ teamMember.id }}" class="modal fade text-left people-modal" id="teamDetail-{{ teamMember.id }}" tabindex="-1" role="dialog">
@@ -99,29 +99,30 @@
                                 {% endfor %}
                                 <script>
                                     var newBar = document.querySelectorAll('.sub_bar1');
-                                    newBar[forloop.index0].style = "background-color: {{teamMember.scores[0].color}};border: #191981 2px solid;width: {{teamMember.scores[0].width}};margin-left: {{teamMember.scores[0].border}}";
+                                    newBar[index].style = "background-color: {{teamMember.scores[0].color}};border: #191981 2px solid;width: {{teamMember.scores[0].width}};margin-left: {{teamMember.scores[0].border}}";
                                     
                                     var newBar = document.querySelectorAll('.sub_bar2');
-                                    newBar[forloop.index0].style = "background-color: {{teamMember.scores[1].color}};border: #191981 2px solid;width: {{teamMember.scores[1].width}};margin-left: {{teamMember.scores[1].border}}";
+                                    newBar[index].style = "background-color: {{teamMember.scores[1].color}};border: #191981 2px solid;width: {{teamMember.scores[1].width}};margin-left: {{teamMember.scores[1].border}}";
                                     
                                     var newBar = document.querySelectorAll('.sub_bar3');          
-                                    newBar[forloop.index0].style = "background-color: {{teamMember.scores[2].color}};border: #191981 2px solid;width: {{teamMember.scores[2].width}};margin-left: {{teamMember.scores[2].border}}";
+                                    newBar[index].style = "background-color: {{teamMember.scores[2].color}};border: #191981 2px solid;width: {{teamMember.scores[2].width}};margin-left: {{teamMember.scores[2].border}}";
                                     
                                     var newBar = document.querySelectorAll('.sub_bar4');     
-                                    newBar[forloop.index0].style = "background-color: {{teamMember.scores[3].color}};border: #191981 2px solid;width: {{teamMember.scores[3].width}};margin-left: {{teamMember.scores[3].border}}";
+                                    newBar[index].style = "background-color: {{teamMember.scores[3].color}};border: #191981 2px solid;width: {{teamMember.scores[3].width}};margin-left: {{teamMember.scores[3].border}}";
                                     
                                     var newBar = document.querySelectorAll('.sub_bar5');                        
-                                    newBar[forloop.index0].style = "background-color: {{teamMember.scores[4].color}};border: #191981 2px solid;width: {{teamMember.scores[4].width}};margin-left: {{teamMember.scores[4].border}}";
+                                    newBar[index].style = "background-color: {{teamMember.scores[4].color}};border: #191981 2px solid;width: {{teamMember.scores[4].width}};margin-left: {{teamMember.scores[4].border}}";
                                     
                                     var newBar = document.querySelectorAll('.sub_bar6');                                  
-                                    newBar[forloop.index0].style = "background-color: {{teamMember.scores[5].color}};border: #191981 2px solid;width: {{teamMember.scores[5].width}};margin-left: {{teamMember.scores[5].border}}";
+                                    newBar[index].style = "background-color: {{teamMember.scores[5].color}};border: #191981 2px solid;width: {{teamMember.scores[5].width}};margin-left: {{teamMember.scores[5].border}}";
                                     
                                     var newBar = document.querySelectorAll('.sub_bar7');                                   
-                                    newBar[forloop.index0].style = "background-color: {{teamMember.scores[6].color}};border: #191981 2px solid;width: {{teamMember.scores[6].width}};margin-left: {{teamMember.scores[6].border}}";
+                                    newBar[index].style = "background-color: {{teamMember.scores[6].color}};border: #191981 2px solid;width: {{teamMember.scores[6].width}};margin-left: {{teamMember.scores[6].border}}";
                                     
                                     var newBar = document.querySelectorAll('.sub_bar8');                                  
-                                    newBar[forloop.index0].style = "background-color: {{teamMember.scores[7].color}};border: #191981 2px solid;width: {{teamMember.scores[7].width}};margin-left: {{teamMember.scores[7].border}}";
-                                                  
+                                    newBar[index].style = "background-color: {{teamMember.scores[7].color}};border: #191981 2px solid;width: {{teamMember.scores[7].width}};margin-left: {{teamMember.scores[7].border}}";
+
+                                    index++;      
                                     </script>
                                 <br><br><br>
                             </div>
