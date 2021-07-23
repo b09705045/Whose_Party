@@ -257,9 +257,9 @@ Array.prototype.difference = Array.prototype.difference || function(ar,fn){
 
 
 var test = new BFG.Leaderboard({
-	interval:5,
-	max:10,
-	margin:5,
+	interval:4,
+	max:8,
+	margin:4,
 	display:function(item){
 		var 	content = document.createElement('div'),
 			a = content.appendChild(document.createElement('a')),
