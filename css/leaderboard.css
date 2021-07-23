@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
 *,*:before,*:after {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -47,13 +49,13 @@
 	color:#aaffd0;
 	opacity: 1;
 	transition: opacity ease 3s;
-    font-family: '微軟正黑體';
+    font-family: 'Oswald', sans-serif;
 }
 #leaderboard li span:after {
 	content:' pts';
 	color:rgb(255, 255, 255);
 	font-size: 0.8cm;
-    font-family: '微軟正黑體';
+    font-family: 'Oswald', sans-serif;
 }
 #leaderboard .move{
 
