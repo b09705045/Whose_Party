@@ -30,7 +30,6 @@ h1{
 	width:100%;
 	padding:10px;
 	border-radius:5px;
-	background: linear-gradient(to top,rgb(20,20,20) 0%, rgb(40,40,40) 100%);
 	opacity: 1;
 	transition: top cubic-bezier(1.000, -0.530, 0.405, 1.425) 3s;
 }
