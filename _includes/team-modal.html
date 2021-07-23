@@ -111,7 +111,7 @@
         let data = yaml.safeLoad(config);
         var newBar = document.querySelectorAll('.sub_bar1') , i;
         for(i=0;i<8;i++){
-            newBar[i].style = "background-color: {{site.data.team[{{i}}].scores[0].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[0].width}};margin-left: {{site.data.team[i].scores[0].border}}";
+            newBar[i].style = "background-color: {{site.data.team[i].scores[0].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[0].width}};margin-left: {{site.data.team[i].scores[0].border}}";
         }
 
         var newBar = document.querySelectorAll('.sub_bar2') , i;
