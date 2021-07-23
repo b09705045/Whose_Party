@@ -3,9 +3,10 @@
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
-
-h1{
+body {
 	
+}
+h1{
 	color:#558855;
 	font-family: Georgia;
 }
@@ -34,6 +35,7 @@ h1{
 	background: linear-gradient(to top,rgb(20,20,20) 0%, rgb(40,40,40) 100%);
 	border-bottom:1px solid #222;
 	border-top:1px solid #666;
+	box-shadow: 3px 3px 5px #000;
 	opacity: 1;
 	transition: top cubic-bezier(1.000, -0.530, 0.405, 1.425) 3s;
 }
@@ -44,7 +46,7 @@ h1{
 	color:#FD9C20
 }
 #leaderboard ul li a:hover{
-	
+	text-shadow: 0 0 10px rgb(230,230,255);
 }
 #leaderboard li span {
 	float:right;
