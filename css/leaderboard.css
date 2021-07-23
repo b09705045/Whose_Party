@@ -5,7 +5,7 @@
 }
 body {
 	background:#555;
-	text-shadow: 3px 3px 3px #222;
+	text-shadow: 0px 0px 0px #222;
 }
 h1{
 	text-align:center;
@@ -48,7 +48,7 @@ h1{
 	color:#FD9C20
 }
 #leaderboard ul li a:hover{
-	text-shadow: 0 0 10px rgb(230,230,255);
+	text-shadow: 0 0 0px rgb(230,230,255);
 }
 #leaderboard li span {
 	float:right;
