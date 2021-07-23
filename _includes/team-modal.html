@@ -108,32 +108,31 @@
     {% endif %} {% endfor %}
     <script>
         var newBar;
-        newBar = document.querySelectorAll('.sub_bar1');
-        newBar.forEach(function(currentBar,i){
-            currentBar.style = "background-color: {{site.data.team[i].scores[0].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[0].width}};margin-left: {{site.data.team[i].scores[0].border}}";
-        })
-        
-        newBar = document.querySelectorAll('.sub_bar2');
-        newBar[i].style = "background-color: {{site.data.team[i].scores[1].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[1].width}};margin-left: {{site.data.team[i].scores[1].border}}";
-        
-        newBar = document.querySelectorAll('.sub_bar3');          
-        newBar[i].style = "background-color: {{site.data.team[i].scores[2].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[2].width}};margin-left: {{site.data.team[i].scores[2].border}}";
-        
-        newBar = document.querySelectorAll('.sub_bar4');     
-        newBar[i].style = "background-color: {{site.data.team[i].scores[3].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[3].width}};margin-left: {{site.data.team[i].scores[3].border}}";
-        
-        newBar = document.querySelectorAll('.sub_bar5');                        
-        newBar[i].style = "background-color: {{site.data.team[i].scores[4].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[4].width}};margin-left: {{site.data.team[i].scores[4].border}}";
-        
-        newBar = document.querySelectorAll('.sub_bar6');                                  
-        newBar[i].style = "background-color: {{site.data.team[i].scores[5].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[5].width}};margin-left: {{site.data.team[i].scores[5].border}}";
-        
-        newBar = document.querySelectorAll('.sub_bar7');                                   
-        newBar[i].style = "background-color: {{site.data.team[i].scores[6].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[6].width}};margin-left: {{site.data.team[i].scores[6].border}}";
-        
-        newBar = document.querySelectorAll('.sub_bar8');                                  
-        newBar[i].style = "background-color: {{site.data.team[i].scores[7].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[7].width}};margin-left: {{site.data.team[i].scores[7].border}}";    
-    
+        for(var i=0;i<8;i++){
+            newBar = document.querySelectorAll('.sub_bar1') , i;
+            newBar[i].style = "background-color: {{site.data.team[i].scores[0].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[0].width}};margin-left: {{site.data.team[i].scores[0].border}}";
+            
+            newBar = document.querySelectorAll('.sub_bar2') , i;
+            newBar[i].style = "background-color: {{site.data.team[i].scores[1].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[1].width}};margin-left: {{site.data.team[i].scores[1].border}}";
+            
+            newBar = document.querySelectorAll('.sub_bar3');          
+            newBar[i].style = "background-color: {{site.data.team[i].scores[2].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[2].width}};margin-left: {{site.data.team[i].scores[2].border}}";
+            
+            newBar = document.querySelectorAll('.sub_bar4');     
+            newBar[i].style = "background-color: {{site.data.team[i].scores[3].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[3].width}};margin-left: {{site.data.team[i].scores[3].border}}";
+            
+            newBar = document.querySelectorAll('.sub_bar5');                        
+            newBar[i].style = "background-color: {{site.data.team[i].scores[4].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[4].width}};margin-left: {{site.data.team[i].scores[4].border}}";
+            
+            newBar = document.querySelectorAll('.sub_bar6');                                  
+            newBar[i].style = "background-color: {{site.data.team[i].scores[5].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[5].width}};margin-left: {{site.data.team[i].scores[5].border}}";
+            
+            newBar = document.querySelectorAll('.sub_bar7');                                   
+            newBar[i].style = "background-color: {{site.data.team[i].scores[6].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[6].width}};margin-left: {{site.data.team[i].scores[6].border}}";
+            
+            newBar = document.querySelectorAll('.sub_bar8');                                  
+            newBar[i].style = "background-color: {{site.data.team[i].scores[7].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[7].width}};margin-left: {{site.data.team[i].scores[7].border}}";    
+        }
     </script>
 </div>
 <!-- End Team Modals -->
