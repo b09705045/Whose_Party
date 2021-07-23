@@ -107,10 +107,10 @@
     </div>
     {% endif %} {% endfor %}
     <script>
-        
+        var widths_1=[site.data.team[0].scores[0].point/2,site.data.team[0].scores[1].point/2,site.data.team[0].scores[2].point/2,site.data.team[0].scores[3].point/2,site.data.team[0].scores[4].point/2,site.data.team[0].scores[5].point/2,site.data.team[0].scores[6].point/2,site.data.team[0].scores[7].point/2]
         var newBar = document.querySelectorAll('.sub_bar1') , i;
         for(i=0;i<8;i++){
-            newBar[i].style = "background-color: {{site.data.team[0].scores[0].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[0].width}};margin-left: {{site.data.team[i].scores[0].border}}";
+            newBar[i].style = "background-color: {{site.data.team[0].scores[0].color}};border: #191981 2px solid;width: width_1[i];margin-left: {{% if i == 0 %}} 0 {{% elsif %}} width_1[i-1] {{% endif %}}";
         }
 
         var newBar = document.querySelectorAll('.sub_bar2') , i;
