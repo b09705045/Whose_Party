@@ -8,7 +8,8 @@ body {
 }
 h1{
 	color:#558855;
-	font-family: Georgia;
+    font-weight: 500;
+	font-family: 'cwTeXFangSong', serif;
 }
 #leaderboard{
 	position:relative;
