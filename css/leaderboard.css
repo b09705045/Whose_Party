@@ -3,6 +3,7 @@
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
+
 h1{
 	
 	color:#558855;
@@ -30,6 +31,9 @@ h1{
 	width:100%;
 	padding:10px;
 	border-radius:5px;
+	background: linear-gradient(to top,rgb(20,20,20) 0%, rgb(40,40,40) 100%);
+	border-bottom:1px solid #222;
+	border-top:1px solid #666;
 	opacity: 1;
 	transition: top cubic-bezier(1.000, -0.530, 0.405, 1.425) 3s;
 }
