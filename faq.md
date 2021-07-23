@@ -6,7 +6,7 @@ image: brook.jpg
 isStaticPost: true
 ---
 
-<p style="font-size: 1.2cm;font-weight: 600">關於2021 WHOSE Party</p>
+<p style="font-size: 1.2cm;font-weight: 600">關於<code>2021 WHOSE Party</code></p>
 <br>
 
 <p style="font-size: 0.6cm;font-weight: 300">關於疫情的規定(像是要全程戴著口罩嗎)？</p>
