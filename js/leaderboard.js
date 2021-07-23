@@ -128,8 +128,8 @@ Array.prototype.difference = Array.prototype.difference || function(ar,fn){
 (function(BFG){
 	var Leaderboard = function(o){
 		this.config = BFG.extend({
-			max:10,
-			interval:10,
+			max:8,
+			interval:8,
 			elemId:'leaderboard',
 			sort:'sort',
 			margin:0,
