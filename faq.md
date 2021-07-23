@@ -5,7 +5,7 @@ permalink: /faq/
 image: brook.jpg
 isStaticPost: true
 ---
-
+<br>
 <p style="font-size: 1cm;font-weight: 600">關於 <code>2021 WHOSE Party</code></p>
 <br>
 
