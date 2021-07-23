@@ -256,32 +256,3 @@ Array.prototype.difference = Array.prototype.difference || function(ar,fn){
 
 
 
-var test = new BFG.Leaderboard({
-	interval:4,
-	max:8,
-	margin:4,
-	display:function(item){
-		var 	content = document.createElement('div'),
-			a = content.appendChild(document.createElement('a')),
-			span = document.createElement('span');
-		a.innerHTML = item.title;
-		a.href = "#";
-		span.innerHTML = item.count;
-		a.appendChild(span);
-		return content;
-	},
-	sort:'count',
-	dataCallback:function(){
-		return [//simulates incoming data
-			{id:1,title:"第一家族",count:'site.data.team[0].score[0].point'},
-			{id:2,title:"第二家族",count:BFG.rnd(1,800)},
-			{id:3,title:"第三家族",count:BFG.rnd(1,800)},
-			{id:4,title:"第四家族",count:BFG.rnd(1,800)},
-			{id:5,title:"第五家族",count:BFG.rnd(1,800)},
-			{id:6,title:"第六家族",count:BFG.rnd(1,800)},
-			{id:7,title:"第七家族",count:BFG.rnd(1,800)},
-			{id:8,title:"第八家族",count:BFG.rnd(1,800)},
-		];
-	}
-});
-test.start();
