@@ -1,0 +1,85 @@
+*,*:before,*:after {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body {
+	background:#555;
+	text-shadow: 3px 3px 3px #222;
+}
+h1{
+	text-align:center;
+	color:#558855;
+	font-family: Georgia;
+}
+#leaderboard{
+	position:relative;
+	width:400px;
+	border:3px solid #000;
+	border-radius: 20px;
+	padding:10px;
+	background:#333;
+	left:50%;
+	margin-left:-200px;
+}
+#leaderboard ul{
+	position:relative;
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+#leaderboard ul li{
+	position:absolute;
+	display:block;
+	width:100%;
+	padding:10px;
+	border-radius:5px;
+	background: linear-gradient(to top,rgb(20,20,20) 0%, rgb(40,40,40) 100%);
+	border-bottom:1px solid #222;
+	border-top:1px solid #666;
+	box-shadow: 3px 3px 5px #000;
+	opacity: 1;
+	transition: top cubic-bezier(1.000, -0.530, 0.405, 1.425) 3s;
+}
+#leaderboard ul li a{
+	display: block;
+	text-decoration: none;
+	font-family:  sans-serif;
+	color:#FD9C20
+}
+#leaderboard ul li a:hover{
+	text-shadow: 0 0 10px rgb(230,230,255);
+}
+#leaderboard li span {
+	float:right;
+	color:red;
+	opacity: 1;
+	transition: opacity ease 3s;
+}
+#leaderboard li span:after {
+	content:' LIKES';
+	color:#999;
+	font-size:10px;
+}
+#leaderboard .move{
+
+}
+
+#leaderboard .replace{
+	animation: replace 2s;
+	-webkit-animation: replace 2s;
+}
+#leaderboard .move span,#leaderboard .replace span{
+	opacity:0;
+}
+
+@keyframes replace
+{
+	0% {left: -500px;opacity:0;}
+	100% {left: 0px;opacity:1;}
+}
+@-webkit-keyframes replace
+{
+	0% {left: -500px;opacity:0;}
+	100% {left: 0px;opacity:1;}
+}
