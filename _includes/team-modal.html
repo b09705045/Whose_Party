@@ -109,7 +109,7 @@
     <script>
         var newBar;
         newBar = document.querySelectorAll('.sub_bar1');
-        newBar.forEach(function(currentBar,i,newBar){
+        newBar.forEach(function(currentBar,i){
             currentBar.style = "background-color: {{site.data.team[i].scores[0].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[0].width}};margin-left: {{site.data.team[i].scores[0].border}}";
         })
         
