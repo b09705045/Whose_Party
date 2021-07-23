@@ -1,5 +1,5 @@
 <!-- Begin Team Modals -->
-<link href="{{ "/css/team_modal.css" | prepend: site.baseurl }}" rel="stylesheet"> 
+<link href="{{ "/css/team_modal.css" | prepend: site.baseurl }}" rel="stylesheet">
 <script type="text/javascript" src="/js/team_modal.js"></script>
 <div class="modals" class="modals">
     {% for teamMember in site.data.team %} {% if page.modal == "team" %}
@@ -18,13 +18,13 @@
                             <div class="col-md-2 col-sm-2">
                                 <div class="flow-img img-square people-img" style="background-image: url({{ site.baseurl | append: '/img/team/' | append: teamMember.thumbnailUrl }})">
                                 </div>
-                                <div style="text-align: center;" >                           
+                                <div style="text-align: center;" >
                                     <p style="font-size:0.6cm; color:#7c2222; font-family: 'cwTeXFangSong', serif;margin-left: 10px;">
                                     <b>{{teamMember.team}}</b></p>
                                 </div>
                             </div>
                             <div style="text-align: center" class="col-md-10 col-sm-10 ">
-                                
+
                                 <p style="font-size:1cm; color:#7c2222; font-weight: 800; font-family: 'cwTeXFangSong', serif;">
                                 <b>{{teamMember.clan}}</b></p>
                                 <br>
@@ -59,43 +59,13 @@
                             <div style="text-align: center" class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
                                 <p style="font-size:0.6cm; color:#7c2222; font-family: 'cwTeXFangSong', serif;">
                                 <b>-總積分-</b></p>
-                            </div> 
+                            </div>
                             <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
                                 <div class="score_bar"></div>
-                                {% for score in teamMember.scores %}
-                                    {% if score.id==1 %}
-                                    <div class="sub_bar1">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% elsif score.id==2 %}
-                                    <div class="sub_bar2">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% elsif score.id==3 %}
-                                    <div class="sub_bar3">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% elsif score.id==4 %}
-                                    <div class="sub_bar4">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% elsif score.id==5 %}
-                                    <div class="sub_bar5">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% elsif score.id==6 %}
-                                    <div class="sub_bar6">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% elsif score.id==7 %}
-                                    <div class="sub_bar7">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% elsif score.id==8 %}
-                                    <div class="sub_bar8">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% endif %}
+                                {% for baseScore in teamMember.scores %}
+                                    {% assign score = baseScore.point| divided_by: 100 %}
+                                    {% assign newWidth = score | times: 80 %}
+                                    <div class="sub_bar" style="color:{{baseScore.color}}; width:{{newWidth}}"></div>
                                 {% endfor %}
                                 <br><br><br>
                             </div>
@@ -107,7 +77,16 @@
     </div>
     {% endif %} {% endfor %}
     <script>
-        
+        var barWidth = new Array(8);
+        for(var i = 0; i < 8; i++){
+            barWidth[i] = new Array[7];
+        }
+        for(var i = 0; i < 8; i++){
+            for(var j = 0; j < 7; j++){
+                barWidth[i][j] = 0.8 * site.data.team[i].scores[j];
+            }
+        }
+
         var width_1=[site.data.team[0].scores[0].point/2,site.data.team[0].scores[1].point/2,site.data.team[0].scores[2].point/2,site.data.team[0].scores[3].point/2,site.data.team[0].scores[4].point/2,site.data.team[0].scores[5].point/2,site.data.team[0].scores[6].point/2,site.data.team[0].scores[7].point/2];
         var newBar = document.querySelectorAll('.sub_bar1') , i;
         for(i=0;i<8;i++){

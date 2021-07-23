@@ -16,6 +16,17 @@
     border: 2px #7c2222 solid;
     border-radius: 6px;
 }
+.sub_bar{
+    position: relative;
+    width: 50px;
+    height: 30px;
+    background: #222222;
+    border: 2px #43a348 solid;
+    border-radius: 0px;
+    z-index: 2;
+    margin-left: 0px;
+}
+
 .sub_bar1{
     position: absolute;
     width: 50px;
