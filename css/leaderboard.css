@@ -39,14 +39,14 @@
 	text-decoration: none;
     font-size: 0.8cm;;
 	font-family:  'cwTeXFangSong', serif;
-	color:#ffb3b3
+	color:#ffffff
 }
 #leaderboard ul li a:hover{
 	text-shadow: 0 0 10px rgb(230,230,255);
 }
 #leaderboard li span {
 	float:right;
-	color:#aaffd0;
+	color:#88d9ff;
 	opacity: 1;
 	transition: opacity ease 3s;
     font-family: 'Oswald', sans-serif;
