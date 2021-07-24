@@ -12,8 +12,7 @@
 	border-radius: 20px;
 	padding:10px;
 	background:#333;
-	left:40%;
-	margin-left:0px;
+	margin:auto;
 }
 #leaderboard ul{
 	position:relative;
