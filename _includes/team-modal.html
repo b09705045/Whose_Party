@@ -68,9 +68,12 @@
                                         {% assign score = baseScore.point | times: 80 %}
                                         {% assign newWidth = score | devided_by: 100 %}
                                             <div class="sub_bar" style="background-color: {{ color_list[forloop.index - 1] }}; width: {{ newWidth }}; border-radius: {% if forloop.index == 1 %} 20px 0px 0px 20px {% endif %}"></div>
+                                            <div>{{color_list[forloop.index]}} </div>
+                                            <div>{{score}}</div>
+                                            <div>{{newWidth}}</div>
                                     {% endif %}{% endfor %}
                                     <br>
-                                    {{newWidth}}
+
                                     <br>
                                     <br>
                                 </div>
