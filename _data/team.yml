@@ -34,9 +34,14 @@
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   scores:
-  - {id: 1, color: "#7c2222", point: "95", width: "47.5px", border: "0px"}
-  - {id: 2, color: "#114514", point: "85", width: "42.5px", border: "47.5px"}
-  - {id: 3, color: "#7c2345", point: "90", width: "45px", border: "90px"}
+    - {id: 1, point: "100"}
+    - {id: 2, point: "0"}
+    - {id: 3, point: "0"}
+    - {id: 4, point: "0"}
+    - {id: 5, point: "0"}
+    - {id: 6, point: "0"}
+    - {id: 7, point: "0"}
+    - {id: 8, point: "0"}
   thumbnailUrl: Gryffindor.png
   hasStart: false
   edited: false
