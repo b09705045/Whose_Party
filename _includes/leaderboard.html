@@ -256,33 +256,33 @@
             window.BFG = BFG;
         })(window.BFG || {});
 
-            var test = new BFG.Leaderboard({
-            interval:4,
-            max:8,
-            margin:4,
-            display:function(item){
-                var 	content = document.createElement('div'),
-                    a = content.appendChild(document.createElement('a')),
-                    span = document.createElement('span');
-                a.innerHTML = item.title;
-                a.href = "#";
-                span.innerHTML = item.count;
-                a.appendChild(span);
-                return content;
-            },
-            sort:'count',
-            dataCallback:function(){
-                return [//simulates incoming data
-                    {id:1,title:"第一家族",count:site.data.team[0].scores[0].point},
-                    {id:2,title:"第二家族",count:BFG.rnd(1,800)},
-                    {id:3,title:"第三家族",count:BFG.rnd(1,800)},
-                    {id:4,title:"第四家族",count:BFG.rnd(1,800)},
-                    {id:5,title:"第五家族",count:BFG.rnd(1,800)},
-                    {id:6,title:"第六家族",count:BFG.rnd(1,800)},
-                    {id:7,title:"第七家族",count:BFG.rnd(1,800)},
-                    {id:8,title:"第八家族",count:BFG.rnd(1,800)},
-                ];
-            }
+        var test = new BFG.Leaderboard({
+        interval:4,
+        max:8,
+        margin:4,
+        display:function(item){
+            var 	content = document.createElement('div'),
+                a = content.appendChild(document.createElement('a')),
+                span = document.createElement('span');
+            a.innerHTML = item.title;
+            a.href = "#";
+            span.innerHTML = item.count;
+            a.appendChild(span);
+            return content;
+        },
+        sort:'count',
+        dataCallback:function(){
+            return [//simulates incoming data
+                {id:1,title:"一見到你‧紫想要‧那個",count:site.data.team[0].scores[0].point},
+                {id:2,title:"肚子二‧普茲普茲‧布朗尼",count:BFG.rnd(1,800)},
+                {id:3,title:"黑芝麻‧三明治‧嘿咻嘿咻",count:BFG.rnd(1,800)},
+                {id:4,title:"四巴拉稀‧肛鐵人‧歐蘭吉",count:BFG.rnd(1,800)},
+                {id:5,title:"白吃白喝‧爽‧五敵鐵金剛",count:BFG.rnd(1,800)},
+                {id:6,title:"六到開‧瑪莎拉‧蒂芬妮綠",count:BFG.rnd(1,800)},
+                {id:7,title:"藍莓‧七泡水‧史戈史戈",count:BFG.rnd(1,800)},
+                {id:8,title:"扒了你‧領主大人‧灰生氣",count:BFG.rnd(1,800)},
+            ];
+        }
         });
         test.start();
     </script>
