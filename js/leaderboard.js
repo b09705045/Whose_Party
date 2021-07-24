@@ -258,9 +258,9 @@ interval:4,
 max:8,
 margin:4,
 display:function(item){
-    var 	content = document.createElement('div'),
-        a = content.appendChild(document.createElement('a')),
-        span = document.createElement('span');
+    var content = document.createElement('div'),
+    a = content.appendChild(document.createElement('a')),
+    span = document.createElement('span');
     a.innerHTML = item.title;
     a.href = "#";
     span.innerHTML = item.count;
