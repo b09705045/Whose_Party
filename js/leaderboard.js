@@ -271,7 +271,7 @@
             sort:'count',
             dataCallback:function(){
                 return [//simulates incoming data
-                    {id:1,title:"第一家族",count:BFG.rnd(1,800)},
+                    {id:1,title:"第一家族",count:800},
                     {id:2,title:"第二家族",count:BFG.rnd(1,800)},
                     {id:3,title:"第三家族",count:BFG.rnd(1,800)},
                     {id:4,title:"第四家族",count:BFG.rnd(1,800)},
