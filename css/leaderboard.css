@@ -46,7 +46,7 @@
 }
 #leaderboard li span {
 	float:right;
-	color:#88d9ff;
+	color:#00aeff;
 	opacity: 1;
 	transition: opacity ease 3s;
     font-family: 'Oswald', sans-serif;
