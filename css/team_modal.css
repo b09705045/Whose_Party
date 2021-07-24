@@ -17,7 +17,11 @@
     border-radius: 6px;
 }
 .sub_bar{
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
     width: 50px;
     height: 30px;
     background-color: #222222;
@@ -36,74 +40,4 @@
     border-radius: 0px;
     z-index: 2;
     margin-left: 0px;
-}
-.sub_bar2{
-    position: absolute;
-    width: 50px;
-    height: 30px;
-    background: #222222;
-    border: 2px #43a348 solid;
-    border-radius: 0px;
-    z-index: 2;
-    margin-left: 100px;
-}
-.sub_bar3{
-    position: absolute;
-    width: 50px;
-    height: 30px;
-    background: #222222;
-    border: 2px #43a348 solid;
-    border-radius: 0px;
-    z-index: 2;
-    margin-left: 200px;
-}
-.sub_bar4{
-    position: absolute;
-    width: 50px;
-    height: 30px;
-    background: #222222;
-    border: 2px #43a348 solid;
-    border-radius: 0px;
-    z-index: 2;
-    margin-left: 300px;
-}
-.sub_bar5{
-    position: absolute;
-    width: 50px;
-    height: 30px;
-    background: #222222;
-    border: 2px #43a348 solid;
-    border-radius: 0px;
-    z-index: 2;
-    margin-left: 400px;
-}
-.sub_bar6{
-    position: absolute;
-    width: 50px;
-    height: 30px;
-    background: #222222;
-    border: 2px #43a348 solid;
-    border-radius: 0px;
-    z-index: 2;
-    margin-left: 500px;
-}
-.sub_bar7{
-    position: absolute;
-    width: 50px;
-    height: 30px;
-    background: #222222;
-    border: 2px #43a348 solid;
-    border-radius: 0px;
-    z-index: 2;
-    margin-left: 600px;
-}
-.sub_bar8{
-    position: absolute;
-    width: 50px;
-    height: 30px;
-    background: #222222;
-    border: 2px #43a348 solid;
-    border-radius: 0px;
-    z-index: 2;
-    margin-left: 700px;
 }
