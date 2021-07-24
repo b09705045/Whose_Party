@@ -61,13 +61,14 @@
                                 <b>-總積分-</b></p>
                             </div>
                             <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                <div class="score_bar flex"></div>
+                                <div class="score_bar flex">
                                 {% for baseScore in teamMember.scores %}{% if baseScore != 0 %}
-                                    {% assign color_list = "#7c2222, #114514, #7c2345, #7c2222, #114514, #7c2345, #7c2222, #114514" |split: ", " %}
-                                    {% assign score = baseScore.point| times: 80 %}
+                                    {% assign color_list = "#7c2222, #114514, #7c2345, #7c2222, #114514, #7c2345, #7c2222, #114514" | split: ", " %}
+                                    {% assign score = baseScore.point | times: 80 %}
                                     {% assign newWidth = score | devided_by: 100 %}
                                     <div class="sub_bar" style="background-color: {{ color_list[forloop.index - 1] }}; width: {{ newWidth }}; margin-left: {% if forloop.index != 1 %}{{ baseScore.point[forloop.index - 1] }}{% endif %}; border-radius: {% if forloop.index == 1 %} 6px 0px 0px 6px {% endif %}"></div>
                                 {% endif %}{% endfor %}
+                                </div>
                             </div>
                         </div>
                     </div>
