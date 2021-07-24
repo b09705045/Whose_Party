@@ -65,7 +65,7 @@
                                 {% for baseScore in teamMember.scores %}{% if baseScore != 0 %}
                                     {% assign score = baseScore.point| times: 80 %}
                                     {% assign newWidth = score | devided_by: 100 %}
-                                    <div class="sub_bar" style="color: {{baseScore.color}}; width: {{newWidth}}; margin-left: {{baseScore.point[forloop.index - 1]}} "></div>
+                                    <div class="sub_bar" style="background-color: {{baseScore.color}}; width: {{newWidth}}; margin-left: {{baseScore.point[forloop.index - 1]}} "></div>
                                 {% endif %}{% endfor %}
                             </div>
                         </div>

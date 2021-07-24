@@ -2,7 +2,7 @@
     position: absolute;
     width: 560px;
     height: 30px;
-    background: #ffffff;
+    background-color: #ffffff;
     border: 2px #7c2222 solid;
     border-radius: 6px;
     z-index: 1;
@@ -20,7 +20,7 @@
     position: relative;
     width: 50px;
     height: 30px;
-    background: #222222;
+    background-color: #222222;
     border: 2px #62b5d6 solid;
     border-radius: 6px;
     z-index: 2;
