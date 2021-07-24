@@ -1,5 +1,5 @@
 <!-- Begin Team Modals -->
-<link href="{{ "/css/team_modal.css" | prepend: site.baseurl }}" rel="stylesheet"> 
+<link href="../css/team_modal.css" rel="stylesheet">
 <script type="text/javascript" src="/js/team_modal.js"></script>
 <div class="modals" class="modals">
     {% for teamMember in site.data.team %} {% if page.modal == "team" %}
@@ -18,13 +18,13 @@
                             <div class="col-md-2 col-sm-2">
                                 <div class="flow-img img-square people-img" style="background-image: url({{ site.baseurl | append: '/img/team/' | append: teamMember.thumbnailUrl }})">
                                 </div>
-                                <div style="text-align: center;" >                           
+                                <div style="text-align: center;" >
                                     <p style="font-size:0.6cm; color:#7c2222; font-family: 'cwTeXFangSong', serif;margin-left: 10px;">
                                     <b>{{teamMember.team}}</b></p>
                                 </div>
                             </div>
                             <div style="text-align: center" class="col-md-10 col-sm-10 ">
-                                
+
                                 <p style="font-size:1cm; color:#7c2222; font-weight: 800; font-family: 'cwTeXFangSong', serif;">
                                 <b>{{teamMember.clan}}</b></p>
                                 <br>
@@ -59,45 +59,20 @@
                             <div style="text-align: center" class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
                                 <p style="font-size:0.6cm; color:#7c2222; font-family: 'cwTeXFangSong', serif;">
                                 <b>-總積分-</b></p>
-                            </div> 
+                            </div>
                             <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                <div class="score_bar"></div>
-                                {% for score in teamMember.scores %}
-                                    {% if score.id==1 %}
-                                    <div class="sub_bar1">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% elsif score.id==2 %}
-                                    <div class="sub_bar2">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% elsif score.id==3 %}
-                                    <div class="sub_bar3">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% elsif score.id==4 %}
-                                    <div class="sub_bar4">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% elsif score.id==5 %}
-                                    <div class="sub_bar5">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% elsif score.id==6 %}
-                                    <div class="sub_bar6">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% elsif score.id==7 %}
-                                    <div class="sub_bar7">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% elsif score.id==8 %}
-                                    <div class="sub_bar8">
-                                        <p style="text-align: right;color: #ffffff;font-weight: 600;">{{score.point}}</p>
-                                    </div>
-                                    {% endif %}
-                                {% endfor %}
-                                <br><br><br>
+                                <div class="flex">
+
+                                    {% for baseScore in teamMember.scores %}{% if baseScore != 0 %}
+                                        {% assign color_list = "#7c2222, #114514, #7c2345, #7c2222, #114514, #7c2345, #7c2222, #114514" | split: ", " %}
+                                        {% assign score = baseScore.point | times: 80 %}
+                                        {% assign newWidth = score | devided_by: 100 %}
+                                            <div class="sub_bar" style="background-color: {{ color_list[forloop.index - 1] }}; width: {{ newWidth }}; border-radius: {% if forloop.index == 1 %} 6px 0px 0px 6px {% endif %}"></div>
+                                    {% endif %}{% endfor %}
+                                    <br>
+                                    <br>
+                                    <br>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -106,48 +81,5 @@
         </div>
     </div>
     {% endif %} {% endfor %}
-    <script>
-        
-        var width_1=[site.data.team[0].scores[0].point/2,site.data.team[0].scores[1].point/2,site.data.team[0].scores[2].point/2,site.data.team[0].scores[3].point/2,site.data.team[0].scores[4].point/2,site.data.team[0].scores[5].point/2,site.data.team[0].scores[6].point/2,site.data.team[0].scores[7].point/2];
-        var newBar = document.querySelectorAll('.sub_bar1') , i;
-        for(i=0;i<8;i++){
-            newBar[i].style = "background-color: {{site.data.team[0].scores[0].color}};border: #191981 2px solid;width: 'width_1[i]' + px;margin-left: {{% if i == 0 %}} 0 {{% elsif %}} width_1[i-1] {{% endif %}}";
-        }
-
-        var newBar = document.querySelectorAll('.sub_bar2') , i;
-        for(i=0;i<8;i++){
-            newBar[i].style = "background-color: {{site.data.team[0].scores[1].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[0].width}};margin-left: {{site.data.team[i].scores[0].border}}";
-        }
-
-        var newBar = document.querySelectorAll('.sub_bar3') , i;
-        for(i=0;i<8;i++){
-            newBar[i].style = "background-color: {{site.data.team[0].scores[2].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[0].width}};margin-left: {{site.data.team[i].scores[0].border}}";
-        }
-
-        var newBar = document.querySelectorAll('.sub_bar4') , i;
-        for(i=0;i<8;i++){
-            newBar[i].style = "background-color: {{site.data.team[0].scores[3].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[0].width}};margin-left: {{site.data.team[i].scores[0].border}}";
-        }
-
-        var newBar = document.querySelectorAll('.sub_bar5') , i;
-        for(i=0;i<8;i++){
-            newBar[i].style = "background-color: {{site.data.team[0].scores[4].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[0].width}};margin-left: {{site.data.team[i].scores[0].border}}";
-        }
-
-        var newBar = document.querySelectorAll('.sub_bar6') , i;
-        for(i=0;i<8;i++){
-            newBar[i].style = "background-color: {{site.data.team[0].scores[5].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[0].width}};margin-left: {{site.data.team[i].scores[0].border}}";
-        }
-
-        var newBar = document.querySelectorAll('.sub_bar7') , i;
-        for(i=0;i<8;i++){
-            newBar[i].style = "background-color: {{site.data.team[0].scores[6].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[0].width}};margin-left: {{site.data.team[i].scores[0].border}}";
-        }
-
-        var newBar = document.querySelectorAll('.sub_bar8') , i;
-        for(i=0;i<8;i++){
-            newBar[i].style = "background-color: {{site.data.team[0].scores[7].color}};border: #191981 2px solid;width: {{site.data.team[i].scores[0].width}};margin-left: {{site.data.team[i].scores[0].border}}";
-        }
-    </script>
 </div>
 <!-- End Team Modals -->
