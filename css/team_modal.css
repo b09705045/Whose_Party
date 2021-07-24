@@ -7,6 +7,13 @@
     border-radius: 6px;
     z-index: 1;
 }
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: nowrap;
+}
 .img-square{border-radius: 0px}hr{margin-top:0px;margin-bottom:0px;border:0;border-top:1px solid #eee}.sr-only
 {position:absolute;width:1px;height:1px;margin:0px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}
 .team_bar{
@@ -17,16 +24,11 @@
     border-radius: 6px;
 }
 .sub_bar{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-wrap: nowrap;
     width: 50px;
     height: 30px;
     background-color: #222222;
     border: 2px #62b5d6 solid;
-    border-radius: 6px;
+    border-radius: 0px 0px 0px 0px;
     z-index: 2;
     margin-left: 0px;
 }
