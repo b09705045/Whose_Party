@@ -2,8 +2,8 @@
 //Helper and common functions
 (function(BFG){
     BFG.extend = function(obj){
-        var 	key,
-            args = Array.prototype.slice.call(arguments,1);
+        var key,
+        args = Array.prototype.slice.call(arguments,1);
         args.forEach(function(value,index,array){
             for (key in value){
                 if (value.hasOwnProperty(key)){
