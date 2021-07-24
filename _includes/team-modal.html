@@ -1,5 +1,5 @@
 <!-- Begin Team Modals -->
-<link href="{{ "/css/team_modal.css" | prepend: site.baseurl }}" rel="stylesheet">
+<link href="../css/team_modal.css" rel="stylesheet">
 <script type="text/javascript" src="/js/team_modal.js"></script>
 <div class="modals" class="modals">
     {% for teamMember in site.data.team %} {% if page.modal == "team" %}
@@ -65,9 +65,8 @@
                                 {% for baseScore in teamMember.scores %}
                                     {% assign score = baseScore.point| divided_by: 100 %}
                                     {% assign newWidth = score | times: 80 %}
-                                    <div class="sub_bar" style="color:{{baseScore.color}}; width:{{newWidth}}"></div>
+                                    <div class="sub_bar" style="color: {{baseScore.color}}; width: {{newWidth}}; margin-left: {{baseScore.point[{{forloop.index - 1}}]}} "></div>
                                 {% endfor %}
-                                <br><br><br>
                             </div>
                         </div>
                     </div>
