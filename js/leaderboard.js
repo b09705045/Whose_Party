@@ -1,5 +1,10 @@
 "use strict";
 //Helper and common functions
+$.getScript("/js/tinyliquid.min.js", function(){
+
+    alert("Script loaded.");
+ 
+});
 (function(BFG){
     BFG.extend = function(obj){
         var key,
