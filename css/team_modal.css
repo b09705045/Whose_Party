@@ -3,8 +3,12 @@
     width: 560px;
     height: 30px;
     background-color: #ffffff;
+    /*
     outline-color: #7c2222;
     outline-style: solid;
+    */
+    border-color: #7c2222;
+    border-style: solid;
     border-radius: 10px;
     z-index: 1;
 }
@@ -28,7 +32,7 @@
 .sub_bar{
     width: 50px;
     height: 30px;
-    background-color: #68b8d2;
+    background-color: #cb7ad6;
     border-radius: 0px 0px 0px 0px;
     z-index: 2;
     margin: 0% auto;
