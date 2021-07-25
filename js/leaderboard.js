@@ -4,7 +4,9 @@ $.getScript("/js/tinyliquid.min.js", function(){
     alert("Script loaded.");
  
 });
+var tinyliquid = require('tinyliquid');
 
+var tempPoint=tinyliquid.compile("{{site.data.team[0].scores[0].point}}");
 
 (function(BFG){
     BFG.extend = function(obj){
