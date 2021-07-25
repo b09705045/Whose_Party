@@ -1,7 +1,7 @@
 -
   id: 1
   team: "一小"
-  clan: "第一家族"
+  clan: "一見到你‧紫想要‧那個"
   title:
     - {id: 1, name: "稱號一", offset: true}
     - {id: 2, name: "稱號二"}
@@ -27,7 +27,7 @@
 -
   id: 2
   team: "二小"
-  clan: "第二家族"
+  clan: "肚子二．普茲普茲．布朗尼"
   title:
     - {id: 1, name: "稱號一", offset: true}
     - {id: 2, name: "稱號二"}
@@ -48,7 +48,7 @@
 -
   id: 3
   team: "三小"
-  clan: "第三家族"
+  clan: "黑芝麻．三明治．嘿咻嘿咻"
   title:
   - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
@@ -69,7 +69,7 @@
 -
   id: 4
   team: "四小"
-  clan: "第四家族"
+  clan: "四巴拉稀．肛鐵人．歐蘭吉"
   title:
   - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
@@ -90,7 +90,7 @@
 -
   id: 5
   team: "五小"
-  clan: "第五家族"
+  clan: "白吃白喝．爽．五敵鐵金剛"
   title:
   - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
@@ -111,7 +111,7 @@
 -
   id: 6
   team: "六小"
-  clan: "第六家族"
+  clan: "六到開．瑪莎拉．蒂芬妮綠"
   title:
   - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
@@ -132,7 +132,7 @@
 -
   id: 7
   team: "七小"
-  clan: "第七家族"
+  clan: "藍莓．七泡冰．史戈史戈"
   title:
   - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
@@ -152,7 +152,7 @@
 -
   id: 8
   team: "八小"
-  clan: "第八家族"
+  clan: "扒了你．領主大人．灰生氣"
   title:
   - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
