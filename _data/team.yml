@@ -3,22 +3,22 @@
   team: "一小"
   clan: "第一家族"
   title:
-  - {id: 1, name: "稱號一", offset: true}
-  - {id: 2, name: "稱號二"}
-  - {id: 3, name: "稱號三"}
-  - {id: 4, name: "稱號四"}
-  - {id: 5, name: "稱號五"}
-  - {id: 6, name: "稱號六", offset: true}
-  - {id: 7, name: "稱號七"}
-  - {id: 8, name: "稱號八"}
+    - {id: 1, name: "稱號一", offset: true}
+    - {id: 2, name: "稱號二"}
+    - {id: 3, name: "稱號三"}
+    - {id: 4, name: "稱號四"}
+    - {id: 5, name: "稱號五"}
+    - {id: 6, name: "稱號六", offset: true}
+    - {id: 7, name: "稱號七"}
+    - {id: 8, name: "稱號八"}
   scores:
-    - {id: 1, point: "100"}
-    - {id: 2, point: "80"}
-    - {id: 3, point: "75"}
-    - {id: 4, point: "100"}
-    - {id: 5, point: "80"}
-    - {id: 6, point: "75"}
-    - {id: 7, point: "100"}
+    - {id: 1, point: "100", color: "#7c2222"}
+    - {id: 2, point: "80", color: "#114514"}
+    - {id: 3, point: "75", color: "#7c2345"}
+    - {id: 4, point: "100", color: "#7c2222"}
+    - {id: 5, point: "80", color: "#114514"}
+    - {id: 6, point: "75", color: "#7c2345"}
+    - {id: 7, point: "100", color: "#7c2222"}
   thumbnailUrl: Gryffindor.png
   hasStart: true
   edited: false
@@ -29,9 +29,9 @@
   team: "二小"
   clan: "第二家族"
   title:
-  - {id: 1, name: "稱號一", offset: true}
-  - {id: 2, name: "稱號二"}
-  - {id: 3, name: "稱號三"}
+    - {id: 1, name: "稱號一", offset: true}
+    - {id: 2, name: "稱號二"}
+    - {id: 3, name: "稱號三"}
   scores:
     - {id: 1, point: "100"}
     - {id: 2, point: "0"}
