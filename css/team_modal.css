@@ -8,10 +8,11 @@
     outline-style: solid;
 
     border-color: #7c2222;
-    */
+
     border-style: solid;
+    */
     border-radius: 10px;
-    box-shadow: 0px 0px 0px 1px #4ebc4a;
+    box-shadow: 0px 0px 0px 1px #4aafbc;
     z-index: 1;
 }
 .flex{
@@ -37,7 +38,6 @@
     background-color: #cb7ad6;
     border-radius: 0px 0px 0px 0px;
     z-index: 2;
-    margin: 0% auto;
 }
 
 .sub_bar1{
