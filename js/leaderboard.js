@@ -258,7 +258,9 @@ Array.prototype.difference = Array.prototype.difference || function(ar,fn){
     window.BFG = BFG;
 })(window.BFG || {});
 
+var tinyliquid = require('tinyliquid');
 
+var tempPoint=tinyliquid.compile("{{site.data.team[0].scores[0].point}}");
 
 var test = new BFG.Leaderboard({
 interval:4,
