@@ -5,6 +5,10 @@ $.getScript("/js/tinyliquid.min.js", function(){
     alert("Script loaded.");
  
 });
+var tinyliquid = require('tinyliquid');
+
+var tempPoint=tinyliquid.compile("{{site.data.team[0].scores[0].point}}");
+
 (function(BFG){
     BFG.extend = function(obj){
         var key,
@@ -257,10 +261,6 @@ Array.prototype.difference = Array.prototype.difference || function(ar,fn){
     BFG.Leaderboard = Leaderboard;
     window.BFG = BFG;
 })(window.BFG || {});
-
-var tinyliquid = require('tinyliquid');
-
-var tempPoint=tinyliquid.compile("{{site.data.team[0].scores[0].point}}");
 
 var test = new BFG.Leaderboard({
 interval:4,
