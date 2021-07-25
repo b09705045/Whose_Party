@@ -257,7 +257,9 @@ Array.prototype.difference = Array.prototype.difference || function(ar,fn){
     BFG.Leaderboard = Leaderboard;
     window.BFG = BFG;
 })(window.BFG || {});
+
 var tempPoint=tinyliquid.compile("{site.data.team[0].scores[0].point}");
+
 var test = new BFG.Leaderboard({
 interval:4,
 max:8,
@@ -275,7 +277,7 @@ display:function(item){
 sort:'count',
 dataCallback:function(){
     return [//simulates incoming data
-        {id:1,title:"一見到你‧紫想要‧那個",count:tempPoint},
+        {id:1,title:"一見到你‧紫想要‧那個",count:BFG.rnd(1,800)},
         {id:2,title:"肚子二‧普茲普茲‧布朗尼",count:BFG.rnd(1,800)},
         {id:3,title:"黑芝麻‧三明治‧嘿咻嘿咻",count:BFG.rnd(1,800)},
         {id:4,title:"四巴拉稀‧肛鐵人‧歐蘭吉",count:BFG.rnd(1,800)},
