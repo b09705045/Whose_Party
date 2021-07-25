@@ -257,7 +257,7 @@ Array.prototype.difference = Array.prototype.difference || function(ar,fn){
     BFG.Leaderboard = Leaderboard;
     window.BFG = BFG;
 })(window.BFG || {});
-var tempPoint=tinyliquid.compile("{{site.data.team[0].scores[0].point}}");
+var tempPoint=tinyliquid.compile("{site.data.team[0].scores[0].point}");
 var test = new BFG.Leaderboard({
 interval:4,
 max:8,
