@@ -1,4 +1,3 @@
-"use strict";
 //Helper and common functions
 $.getScript("/js/tinyliquid.min.js", function(){
 
