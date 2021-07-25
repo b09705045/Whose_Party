@@ -1,6 +1,6 @@
 .score_bar{
     position: absolute;
-    width: 91%;
+    width: 98%;
     height: 30px;
     background-color: #ffffff;
     /*
@@ -42,7 +42,7 @@
     border-radius: 6px;
 }
 .sub_bar{
-    width: 13%;
+    width: 14%;
     height: 30px;
     background-color: #ffffff;
     border-radius: 0px 0px 0px 0px;
