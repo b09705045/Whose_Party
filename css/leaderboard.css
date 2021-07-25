@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
-.flex{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-wrap: nowrap;
-}
 *,*:before,*:after {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
