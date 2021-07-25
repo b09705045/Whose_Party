@@ -1,6 +1,6 @@
 .score_bar{
     position: absolute;
-    width: 560px;
+    width: 91%;
     height: 30px;
     background-color: #ffffff;
     /*
@@ -23,6 +23,15 @@
     align-items: stretch;
     flex-wrap: nowrap;
 }
+.total_score{
+    position: absolute;
+    width: 9%;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    color: black;
+}
+
 .img-square{border-radius: 0px}hr{margin-top:0px;margin-bottom:0px;border:0;border-top:1px solid #eee}.sr-only
 {position:absolute;width:1px;height:1px;margin:0px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}
 .team_bar{
@@ -33,9 +42,9 @@
     border-radius: 6px;
 }
 .sub_bar{
-    width: 50px;
+    width: 13%;
     height: 30px;
-    background-color: #cb7ad6;
+    background-color: #ffffff;
     border-radius: 0px 0px 0px 0px;
     z-index: 2;
 }
