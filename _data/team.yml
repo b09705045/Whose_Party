@@ -1,4 +1,6 @@
 -
+  showScore: false
+-
   id: 1
   team: "一小"
   clan: "第一家族"
@@ -19,7 +21,6 @@
     - {id: 5, point: "80"}
     - {id: 6, point: "75"}
     - {id: 7, point: "100"}
-    - {id: 8, point: "80"}
   thumbnailUrl: Gryffindor.png
   hasStart: true
   edited: false
@@ -41,7 +42,6 @@
     - {id: 5, point: "0"}
     - {id: 6, point: "0"}
     - {id: 7, point: "0"}
-    - {id: 8, point: "0"}
   thumbnailUrl: Gryffindor.png
   hasStart: false
   edited: false
@@ -56,9 +56,13 @@
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   scores:
-  - {id: 1, color: "#7c2222", point: "100", width: "50px", border: "0px"}
-  - {id: 2, color: "#114514", point: "80", width: "40px", border: "50px"}
-  - {id: 3, color: "#7c2345", point: "75", width: "37.5px", border: "90px"}
+    - {id: 1, point: "100"}
+    - {id: 2, point: "100"}
+    - {id: 3, point: "100"}
+    - {id: 4, point: "100"}
+    - {id: 5, point: "100"}
+    - {id: 6, point: "100"}
+    - {id: 7, point: "100"}
   thumbnailUrl: Gryffindor.png
   hasStart: false
   edited: false
@@ -73,9 +77,13 @@
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   scores:
-  - {id: 1, color: "#7c2222", point: "100", width: "50px", border: "0px"}
-  - {id: 2, color: "#114514", point: "80", width: "40px", border: "50px"}
-  - {id: 3, color: "#7c2345", point: "75", width: "37.5px", border: "90px"}
+  - {id: 1, point: "100"}
+  - {id: 2, point: "100"}
+  - {id: 3, point: "100"}
+  - {id: 4, point: "100"}
+  - {id: 5, point: "100"}
+  - {id: 6, point: "100"}
+  - {id: 7, point: "100"}
   thumbnailUrl: Gryffindor.png
   hasStart: false
   edited: false
@@ -90,9 +98,13 @@
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   scores:
-  - {id: 1, color: "#7c2222", point: "100", width: "50px", border: "0px"}
-  - {id: 2, color: "#114514", point: "80", width: "40px", border: "50px"}
-  - {id: 3, color: "#7c2345", point: "75", width: "37.5px", border: "90px"}
+  - {id: 1, point: "100"}
+  - {id: 2, point: "100"}
+  - {id: 3, point: "100"}
+  - {id: 4, point: "100"}
+  - {id: 5, point: "100"}
+  - {id: 6, point: "100"}
+  - {id: 7, point: "100"}
   thumbnailUrl: Gryffindor.png
   hasStart: true
   edited: false
@@ -107,9 +119,13 @@
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   scores:
-  - {id: 1, color: "#7c2222", point: "100", width: "50px", border: "0px"}
-  - {id: 2, color: "#114514", point: "80", width: "40px", border: "50px"}
-  - {id: 3, color: "#7c2345", point: "75", width: "37.5px", border: "90px"}
+  - {id: 1, point: "100"}
+  - {id: 2, point: "100"}
+  - {id: 3, point: "100"}
+  - {id: 4, point: "100"}
+  - {id: 5, point: "100"}
+  - {id: 6, point: "100"}
+  - {id: 7, point: "100"}
   thumbnailUrl: Gryffindor.png
   hasStart: false
   edited: false
@@ -124,9 +140,13 @@
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   scores:
-  - {id: 1, color: "#7c2222", point: "100", width: "50px", border: "0px"}
-  - {id: 2, color: "#114514", point: "80", width: "40px", border: "50px"}
-  - {id: 3, color: "#7c2345", point: "75", width: "37.5px", border: "90px"}
+  - {id: 1, point: "100"}
+  - {id: 2, point: "100"}
+  - {id: 3, point: "100"}
+  - {id: 4, point: "100"}
+  - {id: 5, point: "100"}
+  - {id: 6, point: "100"}
+  - {id: 7, point: "100"}
   thumbnailUrl: Gryffindor.png
   edited: false
   family: true
@@ -140,9 +160,13 @@
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   scores:
-  - {id: 1, color: "#7c2222", point: "50", width: "25px", border: "0px"}
-  - {id: 2, color: "#114514", point: "60", width: "30px", border: "25px"}
-  - {id: 3, color: "#7c2345", point: "90", width: "45px", border: "55px"}
+  - {id: 1, point: "100"}
+  - {id: 2, point: "100"}
+  - {id: 3, point: "100"}
+  - {id: 4, point: "100"}
+  - {id: 5, point: "100"}
+  - {id: 6, point: "100"}
+  - {id: 7, point: "100"}
   thumbnailUrl: Gryffindor.png
   edited: false
   family: true
