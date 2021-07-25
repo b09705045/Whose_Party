@@ -69,6 +69,7 @@
                                                 {%- assign newWidth = score | divided_by: 100 -%}
                                                 <div class="sub_bar" style="background-color: #{{ color_list[forloop.index - 1] }}; width: {{ newWidth }}px; border-radius: {% if forloop.index == 1 %} 10px 0px 0px 10px {% endif %}"></div>
                                             {%- endif -%}
+                                            {{color_list[forloop.index - 1]}}
                                         {%- endfor -%}
                                     <br>
                                     <br>
