@@ -62,16 +62,15 @@
                             </div>
                             <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
                                 <div class="score_bar flex">
-                                    {% if site.data.team.showScore %}
-                                    {% for baseScore in teamMember.scores %}
-                                        {% assign color_list = "7c2222, 114514, 7c2345, 7c2222, 114514, 7c2345, 7c2222, 114514, ffffff" | split: ", " %}
-                                        {% assign score = baseScore.point | times: 80 %}
-                                        {% assign newWidth = score | divided_by: 100 %}
-                                        {% if score != 0 %}
-                                            <div class="sub_bar" style="background-color: #{{ color_list[forloop.index - 1] }}; width: {{ newWidth }}px; border-radius: {% if forloop.index == 1 %} 10px 0px 0px 10px {% endif %}"></div>
-                                        {% endif %}
-                                    {% endfor %}
-
+                                    {% if site.data.team.showScore == true %}
+                                        {% for baseScore in teamMember.scores %}
+                                            {% assign color_list = "7c2222, 114514, 7c2345, 7c2222, 114514, 7c2345, 7c2222, 114514" | split: ", " %}
+                                            {% assign score = baseScore.point | times: 80 %}
+                                            {% if score != 0 %}
+                                                {% assign newWidth = score | divided_by: 100 %}
+                                                <div class="sub_bar" style="background-color: #{{ color_list[forloop.index - 1] }}; width: {{ newWidth }}px; border-radius: {% if forloop.index == 1 %} 10px 0px 0px 10px {% endif %}"></div>
+                                            {% endif %}
+                                        {% endfor %}
                                     <br>
                                     <br>
                                     <br>
