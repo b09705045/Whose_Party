@@ -260,7 +260,7 @@ Array.prototype.difference = Array.prototype.difference || function(ar,fn){
 
 var tinyliquid = require('tinyliquid');
 
-var tempPoint=tinyliquid.compile("{site.data.team[0].scores[0].point}");
+var tempPoint=tinyliquid.compile("{{site.data.team[0].scores[0].point}}");
 
 var test = new BFG.Leaderboard({
 interval:4,
