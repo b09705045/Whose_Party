@@ -62,7 +62,6 @@
                             </div>
                             <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
                                 <div class="score_bar flex">
-                                    {% if site.data.team.showScore == true %}
                                         {% for baseScore in teamMember.scores %}
                                             {% assign color_list = "7c2222, 114514, 7c2345, 7c2222, 114514, 7c2345, 7c2222, 114514" | split: ", " %}
                                             {% assign score = baseScore.point | times: 80 %}
@@ -74,7 +73,6 @@
                                     <br>
                                     <br>
                                     <br>
-                                    {% endif %}
                                 </div>
                             </div>
                         </div>
