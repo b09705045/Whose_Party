@@ -1,6 +1,5 @@
 <!-- Begin Team Modals -->
 <link href="../css/team_modal.css" rel="stylesheet">
-<script type="text/javascript" src="/js/team_modal.js"></script>
 <div class="modals" class="modals">
     {% for teamMember in site.data.team %} {% if page.modal == "team" %}
     <div aria-hidden="true" aria-labelledby="teamDetailLabel-{{ teamMember.id }}" class="modal fade text-left people-modal" id="teamDetail-{{ teamMember.id }}" tabindex="-1" role="dialog">
