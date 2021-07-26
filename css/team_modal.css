@@ -51,21 +51,22 @@
     background-color: #ffffff;
     border-radius: 0px 0px 0px 0px;
     z-index: 2;
+    /*
     -webkit-transition: 10s ease-out;
     -moz-transition: 10s ease-out;
     -o-transition: 10s ease-out;
     transition: 10s ease-out;
     transition-duration: 10s;
     transition-delay: 5s;
+    */
+}
+.sub_bar:before{
+    content:"";
+    background: #fff;
+    animation: expandbar 3s ease;
 }
 
-.sub_bar1{
-    position: absolute;
-    width: 50px;
-    height: 30px;
-    background: #222222;
-    border: 2px #43a348 solid;
-    border-radius: 0px;
-    z-index: 2;
-    margin-left: 0px;
+@keyframes expandbar{
+    0% {width: 0;}
+    100% {width: 100%;}
 }
