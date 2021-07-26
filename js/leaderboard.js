@@ -1,4 +1,5 @@
 //Helper and common functions
+import tinyliquid from './tinyliquid';
 
 (function(BFG){
     BFG.extend = function(obj){
