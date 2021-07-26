@@ -8,17 +8,17 @@
     - {id: 3, name: "稱號三"}
     - {id: 4, name: "稱號四"}
     - {id: 5, name: "稱號五"}
-    - {id: 6, name: "稱號六", offset: true}
-    - {id: 7, name: "稱號七"}
-    - {id: 8, name: "稱號八"}
+    - {id: 6, name: "", offset: true}
+    - {id: 7, name: ""}
+    - {id: 8, name: ""}
   scores:
-    - {id: 1, point: "100", color: "#d45a5a"}
-    - {id: 2, point: "80", color: "#e9a64a"}
-    - {id: 3, point: "75", color: "#efd805"}
-    - {id: 4, point: "100", color: "#76ef05"}
-    - {id: 5, point: "80", color: "#05efd4"}
-    - {id: 6, point: "75", color: "#0566ef"}
-    - {id: 7, point: "100", color: "#d484f1"}
+    - {id: 1, point: "90", color: "#d45a5a"}
+    - {id: 2, point: "0", color: "#e9a64a"}
+    - {id: 3, point: "0", color: "#efd805"}
+    - {id: 4, point: "0", color: "#76ef05"}
+    - {id: 5, point: "0", color: "#05efd4"}
+    - {id: 6, point: "0", color: "#0566ef"}
+    - {id: 7, point: "0", color: "#d484f1"}
   thumbnailUrl: Gryffindor.png
   hasStart: true
   edited: false
@@ -34,12 +34,12 @@
     - {id: 3, name: "稱號三"}
   scores:
     - {id: 1, point: "100", color: "#d45a5a"}
-    - {id: 2, point: "0", color: "#e9a64a"}
+    - {id: 2, point: "90", color: "#e9a64a"}
     - {id: 3, point: "0", color: "#efd805"}
-    - {id: 4, point: "100", color: "#76ef05"}
+    - {id: 4, point: "0", color: "#76ef05"}
     - {id: 5, point: "0", color: "#05efd4"}
     - {id: 6, point: "0", color: "#0566ef"}
-    - {id: 7, point: "100", color: "#d484f1"}
+    - {id: 7, point: "0", color: "#d484f1"}
   thumbnailUrl: Gryffindor.png
   hasStart: false
   edited: false
@@ -54,13 +54,13 @@
     - {id: 2, name: "稱號二"}
     - {id: 3, name: "稱號三"}
   scores:
-    - {id: 1, point: "10", color: "#d45a5a"}
-    - {id: 2, point: "10", color: "#e9a64a"}
-    - {id: 3, point: "10", color: "#efd805"}
-    - {id: 4, point: "10", color: "#76ef05"}
-    - {id: 5, point: "10", color: "#05efd4"}
-    - {id: 6, point: "10", color: "#0566ef"}
-    - {id: 7, point: "10", color: "#d484f1"}
+    - {id: 1, point: "100", color: "#d45a5a"}
+    - {id: 2, point: "100", color: "#e9a64a"}
+    - {id: 3, point: "90", color: "#efd805"}
+    - {id: 4, point: "0", color: "#76ef05"}
+    - {id: 5, point: "0", color: "#05efd4"}
+    - {id: 6, point: "0", color: "#0566ef"}
+    - {id: 7, point: "0", color: "#d484f1"}
   thumbnailUrl: Gryffindor.png
   hasStart: false
   edited: false
@@ -75,13 +75,13 @@
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   scores:
-  - {id: 1, point: "10", color: "#d45a5a"}
-  - {id: 2, point: "20", color: "#e9a64a"}
-  - {id: 3, point: "30", color: "#efd805"}
-  - {id: 4, point: "40", color: "#76ef05"}
-  - {id: 5, point: "50", color: "#05efd4"}
-  - {id: 6, point: "60", color: "#0566ef"}
-  - {id: 7, point: "70", color: "#d484f1"}
+  - {id: 1, point: "100", color: "#d45a5a"}
+  - {id: 2, point: "100", color: "#e9a64a"}
+  - {id: 3, point: "100", color: "#efd805"}
+  - {id: 4, point: "90", color: "#76ef05"}
+  - {id: 5, point: "0", color: "#05efd4"}
+  - {id: 6, point: "0", color: "#0566ef"}
+  - {id: 7, point: "0", color: "#d484f1"}
   thumbnailUrl: Gryffindor.png
   hasStart: false
   edited: false
@@ -96,13 +96,13 @@
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   scores:
-  - {id: 1, point: "70", color: "#d45a5a"}
-  - {id: 2, point: "60", color: "#e9a64a"}
-  - {id: 3, point: "50", color: "#efd805"}
-  - {id: 4, point: "40", color: "#76ef05"}
-  - {id: 5, point: "30", color: "#05efd4"}
-  - {id: 6, point: "20", color: "#0566ef"}
-  - {id: 7, point: "10", color: "#d484f1"}
+  - {id: 1, point: "100", color: "#d45a5a"}
+  - {id: 2, point: "100", color: "#e9a64a"}
+  - {id: 3, point: "100", color: "#efd805"}
+  - {id: 4, point: "100", color: "#76ef05"}
+  - {id: 5, point: "90", color: "#05efd4"}
+  - {id: 6, point: "0", color: "#0566ef"}
+  - {id: 7, point: "0", color: "#d484f1"}
   thumbnailUrl: Gryffindor.png
   hasStart: true
   edited: false
@@ -118,12 +118,12 @@
   - {id: 3, name: "稱號三"}
   scores:
   - {id: 1, point: "100", color: "#d45a5a"}
-  - {id: 2, point: "80", color: "#e9a64a"}
-  - {id: 3, point: "75", color: "#efd805"}
+  - {id: 2, point: "100", color: "#e9a64a"}
+  - {id: 3, point: "100", color: "#efd805"}
   - {id: 4, point: "100", color: "#76ef05"}
-  - {id: 5, point: "80", color: "#05efd4"}
-  - {id: 6, point: "75", color: "#0566ef"}
-  - {id: 7, point: "100", color: "#d484f1"}
+  - {id: 5, point: "100", color: "#05efd4"}
+  - {id: 6, point: "90", color: "#0566ef"}
+  - {id: 7, point: "0", color: "#d484f1"}
   thumbnailUrl: Gryffindor.png
   hasStart: false
   edited: false
@@ -138,13 +138,13 @@
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   scores:
-  - {id: 1, point: "0", color: "#d45a5a"}
-  - {id: 2, point: "0", color: "#e9a64a"}
-  - {id: 3, point: "0", color: "#efd805"}
-  - {id: 4, point: "0", color: "#76ef05"}
-  - {id: 5, point: "0", color: "#05efd4"}
-  - {id: 6, point: "0", color: "#0566ef"}
-  - {id: 7, point: "0", color: "#d484f1"}
+  - {id: 1, point: "100", color: "#d45a5a"}
+  - {id: 2, point: "100", color: "#e9a64a"}
+  - {id: 3, point: "100", color: "#efd805"}
+  - {id: 4, point: "100", color: "#76ef05"}
+  - {id: 5, point: "100", color: "#05efd4"}
+  - {id: 6, point: "100", color: "#0566ef"}
+  - {id: 7, point: "90", color: "#d484f1"}
   thumbnailUrl: Gryffindor.png
   edited: false
   family: true
