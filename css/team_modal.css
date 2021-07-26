@@ -24,7 +24,9 @@
     flex-wrap: nowrap;
 }
 .total_score{
-    position: static;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     width: 100%;
     text-align: left;
     font-size: 30px;
