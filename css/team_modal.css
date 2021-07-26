@@ -32,6 +32,8 @@
     font-size: 30px;
     font-weight: 500;
     color: #7c2222;
+    border-style: solid;
+    border-color: black;
 }
 
 .img-square{border-radius: 0px}hr{margin-top:0px;margin-bottom:0px;border:0;border-top:1px solid #eee}.sr-only
@@ -49,10 +51,10 @@
     background-color: #ffffff;
     border-radius: 0px 0px 0px 0px;
     z-index: 2;
-    -webkit-transition: 0.4s ease-out;
-    -moz-transition: 0.4s ease-out;
-    -o-transition: 0.4s ease-out;
-    transition: 0.4s ease-out;
+    -webkit-transition: 10s ease-out;
+    -moz-transition: 10s ease-out;
+    -o-transition: 10s ease-out;
+    transition: 10s ease-out;
 }
 
 .sub_bar1{
