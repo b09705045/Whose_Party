@@ -60,10 +60,10 @@
     transition-delay: 5s;
     */
 }
-.sub_bar:before{
+.sub_bar::before{
     content:"";
     background: #fff;
-    animation: expandbar 3s ease;
+    animation: expandbar 10s ease;
 }
 
 @keyframes expandbar{
