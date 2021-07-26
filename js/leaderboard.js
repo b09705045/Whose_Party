@@ -1,5 +1,5 @@
 //Helper and common functions
-var tinyliquid=5;
+var tinyliquid=require('./tinyliquid.min');
 (function(BFG){
     BFG.extend = function(obj){
         var key,
