@@ -24,7 +24,7 @@
     flex-wrap: nowrap;
 }
 .total_score{
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     width: 100%;
@@ -49,6 +49,10 @@
     background-color: #ffffff;
     border-radius: 0px 0px 0px 0px;
     z-index: 2;
+    -webkit-transition: 0.4s ease-out;
+    -moz-transition: 0.4s ease-out;
+    -o-transition: 0.4s ease-out;
+    transition: 0.4s ease-out;
 }
 
 .sub_bar1{
