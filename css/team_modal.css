@@ -16,7 +16,7 @@
     z-index: 1;
 }
 .flex{
-    position: inherit;
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -46,6 +46,8 @@
     border-radius: 6px;
 }
 .sub_bar{
+    position: absolute;
+    display: flex;
     width: 14%;
     height: 30px;
     background-color: #ffffff;
@@ -61,6 +63,7 @@
     */
 }
 .sub_bar::before{
+    position: absolute;
     content:"";
     background: #fff;
     animation: expandbar 10s ease;
