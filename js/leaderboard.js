@@ -1,4 +1,4 @@
-// import tinyliquid from "./tinyliquid.min";
+import {tinyliquid} from "./tinyliquid.min";
 // var tempPoint=tinyliquid.compile("{{site.data.team.scores.point}}");
 //Helper and common functions
 
