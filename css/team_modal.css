@@ -55,6 +55,8 @@
     -moz-transition: 10s ease-out;
     -o-transition: 10s ease-out;
     transition: 10s ease-out;
+    transition-duration: 10s;
+    transition-delay: 5s;
 }
 
 .sub_bar1{
