@@ -1,6 +1,5 @@
 <!-- Begin Team Modals -->
 <link href="../css/team_modal.css" rel="stylesheet">
-<script type="text/javascript" src="/js/team_modal.js"></script>
 <div class="modals" class="modals">
     {% for teamMember in site.data.team %} {% if page.modal == "team" %}
     <div aria-hidden="true" aria-labelledby="teamDetailLabel-{{ teamMember.id }}" class="modal fade text-left people-modal" id="teamDetail-{{ teamMember.id }}" tabindex="-1" role="dialog">
@@ -38,7 +37,7 @@
                         </div>
                         <div class="row">
                             <div style="text-align: center" class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
-                                <p style="font-size:0.6cm; color:#7c2222; font-family: 'cwTeXFangSong', serif;">
+                                <p style="font-size:0.6cm; color:#7c2222; font-family: 'cwTeXFangSong', serif; margin-left: 10px;">
                                 <b>-擁有的頭銜-</b></p>
                             </div>
                             {% for titles in teamMember.title %}{% if titles.name != null %}
@@ -53,7 +52,7 @@
                                         <b><strong style="background: #5fff87">{{titles.name}}</strong></b></p>
                                 </div>
                                 {% endif %}
-                            {% endfor %}
+                            {% endif %}{% endfor %}
                         </div>
                         <div class="row">
                             <div style="text-align: center" class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
@@ -75,7 +74,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-offset-6 col-md-6 total_score">
-                                200
+                                400
                             </div>
                         </div>
                         <br>
