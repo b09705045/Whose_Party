@@ -52,7 +52,7 @@
     background-color: #ffffff;
     border-radius: 0px 0px 0px 0px;
     z-index: 2;
-    animation: expandbar 3s ease-out;
+    animation: expandbar 1s ease-out;
     /*
     -webkit-transition: 10s ease-out;
     -moz-transition: 10s ease-out;
