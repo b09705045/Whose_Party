@@ -66,9 +66,7 @@
                                             {% assign score = baseScore.point | times: 14.29 %}
                                             {% if score != 0 %}
                                                 {% assign newWidth = score | divided_by: 100 %}
-                                                <div class="sub_bar" style="background-color: {{ newColor }}; border-radius: {% if forloop.index == 1 %} 10px 0px 0px 10px {% elsif forloop.index == forloop.length %} 0px 10px 10px 0px {% endif %}">
-                                                    <div class="expand" style="width: {{ newWidth }}%"></div>
-                                                </div>
+                                                <div class="sub_bar" style="background-color: {{ newColor }}; width: {{ newWidth }}%; border-radius: {% if forloop.index == 1 %} 10px 0px 0px 10px {% elsif forloop.index == forloop.length %} 0px 10px 10px 0px {% endif %}"></div>
                                             {% endif %}
                                         {% endfor %}
                                 </div>
@@ -76,7 +74,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-offset-6 col-md-6 total_score">
-                                900
+                                100
                             </div>
                         </div>
                         <br>
