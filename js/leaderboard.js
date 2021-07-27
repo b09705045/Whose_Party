@@ -1,6 +1,5 @@
 //Helper and common functions
-var tinyliquid=require('tinyliquid');
-var tempPoint=tinyliquid.compile("{{site.data.team.scores.point}}")
+
 (function(BFG){
     BFG.extend = function(obj){
         var key,
