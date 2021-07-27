@@ -1,5 +1,3 @@
-import { setImmediate } from "timers/promises";
-import { tinyliquid } from "./tinyliquid.min";
 //Helper and common functions
 
 (function(BFG){
