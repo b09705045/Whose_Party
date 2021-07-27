@@ -28,6 +28,7 @@
         "zuul": "^1.6.4"
     },
     "dependencies": {
-        "setimmediate": "^1.0.5"
+        "setimmediate": "^1.0.5",
+        "uniq": "^1.0.1"
     }
 }
