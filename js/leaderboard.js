@@ -1,5 +1,8 @@
 //Helper and common functions
-
+$.get( '/_data/team.yml', function( text ) {
+    var obj = jsyaml.load( text );
+    console.log( obj );
+});
 (function(BFG){
     BFG.extend = function(obj){
         var key,
