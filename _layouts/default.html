@@ -7,6 +7,7 @@ layout: compress
 {% include head.html %}
 
 <body>
+    <script src="{{ "/js/tinyliquid.js" | prepend: site.baseurl }}"></script>
     <div class="preloader" id="preloader">
         <div id="status"></div>
     </div>
@@ -138,7 +139,6 @@ layout: compress
         {% endif %}
     </script>
     <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/tinyliquid.js" | prepend: site.baseurl }}"></script>
     {% if page.permalink == '/schedule/' %}
     <script type="text/javascript">
         $(document).ready(function () {
