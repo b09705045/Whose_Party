@@ -70,6 +70,7 @@
 }
 
 .expand{
+    width: 0%;
     animation: expandbar 1s linear;
 }
 
