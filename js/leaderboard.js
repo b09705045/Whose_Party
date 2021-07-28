@@ -1,6 +1,6 @@
 //Helper and common functions
 'use strict';
-var yaml = require('./lib/js-yaml.js');
+var yaml = require("{{./lib/js-yaml.js}}");
 module.exports = yaml;
 // const jsyaml = require('js-yaml');
 // $.get( '/data/team.yml', function( text ) {
