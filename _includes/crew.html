@@ -93,14 +93,6 @@
                                 <p class="ribbon full-title">{{ ribbon["title"] }}</p>
                             </li>
                             {% endfor %}
-                            {% for social in crewMember.social %}
-                            <a href="{{ social["link"] }}" target="_blank">
-                                <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 32 32">
-                                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites_1.svg#icon-{{ social["name"]
-                                        }}"></use>
-                                </svg>
-                            </a>
-                            {% endfor %}
                         </ul>
                         {% endif %}
                         <figcaption>
@@ -111,6 +103,14 @@
                             </div>
                         </figcaption>
                         <p class="bio">{{ crewMember.bio | strip_html | truncate: 72 }}</p>
+                        {% for social in crewMember.social %}
+                            <a href="{{ social["link"] }}" target="_blank">
+                                <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 32 32">
+                                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites_1.svg#icon-{{ social["name"]
+                                        }}"></use>
+                                </svg>
+                            </a>
+                        {% endfor %}
                     </figure>
                 </div>
             </div>
