@@ -1,2 +1,6 @@
 <div id="leaderboard"></div>
+<script src="js-yaml.min.js"></script>
+<script type="text/javascript">
+    var doc = jsyaml.load('greeting: hello\nname: world');
+</script>
 <script src="{{ "/js/require.js" | prepend: site.baseurl }}" data-main="{{ "/js/leaderboard.js" | prepend: site.baseurl }}"></script>
