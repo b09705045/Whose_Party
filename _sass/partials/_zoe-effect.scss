@@ -67,7 +67,7 @@ $figcaption-color: #3c4a50;
         position: absolute;
         bottom: 0;
         width: 100%;
-        height: 175px;
+        height: 50px;
         padding: 13px;
         z-index: 2;
         transition: $base-transition;
@@ -78,7 +78,7 @@ $figcaption-color: #3c4a50;
             transform: translateY(0);         
         }
         h2 {
-            font-size: 14px;
+            font-size: 16px;
             font-weight: $regular;
             margin: 0;
             word-spacing: -2px;
