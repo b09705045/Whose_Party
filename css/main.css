@@ -121,7 +121,7 @@ height: 100%;width: 100%;z-index: 9999999;}
     .zoe-effect:hover figcaption>a:nth-child(2){-webkit-transition-delay:.25s;transition-delay:.25s}
     .zoe-effect:hover .bio{-webkit-transform:translateY(-70%);-ms-transform:translateY(-70%);transform:translateY(-70%);opacity:1}
     .zoe-effect figure{overflow:hidden;width:100.3%;height:100%;-webkit-transition:all 0.3s;transition:all 0.3s;background-position:-30px;background-size:115%}
-    .zoe-effect figure .overlay{-webkit-transition:all 0.3s;transition:all 0.3s;background:transparent}.zoe-effect figcaption{position:absolute;bottom:0;width:100%;height:100px;padding:13px;z-index:2;-webkit-transition:all 0.3s;transition:all 0.3s;-webkit-transform:translateY(100%);-ms-transform:translateY(100%);transform:translateY(100%);color:#3c4a50;background:#fff}
+    .zoe-effect figure .overlay{-webkit-transition:all 0.3s;transition:all 0.3s;background:transparent}.zoe-effect figcaption{position:absolute;bottom:0;width:100%;height:75px;padding:13px;z-index:2;-webkit-transition:all 0.3s;transition:all 0.3s;-webkit-transform:translateY(100%);-ms-transform:translateY(100%);transform:translateY(100%);color:#3c4a50;background:#fff}
     .zoe-effect figcaption h2{font-size:14px;font-weight:300;margin:0;word-spacing:-2px;text-transform:uppercase;-webkit-transition:all 0.3s;transition:all 0.3s;-webkit-transform:translateY(-250%);-ms-transform:translateY(-250%);transform:translateY(-250%);-webkit-transition-delay:.05s;transition-delay:.05s;color:#fff}
     .zoe-effect figcaption h2 span{font-weight:500}
     .zoe-effect figcaption>div{padding:0;-webkit-transform:translateY(-5px);-ms-transform:translateY(-5px);transform:translateY(-5px)}
