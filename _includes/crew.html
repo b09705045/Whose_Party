@@ -96,18 +96,18 @@
                         </ul>
                         {% endif %}
                         <figcaption>
-                            <div class="col-md-8 col-xs-8 text-left">
+                            <div class="col-md-9 col-xs-9 text-left">
                                 <div class="clearfix"></div>
                                 <h2 class="name" style="color:#7c2222">{{ crewMember.name }} <span>{{ crewMember.surname }}</span></h2>
                                 <span class="position" style="color:#7c2222">{{ crewMember.title }}</span>
                             </div>
                             {% for social in crewMember.social %}
-                            <a href="{{ social["link"] }}" target="_blank">
-                                <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 32 32">
-                                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites_1.svg#icon-{{ social["name"]
-                                        }}"></use>
-                                </svg>
-                            </a>
+                                <a href="{{ social["link"] }}" target="_blank">
+                                    <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 32 32">
+                                        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites_1.svg#icon-{{ social["name"]
+                                            }}"></use>
+                                    </svg>
+                                </a>
                             {% endfor %}
                         </figcaption>
                         <p class="bio">{{ crewMember.bio | strip_html | truncate: 72 }}</p>

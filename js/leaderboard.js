@@ -1,5 +1,10 @@
 //Helper and common functions
-
+// const jsyaml = require('js-yaml');
+// $.get( '/data/team.yml', function( text ) {
+//     var obj = jsyaml.load( text );
+//     console.log( obj );
+// });
+// var a=jsyaml.compile("{{}}");
 (function(BFG){
     BFG.extend = function(obj){
         var key,
