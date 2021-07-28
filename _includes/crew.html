@@ -105,11 +105,14 @@
                                 </a>
                             {% endfor %}
                         </figcaption>
-                        <div class="col-md-8 col-xs-8 text-left">
-                            <div class="clearfix"></div>
-                            <h2 class="name" style="color:#7c2222">{{ crewMember.name }} <span>{{ crewMember.surname }}</span></h2>
-                            <span class="position" style="color:#7c2222">{{ crewMember.title }}</span>
-                        </div>
+                        <br>
+                        <figcaption>
+                            <div class="col-md-8 col-xs-8 text-left">
+                                <div class="clearfix"></div>
+                                <h2 class="name" style="color:#7c2222">{{ crewMember.name }} <span>{{ crewMember.surname }}</span></h2>
+                                <span class="position" style="color:#7c2222">{{ crewMember.title }}</span>
+                            </div>
+                        </figcaption>
                         <p class="bio">{{ crewMember.bio | strip_html | truncate: 72 }}</p>
                     </figure>
                 </div>
