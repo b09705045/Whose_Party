@@ -96,6 +96,12 @@
                         </ul>
                         {% endif %}
                         <figcaption>
+                            <div class="col-md-12 col-xs-12 text-left">
+                                <div class="clearfix"></div>
+                                <h2 class="name" style="color:#7c2222">{{ crewMember.name }} <span>{{ crewMember.surname }}</span></h2>
+                                <span class="position" style="color:#7c2222">{{ crewMember.title }}</span>
+                            </div>
+                            <br><br>
                             {% for social in crewMember.social %}
                                 <a href="{{ social["link"] }}" target="_blank">
                                     <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 32 32">
@@ -104,12 +110,6 @@
                                     </svg>
                                 </a>
                             {% endfor %}
-                            <br>
-                            <div class="col-md-8 col-xs-8 text-left">
-                                <div class="clearfix"></div>
-                                <h2 class="name" style="color:#7c2222">{{ crewMember.name }} <span>{{ crewMember.surname }}</span></h2>
-                                <span class="position" style="color:#7c2222">{{ crewMember.title }}</span>
-                            </div>
                         </figcaption>
                         <p class="bio">{{ crewMember.bio | strip_html | truncate: 72 }}</p>
                     </figure>
