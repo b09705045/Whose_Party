@@ -85,14 +85,6 @@
                 <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#crewDetail-{{ crewMember.id }}">
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
                         <div class="overlay solid-overlay"></div>
-                        {% for social in crewMember.social %}
-                            <a href="{{ social["link"] }}" target="_blank">
-                                <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 32 32">
-                                    <use xlink:href="{{ site.baseurl }}/img/sprites/sprites_1.svg#icon-{{ social["name"]
-                                        }}"></use>
-                                </svg>
-                            </a>
-                        {% endfor %}
                         {% if crewMember.ribbon != null %}
                         <ul class="ribbon-wrapper">
                             {% for ribbon in crewMember.ribbon %}
@@ -104,6 +96,14 @@
                         </ul>
                         {% endif %}
                         <figcaption>
+                            {% for social in crewMember.social %}
+                                <a href="{{ social["link"] }}" target="_blank">
+                                    <svg class="icon icon-{{ social["name"] }}" viewBox="0 0 32 32">
+                                        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites_1.svg#icon-{{ social["name"]
+                                            }}"></use>
+                                    </svg>
+                                </a>
+                            {% endfor %}
                             <div class="col-md-8 col-xs-8 text-left">
                                 <div class="clearfix"></div>
                                 <h2 class="name" style="color:#7c2222">{{ crewMember.name }} <span>{{ crewMember.surname }}</span></h2>
