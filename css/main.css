@@ -215,7 +215,7 @@ height: 100%;width: 100%;z-index: 9999999;}
 .jumbotron{position:relative;left:26px;margin:200px 0 0 0;color:#fff;background:0}
 .about-details img{width:128px}
 .about-details p{margin-top:10px}
-.statistic .stat{font-size:100px;font-weight: 300; color:#7f2222; -webkit-text-stroke: 8px rgb(187, 241, 255);}
+.statistic .stat{font-size:80px;font-weight: 300; color:#7f2222; -webkit-text-stroke: 8px rgb(187, 241, 255);}
 .statistic .stat-info{font-size:23px}
 .statistic hr{width:20px;border-top:1px solid #03a9f4}
 .statistic .small{font-size:15px}
