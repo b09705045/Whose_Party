@@ -10,10 +10,10 @@
                 {% assign colWidth = 12 | divided_by: forloop.length %}
                 <div class="col-md-{{ colWidth }} col-xs-12">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-                        <h5>{{ about.title }}</h5>
+                        <h5 style="color: #000000;">{{ about.title }}</h5>
                         <img class="img-circle" src="{{ site.baseurl }}/img/department/{{ about.image }}" height="128"
                             width="128" alt="{{ about.title }}">
-                        <p style="color: #000000;">{{ about.text }}</p>
+                        <p>{{ about.text }}</p>
                     </div>
                 </div>
                 {% assign animationDelay = animationDelay | plus:500 %}
