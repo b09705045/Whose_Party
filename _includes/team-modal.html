@@ -67,7 +67,7 @@
                                             {% if score != 0 %}
                                                 {% assign newWidth = score | divided_by: 100 %}
                                                 <div class="sub_bar" style="background-color: {{ newColor }}; width: {{ newWidth }}%; border-radius: {% if forloop.index == 1 %} 10px 0px 0px 10px {% elsif forloop.index == forloop.length %} 0px 10px 10px 0px {% endif %}"></div>
-                                                <div id="points" style="color: black;">{{newWidth*100}}</div>
+                                                <div id="points" style="color: black;position: absolute;z-index: 10000;">{{newWidth*100}}</div>
                                             {% endif %}
                                         {% endfor %}
                                 </div>
