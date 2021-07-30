@@ -1,3 +1,4 @@
+runtime: nodejs10
 -
   id: 1
   team: "一小"
