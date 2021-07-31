@@ -18,7 +18,7 @@
                     </div>
                 </div>
             </div>
-            {% for timeslot in day.timeslots %}
+            {% for timeslot in day.timeslots %}{% if timeslot.invisible == null %}
             <div class="timeslot" itemtype="http://schema.org/subEvent">
                 <div class="timeslot-label">
                     <time class="start-time" itemprop="startDate"
@@ -79,7 +79,7 @@
                     {% endif %} {% endfor %}
                 </div>
             </div>
-            {% endfor %}
+            {% endif %}{% endfor %}
         </div>
         {% endfor %}
     </div>
