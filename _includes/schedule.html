@@ -1,5 +1,5 @@
 <!-- Begin Schedule Section -->
-<section id="schedule" class="schedule">
+<section id="schedule" class="schedule" style="border-radius: 20%; border-width: 10px;">
     <div class="content-wrapper">
         {% for day in site.data.schedule %}
         <div class="schedule-table col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1" style="font-weight:300;">
@@ -36,7 +36,7 @@
                     = 12 | divided_by: forloop.length %} {% assign slotIndex =
                     forloop.index0 %} {% if slot != 404 %} {% for session in
                     site.data.sessions %} {% if slot == session.id and
-                    session.service == null %}
+                    session.service == null and session.invisible == null %}
                     <div id="session-{{ session.id }}"
                         class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height"
                         data-slot-detail="{{ day.tracks[slotIndex].title }}" data-toggle="modal"

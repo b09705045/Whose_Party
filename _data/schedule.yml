@@ -55,7 +55,7 @@
   date: "2021-10-24"
   dateReadable: "Oct. 24"
   tracks:
-    - {title: " 活動時程 ", color: "#90be4e"}
+    - {title: " 活動時程 ", color: "#7c2222"}
   timeslots:
     - {
     	startTime: "08:00",
