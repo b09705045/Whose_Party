@@ -52,6 +52,9 @@
                                 80 }}
                             </p>
                             {% endif %}
+                            {% if session.detail != null %}
+                                {{session.datail}}
+                            {% endif %}
                             {% if session.place != null %}
                             <span class="speaker-position">@{{ session.place }}</span>
                             {% endif %}
