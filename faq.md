@@ -25,4 +25,4 @@ isStaticPost: true
 <p style="font-size: 0.7cm;font-weight: 600">住</p>
 <p style="font-size: 0.5cm;font-weight: 600">新生住宿的相關時程?</p>
 <br><br>
- <img src="{{ site.baseurl }}/img/sections-background/fence.png" style="width: 100%;">
+ <img src="{{ site.baseurl }}/img/sections-background/fence.png" style="width: 130%; margin-right:15%">
