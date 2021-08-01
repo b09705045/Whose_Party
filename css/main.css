@@ -272,7 +272,7 @@ height: 100%;width: 100%;z-index: 9999999;}
 .venue-elem{overflow:hidden;text-align:left;-webkit-transition:all 0.3s;transition:all 0.3s}
 .venue-big-elem{height:610px}
 .venue-small-elem{height:200px}
-.venue-text{padding:30px 20px;color:#fff;background:#441618}
+.venue-text{padding:30px 20px;color:#fff;background:#441618;border-radius: 50px;}
 .venue-text h5{margin-top:0}
 .venue-text p{font-size:17px}
 .twitter-feed h3{margin-bottom:10px}
