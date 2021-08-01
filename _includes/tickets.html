@@ -1,9 +1,9 @@
 <!-- Begin Tickets Section -->
 <link href="{{ site.baseurl }}/css/tickets.css" rel="stylesheet">
-<section id="tickets" class="tickets">
+<section id="tickets" class="tickets image-section parallax" style="margin-left: 5%; width: 90%; border-radius: 50px; background-image: {{ site.baseurl }}/img/people/{{ site.storyImage }}">
 	<div class="content-wrapper">
 		<div class="col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1">
-			<h3>{{ site.ticketsTitle }}</h3>
+			<h3 style="color: black;">{{ site.ticketsTitle }}</h3>
 			{% for ticketsOffer in site.ticketsOffers %}
 			{% assign colWidth = 12 | divided_by: forloop.length %}
 			{% assign check = forloop.index | modulo:2 %}
@@ -12,7 +12,7 @@
 				data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
 				<!-- {% if ticketsOffer.ribbon != null %}<div class="pricing-ribbon">{{ ticketsOffer.ribbon }}</div>{% endif %} -->
 				<div class="pricing-header">
-					<p class="title">{{ ticketsOffer.name }}</p>
+					<p class="title" style="color: black;">{{ ticketsOffer.name }}</p>
 					<p class="price" style="color:#7c2222"><span class="currency">{{
 						ticketsOffer.priceCurrency }}</span><b>{{ ticketsOffer.price }}</b>
 					</p>
@@ -20,7 +20,7 @@
 				<div class="pricing-content">
 					<ul>
 						{% for listItem in ticketsOffer.ticketContentList %}
-						<li>{{ listItem }}</li>
+						<li style="color: black;">{{ listItem }}</li>
 						{% endfor %}
 					</ul>
 					{% if ticketsOffer.soldOut == true %}
