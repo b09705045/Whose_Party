@@ -47,7 +47,7 @@
                                 {{ session.title }}
                             </h5>
                             {% if session.description != null %}
-                            <p class="service-description" style="font-weight: 300;">
+                            <p class="service-description" style="font-weight: 500;">
                                 {{ session.description | strip_html | truncate:
                                 80 }}
                             </p>
@@ -62,11 +62,11 @@
                         data-slot-detail="{{ day.tracks[0].title }}">
                         <div class="color-line"></div>
                         <div class="slot-content">
-                            <h5 class="slot-title" itemprop="name">
+                            <h5 class="slot-title" itemprop="name" style="font-weight: 500;">
                                 {{ session.title }}
                             </h5>
                             {% if session.description != null %}
-                            <p class="service-description">
+                            <p class="service-description" style="font-weight: 500;">
                                 {{ session.description }}
                             </p>
                             {% if session.place != null %}
