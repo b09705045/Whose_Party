@@ -76,8 +76,8 @@
     	endTime: "13:00",
     	sessionIds: [103]
     }
-    - {
-    	startTime: "13:00",
+    - { #水球之後把79~90註解
+    	startTime: "13:00", 
     	endTime: "15:30",
     	sessionIds: [104],
       invisible: true
