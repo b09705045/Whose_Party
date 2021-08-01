@@ -72,19 +72,19 @@
                                         {% endfor %}
                                 </div>
                             </div>
+                        </div>
+                        <div class="row">
+                            <div id="total_score" class="col-md-offset-6 col-md-6 total_score">
+                                100
+                            </div>
                             <script>
                                 var arr=[document.getElementById('points')];
                                 var total=0;
                                 for(var i=0;i<arr.length();i++){
                                     total+=arr[i];
                                 }
-                                
-                            </script>"
-                        </div>
-                        <div class="row">
-                            <div class="col-md-offset-6 col-md-6 total_score">
-                                100
-                            </div>
+                                document.getElementById('total_score').innerHTML=total.toString();
+                            </script>
                         </div>
                         <br>
                         <br>
