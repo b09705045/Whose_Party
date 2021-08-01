@@ -6,7 +6,7 @@
 
 - id: 002
   title: "抵達埔心牧場 🐄 "
-  description: "J 個是....埔心牧場？請認明「 <code>桃園市楊梅區幼獅路一段439號</code> 」"
+  description: "J 個是⋯⋯埔心牧場？請認明「 <code>桃園市楊梅區幼獅路一段439號</code> 」"
   # place: "餐廳"
   service: true
 
@@ -58,7 +58,7 @@
   title: "宵夜 🏅️"
   # place: "餐廳"
   service: true
-  description: "今晚我想來點...戴資穎！戴資穎！第一名！戴資穎！戴資穎！我愛你！"
+  description: "今晚我想來點⋯⋯戴資穎！戴資穎！第一名！戴資穎！戴資穎！我愛你！"
 
 - id: 100
   title: "起床 🛏"
