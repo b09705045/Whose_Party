@@ -91,7 +91,9 @@
     - {
       startTime: "13:00",
     	endTime: "16:30",
-    	sessionIds: [104]
+    	sessionIds: [104],
+      # invisible: true
+
     }
     - {
     	startTime: "16:30",
