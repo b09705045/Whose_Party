@@ -1,5 +1,5 @@
 <!-- Begin Schedule Section -->
-<section id="schedule" class="schedule">
+<section id="schedule" class="schedule" style="border-radius: 20%; border-width: 10px;">
     <div class="content-wrapper">
         {% for day in site.data.schedule %}
         <div class="schedule-table col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1" style="font-weight:300;">
@@ -18,7 +18,7 @@
                     </div>
                 </div>
             </div>
-            {% for timeslot in day.timeslots %}
+            {% for timeslot in day.timeslots %}{% if timeslot.invisible == null %}
             <div class="timeslot" itemtype="http://schema.org/subEvent">
                 <div class="timeslot-label">
                     <time class="start-time" itemprop="startDate"
@@ -36,18 +36,18 @@
                     = 12 | divided_by: forloop.length %} {% assign slotIndex =
                     forloop.index0 %} {% if slot != 404 %} {% for session in
                     site.data.sessions %} {% if slot == session.id and
-                    session.service == null %}
+                    session.service == null and session.invisible == null %}
                     <div id="session-{{ session.id }}"
                         class="slot col-md-{{ slotColWidth }} col-xs-12 flexbox-item-height"
                         data-slot-detail="{{ day.tracks[slotIndex].title }}" data-toggle="modal"
                         data-target="#sessionDetail-{{ session.id }}">
                         <div class="color-line" style="background: {{ day.tracks[slotIndex].color }}"></div>
                         <div class="slot-content" style="border-right-color: {{ day.tracks[slotIndex].color }}">
-                            <h5 class="slot-title" itemprop="name">
+                            <h5 class="slot-title" itemprop="name" style="font-weight: 500;">
                                 {{ session.title }}
                             </h5>
                             {% if session.description != null %}
-                            <p class="service-description">
+                            <p class="service-description" style="font-weight: 300;">
                                 {{ session.description | strip_html | truncate:
                                 80 }}
                             </p>
@@ -62,11 +62,11 @@
                         data-slot-detail="{{ day.tracks[0].title }}">
                         <div class="color-line"></div>
                         <div class="slot-content">
-                            <h5 class="slot-title" itemprop="name">
+                            <h5 class="slot-title" itemprop="name" style="font-weight: 500;">
                                 {{ session.title }}
                             </h5>
                             {% if session.description != null %}
-                            <p class="service-description">
+                            <p class="service-description" style="font-weight: 300;">
                                 {{ session.description }}
                             </p>
                             {% if session.place != null %}
@@ -79,7 +79,7 @@
                     {% endif %} {% endfor %}
                 </div>
             </div>
-            {% endfor %}
+            {% endif %}{% endfor %}
         </div>
         {% endfor %}
     </div>

@@ -55,7 +55,7 @@
   date: "2021-10-24"
   dateReadable: "Oct. 24"
   tracks:
-    - {title: " 活動時程 ", color: "#90be4e"}
+    - {title: " 活動時程 ", color: "#7c2222"}
   timeslots:
     - {
     	startTime: "08:00",
@@ -79,19 +79,25 @@
     - {
     	startTime: "13:00",
     	endTime: "15:30",
-    	sessionIds: [104]
+    	sessionIds: [104],
+      invisible: true
     }
     - {
     	startTime: "15:30",
     	endTime: "16:30",
-    	sessionIds: [105]
+    	sessionIds: [105],
+      invisible: true
+    }
+    - {
+      startTime: "13:00",
+    	endTime: "16:30",
+    	sessionIds: [104],
+      # invisible: true
+
     }
     - {
     	startTime: "16:30",
     	endTime: "18:00",
     	sessionIds: [106]
     }
-    - {
-    	startTime: "18:00",
-    	sessionIds: [107]
-    }
+
