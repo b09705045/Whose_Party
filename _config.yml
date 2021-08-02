@@ -86,7 +86,7 @@ statisticBlock:
 # Story Block
 storyTitle: "故事概要"
 storyButtonText: "點我看八大家族介紹"
-storyImage: "rick.jpg"
+storyImage: "city.jpg"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers1.jpg"
@@ -111,7 +111,7 @@ rockstarSpeakersButtonText: "點我看團隊介紹"
 # mapMobileCenterCoordinates: ""
 
 # Venue Block
-venueBlockTitle: "舉辦地點"
+venueBlockTitle: "活動地點"
 venueBigImage: "pushin_1_1.jpg"
 venueSmallImage1: "pushin_2.jpg"
 venueSmallImage2: "pushin_4_1.jpg"
@@ -126,7 +126,7 @@ venueFeatures: ["地址：桃園市楊梅區幼獅路一段439號","TEL：03 464
 # twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-organizersTitle: "協辦單位"
+organizersTitle: "合作夥伴"
 partnersTitle: ""
 partnersC4sponsorsButton: ""
 

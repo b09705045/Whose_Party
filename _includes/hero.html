@@ -2,7 +2,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=New+Tegomin&family=Potta+One&family=Rock+Salt&family=Yusei+Magic&display=swap" rel="stylesheet">
-<link href="http://pm85122.onamae.jp/851MkPOP_100.ttf" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap" rel="stylesheet">
 <section id="top-section-hero" class="top-section-hero top-section image-section"
     style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}');">
     {% include navigation.html %}
@@ -11,13 +12,13 @@
             <div class="animated hiding" data-animation="fadeInDown" data-delay="30">
                 {% assign heroText = site.heroTitle | split:"<typeout>" %}
                     {% assign heroText2 = site.heroTitle2 | split:"<typeout>" %}
-                        <h1 style="font-weight: 500; font-family: 'Rock Salt', cursive;">{{heroText}} </h1>
-                        <h2 style="font-weight: 100; font-family: 'Potta One', cursive;">{{heroText2}} </h2>
-                        <h4 style="font-weight: 350;font-family: '851マカポップ', '微軟正黑體', 'Monda', sans-serif;">
+                        <h1 style="font-weight: 500; font-family: 'Merienda', cursive;">{{heroText}} </h1>
+                        <h2 style="font-weight: 400; font-family: 'Potta One', cursive;">{{heroText2}} </h2>
+                        <h4 style="font-weight: 350;font-family: 'Potta One', cursive;">
                             <span class="hidden-xs" id="typeout-text"></span>
                             <span class="typeout-fallback">{{ site.typeoutFallback }}</span>
                         </h4>
-                        <p style="font-weight: 425; font-family: 'Monda', sans-serif;">{{ site.eventDate }}</p>
+                        <p style="font-weight: 500; font-family: 'Merienda', cursive;">{{ site.eventDate }}</p>
                         <!-- {% for button in site.heroButtons %}
             <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
             {% endfor %} -->

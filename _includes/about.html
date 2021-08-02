@@ -1,19 +1,20 @@
 <!-- About Section -->
 <!-- <link href="../css/mainpage.css" rel="stylesheet"> -->
-<section id="about" class="about image-section parallax" style="margin-left: 5%; width: 90%; border-radius: 50px; background-image: {{ site.baseurl }}/img/people/{{ site.storyImage }}">
+<section id="about" class="about image-section parallax" style="margin-left: 5%; width: 90%; border-radius: 50px; background-image: url({{ site.baseurl }}/img/sections-background/{{ site.storyImage }})">
+    <div class="overlay solid-overlay"></div>
     <div class="about_block content-wrapper" >
         <div class="col-lg-10 col-lg-offset-1">
-            <h3 style="color: #000000;">{{ site.aboutTitle }}</h3>
+            <h3 style="font-weight: 400; font-family: 'Potta One', cursive;">{{ site.aboutTitle }}</h3>
             <div class="row about-details">
                 {% assign animationDelay = 0 %}
                 {% for about in site.aboutBlock %}
                 {% assign colWidth = 12 | divided_by: forloop.length %}
                 <div class="col-md-{{ colWidth }} col-xs-12">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-                        <h5 style="color: #000000;">{{ about.title }}</h5>
+                        <h5 style="font-weight: 400; font-family: 'Potta One', cursive;">{{ about.title }}</h5>
                         <img class="img-circle" src="{{ site.baseurl }}/img/department/{{ about.image }}" height="128"
                             width="128" alt="{{ about.title }}">
-                        <p>{{ about.text }}</p>
+                        <p style="font-weight: 400; font-family: 'Potta One', cursive;">{{ about.text }}</p>
                     </div>
                 </div>
                 {% assign animationDelay = animationDelay | plus:500 %}
