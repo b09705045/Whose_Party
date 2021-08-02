@@ -257,7 +257,7 @@ var a= [
         { id: "{{ member.id }}", title: "{{ member.clan }}",
             count:"{{member.scores.point[0]}}"} {% if forloop.index != forloop.length %}, {% endif %}
     {% endfor %}
-]
+];
 
 var test = new BFG.Leaderboard({
     interval:4,
