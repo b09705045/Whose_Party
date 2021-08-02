@@ -27,7 +27,7 @@
 					{% if ticketsOffer.soldOut == true %}
 					<span class="button disabled" style="font-weight: 400; font-family: 'Potta One', cursive;">{{ ticketsOffer.soldOutText }}</span>
 					{% elsif ticketsOffer.disabled != true %}
-					<a class="button" href="{{ ticketsOffer.buyButtonLink }}" target="_blank">{{ ticketsOffer.buyButtonText }}</a>
+					<a class="button" href="{{ ticketsOffer.buyButtonLink }}" target="_blank" style="font-weight: 500; font-family: 'Merienda', cursive;">{{ ticketsOffer.buyButtonText }}</a>
 					{% else %}
 					{% assign ticketValidFrom = ticketsOffer.validFrom | split: "T" %}
 					<span class="button disabled fallback" style="font-weight: 400; font-family: 'Potta One', cursive;">{{ ticketValidFrom[0]}} {{ ticketValidFrom[1] }}開始報名！</span>
