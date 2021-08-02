@@ -224,7 +224,7 @@ height: 100%;width: 100%;z-index: 9999999;}
 .rockstar-speakers .sub{font-size:18.2px;margin:0 0 15px;color:#03a9f4}
 .rockstar-speaker{padding-bottom:13px}
 .rockstar-speaker-img{width:140px;height:140px;}
-.pricing-col{overflow:hidden;margin-bottom:26px;padding:0;font-size:16px;font-weight:100;border:1px #ddd solid;border-right:none;background-color: #caa6a6;}
+.pricing-col{overflow:hidden;margin-bottom:26px;padding:0;font-size:16px;font-weight:100;border:1px #ddd solid;}
 .pricing-col:last-child{border-right:1px #ddd solid;border-left:none}
 .pricing-col.pricing-col-featured{top:-27px}
 .pricing-col.pricing-col-featured:not(:first-child){margin-left:0;border:solid 1px #4285f4}
@@ -244,7 +244,7 @@ height: 100%;width: 100%;z-index: 9999999;}
 .pricing-col .button.disabled:hover{background:#4d4d4d}
 .pricing-col .button.fallback{font-size:18px;line-height:1.4}
 .pricing-col .pricing-ribbon{position:absolute;top:10px;right:-45px;padding:5px 50px;-webkit-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg);color:rgb(255, 255, 255);background:#7c2222}
-.pricing-content{font-weight:300}
+.pricing-content{font-weight:300;border-right:none;background-color: #caa6a6;}
 .pricing-content ul{width:80%;margin:0 auto;margin-top:16px;padding:0}
 .pricing-content li{padding:16px 0;list-style:none;border-bottom:solid 1px #ddd}
 .pricing-content li:last-child{border-bottom:none}
