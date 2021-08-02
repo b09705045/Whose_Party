@@ -252,13 +252,6 @@ Array.prototype.difference = Array.prototype.difference || function(ar,fn){
     window.BFG = BFG;
 })(window.BFG || {});
 
-var a= [
-    {% for member in site.data.team %}
-        { id: "{{ member.id }}", title: "{{ member.clan }}",
-            count:"{{member.scores.point[0]}}"} {% if forloop.index != forloop.length %}, {% endif %}
-    {% endfor %}
-];
-
 var test = new BFG.Leaderboard({
     interval:4,
     max:8,
@@ -275,17 +268,16 @@ var test = new BFG.Leaderboard({
     },
     sort:'count',
     dataCallback:function(){
-        return a;
-        // return [//simulates incoming data
-        //     {id:1,title:"一見到你‧紫想要‧那個",count:800},
-        //     {id:2,title:"肚子二‧普茲普茲‧布朗尼",count:700},
-        //     {id:3,title:"黑芝麻‧三明治‧嘿咻嘿咻",count:600},
-        //     {id:4,title:"四巴拉稀‧肛鐵人‧歐蘭吉",count:500},
-        //     {id:5,title:"白吃白喝‧爽‧五敵鐵金剛",count:400},
-        //     {id:6,title:"六到開‧瑪莎拉‧蒂芬妮綠",count:300},
-        //     {id:7,title:"藍莓‧七泡水‧史戈史戈",count:200},
-        //     {id:8,title:"扒了你‧領主大人‧灰生氣",count:BFG.rnd(1,800)},
-        // ];
+        return [//simulates incoming data
+            {id:1,title:"一見到你‧紫想要‧那個",count:800},
+            {id:2,title:"肚子二‧普茲普茲‧布朗尼",count:700},
+            {id:3,title:"黑芝麻‧三明治‧嘿咻嘿咻",count:600},
+            {id:4,title:"四巴拉稀‧肛鐵人‧歐蘭吉",count:500},
+            {id:5,title:"白吃白喝‧爽‧五敵鐵金剛",count:400},
+            {id:6,title:"六到開‧瑪莎拉‧蒂芬妮綠",count:300},
+            {id:7,title:"藍莓‧七泡水‧史戈史戈",count:200},
+            {id:8,title:"扒了你‧領主大人‧灰生氣",count:BFG.rnd(1,800)},
+        ];
     }
 });
 test.start();
