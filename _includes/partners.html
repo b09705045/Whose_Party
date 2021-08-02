@@ -2,9 +2,9 @@
 <section id="partners" class="partners image-section parallax" style="margin-left: 5%; width: 90%; border-radius: 50px; background-image: url({{ site.baseurl }}/img/sections-background/{{ site.storyImage }})">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h3 style="color: black;">{{ site.organizersTitle }}</h3>
+            <h3">{{ site.organizersTitle }}</h3>
             {% for organizer in site.data.organizers %}
-            <h5 style="color: black;">{{ organizer.group }}</h5>
+            <h5">{{ organizer.group }}</h5>
             <ul class="list-inline">
                 {% for element in organizer.elements %}
                 <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
@@ -15,9 +15,9 @@
                 {% endfor %}
             </ul>
             {% endfor %}
-            <h3 style="color: black;">{{ site.partnersTitle }}</h3>
+            <h3>{{ site.partnersTitle }}</h3>
             {% for partner in site.data.partners %}
-            <h5 style="color: black;">{{ partner.group }}</h5>
+            <h5>{{ partner.group }}</h5>
             <ul class="list-inline">
                 {% for element in partner.elements %}
                 <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
