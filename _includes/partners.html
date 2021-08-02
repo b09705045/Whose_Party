@@ -3,9 +3,9 @@
     <div class="overlay solid-overlay"></div>
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h3>{{ site.organizersTitle }}</h3>
+            <h3 style="font-weight: 400; font-family: 'Potta One', cursive;">{{ site.organizersTitle }}</h3>
             {% for organizer in site.data.organizers %}
-            <h5>{{ organizer.group }}</h5>
+            <h5 style="font-weight: 400; font-family: 'Potta One', cursive;">{{ organizer.group }}</h5>
             <ul class="list-inline">
                 {% for element in organizer.elements %}
                 <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
@@ -16,9 +16,9 @@
                 {% endfor %}
             </ul>
             {% endfor %}
-            <h3>{{ site.partnersTitle }}</h3>
+            <h3 style="font-weight: 400; font-family: 'Potta One', cursive;">{{ site.partnersTitle }}</h3>
             {% for partner in site.data.partners %}
-            <h5>{{ partner.group }}</h5>
+            <h5 style="font-weight: 400; font-family: 'Potta One', cursive;">{{ partner.group }}</h5>
             <ul class="list-inline">
                 {% for element in partner.elements %}
                 <li {% if element.width != null %}style="width: {{ element.width }};"{% endif %}>
