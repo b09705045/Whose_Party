@@ -2,11 +2,11 @@
 <section id="blog" class="blog">
     <div class="content-wrapper text-left">
         <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
-            <h3>{{ site.blogTitle }}</h3>
+            <h3 style="font-weight: 400; font-family: 'Potta One', cursive;">{{ site.blogTitle }}</h3>
             <div class="col-lg-8 col-md-10 col-xs-12">
                 {% for post in site.posts %}
                     <article class="row post">
-                        <a href="{{ site.baseurl | append: post.url }}" title="{{ post.title }}"><h4>{{ post.title }}</h4></a>
+                        <a href="{{ site.baseurl | append: post.url }}" title="{{ post.title }}"><h4 style="font-weight: 400; font-family: 'Potta One', cursive;">{{ post.title }}</h4></a>
                         <div class="post-header">
                             <div class="published col-md-6 col-xs-6 pull-left">
                                 <span class="caption">Posted:</span>

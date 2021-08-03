@@ -2,11 +2,12 @@
 <section id="team" class="team">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1">
-            <h3>{{ site.teamBlockTitle }}</h3>
+            <h3 style="font-weight: 400; font-family: 'Potta One', cursive;">{{ site.teamBlockTitle }}</h3>
             <p class="text-left animated hiding" data-animation="fadeInUp" data-delay="0">{{ site.aboutUs }}</p>
         </div>
         <div class="col-lg-10 col-lg-offset-1 text-center">
-            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">
+            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"
+                style="font-weight: 400; font-family: 'Potta One', cursive;">
                 重要文件</h4>
             {% for teamMember in site.data.download %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
@@ -16,9 +17,9 @@
                         <div class="overlay solid-overlay"></div>
                         <figcaption>
                             <div class="col-md-8 col-xs-8 text-left">
-                                <h2 class="name">{{ teamMember.name }} <span>{{ teamMember.surname }}</span></h2>
+                                <h2 class="name" style="font-weight: 400; font-family: 'Potta One', cursive;">{{ teamMember.name }} <span>{{ teamMember.surname }}</span></h2>
                                 <div class="clearfix"></div>
-                                <span class="position">{{ teamMember.title }}</span>
+                                <span class="position" style="font-weight: 400; font-family: 'Potta One', cursive;">{{ teamMember.title }}</span>
                             </div>
                         {% for button in teamMember.button %}
                             <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
