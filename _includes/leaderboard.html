@@ -1,7 +1,7 @@
 <!-- Begin Leaderboard List-->
 
 <div id="leaderboard"></div>
-<script src="/js/leaderboard.js">
+<script src="{{ "/js/leaderboard.js" | prepend: site.baseurl }}">
     // var a = [
     //     {% for member in site.data.team %}
     //         { id: "{{ member.id }}", title: "{{ member.clan }}",
