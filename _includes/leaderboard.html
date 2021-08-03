@@ -2,6 +2,13 @@
 
 <div id="leaderboard"></div>
 <script src="{{ "/js/leaderboard.js" | prepend: site.baseurl }}"></script>
-
-
+<script>
+    var a= [
+        {% for member in site.data.team %}
+            { id: "{{ member.id }}", title: "{{ member.clan }}",
+                count:"{{member.scores.point[0]}}"} {% if forloop.index != forloop.length %}, {% endif %}
+        {% endfor %}
+    ];
+</script>
+<div>{{a}}</div>
 <!-- End Leaderboard List-->
