@@ -1,5 +1,17 @@
 <!-- Begin Leaderboard List-->
 
-<div id="leaderboard"></div>
-<script src="{{ "/js/leaderboard.js" | prepend: site.baseurl }}"></script>
+<!-- <div id="leaderboard"></div> -->
+<!-- <script src="{{ "/js/leaderboard.js" | prepend: site.baseurl }}"></script> -->
+<script>
+    var a= [
+        {% for member in site.data.team %}
+            { id: "{{ member.id }}", title: "{{ member.clan }}",
+                count:"{{member.scores.point[0]}}"} {% if forloop.index != forloop.length %}, {% endif %}
+        {% endfor %}
+    ];
+    var b = 5;
+    document.getElementById('#leaderboard-title').after('<div>' + b + '</div>');
+</script>
+<div>{{b}}</div>
+
 <!-- End Leaderboard List-->
