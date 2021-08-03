@@ -252,6 +252,13 @@ Array.prototype.difference = Array.prototype.difference || function(ar,fn){
     window.BFG = BFG;
 })(window.BFG || {});
 
+var a = [
+    {% for member in site.data.team %}
+        { id: "{{ member.id }}", title: "{{ member.clan }}",
+            count:"{{member.scores.point[0]}}"} {% if forloop.index != forloop.length %}, {% endif %}
+    {% endfor %}
+];
+
 var test = new BFG.Leaderboard({
     interval:4,
     max:8,
