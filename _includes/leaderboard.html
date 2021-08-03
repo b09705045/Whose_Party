@@ -1,8 +1,7 @@
 <!-- Begin Leaderboard List-->
 
-<div id="leaderboard"></div>
-<script src="{{ "/js/leaderboard.js" | prepend: site.baseurl }}"></script>
-<!-- <script>
+<div id="leaderboard">
+<script>
     var a = [
         {% for member in site.data.team %}
             { id: "{{ member.id }}", title: "{{ member.clan }}",
@@ -41,6 +40,7 @@
         }
     });
     test.start();
-</script> -->
-
+</script>
+</div>
+<!--<script src="{{ " /js/leaderboard.js" | prepend: site.baseurl }}"></script>-->
 <!-- End Leaderboard List-->
