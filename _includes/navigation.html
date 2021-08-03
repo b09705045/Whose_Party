@@ -8,11 +8,6 @@
     </a>
     <nav class="st-menu st-effect" id="menu">
         <div class="logo-navbar logo logo-dark visible-xs">
-            <span class="bordered">
-                <a href="{{ site.baseurl }}/team/" class="btn btn-default bottom-section-link waves-effect waves-button waves-light"
-                style="font-weight: 400; font-family: 'Potta One', cursive;">
-                我要報名</a>
-            </span>
         </div>
         <ul>
             {% for navigationLink in site.navigationLinks %}
@@ -20,7 +15,11 @@
                 <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %}>{{ navigationLink.text}}</a>
             </li>
             {% endfor %}
-            <br>
+            <span class="bordered">
+                <a href="{{ site.baseurl }}/team/" class="btn btn-default bottom-section-link waves-effect waves-button waves-light"
+                style="font-weight: 400; font-family: 'Potta One', cursive;">
+                我要報名</a>
+            </span>
         </ul>
         <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
             {% for bottomNavigationLink in site.bottomNavigationLinks %}
