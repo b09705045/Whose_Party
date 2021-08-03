@@ -5,7 +5,7 @@
   company: "資管系總召"
   title: "<b>總召</b> ｜ 資管二"
   modalTitle: "<b>總召<br>Developer</b><br>資管二"
-  fontstyle: "Potta One"
+  fontstyle: "Potta One, cursive;"
   bio: '
   👋 嗨大家，這是簡單的語法教學！<br>
   為了讓個介不要太尷尬，適當的加入一些Emoji或是指令是必須的啦！也因為網頁還有太多東西要處理🥲，希望大家自行插入指令至妳/你的簡介中，讓開發團隊減去輸入大量指令的時間！<br>
@@ -44,7 +44,7 @@
   company: "護理系總召"
   title: "<b>總召</b> ｜ 護理三"
   modalTitle: "<b>總召</b><br>護理三"
-  fontstyle: "Potta One"
+  fontstyle: "Potta One, cursive;"
   bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
   thumbnailUrl: patrick_1.jpg
   executive: true
@@ -62,7 +62,7 @@
   company: "物治系總召"
   title: "<b>總召</b> ｜ 物治二"
   modalTitle: "<b>總召</b><br>物治二"
-  fontstyle: "Potta One"
+  fontstyle: "Potta One, cursive;"
   bio: "Dawid is true technology enthusiast, who loves to work in areas where humans and machines meet to create amazing new products and services. He is experienced program manager with strong technical background, who is able to establish priorities for complex projects and execute across multiple organizations, according to long-term objectives. Dawid has worked in Poland, USA, Germany, Belgium and The Netherlands and truly values diversity of international working environment. His most visible characteristics are individualization (when dealing directly with people), ideation&intellection (inexhaustible source of new concepts) and strong communication (experienced trainer, community manager). He is also an activator constantly impatient for action."
   thumbnailUrl: patrick_1.jpg
   executive: true
@@ -80,7 +80,7 @@
   company: "資管系副召"
   title: "<b>副召</b> ｜ 資管二"
   modalTitle: "<b>副召</b><br>資管二"
-  fontstyle: "Potta One"
+  fontstyle: "Potta One, cursive;"
   bio: "Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv."
   thumbnailUrl: patrick_1.jpg
   executive: true
@@ -100,7 +100,7 @@
   company: "護理系副召"
   title: "<b>副召</b> ｜ 護理三"
   modalTitle: "<b>副召</b><br>護理三"
-  fontstyle: "Potta One"
+  fontstyle: "Potta One, cursive;"
   bio: "Valentyn focuses on Polymer and Web Components. In previous roles he’s helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for a better web and to help developers build great experiences."
   thumbnailUrl: melon.jpeg
   executive: true
@@ -120,7 +120,7 @@
   company: "物治系副召"
   title: "<b>副召</b> ｜ 物治二"
   modalTitle: "<b>副召</b><br>物治二"
-  fontstyle: "Potta One"
+  fontstyle: "Potta One, cursive;"
   bio: "Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv."
   thumbnailUrl: patrick_1.jpg
   executive: true
