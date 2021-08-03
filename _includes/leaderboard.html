@@ -9,6 +9,7 @@
                 count:"{{member.scores.point[0]}}"} {% if forloop.index != forloop.length %}, {% endif %}
         {% endfor %}
     ];
-    document.getElementsByClassName('.team').after('<div>' + a + '</div>');
+    var b = 5;
+    document.getElementsByClassName('.team').after('<div>' + b + '</div>');
 </script>
 <!-- End Leaderboard List-->
