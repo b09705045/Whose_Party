@@ -12,7 +12,7 @@
             {% for navigationLink in site.navigationLinks %}
             <li>
                 <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %} 
-                    style="font-weight: 400; font-family: 'Potta One', cursive; text-shadow: black 0.1em 0.1em 0.1em 0.1em;">{{ navigationLink.text}}</a>
+                    style="font-weight: 400; font-family: 'Potta One', cursive; text-shadow: 1px 1px 2px black;">{{ navigationLink.text}}</a>
             </li>
             {% endfor %}
             <span class="bordered" style="border:#4c5192 solid 2px; border-radius: 20px;">
