@@ -9,6 +9,7 @@
 			{% for ticketsOffer in site.ticketsOffers %}
 			{% assign colWidth = 12 | divided_by: forloop.length %}
 			{% assign check = forloop.index | modulo:2 %}
+			{% if forloop.index == 1 %}
 			<div class="ellipse col-md-5 col-sm-5 {% if forloop.index == 2 %}col-md-offset-2{% endif %} pricing-col {% if ticketsOffer.featured != null %}pricing-col-featured{% endif %} animated hiding"
 				data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}"
 				data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
@@ -35,6 +36,12 @@
 					{% endif %}
 				</div>
 			</div>
+			{% else %}
+			<div class="ellipse col-md-5 col-sm-5 {% if forloop.index == 2 %}col-md-offset-2{% endif %} pricing-col {% if ticketsOffer.featured != null %}pricing-col-featured{% endif %} animated hiding"
+				data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}"
+				data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
+			</div>
+			{% endif %}
 			{% endfor %}
 			<br><br><br>
 			<a href="#partners" class="explore">
