@@ -154,7 +154,20 @@ ticketsOffers:
   soldOut: false
   disabled: false
   soldOutText: "--報名已截止--"
-
+  -
+    name: ""
+    price: ""
+    priceCurrency: ""
+    ticketsNumber: ""
+    ribbon: ""
+    buyButtonLink: ""
+    buyButtonText: ""
+    ticketContentList: []
+    validFrom: ""
+    validThrough: ""
+    soldOut: 
+    disabled: 
+    soldOutText: ""
 #  -
 #   name: "台大集合"
 #   price: "$$$"
