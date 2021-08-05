@@ -36,23 +36,14 @@
 				</div>
 			</div>
 			{% endfor %}
-			<div class="ellipse col-md-5 col-sm-5 col-md-offset-2 pricing-col pricing-col-featured animated hiding"
-				data-animation="fadeInRight"
-				data-delay="500" style="border-left: 60%;">
-				<div class="pricing-header">
-					<p class="title" style="color: black;font-weight: 400; font-family: 'Potta One', cursive;">{{ ticketsOffer.name }}</p>
-					<p class="price" style="color:#7c2222"><span class="currency" style="font-family: 'Merienda', cursive;">
-						{{ticketsOffer.priceCurrency }}</span><b style="font-family: 'Merienda', cursive;">{{ ticketsOffer.price }}</b>
-					</p>
-				</div>
-				<div class="pricing-content">
-					<ul>
-						{% for listItem in ticketsOffer.ticketContentList %}
-						<li style="font-weight: 400; font-family: 'Potta One', cursive;">{{ listItem }}</li>
-						{% endfor %}
-					</ul>
-				</div>
-			</div>
+			<style>
+				.tutorial{
+					width: 40%;
+					height: 80%;
+					border-left: 60%;
+					background: #d5d8bd;
+				}
+			</style>
 			<br><br><br>
 			<a href="#partners" class="explore">
 				<svg class="icon icon-arrow-down" viewBox="0 0 32 32">
