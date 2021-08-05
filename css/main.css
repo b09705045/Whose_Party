@@ -419,7 +419,7 @@ button.close{padding:0;cursor:pointer;background:transparent;border:0;-webkit-ap
 .waves-notransition{-webkit-transition:none !important;transition:none !important}
 .waves-button,.waves-circle{-webkit-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);-webkit-mask-image:-webkit-radial-gradient(circle, #fff 100%, #000 100%)}
 .waves-button,.waves-button:hover,.waves-button:visited,.waves-button-input{white-space:nowrap;vertical-align:middle;cursor:pointer;border:none;outline:none;color:inherit;background-color:transparent;font-size:1em;line-height:1em;text-align:center;text-decoration:none;z-index:1}
-.waves-button{padding:0.85em 1.1em;border-radius:0.2em}
+.waves-button{padding:0.85em 1.1em;border-radius:20px}
 .waves-button-input{margin:0;padding:0.85em 1.1em}
 .waves-input-wrapper{border-radius:0.2em;vertical-align:bottom}
 .waves-input-wrapper.waves-button{padding:0}
