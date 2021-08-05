@@ -43,17 +43,17 @@
                         data-target="#sessionDetail-{{ session.id }}">
                         <div class="color-line" style="background: {{ day.tracks[slotIndex].color }}"></div>
                         <div class="slot-content" style="border-right-color: {{ day.tracks[slotIndex].color }}">
-                            <h5 class="slot-title" itemprop="name" style="font-weight: 400; font-family: 'Potta One', cursive;">
+                            <h5 class="slot-title" itemprop="name">
                                 {{ session.title }}
                             </h5>
                             {% if session.description != null %}
-                            <p class="service-description" style="font-weight: 400; font-family: 'Potta One', cursive;">
+                            <p class="service-description">
                                 {{ session.description | strip_html | truncate:
                                 80 }}
                             </p>
                             {% endif %}
                             {% if session.place != null %}
-                            <span class="speaker-position" style="font-weight: 400; font-family: 'Potta One', cursive;">@{{ session.place }}</span>
+                            <span class="speaker-position">@{{ session.place }}</span>
                             {% endif %}
                         </div>
                     </div>
@@ -62,15 +62,15 @@
                         data-slot-detail="{{ day.tracks[0].title }}">
                         <div class="color-line"></div>
                         <div class="slot-content">
-                            <h5 class="slot-title" itemprop="name" style="font-weight: 400; font-family: 'Potta One', cursive;">
+                            <h5 class="slot-title" itemprop="name">
                                 {{ session.title }}
                             </h5>
                             {% if session.description != null %}
-                            <p class="service-description" style="font-weight: 400; font-family: 'Potta One', cursive;">
+                            <p class="service-description">
                                 {{ session.description }}
                             </p>
                             {% if session.place != null %}
-                            <span class="speaker-position" style="font-weight: 400; font-family: 'Potta One', cursive;">@{{ session.place }}</span>
+                            <span class="speaker-position">@{{ session.place }}</span>
                             {% endif %} {% endif %}
                         </div>
                     </div>
