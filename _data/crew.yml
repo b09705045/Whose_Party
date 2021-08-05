@@ -6,7 +6,7 @@
   title: "<b>總召</b> ｜ 資管二"
   modalTitle: "<b>總召<br>Developer</b><br>資管二"
   fontstyle: "Potta One"
-  bio: '
+  bio: "
   嗨大家，我是資管二的吳宇璇！<br>
   <br>
   貓奴、中壢人 、棒球愛好者 、果粉、重度音樂成癮者，最近在學習欣賞電影🎬 。<br>
@@ -17,7 +17,7 @@
   有任何問題都歡迎來找我喔，不論是課業或是大學生活，會盡力幫助你們的👌 ！希望你們一切順利！<br>
   <br>
   大家宿營見～～
-  '
+  "
   thumbnailUrl: 1_compressed.jpg
   executive: true
   vice: false
@@ -83,14 +83,12 @@
   fontstyle: "Potta One"
   bio: "各位新生嗨，雖然我不覺得你們會看到這邊，但我好像需要自我介紹，我是資管二洪韻蕎，同時是這次宿營的副召。<br>
   貓派，黑灰白的最可愛，真的超可愛，還有小貓熊也世界可愛，瘋掉。<br>
-  就醬！希望你們進來可以喜歡資管，希望啦。<br>比起那個，宿營給我好好ㄉ玩喔😡"
+  就醬！希望你們進來可以喜歡資管，希望啦。<br>比起那個，宿營給我好好ㄉ玩喔😡 "
   thumbnailUrl: 4_compressed.jpg
   executive: true
   vice: true
   leader: false
   dev: false
-  # ribbon:
-  #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
   social:
      - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100002593226867"}
 
@@ -113,11 +111,9 @@
   vice: true
   leader: false
   dev: false
-  # ribbon:
-  #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
   social:
-    - {name: "google-plus", link: "https://www.instagram.com/sheryll_chiu/?r=nametag"}
-    - {name: "facebook", link: "https://www.facebook.com/sheryl.chiu.1/"}
+     - {name: "google-plus", link: "https://www.instagram.com/sheryll_chiu/?r=nametag"}
+     - {name: "facebook", link: "https://www.facebook.com/sheryl.chiu.1/"}
 
 -
   id: 6
@@ -127,22 +123,20 @@
   title: "<b>副召</b> ｜ 物治二"
   modalTitle: "<b>副召</b><br>物治二"
   fontstyle: "Potta One"
-  bio: "哈囉我是物治的 <b> 陸品孜</b>～o(≧v≦)o <br>
+  bio: "哈囉我是物治的 <b> 陸品孜</b>～o(≧v≦)o<br>
   看起來應該是親和力十足的人（吧？<br>
   平常喜歡看小說跳舞<br>
-  芋控一枚\(≧▽≦)/也很喜歡小熊維尼<br>
+  芋控一枚(≧▽≦)/也很喜歡小熊維尼<br>
   是一個脾氣不爆的牡羊座♈️<br>
   以後有什麼問題都可以問我或是你們<code>總召兒</code>"
   thumbnailUrl: 6_compressed.jpg
   executive: true
-  vice: true
+  vice: false
   leader: false
   dev: false
-  # ribbon:
-  #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
   social:
-     - {name: "google-plus", link: "https://www.instagram.com/elva4_09/"}
-     - {name: "facebook", link: "https://www.facebook.com/lu.elva.1/"}
+    - {name: "google-plus", link: "https://www.instagram.com/elva4_09/"}
+    - {name: "facebook", link: "https://www.facebook.com/lu.elva.1/"}
 
 -
   id: 7
