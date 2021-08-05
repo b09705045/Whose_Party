@@ -9,7 +9,7 @@
   bio: "
   嗨大家，我是資管二的吳宇璇！<br>
   <br>
-  貓奴、中壢人 、棒球愛好者 、果粉、重度音樂成癮者，最近在學習欣賞電影🎬 。<br>
+  貓奴、中壢人、棒球愛好者、果粉、重度音樂成癮者，最近在學習欣賞電影🎬 。<br>
   也很喜歡騎單車和看海，有私房景點的歡迎推薦給我！！<br>
   <br>
   <s>俗話說的好：<b>揪團來宿營，大學一定贏。</b></s>雖然今年受到疫情影響，導致宿營延到開學後舉辦，不過這仍然會是你們交到新朋友的好機會喔！敬請期待學長姐們精心準備的活動吧🤩 <br>
@@ -121,7 +121,7 @@
   bio: "哈囉我是物治的 <b> 陸品孜</b>～o(≧v≦)o<br>
   看起來應該是親和力十足的人（吧？<br>
   平常喜歡看小說跳舞<br>
-  芋控一枚(≧▽≦)/也很喜歡小熊維尼<br>
+  芋控一枚\(≧▽≦)/也很喜歡小熊維尼<br>
   是一個脾氣不爆的牡羊座♈️<br>
   以後有什麼問題都可以問我或是你們<code>總召兒</code>"
   thumbnailUrl: 6_compressed.jpg
@@ -132,7 +132,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/elva4_09/"}
     - {name: "facebook", link: "https://www.facebook.com/lu.elva.1/"}
-
 -
   id: 7
   name: "Julie"
@@ -160,7 +159,6 @@
   social:
     - {name: "google-plus", link: "https://instagram.com/julie__1922?utm_medium=copy_link"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100001068835776"}
-
 -
   id: 8
   name: "PuSung"
@@ -189,7 +187,6 @@
   social:
     - {name: "google-plus", link: "https://instagram.com/pusung_159.4?utm_medium=copy_link"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100004709856466"}
-
 -
   id: 9
   name: "Christine"
@@ -207,7 +204,6 @@
   social:
     - {name: "google-plus", link: "https://instagram.com/dch_0521?utm_medium=copy_link"}
     - {name: "facebook", link: "https://www.facebook.com/ding.c.hui.5"}
-
 -
   id: 10
   name: "Kevin"
@@ -231,7 +227,6 @@
   dev: false
   social:
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100001876691414"}
-
 -
   id: 11
   name: ""
@@ -252,7 +247,6 @@
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
-
 -
   id: 12
   name: "Jasper"
@@ -276,7 +270,6 @@
     - {name: "google-plus", link: "https://www.instagram.com/jaspe_cn0410/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100004521583982"}
     - {name: "github", link: "https://github.com/jasperchan5"}
-
 -
   id: 13
   name: "Emily"
@@ -299,7 +292,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/emilychen221/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100022379791482"}
-
 -
   id: 14
   name: "Tzu Ying Yang"
@@ -323,7 +315,6 @@
   dev: false
   social:
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100005968441165"}
-
 -
   id: 15
   name: "Joyce"
@@ -344,7 +335,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/yuyan1120"}
     - {name: "facebook", link: "https://www.facebook.com/yan.y.liang/"}
-
 -
   id: 16
   name: "Claire Liu"
@@ -378,7 +368,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/champion._.liu/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100000679944569"}
-
 -
   id: 17
   name: "Chang-Tian-Wei"
@@ -406,7 +395,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/tian_wei_chang/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100003708637540"}
-
 -
   id: 18
   name: "Muzilee"
@@ -430,7 +418,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/muzilee_0123/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100003538095379"}
-
 -
   id: 19
   name: "Yoya"
@@ -452,7 +439,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/yoya_0324/"}
     - {name: "facebook", link: "https://www.facebook.com/yoya0324/"}
-
 -
   id: 20
   name: "Benson"
@@ -474,7 +460,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100008141530919"}
-
 -
   id: 21
   name: "Sunny"
@@ -496,7 +481,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/tinghsuan0821/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100002559594604"}
-
 -
   id: 22
   name: "chen yingwei"
@@ -523,7 +507,6 @@
   leader: true
   dev: false
   social: null
-
 -
   id: 23
   name: "Daphne"
@@ -542,7 +525,6 @@
   dev: false
   social:
     - {name: "facebook", link: "https://www.facebook.com/daphne.hou.9"}
-
 -
   id: 24
   name: "Sherry Huang"
@@ -564,7 +546,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-
 -
   id: 25
   name: ""
@@ -584,7 +565,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-
 -
   id: 26
   name: "Jasper"
@@ -607,10 +587,8 @@
     - {name: "google-plus", link: "https://www.instagram.com/jaspe_cn0410/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100004521583982"}
     - {name: "github", link: "https://github.com/jasperchan5"}
-
   ribbon:
     - {abbr: "Head Developer", title: "Head Developer"}
-
 -
   id: 27
   name: ""
@@ -631,7 +609,6 @@
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
-
 -
   id: 28
   name: "Max"
@@ -659,7 +636,6 @@
     - {name: "google-plus", link: "https://www.instagram.com/flute._.max/"}
     - {name: "facebook", link: "https://www.facebook.com/cko43.Max?locale=zh_TW"}
     - {name: "github", link: "https://github.com/maxyhwu"}
-
 -
   id: 29
   name: ""
