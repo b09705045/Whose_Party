@@ -1,88 +1,90 @@
 -
   id: 1
-  name: "Jasper Chan"
+  name: "Max"
   surname: "吳宇璇"
   company: "資管系總召"
   title: "<b>總召</b> ｜ 資管二"
   modalTitle: "<b>總召<br>Developer</b><br>資管二"
   fontstyle: "Potta One"
   bio: '
-  👋 嗨大家，這是簡單的語法教學！<br>
-  為了讓個介不要太尷尬，適當的加入一些Emoji或是指令是必須的啦！也因為網頁還有太多東西要處理🥲，希望大家自行插入指令至妳/你的簡介中，讓開發團隊減去輸入大量指令的時間！<br>
-  （如果妳/你看完下面這些說明還是無法理解，<s>導致心情低落吃不下飯睡不著覺，</s>那只好麻煩妳/你手動換行或註明要什麼樣的效果，我們再來幫妳/你個別處理👌，不用擔心！）<br>
+  嗨大家，我是資管二的吳宇璇！<br>
   <br>
-  教學如下：<br>
-  要換行請幫我們加這個！👉🏽<br>
-  都不加的話
-  只按Enter換行是沒有用的喔！<br>
-  <b> 這是粗體 </b><br>
-  <u> 這是底線 </u><br>
-  <s> 這是刪除線 </s><br>
-  <code> 這是畫重點 </code><br>
-  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">這是超連結</a><br>
+  貓奴、中壢人 、棒球愛好者 、果粉、重度音樂成癮者，最近在學習欣賞電影🎬 。<br>
+  也很喜歡騎單車和看海，有私房景點的歡迎推薦給我！！<br>
   <br>
-  其他的包含字型、顏色、背景等就不開放大家自己調整ㄛ。<br>
+  <s>俗話說的好：<b>揪團來宿營，大學一定贏。</b></s>雖然今年受到疫情影響，導致宿營延到開學後舉辦，不過這仍然會是你們交到新朋友的好機會喔！敬請期待學長姐們精心準備的活動吧🤩 <br>
   <br>
-  <code><b> 以上內容再麻煩大家！！感謝！！ </b></code>
+  有任何問題都歡迎來找我喔，不論是課業或是大學生活，會盡力幫助你們的👌 ！希望你們一切順利！<br>
+  <br>
+  大家宿營見～～
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 1_compressed.jpg
   executive: true
   vice: false
   leader: false
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
-    # - {name: "twitter", link: "https://github.com/maxyhwu/Whose_Party"}
-    # - {name: "site", link: "https://github.com/maxyhwu/Whose_Party"}
+    - {name: "google-plus", link: "https://www.instagram.com/flute._.max/"}
+    - {name: "facebook", link: "https://www.facebook.com/cko43.Max?locale=zh_TW"}
+    - {name: "github", link: "https://github.com/maxyhwu"}
 
 -
   id: 2
-  name: ""
+  name: "cic"
   surname: "陳怡靜"
   company: "護理系總召"
   title: "<b>總召</b> ｜ 護理三"
   modalTitle: "<b>總召</b><br>護理三"
   fontstyle: "Potta One"
-  bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
-  thumbnailUrl: patrick_1.jpg
+  bio: "哈囉大家，我是護理三的陳怡靜，大家都叫我cic西可，是個沒有捷運會往生的死台北人。話說為什麼我都大三了還要打自我介紹？？？算了，該來的還是得來==<br>
+  <br>
+  身為系館地縛靈aka護理酒王的me，秉持著生命是一場狂歡的態度又來辦宿營啦哈哈，殊不知才剛開始準備就被疫情gank，籌備之路異常艱辛🥲俗話說的好，參加宿營是成為大學勝z組的第一步，我們有最🐂🍺的團隊跟最🐂🍺的遊戲，各位小大一們是一定要來的ㄅ⋯⋯<br>
+  <br>
+  好煩我講話真的好像霸社猴，反正期待在宿營可以見到可愛ㄉ你們！到時候見(⁎⁍̴̛ᴗ⁍̴̛⁎)"
+  thumbnailUrl: 2_compressed.jpg
   executive: true
   vice: false
   leader: false
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "https://www.instagram.com/cic_0705/"}
+    - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100004522323854"}
 
 -
   id: 3
-  name: ""
+  name: "Yan-Chi Fu"
   surname: "傅彥齊"
   company: "物治系總召"
   title: "<b>總召</b> ｜ 物治二"
   modalTitle: "<b>總召</b><br>物治二"
   fontstyle: "Potta One"
-  bio: "Dawid is true technology enthusiast, who loves to work in areas where humans and machines meet to create amazing new products and services. He is experienced program manager with strong technical background, who is able to establish priorities for complex projects and execute across multiple organizations, according to long-term objectives. Dawid has worked in Poland, USA, Germany, Belgium and The Netherlands and truly values diversity of international working environment. His most visible characteristics are individualization (when dealing directly with people), ideation&intellection (inexhaustible source of new concepts) and strong communication (experienced trainer, community manager). He is also an activator constantly impatient for action."
-  thumbnailUrl: patrick_1.jpg
+  bio: "<b>「一個人可以走得很快，但一群人可以走得很遠」</b>而當上召也只是比較喜歡大家一起看到遠處的風景而已。<br>
+  <br>
+  謝謝參與這次宿營事前事後的所有工作人員，少了你們認合一個人的出力協助，今天這場派對就無法跑起來，也謝謝你們讓我從來沒後悔接下總召的位置。<br>
+  也特別謝謝從一開始交接什麼都沒有，經過數次開會籌備場勘，今天還是在聊天室裡呱呱叫的其他五位召部夥伴，也一直期待我們一起穿上麻將衫的那天。<br>
+  最後，我也想跟參與這次活動的學弟妹們說聲謝謝，你們讓這場活動圓滿了，在疫情時期，可能給你們的宿營可能沒有往年完整，但還是希望能讓你們對在大學生活中第一個外宿活動有好回憶，也能找到未來一起奮鬥生活的夥伴。<br>
+  我是物治二 總召 傅彥齊，謝謝在看這段文字的你，<b>我們派對上見，你們都是這場WHOSE PARTY的主人。</b><br>"
+  thumbnailUrl: 3_compressed.jpg
   executive: true
   vice: false
   leader: false
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "instagram.com/yanchi4real_0519"}
+    - {name: "facebook", link: "https://www.facebook.com/CKCR0633"}
 
 -
   id: 4
-  name: ""
+  name: "Hung-Yun-Chiao"
   surname: "洪韻蕎"
   company: "資管系副召"
   title: "<b>副召</b> ｜ 資管二"
   modalTitle: "<b>副召</b><br>資管二"
   fontstyle: "Potta One"
-  bio: "Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv."
-  thumbnailUrl: patrick_1.jpg
+  bio: "各位新生嗨，雖然我不覺得你們會看到這邊，但我好像需要自我介紹，我是資管二洪韻蕎，同時是這次宿營的副召。<br>
+  貓派，黑灰白的最可愛，真的超可愛，還有小貓熊也世界可愛，瘋掉。<br>
+  就醬！希望你們進來可以喜歡資管，希望啦。<br>比起那個，宿營給我好好ㄉ玩喔😡"
+  thumbnailUrl: 4_compressed.jpg
   executive: true
   vice: true
   leader: false
@@ -90,19 +92,23 @@
   # ribbon:
   #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
   social:
-     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100002593226867"}
 
 -
   id: 5
-  name: ""
+  name: "Sheryll"
   surname: "邱子恬"
   company: "護理系副召"
   title: "<b>副召</b> ｜ 護理三"
   modalTitle: "<b>副召</b><br>護理三"
   fontstyle: "Potta One"
-  bio: "Valentyn focuses on Polymer and Web Components. In previous roles he’s helped craft design systems for massive enterprise companies, user interfaces for console titles, and even built the occasional enchanted princess game. These days his mission is to fight for a better web and to help developers build great experiences."
-  thumbnailUrl: melon.jpeg
+  bio: "哈囉大家～這邊是護理三的邱子恬喔！<br>
+  雖然勵志在停課期間要奮發向上練吉他念日文，但做最多的大概還是看動漫跟練琴了XD<br>
+  大愛排球少年！<s>喜歡到會去收集特上紅茶聯名寶特瓶的那種</s>如果有人也喜歡的話歡迎來找我玩～要一起打排球也可以！<br>
+  今年因為疫情的關係所以這次的宿營是在開學後舉辦，不過還是很希望學弟妹們可以一起來參加～<b>能夠一次認識三個系的夥伴們會是很難得的經驗呢</b>👍<br>
+  把三天的行程濃縮成兩天一夜，我們會努力為各位帶來很精彩的活動的！敬請期待～<br>
+  也很期待能夠在宿營期間認識大家❤️"
+  thumbnailUrl: 5_compressed.jpg
   executive: true
   vice: true
   leader: false
@@ -110,19 +116,24 @@
   # ribbon:
   #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "https://www.instagram.com/sheryll_chiu/?r=nametag"}
+    - {name: "facebook", link: "https://www.facebook.com/sheryl.chiu.1/"}
 
 -
   id: 6
-  name: ""
+  name: "Elva"
   surname: "陸品孜"
   company: "物治系副召"
   title: "<b>副召</b> ｜ 物治二"
   modalTitle: "<b>副召</b><br>物治二"
   fontstyle: "Potta One"
-  bio: "Roman started his way in Android 5 years ago and fall in love with this platform. Currently he is a head of Android unit in Stanfy LLC and a co-organizer of Kyiv Google Developers Group focusing on Android development. Roman is responsible for building a strong team of Android developers inside Stanfy as well as for organizing Android professionals community in Kyiv."
-  thumbnailUrl: patrick_1.jpg
+  bio: "哈囉我是物治的 <b> 陸品孜</b>～o(≧v≦)o <br>
+  看起來應該是親和力十足的人（吧？<br>
+  平常喜歡看小說跳舞<br>
+  芋控一枚\(≧▽≦)/也很喜歡小熊維尼<br>
+  是一個脾氣不爆的牡羊座♈️<br>
+  以後有什麼問題都可以問我或是你們<code>總召兒</code>"
+  thumbnailUrl: 6_compressed.jpg
   executive: true
   vice: true
   leader: false
@@ -130,87 +141,107 @@
   # ribbon:
   #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/110301321530950732281/"}
   social:
-     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+     - {name: "google-plus", link: "https://www.instagram.com/elva4_09/"}
+     - {name: "facebook", link: "https://www.facebook.com/lu.elva.1/"}
 
 -
   id: 7
-  name: ""
+  name: "Julie"
   surname: "蔣詠心"
   company: ""
   title: "<b>活動長</b> ｜ 資管二"
   modalTitle: "<b>活動長</b><br>資管二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  Developer. Nominated to apply for the <a href="http://goo.gl/V7qHc">Google Developer Expert Program</a>. Finalist of <a href="http://goo.gl/HO2kLf">Google Apps Developer Challenge 2012</a>. Author of open source <a href="http://goo.gl/Sp5Pel">libraries</a> 1000+ stars. Writer. When Dmytro has free time he is writing <a href="http://goo.gl/AoOVru">technical articles</a>. Speaker. Always trying to share his knowledge &amp; experience on different <a href="http://goo.gl/PNolZY">events</a>. Big fan of android, flat design, stackoverflow, git, Intellij IDEA. Eclipse IDE hater.'
-  thumbnailUrl: patrick_1.jpg
+  bio: '嗨，我是資管二的蔣詠心。<br>
+  <br>
+  我在家鄉也騎貢丸上下學，但新竹絕對不是美食沙漠🙃<br>
+  到臺大之後雖然有腳踏車這方便的東西，但我還是好懶得動。<br>
+  身為新竹第一志願畢業的學生（<a href="https://youtu.be/z6dLclGekUw">詳見 6:28</a>），聰明如我想出了最好的方法，蹭車！<br>
+  若有人想知道怎麼搭別人的腳踏車在臺大穿梭的話，歡迎來找我😏<br>
+  <br>
+  沒有什麼特殊的事蹟，大概只有被 PDOGS 封鎖跟雙主修抽獎系。<br>
+  可以看到我出現在各系抽獎文案底下，歡迎有志之士揪我一起抽獎，讓公關品填滿資管系廳。<br>
+  <br>
+  回歸正題，活動組這次花了不少心力籌備宿營，就是希望來參加的人都能有美好的回憶！<br>
+  歡迎大家踴躍報名啦！'
+  thumbnailUrl: 7_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "https://instagram.com/julie__1922?utm_medium=copy_link"}
+    - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100001068835776"}
 
 -
   id: 8
-  name: ""
+  name: "PuSung"
   surname: "許圃菘"
   company: ""
   title: "<b>活動長</b> ｜ 資管二"
   modalTitle: "<b>活動長</b><br>資管二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '嗨大家，我是資管二的許圃菘。<br>
+  <br>
+  我是美食沙漠🏜️的子民，我在家鄉都是騎貢丸上下學😢<br>
+  到台大發現竟然有腳踏車這種東西，真是太方便了！<br>
+  所以我花了一整個學年鑽研腳踏車的技術。<br>
+  自認是台大腳踏車技術前3%👏！如果有人想知道如何成為腳踏車大神可以來找我。<br>
+  <br>
+  我還有另一個專長是<code>翹課</code>，暑假沒意外的話會在我們高中 for 新生的茶會教大家翹課😏<br>
+  如果你也想知道怎麼成為翹課大師的話可以趁遇到我的時候問我！<br>
+  <br>
+  還有最後一 part 是看起來像在介紹我自己，但其實在業配資管系壘⚾️🥎！<br>
+  我喜歡打棒球，如果大家也有相同興趣，或想嘗試的話可以來加<b><u>系壘</u></b>( 壘球棒球都會打 )喔！！！🤩🤩<br>
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 8_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "https://instagram.com/pusung_159.4?utm_medium=copy_link"}
+    - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100004709856466"}
 
 -
   id: 9
-  name: ""
+  name: "Christine"
   surname: "丁純彗"
   company: ""
   title: "<b>活動長</b> ｜ 護理二"
   modalTitle: "<b>活動長</b><br>護理二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '嗨大家👋<br>我是護理二丁純彗 可撥通勤仔新北人<br>在這次宿營擔任的是活動長啦🥳🥳<br>如果對活動有什麼心得都歡迎與我們分享呦🥑<br><br>以下是我的小自介🤏<br>平時疫情在家最大娛樂是看奧運🥇🥰<br>偶爾彈琴 喜歡聽音樂 🎵<br>大學參加了系排和傳統醫學社<br>有興趣的人可以來交流🤩🤩<br><br>很開心這次的宿營在疫情的打擊下仍然如願舉辦啦🤙🤙<br>為了給B10你們留下大學第一個快樂回憶<br>工人們都辛苦地開了很多會🥵<br>還不快點手刀報名起來嗎😍😍<br>期待與大家見面啦💯💯
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 9_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "https://instagram.com/dch_0521?utm_medium=copy_link"}
+    - {name: "facebook", link: "https://www.facebook.com/ding.c.hui.5"}
 
 -
   id: 10
-  name: ""
+  name: "Kevin"
   surname: "呂存笙"
   company: ""
   title: "<b>活動長</b> ｜ 物治二"
   modalTitle: "<b>活動長</b><br>物治二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '大家好，我是來自台南一中現在物治系的呂存笙yo！<br>
+  因為來自台南，所以對於吃的什麼都很在行ㄏㄏ<br>
+  如果來台南的話可以call我，直接吃遍台南，不虧。<br>
+  在系上有系籃，算是滿喜歡打球的但不是太強。<br>
+  也有跳過幾年舞，最近在研究底片相機，可以來交流一下。<br>
+  好尬不知道要講什麼，反正希望你們在大學玩的開心！<br>
+  那有什麼營隊或系上任何問題都可以來問我～<br>
+  也可以晚上約一下宵夜～
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 10_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100001876691414"}
 
 -
   id: 11
@@ -235,255 +266,306 @@
 
 -
   id: 12
-  name: ""
+  name: "Jasper"
   surname: "詹景棠"
   company: ""
   title: "<b>美宣長/公關長</b> ｜ 資管二"
   modalTitle: "<b>美宣長<br>公關長<br>Developer</b><br>資管二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '嗨大家，我是資管二詹景棠 a.k.a JC<s>，是個綽號比本名更常被叫的人</s>。<br>
+        <br>桃園人，沒什麼特別喜歡吃的東西，但要說特別討厭的那就是香菜!真的不懂為什麼會有人喜歡香菜......嘖嘖嘖🤢🤮🤮<br>
+        <br>近一年來最偉大的事蹟大概就是體重狂減了<b>15公斤</b>，令周遭女性友人羨慕不已😎😎😎<br>
+        想知道我是如何天天吃宵夜喝飲料還不會復胖的話，歡迎找我洽詢!<br>
+        <br>大概醬，應該也不用再多做補充....... <s>反正上營時我應該不會跟其他人互動😢</s><s>身為網頁開發長的悲哀。</s><br>
+        <br>希望各位玩得愉快!<br>
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 12_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
+    - {name: "google-plus", link: "https://www.instagram.com/jaspe_cn0410/"}
+    - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100004521583982"}
+    - {name: "github", link: "https://github.com/jasperchan5"}
 
 -
   id: 13
-  name: ""
+  name: "Emily"
   surname: "陳奕溱"
   company: ""
   title: "<b>美宣長</b> ｜ 護理二"
   modalTitle: "<b>美宣長</b><br>護理二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '哈囉小隊員好！我是護理二美宣長陳奕溱😆<br>
+  非常感動這個宿營能夠上線～也恭喜跟歡迎大家變成大學生！<br>
+  大學是一個很奇妙的地方，時間一下子就過去了！希望大家可以在大學裡認識很好的朋友，找到自己真心愛的興趣和目標！<br>
+  我的興趣是吉他音樂還有旅遊（希望可以有一天帶著吉他開著車環遊世界！首先要考到駕照！）希望疫情快點去去走，在所剩不多的暑假裡可以放我們出去😭<br>
+  最後祝大家在營期的這兩天可以玩得很盡興！<br>
+  自我介紹真是尷尬的東東，結束這回合！<br>
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 13_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "https://www.instagram.com/emilychen221/"}
+    - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100022379791482"}
 
 -
   id: 14
-  name: ""
+  name: "Tzu Ying Yang"
   surname: "楊子瑩"
   company: ""
   title: "<b>美宣長</b> ｜ 物治二"
   modalTitle: "<b>美宣長</b><br>物治二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '是個比較會做教室布置，但是畫工普通的美宣<br>
+  特殊才藝是早睡早起(?<br>
+  不熬夜是我的STYLE<br>
+  <s>真的不會自我介紹請不要逼我</s><br>
+  想趁機宣傳<code>物職治女排</code>  \ ( > < ) /<br>
+  喜歡排球或是想要學會超帥扣球的人<br>
+  上大學不想變胖也可以(?<br>
+  美宣長一鞠躬
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 14_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100005968441165"}
 
 -
   id: 15
-  name: ""
+  name: "Joyce"
   surname: "梁雨晏"
   company: ""
   title: "<b>公關長</b> ｜ 護理二"
   modalTitle: "<b>公關長</b><br>護理二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '嗨大家！我是護理二的梁雨晏，很開心能成為這次宿營公關組的一員，還請大家多多指教(´∀`)<br>
+  我是個慢熟型的人所以不少人對我有安靜的第一印象，但熟了之後就完全相反啦！我喜歡和朋友們談天說地、到處玩、吃遍美食！說到美食，我喜歡探索學校附近的美食，所以有朋友給我「美食雷達」的稱號 (￣▽￣)ノ我特別喜歡蔬食、抹茶、芋頭、肉桂捲，所以歡迎有興趣的你和我一起討論吧！<br>
+  興趣是瑜珈、畫畫、烹飪，另外因為我之前高中是大眾傳播社的關係，所以對剪片也很有興趣！<br>
+  最後祝新生們能在宿營玩得開心、有個美好且順利的大學生活！
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 15_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "https://www.instagram.com/yuyan1120"}
+    - {name: "facebook", link: "https://www.facebook.com/yan.y.liang/"}
 
 -
   id: 16
-  name: ""
+  name: "Claire Liu"
   surname: "劉冠昀"
   company: ""
   title: "<b>公關長</b> ｜ 物治二"
   modalTitle: "<b>公關長</b><br>物治二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '嗨嗨大家好🙋‍♀️<br>
+  我是這次宿營的公關長劉冠昀！！<br>主要是負責處理營隊的廠商贊助和管理粉專哦😃<br>
+  同時也是第五小隊的隊輔！！<br>
+  期待你們來當我的小隊員🤩<br>
+  平常喜歡唱唱歌🎤彈彈吉他🎸<br>
+  和另外四個同學組了一個樂團叫Derluko💩<br>
+  最後一天的表演可能會看到我們哦😏😏<br>
+  目前也有加入羽球系隊和院隊🏸<br>
+  有興趣的歡迎一起來打球運動🔥🔥<br>
+  最近疫情在家莫名開啟了烘焙技能🍰<br>
+  正在嘗試各種簡單又好吃的甜點😋😋<br>
+  如果有推薦的食譜也歡迎分享給我哈哈<br>
+  <br>
+  期待疫情快快過去與大家見面啦😭<br>
+  也希望大家在這次宿營玩得開心！！<br>
+  認識更多各系的朋友🙆<br>
+  他們都有可能是你未來人生路上的好夥伴喔！！<br>
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 16_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "https://www.instagram.com/champion._.liu/"}
+    - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100000679944569"}
 
 -
   id: 17
-  name: ""
+  name: "Chang-Tian-Wei"
   surname: "張天瑋"
   company: ""
   title: "<b>隊輔長</b> ｜ 資管二"
   modalTitle: "<b>隊輔長</b><br>資管二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '嗨大家，我是這次宿營資管系的隊輔長，張天瑋<br>
+  在答應總召要接隊輔長的時候，完全沒有想到居然有這個榮幸<br>
+  可以在充滿派大興的宿營網站留下我的自介<br>
+  雖然我一點也不喜歡自我介紹😅<br>
+  好吧，所以如果想要更認識我的人可以來找我聊天<br>
+  什麼，你說你不知道怎麼找到我!?<br>
+  教你一個方法，趕快報名宿營，私訊我說你想和我聊天<br>
+  搞不好宿營當天我就會去找你聊天了喔<br>
+  不想要認識我也沒關係，還是可以報名宿營<br>
+  但就不用特別私訊告訴我了😅<br>
+  好吧希望這樣有一百個字😂 掰掰<br>
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 17_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "https://www.instagram.com/tian_wei_chang/"}
+    - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100003708637540"}
 
 -
   id: 18
-  name: ""
+  name: "Muzilee"
   surname: "李雨倢"
   company: ""
   title: "<b>隊輔長</b> ｜ 護理二"
   modalTitle: "<b>隊輔長</b><br>護理二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '嗨大家～我是護理二李雨倢 你們可以叫我木子李就好！<br>
+  很開心這次宿營可以跟你們一起度過這兩天一夜 希望你們都能玩得開心ʕ •ᴥ•ʔ <br>
+  雖然我看起來好像不太好親近 但是真的沒有嗚嗚（淚）如果有什麼困難都可以來找我～<s>（但我可能不太可靠噗）</s><br>
+  也可以找我聊天 我很會尬聊的(⁎⁍̴̛ᴗ⁍̴̛⁎)<br>
+  喔對了 我有時候講話可能會有點慢 因為我講太快會講不清楚 很抱歉….<br>
+  最後 雖然10月底已經開學一陣子了 你們可能都互相變成好麻吉了 還是希望你們可以趁這個一起出來玩的機會多認識一些新朋友！好好珍惜這個疫情過後可以重新來出來放風的機會～<br>
+  很高興可以認識你們🙃
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 18_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "https://www.instagram.com/muzilee_0123/"}
+    - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100003538095379"}
 
 -
   id: 19
-  name: ""
+  name: "Yoya"
   surname: "游雅芮"
   company: ""
   title: "<b>隊輔長</b> ｜ 物治二"
   modalTitle: "<b>隊輔長</b><br>物治二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '嗨嗨大家好👋<br>
+  我是物治二的游雅芮 大家可以叫我Yoya!<br>
+  平時的興趣是唱歌跳舞彈吉他玩狗🐶<br>
+  專長的話可能是耍ㄎ一ㄤ講幹話<br>
+  呀我人很好的 歡迎大家都報名宿營就可以認識我了哈哈哈😂
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 19_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "https://www.instagram.com/yoya_0324/"}
+    - {name: "facebook", link: "https://www.facebook.com/yoya0324/"}
 
 -
   id: 20
-  name: ""
+  name: "Benson"
   surname: "王紹安"
   company: ""
   title: "<b>總務長</b> ｜ 資管二"
   modalTitle: "<b>總務長</b><br>資管二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '👋嗨各位，我是B09資管的總務長王紹安！<br>
+  畢業於薇閣高中，沒錯就是那個傳說中騎馬坐直升機上學飲水機還有珍奶<s>據說有校規</s>的高中🤣 歡迎各位學弟妹進來～ 鄙人不像其他幹部那樣多才多藝，應該只有在debug這方面的直覺特別準🧐如果程式有問題的話可以來問我XD 鄙人上學期可說是閱code無數快變debug小達人了呢🥲<br>
+  除此之外，🀄️也是很樂意與各位切磋切磋的，歡迎大家一起來交流～<br>
+  <br>
+  希望各位學弟妹在這次宿營中能玩得開心！
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 20_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100008141530919"}
 
 -
   id: 21
-  name: ""
+  name: "Sunny"
   surname: "陳庭萱"
   company: ""
   title: "<b>總務長</b> ｜ 護理二"
   modalTitle: "<b>總務長</b><br>護理二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '哈囉大家好！我是陳庭萱，是護理系的總務長～<br>
+  我喜歡跳舞、畫畫跟吃好多美味的食物～<br>
+  每天都幻想自己可以變得好瘦好瘦但又一直吃<br>
+  很喜歡旅遊但這個暑假都不能出去玩，所以我也好期待宿營的到來！<br>
+  希望大家都可以在這次的宿營中有一個難忘的回憶❤️
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 21_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "https://www.instagram.com/tinghsuan0821/"}
+    - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100002559594604"}
 
 -
   id: 22
-  name: ""
+  name: "chen yingwei"
   surname: "陳映瑋"
   company: ""
   title: "<b>總務長</b> ｜ 物治二"
   modalTitle: "<b>總務長</b><br>物治二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '嗨各位學弟妹~<br>
+  我是總務長物治二的陳映瑋<br>
+  歡迎大家進入大學生活，大學生活免不了宿營<br>
+  所以不要猶豫快來參加，認識同學和學長姊<br>
+  重要的是三系合辦還可以認識別系的<br>
+  因為這樣找到人生另一半 超賺!!<br>
+  講了一些廢話稍微來自我介紹一下<br>
+  我呢在宿營應該不是會很現眼讓人想認識那種<br>
+  所以如果剛好有緣和我講到話那就認識一下吧<br>
+  我興趣是爬山、慢跑、吃美食<br>
+  個性慢熟、奇怪<br>
+  但沒關係，來宿營還是有很多很嗨，很正，很帥的學長姊陪你們留下美好回憶的 !
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 22_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
-  social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+  social: null
 
 -
   id: 23
-  name: ""
+  name: "Daphne"
   surname: "侯維書"
   company: ""
   title: "<b>執行秘書</b> ｜ 資管二"
   modalTitle: "<b>執行秘書</b><br>資管二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '哈囉！我是資管二的侯維書，台北人<br>
+  可以靠雙腳行走台大校園，上課都不用騎腳踏車也不會遲到（有時候還比騎車的人早到XD）。平常喜歡泡咖啡廳和運動，暑假幾乎天天跑到山裡面 防疫（？ 如果假日想出去玩或爬山也可以問我！<br>
+  啊自我介紹真是太尷尬了哈哈哈，先這樣吧，期待宿營可以和大家一起聊天一起玩啦～
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 23_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "facebook", link: "https://www.facebook.com/daphne.hou.9"}
 
 -
   id: 24
-  name: ""
+  name: "Sherry Huang"
   surname: "黃詠萱"
   company: ""
-  title: "<b>執行秘書</b> ｜ 護理二"
-  modalTitle: "<b>執行秘書</b><br>護理二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  title: "<b>執行秘書</b> ｜ 護理三"
+  modalTitle: "<b>執行秘書</b><br>護理三"
+  bio: '嗨大家！我是護理三黃詠萱，是大一到現在都沒參加過一次宿營（之夜也沒參加過qqqq）的人：）<br>
+  原因是什麼呢 等大家上營有機會再說吧哈哈哈 有一點小複雜🥲 <br>
+  想要嘗試加入系學會、加入老師研究室打工，還想要平衡課業的話 我可能可以給你一些小建議吧<br>
+  不過大家還是可以多出去玩玩啦 不一定要找很多事情給自己🤣<br>
+  總之，希望大家的大學生活都可以玩得快樂，<b> 不要再遇到疫情了 </b>🥲
   '
   thumbnailUrl: patrick_1.jpg
   executive: false
@@ -516,7 +598,7 @@
 
 -
   id: 26
-  name: "Jasper Chan"
+  name: "Jasper"
   surname: "詹景棠"
   company: ""
   title: "<b>Head Developer</b> ｜ 資管二"
@@ -527,15 +609,16 @@
         想知道我是如何天天吃宵夜喝飲料還不會復胖的話，歡迎找我洽詢!<br>
         <br>大概醬，應該也不用再多做補充....... <s>反正上營時我應該不會跟其他人互動😢</s><s>身為網頁開發長的悲哀。</s><br>
         <br>希望各位玩得愉快!<br>"
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 12_compressed.jpg
   executive: false
   vice: false
   leader: false
   dev: true
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
+    - {name: "google-plus", link: "https://www.instagram.com/jaspe_cn0410/"}
+    - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100004521583982"}
+    - {name: "github", link: "https://github.com/jasperchan5"}
+
   ribbon:
     - {abbr: "Head Developer", title: "Head Developer"}
 
@@ -562,24 +645,31 @@
 
 -
   id: 28
-  name: ""
+  name: "Max"
   surname: "吳宇璇"
   company: ""
   title: "<b>Developer</b> ｜ 資管二"
   modalTitle: "<b>總召<br>Developer</b><br>資管二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '嗨大家，我是資管二的吳宇璇！<br>
+  <br>
+  貓奴、中壢人 、棒球愛好者 、果粉、重度音樂成癮者，最近在學習欣賞電影🎬 。<br>
+  也很喜歡騎單車和看海，有私房景點的歡迎推薦給我！！<br>
+  <br>
+  <s>俗話說的好：<b>揪團來宿營，大學一定贏。</b></s>雖然今年受到疫情影響，導致宿營延到開學後舉辦，不過這仍然會是你們交到新朋友的好機會喔！敬請期待學長姐們精心準備的活動吧🤩 <br>
+  <br>
+  有任何問題都歡迎來找我喔，不論是課業或是大學生活，會盡力幫助你們的👌 ！希望你們一切順利！<br>
+  <br>
+  大家宿營見～～
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 1_compressed.jpg
   executive: false
   vice: false
   leader: false
   dev: true
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
+    - {name: "google-plus", link: "https://www.instagram.com/flute._.max/"}
+    - {name: "facebook", link: "https://www.facebook.com/cko43.Max?locale=zh_TW"}
+    - {name: "github", link: "https://github.com/maxyhwu"}
 
 -
   id: 29
