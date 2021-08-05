@@ -3,9 +3,9 @@
     <div class="content-wrapper">
         {% for day in site.data.schedule %}
         <div class="schedule-table col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1" style="font-weight:300; border-radius: 20%; border-width: 10px; border-color: black;">
-            <h4 class="schedule-table-heading"><code style="font-weight: 400; font-family: 'Potta One', cursive;">{{ day.dateReadable }}</code></h4>
+            <h4 class="schedule-table-heading"><code>{{ day.dateReadable }}</code></h4>
             <div class="timeslot track-header stick-header">
-                <div class="track-header-label" style="font-weight: 400; font-family: 'Potta One', cursive;">Day {{ forloop.index }}</div>
+                <div class="track-header-label">Day {{ forloop.index }}</div>
                 <div class="timeslot-elements flexbox-wrapper">
                     {% for track in day.tracks %} {% assign trackColWidth = 12 |
                     divided_by: forloop.length %}
