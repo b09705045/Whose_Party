@@ -7,3 +7,10 @@
   height: 400px;
   background: linear-gradient(to top,#a8a568 0%,#cfca84 100%);
 }
+.line{
+  height: 20px;
+  border-bottom: 1px #555223 solid;
+  width: 80%;
+  margin-left: 10%;
+  background: transparent;
+}
