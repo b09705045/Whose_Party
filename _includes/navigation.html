@@ -11,29 +11,13 @@
         <ul>
             {% for navigationLink in site.navigationLinks %}
             <li>
-                <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %} 
+                <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %}
                     style="font-weight: 400; font-family: 'Potta One', cursive;">{{ navigationLink.text}}</a>
             </li>
             {% endfor %}
             <span class="bordered" style="background: linear-gradient(to top,#365a68 0%, #a3e5ff 100%); border:#4c5192 solid 2px; border-radius: 20px; margin-left: 20px;">
-                <style>
-                    .waves-button,.waves-button:hover,.waves-button:visited,.waves-button-input{
-                        white-space:nowrap;
-                        vertical-align:middle;
-                        cursor:pointer;
-                        border:none;
-                        outline:none;
-                        color:inherit;
-                        background-color:transparent;
-                        font-size:1em;
-                        line-height:1em;
-                        text-align:center;
-                        text-decoration:none;
-                        z-index:1
-                    }
-                </style>
                 <a href="#tickets" class="btn btn-default bottom-section-link waves-effect waves-button waves-light"
-                style="font-weight: 400; font-family: 'Potta One', cursive; color: #ffffff; text-shadow: 1px 1px 2px black;">
+                style="font-weight: 400; font-family: 'Potta One', cursive; color: #ffffff; text-shadow: 1px 1px 2px black; border-radius: 20px">
                 點我報名</a>
             </span>
         </ul>
