@@ -154,7 +154,6 @@ ticketsOffers:
   soldOut: false
   disabled: false
   soldOutText: "--報名已截止--"
-
 #  -
 #   name: "台大集合"
 #   price: "$$$"
