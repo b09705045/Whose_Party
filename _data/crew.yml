@@ -27,7 +27,6 @@
     - {name: "google-plus", link: "https://www.instagram.com/flute._.max/"}
     - {name: "facebook", link: "https://www.facebook.com/cko43.Max?locale=zh_TW"}
     - {name: "github", link: "https://github.com/maxyhwu"}
-
 -
   id: 2
   name: "cic"
@@ -49,7 +48,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/cic_0705/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100004522323854"}
-
 -
   id: 3
   name: "Yan-Chi Fu"
@@ -72,7 +70,6 @@
   social:
     - {name: "google-plus", link: "instagram.com/yanchi4real_0519"}
     - {name: "facebook", link: "https://www.facebook.com/CKCR0633"}
-
 -
   id: 4
   name: "Hung-Yun-Chiao"
@@ -91,7 +88,6 @@
   dev: false
   social:
      - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100002593226867"}
-
 -
   id: 5
   name: "Sheryll"
@@ -114,7 +110,6 @@
   social:
      - {name: "google-plus", link: "https://www.instagram.com/sheryll_chiu/?r=nametag"}
      - {name: "facebook", link: "https://www.facebook.com/sheryl.chiu.1/"}
-
 -
   id: 6
   name: "Elva"
@@ -561,7 +556,7 @@
   不過大家還是可以多出去玩玩啦 不一定要找很多事情給自己🤣<br>
   總之，希望大家的大學生活都可以玩得快樂，<b> 不要再遇到疫情了 </b>🥲
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 24_compressed.jpg
   executive: false
   vice: false
   leader: true
