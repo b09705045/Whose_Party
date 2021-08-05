@@ -2,3 +2,9 @@
   border-radius: 35px;
   background-color: #caa6a6;
 }
+.tutorial{
+  width: 40%;
+  height: 80%;
+  border-left: 60%;
+  background: #d5d8bd;
+}
