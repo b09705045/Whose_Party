@@ -89,15 +89,15 @@
     {% endif %} {% endfor %}
     <script>
         var total=0;  
-        var pointsArr = [
-                {% for each in site.data.team.scores %}    
-                    '{{ each.point }}'{% if forloop.index!=forloop.length %}, {% endif %}
-                {% endfor %}
-        ];
         for(var i=0;i<8;i++){
             total=0;
-            for(var j=0;j<56;j++){
-                total+=parseInt(pointsArr[j],10);
+            var pointsArr = [
+                {% for each in teamMember.scores %}    
+                    '{{ each.point }}'{% if forloop.index!=forloop.length %}, {% endif %}
+                {% endfor %}
+            ];
+            for(var j=0;j<7;j++){
+                total+=parseInt(pointsArr[i][j],10);
             }
             document.getElementsByClassName('col-md-offset-6 col-md-6 total_score')[i].innerHTML=''+ total +'';
         }
