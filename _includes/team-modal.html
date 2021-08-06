@@ -98,6 +98,7 @@
                 total+=parseInt(pointsArr[j],10);
             }
             document.getElementsByClassName('col-md-offset-6 col-md-6 total_score')[{{teamMember.id}}-1].innerHTML=''+ total +'';
+            teamMember.totalScore=toString(total);
         {% endfor %}
     </script>
 </div>
