@@ -96,8 +96,8 @@
         ];
         for(var i=0;i<8;i++){
             total+=parseInt(pointsArr[i],10);
-            document.getElementsByClassName('col-md-offset-6 col-md-6 total_score')[i].innerHTML=''+ total +'';
         }
+        document.getElementsByClassName('col-md-offset-6 col-md-6 total_score')[forloop.index0].innerHTML=''+ total +'';
     </script>
     {% endif %} {% endfor %}
 </div>
