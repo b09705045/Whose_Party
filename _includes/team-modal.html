@@ -90,11 +90,9 @@
     <script>
         var total=0;  
         var pointsArr = [
-            {% for teamMember in site.data.team %}
-                {% for each in teamMember.scores %}    
+                {% for each in site.data.team.scores %}    
                     '{{ each.point }}'{% if forloop.index!=forloop.length %}, {% endif %}
                 {% endfor %}
-            {% endfor %}               
         ];
         for(var i=0;i<8;i++){
             total=0;
