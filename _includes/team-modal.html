@@ -97,7 +97,7 @@
                 {% if forloop.index!=forloop.length %}, {% endif %}
                 {% endfor %}                   
             ];
-            for(var j=0;j<8;j++){
+            for(var j=0;j<pointsArr.length;j++){
                 total+=parseInt(pointsArr[j],10);
             }
             document.getElementsByClassName('col-md-offset-6 col-md-6 total_score')[i].innerHTML=''+ total +'';
