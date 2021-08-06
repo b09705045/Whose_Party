@@ -94,9 +94,9 @@
             {% if forloop.index!=forloop.length %}, {% endif %}
             {% endfor %}                   
         ];
-        for(var i=0;i<8;i++){
-            total+=pointsArr[i];
-        }
+        // for(var i=0;i<8;i++){
+        //     total+=pointsArr[i];
+        // }
         document.getElementById('total_score').innerHTML=''+ total +'';
     </script>
     {% endif %} {% endfor %}
