@@ -93,9 +93,11 @@
             total=15;
 
             var pointsArr = [
-                 
-                    10, 12, 14, 15, 17
-                                 
+                {% for each in teamMember.scores %}    
+                {% assign a = each.point %}
+                    a
+                {% if forloop.index!=forloop.length %}, {% endif %}
+                {% endfor %}                   
             ];
             for(var j=0;j<5;j++){
                 total+=pointsArr[j];
