@@ -94,9 +94,9 @@
             {% if forloop.index!=forloop.length %}, {% endif %}
             {% endfor %}                   
         ];
-        // for(var i=0;i<8;i++){
-        //     total+=parseInt(pointsArr[i].point,10);
-        // }
+        for(var i=0;i<8;i++){
+            total+=parseInt("16",10);
+        }
         document.getElementById('total_score').innerHTML=''+ total +'';
     </script>
     {% endif %} {% endfor %}
