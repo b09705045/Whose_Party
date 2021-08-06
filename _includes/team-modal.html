@@ -80,14 +80,15 @@
                             </div>
                             <script>
                                 var total=0,a=0;
-                                // {% for eachTeam in site.data.team %}
-                                    // total = 0;
-                                    {% for score in site.data.team.scores %}
+                                {% for eachTeam in site.data.team %}
+                                    total = 0;
+                                    {% for score in eachTeam.scores %}
                                         a = parseInt(score.point,10); 
                                         total+=a;
                                     {% endfor %}
-                                // {% endfor %}
-                                document.getElementById('total_score').innerHTML=total.toString(10);
+                                    document.getElementsByClassName('total_score')[forloop.index].innerHTML=total.toString(10);
+                                {% endfor %}
+                                
                             </script>
                         </div>
                         <br>
