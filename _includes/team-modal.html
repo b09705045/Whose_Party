@@ -86,9 +86,9 @@
                                         a = parseInt(score.point,10); 
                                         total+=a;
                                     {% endfor %}
-                                    document.getElementsByClassName('total_score')[forloop.index].innerHTML=total.toString(10);
                                 {% endfor %}
-                                
+                                var arr = document.getElementsByClassName('total_score');
+                                arr[0].innerHTML=total.toString(10);
                             </script>
                         </div>
                         <br>
