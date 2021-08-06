@@ -78,20 +78,21 @@
                             <div id="total_score" class="col-md-offset-6 col-md-6 total_score">
                                 100
                             </div>
-                            <script>
-                                var total=0,a=0;
-                                // {% for eachTeam in site.data.team %}
-                                    // total = 0;
-                                    {% for score in site.data.team.scores %}
-                                        a = parseInt(score.point,10); 
-                                        total+=a;
+                            <!-- <script>
+                                var total=0;
+                                var pointsArr = [                           
+                                    {% for score in teamMember.scores %}
+                                        parseInt(score.point,10) 
                                     {% endfor %}
-                                // {% endfor %}
-                                document.getElementById('total_score').innerHTML=total.toString(10);
-                            </script>
+                                ]
+                                for(var i=0;i<8;i++){
+                                    total+=pointsArr[i];
+                                }
+                                document.getElementsByClassName('col-md-offset-6 col-md-6 total_score').innerHTML=toString(total,10);
+                            </script> -->
+                            <br>
+                            <br>
                         </div>
-                        <br>
-                        <br>
                     </div>
                 </div>
             </div>
@@ -99,4 +100,5 @@
     </div>
     {% endif %} {% endfor %}
 </div>
+
 <!-- End Team Modals -->
