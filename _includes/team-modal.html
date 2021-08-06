@@ -78,16 +78,6 @@
                             <div id="total_score" class="col-md-offset-6 col-md-6 total_score">
                                 100
                             </div>
-                            <script>
-                                var total=70;
-                                var pointsArr = [    
-                                    1, 2, 3, 4, 5, 6, 7, 8, 9                       
-                                ];
-                                // for(var i=0;i<8;i++){
-                                //     total+=pointsArr[i];
-                                // }
-                                document.getElementById('total_score').innerHTML='toString(total,10)';
-                            </script>
                             <br>
                             <br>
                         </div>
@@ -96,6 +86,16 @@
             </div>
         </div>
     </div>
+    <script>
+        var total=70;
+        var pointsArr = [    
+            1, 2, 3, 4, 5, 6, 7, 8, 9                       
+        ];
+        for(var i=0;i<8;i++){
+            total+=pointsArr[i];
+        }
+        document.getElementById('total_score').innerHTML='toString(total,10)';
+    </script>
     {% endif %} {% endfor %}
 </div>
 
