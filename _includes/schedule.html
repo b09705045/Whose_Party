@@ -10,7 +10,7 @@
                     {% for track in day.tracks %} {% assign trackColWidth = 12 |
                     divided_by: forloop.length %}
                     <div class="track-header-slot col-md-{{ trackColWidth }} flexbox-item-height hidden-xs">
-                        <h5 class="track-header-title" style="font-weight: 400; font-family: 'Potta One', cursive;">{{ track.title }}</h5>
+                        <h5 class="track-header-title">{{ track.title }}</h5>
                     </div>
                     {% endfor %}
                     <div class="track-header-slot col-xs-12 visible-xs">

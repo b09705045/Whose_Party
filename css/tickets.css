@@ -4,7 +4,13 @@
 }
 .tutorial{
   width: 40%;
-  height: 80%;
-  border-left: 60%;
-  background: #d5d8bd;
+  height: 400px;
+  background: linear-gradient(to top,#a8a568 0%,#cfca84 100%);
+}
+.line{
+  height: 30px;
+  border-bottom: 1px #555223 solid;
+  width: 80%;
+  margin-left: 10%;
+  background: transparent;
 }
