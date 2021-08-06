@@ -147,7 +147,7 @@ output{display:block;padding-top:7px;font-size:14px;line-height:1.42857;color:#5
 .form-control::-moz-placeholder{color:#999;opacity:1}
 .form-control:-ms-input-placeholder{color:#999}
 .form-control::-webkit-input-placeholder{color:#999}
-.form-control[disabled],.form-control[readonly],fieldset[disabled] 
+.form-control[disabled],.form-control[readonly],fieldset[disabled]
 .form-control{cursor:not-allowed;background-color:#eee;opacity:1}
 textarea.form-control{height:auto}
 input[type="search"]{-webkit-appearance:none}
@@ -161,10 +161,10 @@ input[type="search"]{-webkit-appearance:none}
 input[type="radio"][disabled],input[type="radio"]
 .disabled,fieldset[disabled] input[type="radio"],input[type="checkbox"][disabled],input[type="checkbox"]
 .disabled,fieldset[disabled] input[type="checkbox"]{cursor:not-allowed}
-.radio-inline.disabled,fieldset[disabled] 
-.radio-inline,.checkbox-inline.disabled,fieldset[disabled] 
-.checkbox-inline{cursor:not-allowed}.radio.disabled label,fieldset[disabled] 
-.radio label,.checkbox.disabled label,fieldset[disabled] 
+.radio-inline.disabled,fieldset[disabled]
+.radio-inline,.checkbox-inline.disabled,fieldset[disabled]
+.checkbox-inline{cursor:not-allowed}.radio.disabled label,fieldset[disabled]
+.radio label,.checkbox.disabled label,fieldset[disabled]
 .checkbox label{cursor:not-allowed}
 .form-control-static{padding-top:7px;padding-bottom:7px;margin-bottom:0}
 .form-control-static.input-lg,.form-control-static.input-sm{padding-left:0;padding-right:0}
@@ -216,29 +216,29 @@ select.input-lg{height:46px;line-height:46px}textarea.input-lg,select[multiple]
 .btn:focus,.btn.focus,.btn:active:focus,.btn:active.focus,.btn.active:focus,.btn.active.focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
 .btn:hover,.btn:focus,.btn.focus{color:#333;text-decoration:none}
 .btn:active,.btn.active{outline:0;background-image:none;box-shadow:inset 0 3px 5px rgba(0,0,0,0.125)}
-.btn.disabled,.btn[disabled],fieldset[disabled] 
+.btn.disabled,.btn[disabled],fieldset[disabled]
 .btn{cursor:not-allowed;pointer-events:none;opacity:0.65;filter:alpha(opacity=65);box-shadow:none}
 .btn-default{color:#333;background-color:#fff;border-color:#ccc}
 .btn-default:hover,.btn-default:focus,.btn-default.focus,.btn-default:active,.btn-default.active,.open>.btn-default.dropdown-toggle{color:#333;background-color:#e6e6e6;border-color:#adadad}
 .btn-default:active,.btn-default.active,.open>.btn-default.dropdown-toggle{background-image:none}
 .btn-default.disabled,.btn-default.disabled:hover,.btn-default.disabled:focus,.btn-default.disabled.focus,.btn-default.disabled:active,.btn-default.disabled.active,.btn-default[disabled],.btn-default[disabled]:hover,.btn-default[disabled]:focus,.btn-default[disabled]
-.focus,.btn-default[disabled]:active,.btn-default[disabled].active,fieldset[disabled] 
-.btn-default,fieldset[disabled] 
-.btn-default:hover,fieldset[disabled] 
-.btn-default:focus,fieldset[disabled] 
-.btn-default.focus,fieldset[disabled] 
-.btn-default:active,fieldset[disabled] 
+.focus,.btn-default[disabled]:active,.btn-default[disabled].active,fieldset[disabled]
+.btn-default,fieldset[disabled]
+.btn-default:hover,fieldset[disabled]
+.btn-default:focus,fieldset[disabled]
+.btn-default.focus,fieldset[disabled]
+.btn-default:active,fieldset[disabled]
 .btn-default.active{background-color:#fff;border-color:#ccc}
 .btn-default .badge{color:#fff;background-color:#333}
 .btn-primary{color:#fff;background-color:#337ab7;border-color:#2e6da4}
 .btn-primary:hover,.btn-primary:focus,.btn-primary.focus,.btn-primary:active,.btn-primary.active,.open>.btn-primary.dropdown-toggle{color:#fff;background-color:#286090;border-color:#204d74}
 .btn-primary:active,.btn-primary.active,.open>.btn-primary.dropdown-toggle{background-image:none}
-.btn-primary.disabled,.btn-primary.disabled:hover,.btn-primary.disabled:focus,.btn-primary.disabled.focus,.btn-primary.disabled:active,.btn-primary.disabled.active,.btn-primary[disabled],.btn-primary[disabled]:hover,.btn-primary[disabled]:focus,.btn-primary[disabled].focus,.btn-primary[disabled]:active,.btn-primary[disabled].active,fieldset[disabled] 
-.btn-primary,fieldset[disabled] 
-.btn-primary:hover,fieldset[disabled] 
-.btn-primary:focus,fieldset[disabled] 
-.btn-primary.focus,fieldset[disabled] 
-.btn-primary:active,fieldset[disabled] 
+.btn-primary.disabled,.btn-primary.disabled:hover,.btn-primary.disabled:focus,.btn-primary.disabled.focus,.btn-primary.disabled:active,.btn-primary.disabled.active,.btn-primary[disabled],.btn-primary[disabled]:hover,.btn-primary[disabled]:focus,.btn-primary[disabled].focus,.btn-primary[disabled]:active,.btn-primary[disabled].active,fieldset[disabled]
+.btn-primary,fieldset[disabled]
+.btn-primary:hover,fieldset[disabled]
+.btn-primary:focus,fieldset[disabled]
+.btn-primary.focus,fieldset[disabled]
+.btn-primary:active,fieldset[disabled]
 .btn-primary.active{background-color:#337ab7;border-color:#2e6da4}
 .btn-primary .badge{color:#337ab7;background-color:#fff}
 .btn-success{color:#fff;background-color:#5cb85c;border-color:#4cae4c}
@@ -246,11 +246,11 @@ select.input-lg{height:46px;line-height:46px}textarea.input-lg,select[multiple]
 .btn-success:active,.btn-success.active,.open>.btn-success.dropdown-toggle{background-image:none}
 .btn-success.disabled,.btn-success.disabled:hover,.btn-success.disabled:focus,.btn-success.disabled.focus,.btn-success.disabled:active,.btn-success.disabled.active,.btn-success[disabled],.btn-success[disabled]:hover,.btn-success[disabled]:focus,.btn-success[disabled]
 .focus,.btn-success[disabled]:active,.btn-success[disabled]
-.active,fieldset[disabled] .btn-success,fieldset[disabled] 
-.btn-success:hover,fieldset[disabled] 
-.btn-success:focus,fieldset[disabled] 
-.btn-success.focus,fieldset[disabled] 
-.btn-success:active,fieldset[disabled] 
+.active,fieldset[disabled] .btn-success,fieldset[disabled]
+.btn-success:hover,fieldset[disabled]
+.btn-success:focus,fieldset[disabled]
+.btn-success.focus,fieldset[disabled]
+.btn-success:active,fieldset[disabled]
 .btn-success.active{background-color:#5cb85c;border-color:#4cae4c}
 .btn-success .badge{color:#5cb85c;background-color:#fff}
 .btn-info{color:#fff;background-color:#5bc0de;border-color:#46b8da}
@@ -258,9 +258,9 @@ select.input-lg{height:46px;line-height:46px}textarea.input-lg,select[multiple]
 .btn-info:active,.btn-info.active,.open>.btn-info.dropdown-toggle{background-image:none}
 .btn-info.disabled,.btn-info.disabled:hover,.btn-info.disabled:focus,.btn-info.disabled.focus,.btn-info.disabled:active,.btn-info.disabled.active,.btn-info[disabled],.btn-info[disabled]:hover,.btn-info[disabled]:focus,.btn-info[disabled]
 .focus,.btn-info[disabled]:active,.btn-info[disabled]
-.active,fieldset[disabled] .btn-info,fieldset[disabled] 
-.btn-info:hover,fieldset[disabled] .btn-info:focus,fieldset[disabled] 
-.btn-info.focus,fieldset[disabled] .btn-info:active,fieldset[disabled] 
+.active,fieldset[disabled] .btn-info,fieldset[disabled]
+.btn-info:hover,fieldset[disabled] .btn-info:focus,fieldset[disabled]
+.btn-info.focus,fieldset[disabled] .btn-info:active,fieldset[disabled]
 .btn-info.active{background-color:#5bc0de;border-color:#46b8da}
 .btn-info .badge{color:#5bc0de;background-color:#fff}
 .btn-warning{color:#fff;background-color:#f0ad4e;border-color:#eea236}
@@ -268,9 +268,9 @@ select.input-lg{height:46px;line-height:46px}textarea.input-lg,select[multiple]
 .btn-warning:active,.btn-warning.active,.open>.btn-warning.dropdown-toggle{background-image:none}
 .btn-warning.disabled,.btn-warning.disabled:hover,.btn-warning.disabled:focus,.btn-warning.disabled.focus,.btn-warning.disabled:active,.btn-warning.disabled.active,.btn-warning[disabled],.btn-warning[disabled]:hover,.btn-warning[disabled]:focus,.btn-warning[disabled]
 .focus,.btn-warning[disabled]:active,.btn-warning[disabled]
-.active,fieldset[disabled] .btn-warning,fieldset[disabled] 
-.btn-warning:hover,fieldset[disabled] .btn-warning:focus,fieldset[disabled] 
-.btn-warning.focus,fieldset[disabled] .btn-warning:active,fieldset[disabled] 
+.active,fieldset[disabled] .btn-warning,fieldset[disabled]
+.btn-warning:hover,fieldset[disabled] .btn-warning:focus,fieldset[disabled]
+.btn-warning.focus,fieldset[disabled] .btn-warning:active,fieldset[disabled]
 .btn-warning.active{background-color:#f0ad4e;border-color:#eea236}
 .btn-warning .badge{color:#f0ad4e;background-color:#fff}
 .btn-danger{color:#fff;background-color:#d9534f;border-color:#d43f3a}
@@ -280,12 +280,12 @@ select.input-lg{height:46px;line-height:46px}textarea.input-lg,select[multiple]
 .active,fieldset[disabled] .btn-danger,fieldset[disabled] .btn-danger:hover,fieldset[disabled] .btn-danger:focus,fieldset[disabled] .btn-danger.focus,fieldset[disabled] .btn-danger:active,fieldset[disabled] .btn-danger.active{background-color:#d9534f;border-color:#d43f3a}
 .btn-danger .badge{color:#d9534f;background-color:#fff}
 .btn-link{color:#03a9f4;font-weight:normal;border-radius:0}
-.btn-link,.btn-link:active,.btn-link.active,.btn-link[disabled],fieldset[disabled] 
+.btn-link,.btn-link:active,.btn-link.active,.btn-link[disabled],fieldset[disabled]
 .btn-link{background-color:transparent;box-shadow:none}
 .btn-link,.btn-link:hover,.btn-link:focus,.btn-link:active{border-color:transparent}
 .btn-link:hover,.btn-link:focus{color:#0275a8;text-decoration:underline;background-color:transparent}
-.btn-link[disabled]:hover,.btn-link[disabled]:focus,fieldset[disabled] 
-.btn-link:hover,fieldset[disabled] 
+.btn-link[disabled]:hover,.btn-link[disabled]:focus,fieldset[disabled]
+.btn-link:hover,fieldset[disabled]
 .btn-link:focus{color:#777;text-decoration:none}
 .btn-lg{padding:10px 16px;font-size:18px;line-height:1.33333;border-radius:6px}
 .btn-sm{padding:5px 10px;font-size:12px;line-height:1.5;border-radius:3px}
@@ -565,7 +565,7 @@ height: 100%;width: 100%;z-index: 9999999;}
 .icon-skype:hover{fill:#01aef2}.icon-github:hover{fill:#464646}
 .icon-twitter:hover{fill:#1bb2e9}.icon-youtube:hover{fill:#cc181e}
 .icon-facebook:hover{fill:#3c599b}.icon-pinterest:hover{fill:#ed0103}
-.icon-linkedin:hover{fill:#017eb4}.icon-direction:hover{fill:#3a84df}
+.icon-linkedin:hover{fill:#2447e2}.icon-direction:hover{fill:#3a84df}
 .icon-google-plus:hover{fill:#bc2a8d}.icon-stack-overflow:hover{fill:#ef7c02}
 
 .top-header{position:fixed;z-index:500;width:100%;padding:0 45px}
