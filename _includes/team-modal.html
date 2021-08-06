@@ -70,12 +70,17 @@
                                                 <div class="sub_bar" style="background-color: {{ newColor }}; width: {{ newWidth }}%; border-radius: {% if forloop.index == 1 %} 10px 0px 0px 10px {% elsif forloop.index == forloop.length %} 0px 10px 10px 0px {% endif %}"></div>
                                             {% endif %}
                                         {% endfor %}
-                                        <div id="total_score" class="col-md-offset-6 col-md-6 total_score"
-                                            style="text-align: right;">
-                                            100
-                                        </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="row">
+                            <div style="font-weight: 700; font-size: 30px; text-align: right; border-right: 100px;">總積分</div>
+                            <div id="total_score" class="col-md-offset-6 col-md-6 total_score"
+                                style="text-align: right;">
+                                100
+                            </div>
+                            <br>
+                            <br>
                         </div>
                     </div>
                 </div>
