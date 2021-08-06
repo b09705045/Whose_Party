@@ -87,15 +87,16 @@
         </div>
     </div>
     {% endif %} {% endfor %}
-    {% for teamMember in site.data.team %}
     <script>
         var total=0;  
         for(var i=0;i<5;i++){
             total=0;
             var pointsArr = [
-                {% for each in teamMember.scores %}    
-                    '{{ each.point }}'{% if forloop.index!=forloop.length %}, {% endif %}
-                {% endfor %}                   
+                {% for teamMember in site.data.team %}
+                    {% for each in teamMember.scores %}    
+                        '{{ each.point }}'{% if forloop.index!=forloop.length %}, {% endif %}
+                    {% endfor %}    
+                {% endfor %}               
             ];
             for(var j=0;j<7;j++){
                 total+=parseInt(pointsArr[j],10);
@@ -104,7 +105,6 @@
             document.getElementsByClassName('col-md-offset-6 col-md-6 total_score')[i].innerHTML=''+ total +'';
         }
     </script>
-    {% endfor %}
 </div>
 
 <!-- End Team Modals -->
