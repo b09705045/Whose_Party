@@ -75,19 +75,19 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div id="total_score'+ forloop.index +'" class="col-md-offset-6 col-md-6 total_score">
+                            <div id="total_score" class="col-md-offset-6 col-md-6 total_score">
                                 100
                             </div>
                             <script>
-                                var total=0;
-                                {% for eachTeam in site.data.team %}
-                                    total = 0;
-                                    {% for score in eachTeam.scores %}
-                                        var a = parseInt(score.point,10); 
+                                var total=0,a=0;
+                                // {% for eachTeam in site.data.team %}
+                                    // total = 0;
+                                    {% for score in site.data.team[0].scores %}
+                                        a = parseInt(score.point,10); 
                                         total+=a;
                                     {% endfor %}
-                                    document.getElementById('total_score1').innerHTML=total.toString();
-                                {% endfor %}
+                                // {% endfor %}
+                                document.getElementById('total_score').innerHTML=total.toString(10);
                             </script>
                         </div>
                         <br>
