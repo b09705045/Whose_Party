@@ -36,7 +36,7 @@
                             </a>
                             {% endfor %}
                         </figcaption>
-                        <p class="bio">{{ crewMember.bio | truncate: 48, "⋯⋯" }}</p>
+                        <p class="bio">{{ crewMember.bio | truncate: 60, "⋯⋯" }}</p>
                     </figure>
                 </div>
             </div>
@@ -74,7 +74,7 @@
                             </a>
                             {% endfor %}
                         </figcaption>
-                        <p class="bio">{{ crewMember.bio | strip_html | truncate: 72 }}</p>
+                        <p class="bio">{{ crewMember.bio | truncate: 60, "⋯⋯" }}</p>
                     </figure>
                 </div>
             </div>
@@ -112,7 +112,7 @@
                                 </a>
                             {% endfor %}
                         </figcaption>
-                        <p class="bio">{{ crewMember.bio | strip_html | truncate: 72 }}</p>
+                        <p class="bio">{{ crewMember.bio | truncate: 60, "⋯⋯" }}</p>
                     </figure>
                 </div>
             </div>
