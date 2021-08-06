@@ -93,7 +93,7 @@
             total=15;
             var pointsArr = [
                 {% for each in teamMember.scores %}    
-                    {{ each.point }}
+                    10
                 {% if forloop.index!=forloop.length %}, {% endif %}
                 {% endfor %}                   
             ];
