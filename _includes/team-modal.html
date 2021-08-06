@@ -79,9 +79,10 @@
                                 100
                             </div>
                             <script>
-                                var total=8787;
-                                {% for member in site.data.team.scores%}
-                                    total+=1;
+                                var total=0;
+                                {% for score in site.data.team.scores%}
+                                    var a = parseInt(score.point,10); 
+                                    total+=a;
                                 {% endfor %}
                                 document.getElementById('total_score').innerHTML=total.toString();
                             </script>
