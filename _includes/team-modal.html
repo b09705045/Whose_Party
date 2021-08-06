@@ -89,9 +89,7 @@
     {% endif %} {% endfor %}
     <script>
         {% for teamMember in site.data.team %}
-        var total=0;  
-        for(var i=0;i<8;i++){
-            total=0;
+            var total=0;    
             var pointsArr = [
                 {% for each in teamMember.scores %}    
                     '{{ each.point }}'{% if forloop.index!=forloop.length %}, {% endif %}
@@ -101,7 +99,6 @@
                 total+=parseInt(pointsArr[j],10);
             }
             document.getElementsByClassName('col-md-offset-6 col-md-6 total_score')[{{teamMember.id}}-1].innerHTML=''+ total +'';
-        }
         {% endfor %}
     </script>
 </div>
