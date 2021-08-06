@@ -90,12 +90,12 @@
         var total=70;  
         var pointsArr = [
             {% for each in teamMember.scores %}    
-                "{{ each.point }}"
+                {"{{ each.point }}"}
             {% if forloop.index!=forloop.length %}, {% endif %}
             {% endfor %}                   
         ];
         for(var i=0;i<8;i++){
-            total+=1;
+            total+=parseInt(pointsArr[i],10);
         }
         document.getElementById('total_score').innerHTML=''+ total +'';
     </script>
