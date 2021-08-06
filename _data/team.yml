@@ -18,6 +18,7 @@
     - {id: 5, point: "0", color: "#05efd4"}
     - {id: 6, point: "0", color: "#0566ef"}
     - {id: 7, point: "0", color: "#d484f1"}
+  totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false
   family: true
@@ -43,6 +44,7 @@
     - {id: 5, point: "0", color: "#05efd4"}
     - {id: 6, point: "0", color: "#0566ef"}
     - {id: 7, point: "0", color: "#d484f1"}
+  totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false
   family: true
@@ -67,6 +69,7 @@
     - {id: 5, point: "0", color: "#05efd4"}
     - {id: 6, point: "0", color: "#0566ef"}
     - {id: 7, point: "0", color: "#d484f1"}
+  totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false
   family: true
@@ -91,6 +94,7 @@
   - {id: 5, point: "0", color: "#05efd4"}
   - {id: 6, point: "0", color: "#0566ef"}
   - {id: 7, point: "0", color: "#d484f1"}
+  totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false
   family: true
@@ -115,6 +119,7 @@
   - {id: 5, point: "90", color: "#05efd4"}
   - {id: 6, point: "0", color: "#0566ef"}
   - {id: 7, point: "0", color: "#d484f1"}
+  totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false
   family: true
@@ -139,6 +144,7 @@
   - {id: 5, point: "100", color: "#05efd4"}
   - {id: 6, point: "90", color: "#0566ef"}
   - {id: 7, point: "0", color: "#d484f1"}
+  totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false
   family: true
@@ -163,6 +169,7 @@
   - {id: 5, point: "100", color: "#05efd4"}
   - {id: 6, point: "100", color: "#0566ef"}
   - {id: 7, point: "90", color: "#d484f1"}
+  totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false
   family: true
@@ -187,6 +194,7 @@
   - {id: 5, point: "100", color: "#05efd4"}
   - {id: 6, point: "100", color: "#0566ef"}
   - {id: 7, point: "100", color: "#d484f1"}
+  totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false
   family: true
