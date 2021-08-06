@@ -82,7 +82,7 @@
                                 var total=0,a=0;
                                 // {% for eachTeam in site.data.team %}
                                     // total = 0;
-                                    {% for score in site.data.team[0].scores %}
+                                    {% for score in site.data.team.scores %}
                                         a = parseInt(score.point,10); 
                                         total+=a;
                                     {% endfor %}
