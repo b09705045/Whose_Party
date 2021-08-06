@@ -11,12 +11,12 @@
   service: true
 
 - id: 003
-  title: "開幕 ㊗️"
+  title: "開幕 🎊"
   service: true
   description: "全員到齊！活動正式開始！"
 
 - id: 004
-  title: "水土大地 💦👣"
+  title: "水土大地 💦 👣"
   # service: true
   place: "Undefined"
   description: "在大太陽底下奔跑吧！我要看到血流成河！"
@@ -24,14 +24,14 @@
 
 - id: 005
   title: "午餐 🍱"
-  # place: "餐廳"
+  place: "餐廳"
   service: true
   description: "你們知道哪位藝人不吃午餐嗎？中島美嘉（台語）"
 
 - id: 006
   title: "策略 🎮"
   # service: true
-  place: "不是美食沙漠的公館（2100 會館）"
+  place: "Undefined"
   description: "吃飽喝足之後，來動動腦提振精神吧！"
   detail: "如果要成為一位合格的莊園主人候選者，舉辦一場賓主盡歡的派對是眾多重要的條件之一！<br>接下來我將要測試你們舉辦派對的能力，盡情的發揮你們的創造力吧！"
 
@@ -44,7 +44,7 @@
 
 - id: 010
   title: "BBQ晚餐 🥓"
-  # place: "餐廳"
+  place: "烤肉區"
   service: true
   description: "我的肉很大～你忍一下～"
 
@@ -67,13 +67,13 @@
   description: "鬧鐘就決定是這首歌了（點右邊連結搶先聽！） <a href='https://www.youtube.com/watch?v=vVSZMHaET-Q&ab_channel=%E5%B0%91%E5%84%BF%E5%8A%A8%E7%94%BB%E4%B9%90%E5%9B%AD'>🔗</a>"
 
 - id: 101
-  title: "早餐 🍳"
+  title: "早餐 🌭️"
   # place: "餐廳"
   service: true
   description: "早餐來點性感的鮭魚ㄅ——香肩鮭魚"
 
 - id: 102
-  title: "RPG 👾"
+  title: "RPG 🧭"
   # service: true
   place: "Undefined"
   description: "想成為時間管理大師嗎？你不平「凡」的大學生活，就從RPG開始！"
@@ -81,12 +81,12 @@
 
 - id: 103
   title: "中餐 🍱"
-  # place: "餐廳"
+  place: "餐廳"
   service: true
   description: "Respect 午餐 you know？"
 
 - id: 104
-  title: "表演 🕺🏾"
+  title: "WHOSE PARTY 🎭"
   # service: true
   place: "Undefined"
   description: "Let’s go party party all afternoon~~ oh~oh~oh "
