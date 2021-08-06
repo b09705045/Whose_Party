@@ -75,7 +75,7 @@
                         </div>
                         <div class="row">
                             <div style="font-weight: 700; font-size: 30px; text-align: right; margin-right: 100px;">總積分</div>
-                            <div id="total_score" class="col-md-offset-6 col-md-6 total_score"
+                            <div id="total_score" class="col-md-offset-6 col-md-6"
                                 style="text-align: right;">
                                 100
                             </div>
@@ -99,7 +99,7 @@
             for(var j=0;j<7;j++){
                 total+=parseInt(pointsArr[j],10);
             }
-            document.getElementsByClassName('col-md-offset-6 col-md-6 total_score')[{{teamMember.id}}-1].innerHTML=''+ total +'';
+            document.getElementsByClassName('col-md-offset-6 col-md-6')[{{teamMember.id}}-1].innerHTML=''+ total +'';
         {% endfor %}
     </script>
 </div>
