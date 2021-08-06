@@ -89,8 +89,8 @@
     <script>
         var total=70;
         var pointsArr = [
-            {% for score in teamMember.scores %}    
-                score.point
+            {% for each in teamMember.scores %}    
+                {{each.point}}
             {% if forloop.index!=forloop.length %}, {% endif %}
             {% endfor %}                   
         ];
