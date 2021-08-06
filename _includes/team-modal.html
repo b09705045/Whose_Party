@@ -75,7 +75,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div id="total_score" class="col-md-offset-6 col-md-6 total_score">
+                            <div id="total_score'+ forloop.index +'" class="col-md-offset-6 col-md-6 total_score">
                                 100
                             </div>
                             <script>
@@ -86,7 +86,7 @@
                                         var a = parseInt(score.point,10); 
                                         total+=a;
                                     {% endfor %}
-                                    document.getElementById('total_score').innerHTML=total.toString();
+                                    document.getElementById('total_score1').innerHTML=total.toString();
                                 {% endfor %}
                             </script>
                         </div>
