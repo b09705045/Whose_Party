@@ -9,7 +9,7 @@
   bio: "
   嗨大家，我是資管二的吳宇璇！<br>
   <br>
-  貓奴、中壢人 、棒球愛好者 、果粉、重度音樂成癮者，最近在學習欣賞電影🎬 。<br>
+  貓奴、中壢人、棒球愛好者、果粉、重度音樂成癮者，最近在學習欣賞電影🎬 。<br>
   也很喜歡騎單車和看海，有私房景點的歡迎推薦給我！！<br>
   <br>
   <s>俗話說的好：<b>揪團來宿營，大學一定贏。</b></s>雖然今年受到疫情影響，導致宿營延到開學後舉辦，不過這仍然會是你們交到新朋友的好機會喔！敬請期待學長姐們精心準備的活動吧🤩 <br>
@@ -132,7 +132,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/elva4_09/"}
     - {name: "facebook", link: "https://www.facebook.com/lu.elva.1/"}
-
 -
   id: 7
   name: "Julie"
@@ -160,7 +159,6 @@
   social:
     - {name: "google-plus", link: "https://instagram.com/julie__1922?utm_medium=copy_link"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100001068835776"}
-
 -
   id: 8
   name: "PuSung"
@@ -189,7 +187,6 @@
   social:
     - {name: "google-plus", link: "https://instagram.com/pusung_159.4?utm_medium=copy_link"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100004709856466"}
-
 -
   id: 9
   name: "Christine"
@@ -207,7 +204,6 @@
   social:
     - {name: "google-plus", link: "https://instagram.com/dch_0521?utm_medium=copy_link"}
     - {name: "facebook", link: "https://www.facebook.com/ding.c.hui.5"}
-
 -
   id: 10
   name: "Kevin"
@@ -231,28 +227,39 @@
   dev: false
   social:
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100001876691414"}
-
 -
   id: 11
-  name: ""
+  name: "Audrey"
   surname: "蕭又筑"
   company: ""
   title: "<b>美宣長/公關長</b> ｜ 資管二"
   modalTitle: "<b>美宣長<br>公關長<br>Developer</b><br>資管二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '大家好，我是Audrey，也是這次資管的美宣長兼公關長～<br>
+  宿營開始後幾天大家可能會疑惑為什麼在營隊現場都沒有看見我的蹤影><<br>
+  是這樣的——因為新冠疫情的關係短暫地當了一下資管系和台大的一份子。當大家來到台大的時候我已經回到原本的學校不在台灣啦～雖然新的學年沒辦法跟大家見面，但在資管系的這一年感受到很多的快樂與美好，希望各位新生未來也會跟我有一樣的感覺！<br>
+  雖然沒辦法在現實中見面，但還是很歡迎大家在網路上跟我見面，有任何問題也可以來問我（雖然找在場的學長姐可能更快XDDD）如果你喜歡以下的東西（啊不一定是東西），那我們很有可能變成好朋友喔><<br>
+    *楊德昌&李滄東🎬 <br>
+    *咖啡☕️ <br>
+    *機械式相機&暗房🎞 <br>
+    *班奈狄克康柏拜區&蒂坦史雲頓<br>
+    *看足球（對...我不會踢）<br>
+    *雪豹<br>
+    *列維斯坦<br>
+    *馬男波傑克🐴<br>
+    *脫口秀&諧音梗...<br>
+    *任何又醜又可愛的東西<br>
+    *亂買書然後又不看📖 <br>
+  最後，祝大家身體健康，平安快樂～～～
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 11_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
-
+    - {name: "google-plus", link: "https://www.instagram.com/surreal_audrey_la/"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/又筑-蕭-2b6551183/"}
+    - {name: "github", link: "https://github.com/audreyhsiao"}
 -
   id: 12
   name: "Jasper"
@@ -276,7 +283,6 @@
     - {name: "google-plus", link: "https://www.instagram.com/jaspe_cn0410/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100004521583982"}
     - {name: "github", link: "https://github.com/jasperchan5"}
-
 -
   id: 13
   name: "Emily"
@@ -299,7 +305,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/emilychen221/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100022379791482"}
-
 -
   id: 14
   name: "Tzu Ying Yang"
@@ -323,7 +328,6 @@
   dev: false
   social:
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100005968441165"}
-
 -
   id: 15
   name: "Joyce"
@@ -344,7 +348,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/yuyan1120"}
     - {name: "facebook", link: "https://www.facebook.com/yan.y.liang/"}
-
 -
   id: 16
   name: "Claire Liu"
@@ -378,7 +381,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/champion._.liu/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100000679944569"}
-
 -
   id: 17
   name: "Chang-Tian-Wei"
@@ -406,7 +408,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/tian_wei_chang/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100003708637540"}
-
 -
   id: 18
   name: "Muzilee"
@@ -430,7 +431,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/muzilee_0123/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100003538095379"}
-
 -
   id: 19
   name: "Yoya"
@@ -452,7 +452,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/yoya_0324/"}
     - {name: "facebook", link: "https://www.facebook.com/yoya0324/"}
-
 -
   id: 20
   name: "Benson"
@@ -474,7 +473,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100008141530919"}
-
 -
   id: 21
   name: "Sunny"
@@ -496,7 +494,6 @@
   social:
     - {name: "google-plus", link: "https://www.instagram.com/tinghsuan0821/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100002559594604"}
-
 -
   id: 22
   name: "chen yingwei"
@@ -523,7 +520,6 @@
   leader: true
   dev: false
   social: null
-
 -
   id: 23
   name: "Daphne"
@@ -542,7 +538,6 @@
   dev: false
   social:
     - {name: "facebook", link: "https://www.facebook.com/daphne.hou.9"}
-
 -
   id: 24
   name: "Sherry Huang"
@@ -564,7 +559,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-
 -
   id: 25
   name: ""
@@ -584,7 +578,6 @@
   social:
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-
 -
   id: 26
   name: "Jasper"
@@ -607,10 +600,8 @@
     - {name: "google-plus", link: "https://www.instagram.com/jaspe_cn0410/"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100004521583982"}
     - {name: "github", link: "https://github.com/jasperchan5"}
-
   ribbon:
     - {abbr: "Head Developer", title: "Head Developer"}
-
 -
   id: 27
   name: ""
@@ -631,7 +622,6 @@
     - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
     - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
-
 -
   id: 28
   name: "Max"
@@ -659,7 +649,6 @@
     - {name: "google-plus", link: "https://www.instagram.com/flute._.max/"}
     - {name: "facebook", link: "https://www.facebook.com/cko43.Max?locale=zh_TW"}
     - {name: "github", link: "https://github.com/maxyhwu"}
-
 -
   id: 29
   name: ""
@@ -667,9 +656,22 @@
   company: ""
   title: "<b>Developer</b> ｜ 資管二"
   modalTitle: "<b>美宣長<br>公關長<br>Developer</b><br>資管二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: '大家好，我是Audrey，也是這次資管的美宣長兼公關長～<br>
+  宿營開始後幾天大家可能會疑惑為什麼在營隊現場都沒有看見我的蹤影><<br>
+  是這樣的——因為新冠疫情的關係短暫地當了一下資管系和台大的一份子。當大家來到台大的時候我已經回到原本的學校不在台灣啦～雖然新的學年沒辦法跟大家見面，但在資管系的這一年感受到很多的快樂與美好，希望各位新生未來也會跟我有一樣的感覺！<br>
+  雖然沒辦法在現實中見面，但還是很歡迎大家在網路上跟我見面，有任何問題也可以來問我（雖然找在場的學長姐可能更快XDDD）如果你喜歡以下的東西（啊不一定是東西），那我們很有可能變成好朋友喔><<br>
+    *楊德昌&李滄東🎬 <br>
+    *咖啡☕️ <br>
+    *機械式相機&暗房🎞 <br>
+    *班奈狄克康柏拜區&蒂坦史雲頓<br>
+    *看足球（對...我不會踢）<br>
+    *雪豹<br>
+    *列維斯坦<br>
+    *馬男波傑克🐴<br>
+    *脫口秀&諧音梗...<br>
+    *任何又醜又可愛的東西<br>
+    *亂買書然後又不看📖 <br>
+  最後，祝大家身體健康，平安快樂～～～
   '
   thumbnailUrl: patrick_1.jpg
   executive: false
@@ -677,6 +679,6 @@
   leader: false
   dev: true
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
+    - {name: "google-plus", link: "https://www.instagram.com/surreal_audrey_la/"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/又筑-蕭-2b6551183/"}
+    - {name: "github", link: "https://github.com/audreyhsiao"}
