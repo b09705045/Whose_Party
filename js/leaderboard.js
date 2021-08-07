@@ -288,15 +288,15 @@ var test = new BFG.Leaderboard({
             scoreList[smallIndex][1] = -1;
 
             return [//simulates incoming data
-                {id: 1,title: "一見到你‧紫想要‧那個",count: parseInt(totalList[0],10)},
-                {id: 2,title: "肚子二‧普茲普茲‧布朗尼",count: parseInt(totalList[1],10)},
-                {id: 3,title: "黑芝麻‧三明治‧嘿咻嘿咻",count: parseInt(totalList[2],10)},
-                {id: 4,title: "四巴拉稀‧肛鐵人‧歐蘭吉",count: parseInt(totalList[3],10)},
-                {id: 5,title: "白吃白喝‧爽‧五敵鐵金剛",count: parseInt(totalList[4],10)},
-                {id: 6,title: "六到開‧瑪莎拉‧蒂芬妮綠",count: parseInt(totalList[5],10)},
-                {id: 7,title: "藍莓‧七泡水‧史戈史戈",count: parseInt(totalList[6],10)},
+                {id: 1,title: "一見到你‧紫想要‧那個",count: scoreList[0][0]},
+                {id: 2,title: "肚子二‧普茲普茲‧布朗尼",count: scoreList[1][0]},
+                {id: 3,title: "黑芝麻‧三明治‧嘿咻嘿咻",count: scoreList[2][0]},
+                {id: 4,title: "四巴拉稀‧肛鐵人‧歐蘭吉",count: scoreList[3][0]},
+                {id: 5,title: "白吃白喝‧爽‧五敵鐵金剛",count: scoreList[4][0]},
+                {id: 6,title: "六到開‧瑪莎拉‧蒂芬妮綠",count: scoreList[5][0]},
+                {id: 7,title: "藍莓‧七泡水‧史戈史戈",count: scoreList[6][0]},
                 //{id:8,title:"扒了你‧領主大人‧灰生氣",count:BFG.rnd(1,800)},
-                {id: 8,title: "扒了你‧領主大人‧灰生氣",count: parseInt(totalList[7],10)},
+                {id: 8,title: "扒了你‧領主大人‧灰生氣",count: scoreList[7][0]},
             ];
         }
 
