@@ -277,8 +277,8 @@ var test = new BFG.Leaderboard({
     sort:'count',
     dataCallback:function(){
         for(var i = 0; i < 9; i++){
-            if(i != 0){
-                var smallIndex = 10,smallPoint = 1000;
+            if(i !== 0){
+                var smallIndex = 10, smallPoint = 1000;
                 for(var j = 0; j < 8; j++) {
                     if(scoreList[j][0] < smallPoint && scoreList[j][1] != -1) {
                         smallIndex = j;
