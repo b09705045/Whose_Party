@@ -258,6 +258,17 @@ for(var i = 0; i < 8; i++){
 }
 scoreList = [[101, 201], [91, 121], [81, 131], [71, 125], [61, 141], [51, 151], [41, 135], [31, 200]];
 
+{% for teamMember in site.data.team %}
+    var total=0;    
+    var pointsArr = [
+        {% for each in teamMember.scores %}    
+            '{{ each.point }}'{% if forloop.index!=forloop.length %}, {% endif %}
+        {% endfor %}      
+    ];
+    for(var j=0;j<7;j++){
+        total+=parseInt(pointsArr[j],10);
+    }
+{% endfor %}
 
 var test = new BFG.Leaderboard({
     interval:4,
