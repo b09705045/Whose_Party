@@ -258,7 +258,7 @@ for(var i = 0; i < 8; i++){
 }
 scoreList = [[101, 201], [91, 121], [81, 131], [71, 125], [61, 141], [51, 151], [41, 135], [31, 200]];
 
-var totalList = document.getElementsByClassName('col-md-offset-6 col-md-6 total_score');
+var totalList = document.getElementsByClassName('col-md-offset-6 col-md-6 total_score').innerHTML;
 
 var test = new BFG.Leaderboard({
     interval:4,
