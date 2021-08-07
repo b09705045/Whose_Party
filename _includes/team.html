@@ -11,7 +11,6 @@
                 即時排名
             </h4>
             {% include leaderboard.html %}
-            <script src="{{ "/js/leaderboard.js" | prepend: site.baseurl }}"></script>
         </div>
         <div class="col-lg-10 col-lg-offset-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" 
@@ -35,6 +34,7 @@
             </div>
             {% endif %} {% endfor %}
         </div>
+        <script src="{{ "/js/leaderboard.js" | prepend: site.baseurl }}"></script>
     </div>
 </section>
 <!-- End Team List -->
