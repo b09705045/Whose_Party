@@ -6,7 +6,7 @@
   <title>ApplicationForm</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link href="url({{ " /css/applicationForm2.css" | prepend: site.baseurl }})" rel="stylesheet">
+  <link href="{{ " /css/applicationForm2.css" | prepend: site.baseurl }}" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
@@ -22,17 +22,7 @@
   <div class="preloader" id="preloader">
     <div id="status"></div>
   </div>
-  <div id="st-container" class="st-container disable-scrolling">
-    <div class="st-pusher">
-      <div class="st-content">
 
-        {{ content }}
-
-        {% include footer.html %}
-
-      </div>
-    </div>
-  </div>
   <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
