@@ -101,6 +101,7 @@
             document.getElementsByClassName('col-md-offset-6 col-md-6 total_score')[{{teamMember.id}}-1].innerHTML='總積分: '+ total +'';
         {% endfor %}
     </script>
+    <script src="{{ "/js/leaderboard.js" | prepend: site.baseurl }}"></script>
 </div>
 
 <!-- End Team Modals -->
