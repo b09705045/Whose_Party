@@ -290,7 +290,7 @@ var test = new BFG.Leaderboard({
             }
 
             return [//simulates incoming data
-                {id: 1,title: "一見到你‧紫想要‧那個",count: totalList[0]},
+                {id: 1,title: "一見到你‧紫想要‧那個",count: parseInt(totalList[0],10)},
                 {id: 2,title: "肚子二‧普茲普茲‧布朗尼",count: scoreList[1][0]},
                 {id: 3,title: "黑芝麻‧三明治‧嘿咻嘿咻",count: scoreList[2][0]},
                 {id: 4,title: "四巴拉稀‧肛鐵人‧歐蘭吉",count: scoreList[3][0]},
