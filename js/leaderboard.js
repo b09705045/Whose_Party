@@ -256,7 +256,7 @@ var scoreList = new Array(8);
 for(var i = 0; i < 8; i++){
     scoreList[i] = new Array(2);
 }
-scoreList = [[101, 111], [91, 121], [81, 131], [71, 125], [61, 141], [51, 151], [41, 135], [31, 200]];
+scoreList = [[101, 201], [91, 121], [81, 131], [71, 125], [61, 141], [51, 151], [41, 135], [31, 200]];
 
 
 var test = new BFG.Leaderboard({
