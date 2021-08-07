@@ -5,9 +5,8 @@
         <div class="col-lg-10 col-lg-offset-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0" style="color:#7c2222"><code><strong>• 召部 •</strong></code></h4>
             <div class="clearfix"></div>
-            {% for crewMember in site.data.crew %} {% if crewMember.executive %}
-            <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation rounded-3">
-                <div class="clearfix"></div>
+            {% for crewMember in site.data.crew %} {% if crewMember.executive == true %}
+            <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
                 <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#crewDetail-{{ crewMember.id }}">
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/people/' | append: crewMember.thumbnailUrl }})">
                         <div class="overlay solid-overlay"></div>
@@ -36,7 +35,7 @@
                             </a>
                             {% endfor %}
                         </figcaption>
-                        <p class="bio">{{ crewMember.bio | truncate: 60, "⋯⋯" }}</p>
+                        <p class="bio">{{ crewMember.bio | strip_html | truncate: 60, "⋯⋯" }}</p>
                     </figure>
                 </div>
             </div>
@@ -74,7 +73,7 @@
                             </a>
                             {% endfor %}
                         </figcaption>
-                        <p class="bio">{{ crewMember.bio | truncate: 60, "⋯⋯" }}</p>
+                        <p class="bio">{{ crewMember.bio | strip_html | truncate: 60, "⋯⋯" }}</p>
                     </figure>
                 </div>
             </div>
@@ -112,7 +111,7 @@
                                 </a>
                             {% endfor %}
                         </figcaption>
-                        <p class="bio">{{ crewMember.bio | truncate: 60, "⋯⋯" }}</p>
+                        <p class="bio">{{ crewMember.bio | strip_html | truncate: 60, "⋯⋯" }}</p>
                     </figure>
                 </div>
             </div>

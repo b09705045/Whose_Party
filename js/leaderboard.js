@@ -27,8 +27,8 @@
             min = Object.keys(min);
             return min[rnd(min.length-1)];
         }
-        min = min === undefined?100:min; 
-        if (!max){  
+        min = min === undefined?100:min;
+        if (!max){
             max = min;
             min = 0;
         }
@@ -252,6 +252,13 @@ Array.prototype.difference = Array.prototype.difference || function(ar,fn){
     window.BFG = BFG;
 })(window.BFG || {});
 
+var scoreList = new Array(8);
+for(var i = 0; i < 8; i++){
+    scoreList[i] = new Array(2);
+}
+scoreList = [[101, 201], [91, 121], [81, 131], [71, 125], [61, 141], [51, 151], [41, 135], [31, 200]];
+
+
 var test = new BFG.Leaderboard({
     interval:4,
     max:8,
@@ -268,16 +275,30 @@ var test = new BFG.Leaderboard({
     },
     sort:'count',
     dataCallback:function(){
-        return [//simulates incoming data
-            {id:1,title:"一見到你‧紫想要‧那個",count:800},
-            {id:2,title:"肚子二‧普茲普茲‧布朗尼",count:700},
-            {id:3,title:"黑芝麻‧三明治‧嘿咻嘿咻",count:600},
-            {id:4,title:"四巴拉稀‧肛鐵人‧歐蘭吉",count:500},
-            {id:5,title:"白吃白喝‧爽‧五敵鐵金剛",count:400},
-            {id:6,title:"六到開‧瑪莎拉‧蒂芬妮綠",count:300},
-            {id:7,title:"藍莓‧七泡水‧史戈史戈",count:200},
-            {id:8,title:"扒了你‧領主大人‧灰生氣",count:BFG.rnd(1,800)},
-        ];
+        for(var i = 0; i < 7; i++){
+            var smallIndex = 0, smallPoint = scoreList[0][1];
+            for(var j = 1; j < 8; j++){
+                if(scoreList[j][1] < smallPoint && scoreList[j][1] != -1){
+                    smallIndex = j;
+                    smallPoint = scoreList[j][1];
+                }
+            }
+            scoreList[smallIndex][0] = smallPoint;
+            scoreList[smallIndex][1] = -1;
+
+            return [//simulates incoming data
+                {id: 1,title: "一見到你‧紫想要‧那個",count: scoreList[0][0]},
+                {id: 2,title: "肚子二‧普茲普茲‧布朗尼",count: scoreList[1][0]},
+                {id: 3,title: "黑芝麻‧三明治‧嘿咻嘿咻",count: scoreList[2][0]},
+                {id: 4,title: "四巴拉稀‧肛鐵人‧歐蘭吉",count: scoreList[3][0]},
+                {id: 5,title: "白吃白喝‧爽‧五敵鐵金剛",count: scoreList[4][0]},
+                {id: 6,title: "六到開‧瑪莎拉‧蒂芬妮綠",count: scoreList[5][0]},
+                {id: 7,title: "藍莓‧七泡水‧史戈史戈",count: scoreList[6][0]},
+                //{id:8,title:"扒了你‧領主大人‧灰生氣",count:BFG.rnd(1,800)},
+                {id: 8,title: "扒了你‧領主大人‧灰生氣",count: scoreList[7][0]},
+            ];
+        }
+
     }
 });
 test.start();
