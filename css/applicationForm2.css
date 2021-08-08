@@ -24,8 +24,9 @@
 
 
 #intro .jumbotron{
-    height: 70vh;
+    height: 40vh;
     /*background-color: gray;*/
+    background-size: 100%;
     background-image: url("../img/sprites/application_bg.jpg");
     width: 100%;
 
