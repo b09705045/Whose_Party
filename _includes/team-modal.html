@@ -108,7 +108,7 @@
                 
             }
             document.getElementsByClassName('col-md-offset-6 col-md-6 total_score')[{{teamMember.id}}-1].innerHTML=''+ total +'';
-            document.getElementsByClassName('col-md-offset-6 col-md-6 old_score')[{{teamMember.id}}-1].innerHTML=''+ oldTotal +'';
+            // document.getElementsByClassName('col-md-offset-6 col-md-6 old_score')[{{teamMember.id}}-1].innerHTML=''+ oldTotal +'';
         {% endfor %}
     </script>
     <script src="{{ "/js/leaderboard.js" | prepend: site.baseurl }}"></script>
