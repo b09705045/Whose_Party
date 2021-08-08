@@ -1,3 +1,6 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -23,7 +26,17 @@
     <div id="status"></div>
   </div>
 
-  {{ content }}
+  <div id="st-container" class="st-container disable-scrolling">
+    <div class="st-pusher">
+      <div class="st-content">
+
+        {{ content }}
+
+        {% include footer.html %}
+
+      </div>
+    </div>
+  </div>
 
   <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
