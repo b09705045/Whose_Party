@@ -78,6 +78,10 @@
                                 style="text-align: center; font-family: 'cwTeXFangSong', serif;">
                                 100
                             </div>
+                            <div id="old_score" class="col-md-offset-6 col-md-6 old_score"
+                                style="text-align: center; font-family: 'cwTeXFangSong', serif; z-index: -1;">
+                                100
+                            </div>
                             <br>
                             <br>
                         </div>
@@ -89,16 +93,22 @@
     {% endif %} {% endfor %}
     <script>
         {% for teamMember in site.data.team %}
-            var total=0;    
+            var total=0, oldTotal=0, temp=-1;
             var pointsArr = [
                 {% for each in teamMember.scores %}    
                     '{{ each.point }}'{% if forloop.index!=forloop.length %}, {% endif %}
                 {% endfor %}      
             ];
             for(var j=0;j<7;j++){
+                if(pointsArr[temp]!=0 && temp>=0){
+                    oldTotal+=parseInt(pointsArr[temp],10);
+                }
                 total+=parseInt(pointsArr[j],10);
+                temp=j;
+                
             }
             document.getElementsByClassName('col-md-offset-6 col-md-6 total_score')[{{teamMember.id}}-1].innerHTML=''+ total +'';
+            document.getElementsByClassName('col-md-offset-6 col-md-6 old_score')[{{teamMember.id}}-1].innerHTML=''+ oldTotal +'';
         {% endfor %}
     </script>
     <script src="{{ "/js/leaderboard.js" | prepend: site.baseurl }}"></script>
