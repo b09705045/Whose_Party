@@ -24,7 +24,6 @@
 
 
 #intro .jumbotron{
-    height: 60vh;
     /*background-color: gray;*/
     background-size: cover;
     background-image: url("../img/sections-background/monochrome.jpg");
