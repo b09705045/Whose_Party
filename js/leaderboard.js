@@ -297,7 +297,7 @@ var test = new BFG.Leaderboard({
                 {id: 5,title: "白吃白喝‧爽‧五敵鐵金剛",count: totalList[4].innerHTML},
                 {id: 6,title: "六到開‧瑪莎拉‧蒂芬妮綠",count: totalList[5].innerHTML},
                 {id: 7,title: "藍莓‧七泡水‧史戈史戈",count: totalList[6].innerHTML},
-                //{id:8,title:"扒了你‧領主大人‧灰生氣",count:BFG.rnd(1,800)},
+                // {id:8,title:"扒了你‧領主大人‧灰生氣",count:BFG.rnd(1,800)},
                 {id: 8,title: "扒了你‧領主大人‧灰生氣",count: totalList[7].innerHTML},
             ];
         }
