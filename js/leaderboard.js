@@ -262,6 +262,7 @@ var oldList = document.getElementsByClassName('col-md-offset-6 col-md-6 old_scor
 for(var i=0;i<8;i++){
     scoreList[i] = [parseInt(oldList[i].innerText, 10), parseInt(totalList[i].innerText, 10)];
 }
+var runScore = false;
 
 var test = new BFG.Leaderboard({
     interval:4,
@@ -279,8 +280,8 @@ var test = new BFG.Leaderboard({
     },
     sort:'count',
     dataCallback:function(){
-        for(var i = 0; i < 9; i++){
-            if(i != 0){
+        
+            if(runScore){
                 var smallIndex = 10, smallPoint = 1000;
                 for(var j = 0; j < 8; j++) {
                     if(scoreList[j][0] < smallPoint && scoreList[j][1] != -1) {
@@ -290,6 +291,9 @@ var test = new BFG.Leaderboard({
                 }
                 scoreList[smallIndex][0] = scoreList[smallIndex][1];
                 scoreList[smallIndex][1] = -1;
+            }
+            else{
+                runScore = true;
             }
 
             return [//simulates incoming data
@@ -303,7 +307,6 @@ var test = new BFG.Leaderboard({
                 // {id:8,title:"扒了你‧領主大人‧灰生氣",count:BFG.rnd(1,800)},
                 {id: 8,title: "扒了你‧領主大人‧灰生氣",count: scoreList[7][0]},
             ];
-        }
 
     }
 });
