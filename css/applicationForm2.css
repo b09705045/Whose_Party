@@ -34,9 +34,9 @@
 
 #intro h1{
     color: white;
-    font-size: 35px;
+    font-size: 1.4cm;
     font-weight: 800;
-
+    vertical-align: bottom;
 }
 
 #intro .container{
