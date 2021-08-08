@@ -26,8 +26,8 @@
 #intro .jumbotron{
     height: 60vh;
     /*background-color: gray;*/
+    background-size: cover;
     background-image: url("../img/sections-background/monochrome.jpg");
-    background-size: 100%;
     width: 100%;
     
 }
@@ -36,6 +36,7 @@
     color: white;
     font-size: 1.4cm;
     font-weight: 800;
+    vertical-align: bottom;
 }
 
 #intro .container{
