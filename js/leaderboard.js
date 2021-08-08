@@ -264,7 +264,7 @@ for(var i=0;i<8;i++){
 }
 var runScore = false;
 
-var test = new window.setInterval(BFG.Leaderboard({
+var test = new BFG.Leaderboard({
     interval:4,
     max:8,
     margin:4,
@@ -289,8 +289,10 @@ var test = new window.setInterval(BFG.Leaderboard({
                         smallPoint = scoreList[j][0];
                     }
                 }
-                scoreList[smallIndex][0] = scoreList[smallIndex][1];
-                scoreList[smallIndex][1] = -1;
+                if(smallIndex !==10){
+                    scoreList[smallIndex][0] = scoreList[smallIndex][1];
+                    scoreList[smallIndex][1] = -1;
+                }
             }
             else{
                 runScore = true;
@@ -309,5 +311,5 @@ var test = new window.setInterval(BFG.Leaderboard({
             ];
 
     }
-}),1000);
+});
 test.start();
