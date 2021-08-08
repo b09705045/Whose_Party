@@ -312,4 +312,4 @@ var test = new BFG.Leaderboard({
 
     }
 });
-setTimeout(test.start(),5000);
+setInterval(test.start(),5000);
