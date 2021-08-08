@@ -24,12 +24,12 @@
 
 
 #intro .jumbotron{
-    height: 40vh;
+    height: 50%;
     /*background-color: gray;*/
     background-size: 100%;
     background-image: url("../img/sections-background/monochrome.jpg");
     width: 100%;
-
+    
 }
 
 #intro h1{
