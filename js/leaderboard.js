@@ -279,8 +279,8 @@ var test = new BFG.Leaderboard({
     },
     sort:'count',
     dataCallback:function(){
-        if(i != 0){
-            for(var i = 0; i < 8; i++){
+        for(var i = 0; i < 9; i++){
+            if(i != 0){
                 var smallIndex = 10, smallPoint = 1000;
                 for(var j = 0; j < 8; j++) {
                     if(scoreList[j][0] < smallPoint && scoreList[j][1] != -1) {
@@ -291,7 +291,6 @@ var test = new BFG.Leaderboard({
                 scoreList[smallIndex][0] = scoreList[smallIndex][1];
                 scoreList[smallIndex][1] = -1;
             }
-        
 
             return [//simulates incoming data
                 {id: 1,title: "一見到你‧紫想要‧那個",count: scoreList[0][0]},
