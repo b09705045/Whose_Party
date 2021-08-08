@@ -112,6 +112,7 @@ rockstarSpeakersButtonText: "點我看團隊介紹"
 # mapMobileCenterCoordinates: ""
 
 # Venue Block
+venueImage: "deer.jpg"
 venueBlockTitle: "活動地點"
 venueBigImage: "pushin_1_1.jpg"
 venueSmallImage1: "pushin_2.jpg"
@@ -139,6 +140,7 @@ partnersC4sponsorsButton: ""
 # subscribeInfo: ""
 
 # Tickets Block
+ticketsImage: "green.jpg"
 ticketsTitle: " 在此報名"
 ticketsInfo: ""
 ticketsOffers:
