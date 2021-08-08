@@ -260,7 +260,7 @@ for(var i = 0; i < 8; i++){
 var totalList = document.getElementsByClassName('col-md-offset-6 col-md-6 total_score');
 var oldList = document.getElementsByClassName('col-md-offset-6 col-md-6 old_score');
 for(var i=0;i<8;i++){
-    scoreList[i] = [parseInt(oldList[i].innerHTML, 10), parseInt(totalList[i].innerHTML, 10)];
+    scoreList[i] = [parseInt(oldList[i].innerText, 10), parseInt(totalList[i].innerText, 10)];
 }
 
 var test = new BFG.Leaderboard({
@@ -279,18 +279,16 @@ var test = new BFG.Leaderboard({
     },
     sort:'count',
     dataCallback:function(){
-        for(var i = 0; i < 9; i++){
-            if(i !== 0){
-                var smallIndex = 10, smallPoint = 1000;
-                for(var j = 0; j < 8; j++) {
-                    if(scoreList[j][0] < smallPoint && scoreList[j][1] != -1) {
-                        smallIndex = j;
-                        smallPoint = scoreList[j][0];
-                    }
+        for(var i = 0; i < 8; i++){
+            var smallIndex = 10, smallPoint = 1000;
+            for(var j = 0; j < 8; j++) {
+                if(scoreList[j][0] < smallPoint && scoreList[j][1] != -1) {
+                    smallIndex = j;
+                    smallPoint = scoreList[j][0];
                 }
-                scoreList[smallIndex][0] = scoreList[smallIndex][1];
-                scoreList[smallIndex][1] = -1;
             }
+            scoreList[smallIndex][0] = scoreList[smallIndex][1];
+            scoreList[smallIndex][1] = -1;
 
             return [//simulates incoming data
                 {id: 1,title: "一見到你‧紫想要‧那個",count: scoreList[0][0]},
