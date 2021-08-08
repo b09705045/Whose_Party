@@ -259,10 +259,9 @@ for(var i = 0; i < 8; i++){
 
 var totalList = document.getElementsByClassName('col-md-offset-6 col-md-6 total_score');
 var oldList = document.getElementsByClassName('col-md-offset-6 col-md-6 old_score');
-scoreList = [[oldList[0].innerHTML, totalList[0].innerHTML], [oldList[1].innerHTML, totalList[1].innerHTML], 
-             [oldList[2].innerHTML, totalList[2].innerHTML], [oldList[3].innerHTML, totalList[3].innerHTML],
-             [oldList[4].innerHTML, totalList[4].innerHTML], [oldList[5].innerHTML, totalList[5].innerHTML], 
-             [oldList[6].innerHTML, totalList[6].innerHTML], [oldList[7].innerHTML, totalList[7].innerHTML]];
+for(var i=0;i<8;i++){
+    scoreList[i]=[oldList[i].innerHTML, totalList[i].innerHTML];
+}
 
 var test = new BFG.Leaderboard({
     interval:4,
@@ -289,8 +288,8 @@ var test = new BFG.Leaderboard({
                         smallPoint = parseInt(scoreList[j][0],10);
                     }
                 }
-                parseInt(scoreList[smallIndex][0],10) = parseInt(scoreList[smallIndex][1],10);
-                parseInt(scoreList[smallIndex][1],10) = -1;
+                scoreList[smallIndex][0] = parseInt(scoreList[smallIndex][1],10);
+                scoreList[smallIndex][1] = -1;
             }
 
             return [//simulates incoming data
