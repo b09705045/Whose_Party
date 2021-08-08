@@ -264,7 +264,7 @@ for(var i=0;i<8;i++){
 }
 var runScore = false;
 
-var test = new scope.setInterval(BFG.Leaderboard({
+var test = new window.setInterval(BFG.Leaderboard({
     interval:4,
     max:8,
     margin:4,
