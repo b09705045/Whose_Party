@@ -67,6 +67,7 @@ heroButtons:
 
 # About Block
 aboutTitle: "參與科系"
+aboutImage: "night.png"
 aboutBlock:
  - {title: "資訊管理學系", image: "ntu_im.png", text: "" }
  - {title: "物理治療學系", image: "ntu_pt.jpg", text: "" }
@@ -126,6 +127,7 @@ venueFeatures: ["地址：桃園市楊梅區幼獅路一段439號","TEL：03 464
 # twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
+partnersImage: "neon.png"
 organizersTitle: "合作夥伴"
 partnersTitle: ""
 partnersC4sponsorsButton: ""
