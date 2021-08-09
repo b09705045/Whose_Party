@@ -257,8 +257,8 @@ for(var i = 0; i < 8; i++){
     scoreList[i] = new Array(2);
 }
 
-var totalList = document.getElementsByClassName('col-md-offset-6 col-md-6 total_score');
-var oldList = document.getElementsByClassName('col-md-offset-6 col-md-6 old_score');
+var totalList = document.getElementsByClassName('total_score');
+var oldList = document.getElementsByClassName('old_score');
 for(var i=0;i<8;i++){
     scoreList[i] = [parseInt(oldList[i].innerText, 10), parseInt(totalList[i].innerText, 10)];
 }
