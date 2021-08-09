@@ -4,12 +4,12 @@
 		{% for block in site.footerBlocks %} {% assign colWidth = 12 |
 		divided_by: forloop.length %}
 		<div class="col-md-3 col-xs-6">
-			<h5>{{ block.title }}</h5>
+			<h5 style="font-weight: 500;">{{ block.title }}</h5>
 			<ul>
 				{% for linkElement in block.links %}
 				<li>
 					<a href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}"
-						{% if linkElement.permalink==null %} target="_blank" {% endif %}>{{ linkElement.text }}</a>
+						{% if linkElement.permalink==null %} target="_blank" {% endif %} style="font-weight: 500;">{{ linkElement.text }}</a>
 				</li>
 				{% endfor %}
 			</ul>
