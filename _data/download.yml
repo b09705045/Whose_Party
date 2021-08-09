@@ -7,7 +7,7 @@
   exec: true
   bio: "HI!"
   button:
-  - {link: "../assets/demo.pdf", text: "下載"}
+  - {link: "../assets/demo.pdf", text: "2021WHOSEParty營手冊.pdf"}
 -
   id: 2
   name: ""
@@ -17,4 +17,4 @@
   exec: true
   bio: "HI!"
   button:
-  - {link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", text: "下載"}
+  - {link: "../assets/demo.pdf", text: "2021WHOSEParty提早離營切結書"}
