@@ -6,5 +6,15 @@
   thumbnailUrl: patrick_2.jpg
   exec: true
   bio: "HI!"
-  button:
+ button:
   - {link: "../assets/demo.pdf", text: "下載"}
+- 
+  id: 2
+  name: ""
+  surname: "提早離營切結書"
+  title: ""
+  thumbnailUrl: patrick_2.jpg
+  exec: true
+  bio: "HI!"
+  button: 
+  - {link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", text: "下載"}
