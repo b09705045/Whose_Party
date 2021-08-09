@@ -22,8 +22,11 @@
                                 <span class="position" style="font-weight: 400; font-family: 'Potta One', cursive;">{{ teamMember.title }}</span>
                             </div>
                         {% for button in teamMember.button %}
-                            <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}
-                                style="font-weight: 400; font-family: 'Potta One', cursive;">{{ button.text }}</a>
+                        <span class="bordered" style="background: #7c2222; color: #ffffff; margin-left: 10%;">
+                            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-default bottom-section-link waves-effect waves-button waves-light"
+                            style="font-weight: 400; font-family: 'Potta One', cursive;">
+                            下載</a>
+                        </span>             
                         {% endfor %}
                         </figcaption>
                     </figure>
