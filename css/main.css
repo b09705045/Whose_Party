@@ -1082,7 +1082,7 @@ height: 100%;width: 100%;z-index: 9999999;}
   .ribbon-activator:hover .ribbon-wrapper .abbr{-webkit-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}
   .ribbon-activator:hover .ribbon-wrapper .full-title{-webkit-transform:translateX(100%);-ms-transform:translateX(100%);transform:translateX(100%)}
   .modal h4{font-size:29px}
-  .people-modal .people-details .people-img{width:120px;height:120px;margin:10px auto}
+  .people-modal .people-details .people-img{width:120px;height:120px}
   .people-modal .people-details .details{padding:0}
   .people-modal .people-details .social{text-align:center}
   .schedule li{font-size:14px}.schedule-table{margin-bottom:60px;padding:0}
