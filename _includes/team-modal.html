@@ -15,8 +15,17 @@
                     <div class="people-details">
                         <div class="row">
                             <div class="col-md-2 col-sm-2">
-                                <div class="flow-img img-square people-img" style="margin:0px;background-image: url({{ site.baseurl | append: '/img/team/' | append: teamMember.thumbnailUrl }})">
+                                <div class="flow-img img-square people-img" style="background-image: url({{ site.baseurl | append: '/img/team/' | append: teamMember.thumbnailUrl }})">
                                 </div>
+                                <script>
+                                    var a = document.querySelectorAll('.flow-img img-square people-img');
+                                    if(window.innerWidth >= 768){
+                                        a[{{teamMember.id}}-1].style = "margin-left: 0px";
+                                    }
+                                    else{
+                                        a[{{teamMember.id}}-1].style = "margin: auto";
+                                    }
+                                </script>
                                 <div style="text-align: center; margin:10px" >
                                     <p style="font-size:0.6cm; color:#7c2222; font-family: 'cwTeXFangSong', serif;">
                                     <b>{{teamMember.team}}</b></p>
