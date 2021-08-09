@@ -22,7 +22,7 @@
                                 <script>
                                     var a = document.getElementsByClassName('flow-img img-square people-img');
                                     if(window.innerWidth >= 768){
-                                        a[{{teamMember.id}}-1].style = "margin: 0px 10px 0px 0px; background-image: url({{ site.baseurl | append: '/img/team/' | append: teamMember.thumbnailUrl }})";
+                                        a[{{teamMember.id}}-1].style = "margin: 0px 5px 0px 0px; background-image: url({{ site.baseurl | append: '/img/team/' | append: teamMember.thumbnailUrl }})";
                                     }
                                     else{
                                         a[{{teamMember.id}}-1].style = "margin: auto; background-image: url({{ site.baseurl | append: '/img/team/' | append: teamMember.thumbnailUrl }})";
