@@ -27,6 +27,8 @@
     position: fixed;
     font-size: 30px;
     font-weight: 500;
+    bottom: 0;
+    left: 0;
     width: 100%;
     color: #7c2222;
     border-style: solid;
@@ -36,6 +38,8 @@
     position: fixed;
     font-size: 30px;
     font-weight: 500;
+    bottom: 0;
+    left: 0;    
     width: 100%;
     color: #7c2222;
     border-style: solid;
