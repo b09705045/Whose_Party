@@ -22,8 +22,10 @@
                                 <span class="position" style="font-weight: 400; font-family: 'Potta One', cursive;">{{ teamMember.title }}</span>
                             </div>
                         {% for button in teamMember.button %}
+                        <div class="bordered">
                             <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" 
                             style="font-weight: 400; font-family: 'Potta One', cursive; text-align: right; color: #7c2222;">{{ button.text }}</a>
+                        </div>             
                         {% endfor %}
                         </figcaption>
                     </figure>
