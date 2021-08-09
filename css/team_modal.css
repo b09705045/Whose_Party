@@ -24,13 +24,13 @@
     flex-wrap: nowrap;
 }
 .total_score{
-    position: fixed;
+    position: absolute;
     font-size: 30px;
     font-weight: 500;
     color: #7c2222;
 }
 .old_score{
-    position: fixed;
+    position: absolute;
     font-size: 30px;
     font-weight: 500;
     color: #7c2222;
