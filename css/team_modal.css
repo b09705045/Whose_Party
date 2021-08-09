@@ -24,7 +24,7 @@
     flex-wrap: nowrap;
 }
 .total_score{
-    position: relative;
+    position: fixed;
     font-size: 30px;
     font-weight: 500;
     color: #7c2222;
@@ -32,7 +32,7 @@
     border-color: transparent;
 }
 .old_score{
-    position: relative;
+    position: fixed;
     font-size: 30px;
     font-weight: 500;
     color: #7c2222;
