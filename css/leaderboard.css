@@ -53,7 +53,7 @@
 #leaderboard li span:after {
 	content:' pts';
 	color:rgb(255, 255, 255);
-	font-size: 0.8cm;
+	font-size: 0.5cm;
     font-family: 'Oswald', sans-serif;
 }
 #leaderboard .move{
