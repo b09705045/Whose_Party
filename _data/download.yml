@@ -6,8 +6,8 @@
   thumbnailUrl: crystal.png
   exec: true
   bio: "HI!"
- button:
-  - {link: "../assets/demo.pdf", text: "下載"}
+  button:
+    - {link: "../assets/demo.pdf", text: "下載"}
 - 
   id: 2
   name: ""
