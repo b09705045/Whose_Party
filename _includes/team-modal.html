@@ -74,13 +74,15 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div id="total_score" class="col-md-10 col-md-offset-2 total_score"
-                                style="text-align: center; font-family: 'cwTeXFangSong', serif;">
-                                100
-                            </div>
-                            <div id="old_score" class="col-md-10 col-md-offset-2 old_score"
-                                style="text-align: center; font-family: 'cwTeXFangSong', serif; z-index: -1;">
-                                100
+                            <div class="col-md-10 col-md-offset-2">
+                                <div id="total_score" class="total_score"
+                                    style="text-align: center; font-family: 'cwTeXFangSong', serif; wid;">
+                                    100
+                                </div>
+                                <div id="old_score" class="old_score"
+                                    style="text-align: center; font-family: 'cwTeXFangSong', serif; z-index: -1;">
+                                    100
+                                </div>
                             </div>
                             <br><br>
                         </div>
@@ -106,8 +108,8 @@
                 temp=j;
                 
             }
-            document.getElementsByClassName('col-md-10 col-md-offset-2 total_score')[{{teamMember.id}}-1].innerHTML=''+ total +'';
-            document.getElementsByClassName('col-md-10 col-md-offset-2 old_score')[{{teamMember.id}}-1].innerHTML=''+ oldTotal +'';
+            document.getElementsByClassName('total_score')[{{teamMember.id}}-1].innerHTML=''+ total +'';
+            document.getElementsByClassName('old_score')[{{teamMember.id}}-1].innerHTML=''+ oldTotal +'';
         {% endfor %}
     </script>
     <script src="{{ "/js/leaderboard.js" | prepend: site.baseurl }}"></script>
