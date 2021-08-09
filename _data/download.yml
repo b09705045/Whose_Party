@@ -1,4 +1,4 @@
-- 
+-
   id: 1
   name: ""
   surname: "營手冊"
@@ -6,5 +6,5 @@
   thumbnailUrl: patrick_2.jpg
   exec: true
   bio: "HI!"
-  button: 
-  - {link: "https://www.youtube.com/watch?v=dQw4w9WgXcQ", text: "下載"}
+  button:
+  - {link: "../assets/demo.pdf", text: "下載"}
