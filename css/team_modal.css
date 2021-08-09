@@ -24,24 +24,14 @@
     flex-wrap: nowrap;
 }
 .total_score{
-    position: fixed;
-    right: 0;
-    bottom: 0;
     font-size: 30px;
     font-weight: 500;
     color: #7c2222;
-    border-style: solid;
-    border-color: transparent;
 }
 .old_score{
-    position: fixed;
-    right: 0;
-    bottom: 0;
     font-size: 30px;
     font-weight: 500;
     color: #7c2222;
-    border-style: solid;
-    border-color: transparent;
 }
 
 .img-square{border-radius: 0px}hr{margin-top:0px;margin-bottom:0px;border:0;border-top:1px solid #eee}.sr-only
