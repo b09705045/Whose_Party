@@ -74,16 +74,14 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-offset-2 col-md-10">
-                                    <div id="total_score" class="total_score"
+                                    <div id="total_score" class="col-md-offset-2 col-md-10 total_score"
                                     style="text-align: center; font-family: 'cwTeXFangSong', serif;">
                                     100
                                 </div>
-                                <div id="old_score" class="old_score"
+                                <div id="old_score" class="col-md-offset-2 col-md-10 old_score"
                                     style="text-align: center; font-family: 'cwTeXFangSong', serif; z-index: -1;">
                                     100
                                 </div>
-                            </div>
                             <br>
                             <br>
                         </div>
@@ -109,8 +107,8 @@
                 temp=j;
                 
             }
-            document.getElementsByClassName('total_score')[{{teamMember.id}}-1].innerHTML=''+ total +'';
-            document.getElementsByClassName('old_score')[{{teamMember.id}}-1].innerHTML=''+ oldTotal +'';
+            document.getElementsByClassName('col-md-offset-2 col-md-10 total_score')[{{teamMember.id}}-1].innerHTML=''+ total +'';
+            document.getElementsByClassName('col-md-offset-2 col-md-10 old_score')[{{teamMember.id}}-1].innerHTML=''+ oldTotal +'';
         {% endfor %}
     </script>
     <script src="{{ "/js/leaderboard.js" | prepend: site.baseurl }}"></script>
