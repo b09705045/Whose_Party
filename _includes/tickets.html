@@ -22,7 +22,7 @@
 				<div class="pricing-content">
 					<ul>
 						{% for listItem in ticketsOffer.ticketContentList %}
-						<li style="font-weight: 400; font-family: 'Potta One', cursive;">{{ listItem }}</li>
+						<li style="font-weight: 400; font-family: 'Potta One', cursive; border-bottom: solid 1px #9d9d9d;">{{ listItem }}</li>
 						{% endfor %}
 					</ul>
 					{% if ticketsOffer.soldOut == true %}
