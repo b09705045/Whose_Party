@@ -698,9 +698,9 @@ height: 100%;width: 100%;z-index: 9999999;}
 .mc-submit-group{padding-left:3px}
 .subscribe-info{font-weight:100}
 .footer{padding:40px 52px 13px;border-top:1px solid #e7e7e7;background-color:#fcfcfc}
-.footer h5{font-size:18px}
+.footer h5{font-size:18px;font-weight:400}
 .footer ul{margin-top:13px;padding:0}
-.footer li{margin-bottom:9px;list-style-type:none}
+.footer li{margin-bottom:9px;list-style-type:none;font-weight:400}
 .footer a{color:#8b8b8b}
 .footer a:hover{text-decoration:underline}
 .footer .social-links{margin-bottom:0}
