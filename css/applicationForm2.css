@@ -19,7 +19,6 @@
     color: var(--color-text);
     background: var(--color-background);
     font-weight: 300;
-    padding: 0 calc(var(--size-bezel) * 3);
 }
 
 
@@ -43,6 +42,8 @@
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    margin-left: 0;
+    padding: 0;
 }
 
 #second h2{
