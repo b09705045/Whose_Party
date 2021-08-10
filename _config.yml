@@ -155,7 +155,7 @@ ticketsOffers:
   validFrom: "2021-09-01T09:00"
   validThrough: "2021-09-30T23:59"
   soldOut: false
-  disabled: true
+  disabled: false
   soldOutText: "--報名已截止--"
 #  -
 #   name: "台大集合"
