@@ -77,7 +77,7 @@
                                             {% assign score = baseScore.point | times: 14.29 %}
                                             {% if score != 0 %}
                                                 {% assign newWidth = score | divided_by: 100 %}
-                                                <div class="sub_bar" style="background-color: {{ newColor }}; width: {{ newWidth }}%; border-radius: {% if forloop.index == 1 %} 10px 0px 0px 10px {% elsif forloop.index == forloop.length %} 0px 10px 10px 0px {% endif %}"></div>
+                                                <div class="sub_bar" style="background-color: linear-gradient(to top,{{ newColor }} 0%, {{ baseScore.color_2 }} 100%); width: {{ newWidth }}%; border-radius: {% if forloop.index == 1 %} 10px 0px 0px 10px {% elsif forloop.index == forloop.length %} 0px 10px 10px 0px {% endif %}"></div>
                                             {% endif %}
                                         {% endfor %}
                                 </div>

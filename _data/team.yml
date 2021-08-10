@@ -37,13 +37,13 @@
     - {id: 6, name: "", offset: true}
     - {id: 7, name: ""}
   scores:
-    - {id: 1, point: "100", color: "#d45a5a"}
-    - {id: 2, point: "90", color: "#e9a64a"}
-    - {id: 3, point: "67", color: "#efd805"}
-    - {id: 4, point: "79", color: "#76ef05"}
-    - {id: 5, point: "88", color: "#05efd4"}
-    - {id: 6, point: "82", color: "#0566ef"}
-    - {id: 7, point: "68", color: "#d484f1"}
+    - {id: 1, point: "100", color: "#d45a5a", color_2: "#f26d6d"}
+    - {id: 2, point: "90", color: "#e9a64a", color_2: "#ffc069"}
+    - {id: 3, point: "67", color: "#efd805", color_2: "#ffeb33"}
+    - {id: 4, point: "79", color: "#76ef05", color_2: "#9cff40"}
+    - {id: 5, point: "88", color: "#05efd4", color_2: "#3bffe8"}
+    - {id: 6, point: "82", color: "#0566ef", color_2: "#408fff"}
+    - {id: 7, point: "68", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false
