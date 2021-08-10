@@ -813,7 +813,7 @@ height: 100%;width: 100%;z-index: 9999999;}
 .people-modal .theme-description{margin:12px 0 20px}
 .people-modal .theme-presentation{font-size:15px}
 .people-modal .people-details .row{margin-top:20px}
-.people-modal .people-details .people-img{width:100px;height:100px;margin:10px}
+.people-modal .people-details .people-img{height:100px;margin:10px}
 .people-modal .people-details .details{padding-left:30px}
 .people-modal .people-details .name{margin-bottom:9px;font-size:17px;font-weight:500;color:#212121}
 .people-modal .people-details .position{font-weight:300;color:#757575}
