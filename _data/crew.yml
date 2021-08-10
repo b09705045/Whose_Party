@@ -566,9 +566,7 @@
   company: ""
   title: "<b>執行秘書</b> ｜ 物治二"
   modalTitle: "<b>執行秘書</b><br>物治二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: 'Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you
   '
   thumbnailUrl: patrick_1.jpg
   executive: false
@@ -609,9 +607,7 @@
   company: ""
   title: "<b>Developer</b> ｜ 資管二"
   modalTitle: "<b>Developer</b><br>資管二"
-  bio: '<code> HI! </code><br>
-  cool<br>
-  <b> 這是粗體 </b> <br>
+  bio: 'Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you
   '
   thumbnailUrl: patrick_1.jpg
   executive: false
