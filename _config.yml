@@ -149,7 +149,7 @@ ticketsOffers:
   price: "$$$"
   priceCurrency: "NT$  "
   #ticketsNumber: "300"
-  buyButtonLink: "{{site.baseurl}}/applicationform"
+  buyButtonLink: "url('{{site.baseurl}}/applicationform')"
   buyButtonText: "點我報名"
   ticketContentList: ["！", "期限至 止"]
   validFrom: "2021-09-01T09:00"
