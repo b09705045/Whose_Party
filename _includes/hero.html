@@ -26,7 +26,6 @@
     <script>
         
         var time = new Date();
-        var nowTime = time.getTime(); 
         
         time.setMonth(9); 
         time.setDate(23); 
@@ -36,13 +35,14 @@
         var endTime = time.getTime();
         
         setInterval(function(){
+            var time_2 = new Date();
+            var nowTime = time.getTime(); 
             var offsetTime = (endTime - nowTime) / 1000; 
             var sec = parseInt(offsetTime % 60); 
             var min = parseInt((offsetTime / 60) % 60); 
             var hr = parseInt((offsetTime / 60 / 60) % 24); 
             var day = parseInt(offsetTime / 60 / 60 / 24); 
             var mon = 0;
-            var time_2 = new Date();
             if(time_2.getMonth() === '8'){
                 mon = parseInt(offsetTime / 60 / 60 / 24 / 31); 
             }
