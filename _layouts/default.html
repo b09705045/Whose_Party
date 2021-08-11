@@ -101,15 +101,6 @@ layout: compress
                 var day = parseInt((offsetTime / 60 / 60 / 24) % 30); 
                 var mon = parseInt((offsetTime / 60 / 60 / 24 / 30) % 12); ;
 
-                if(time_2.getMonth() === 8){
-                    mon = parseInt(offsetTime / 60 / 60 / 24 / 31); 
-                    day -= ((31 - time_2.getDate()) + 30);
-                }
-                else if(time_2.getMonth() === 9){
-                    mon = parseInt(offsetTime / 60 / 60 / 24 / 30); 
-                    day -= (30 - time_2.getDate());
-                }
-    
                 if ($(window).width() > 767) {
                     $("#typeout-text").typed({
                         strings: [''+ mon +'月', ''+ mon +'月'+ day +'日', ''+ mon +'月'+ day +'日'+ hr +'時', ''+ mon +'月'+ day +'日'+ hr +'時'+ min +'分', ''+ mon +'月'+ day +'日'+ hr +'時'+ min +'分'+ sec +'秒'],
