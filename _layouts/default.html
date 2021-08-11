@@ -81,9 +81,8 @@ layout: compress
                             icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
         }
         var twitterFeedUrl = '{{ site.twitterFeed }}';
+        var crewLoaded = false;
         $(document).ready($(setInterval(function () {
-            var crewLoaded = false;
-            
             var time = new Date();
             var nowTime = time.getTime(); 
             time.setMonth(9); 
