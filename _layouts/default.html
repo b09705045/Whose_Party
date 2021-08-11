@@ -118,7 +118,7 @@ layout: compress
                         loop: true
                     });
                 }
-            });
+            }),1000);
             var rockstarSpeakers = [
                 {% for speaker in site.data.crew %}
                         { name: "{{ speaker.surname }}", company: "{{ speaker.company }}",
