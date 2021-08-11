@@ -35,20 +35,23 @@
         time.setSeconds(0);
         var endTime = time.getTime();
         
-        var offsetTime = (endTime - nowTime) / 1000; 
-        var sec = parseInt(offsetTime % 60); 
-        var min = parseInt((offsetTime / 60) % 60); 
-        var hr = parseInt((offsetTime / 60 / 60) % 24); 
-        var day = parseInt(offsetTime / 60 / 60 / 24); 
-        var mon = 0;
-        var time_2 = new Date();
-        if(time_2.getMonth() === '8'){
-            mon = parseInt(offsetTime / 60 / 60 / 24 / 31); 
-        }
-        else if(time_2.getMonth() === '9'){
-            mon = parseInt(offsetTime / 60 / 60 / 24 / 30); 
-        }
-        document.getElementsByClassName('typeout-fallback')[0].innerHTML = ''+ mon +'月'+ day +'日'+ hr +'時'+ min +'分'+ sec +'秒';
+        setInterval(function(){
+            var offsetTime = (endTime - nowTime) / 1000; 
+            var sec = parseInt(offsetTime % 60); 
+            var min = parseInt((offsetTime / 60) % 60); 
+            var hr = parseInt((offsetTime / 60 / 60) % 24); 
+            var day = parseInt(offsetTime / 60 / 60 / 24); 
+            var mon = 0;
+            var time_2 = new Date();
+            if(time_2.getMonth() === '8'){
+                mon = parseInt(offsetTime / 60 / 60 / 24 / 31); 
+            }
+            else if(time_2.getMonth() === '9'){
+                mon = parseInt(offsetTime / 60 / 60 / 24 / 30); 
+            }
+            document.getElementsByClassName('typeout-fallback')[0].innerHTML = ''+ mon +'月'+ day +'日'+ hr +'時'+ min +'分'+ sec +'秒';
+        },1000);
+        
     </script>
 </section>
 <!-- End Hero Section -->
