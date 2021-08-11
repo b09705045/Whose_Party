@@ -100,10 +100,10 @@ layout: compress
                 var hr = parseInt((offsetTime / 60 / 60) % 24); 
                 var day = parseInt((offsetTime / 60 / 60 / 24) % 30); 
                 var mon = parseInt((offsetTime / 60 / 60 / 24 / 30) % 12); ;
-
+                var fullDate = [''+ mon +'月'+ day +'日'+ hr +'時'+ min +'分'+ sec +'秒'];
                 if ($(window).width() > 767) {
                     $("#typeout-text").typed({
-                        strings: [''+ mon +'月'+ day +'日'+ hr +'時'+ min +'分'+ sec +'秒'],
+                        strings: fullDate,
                         typeSpeed: 100,
                         backDelay: 900,
                         loop: true
