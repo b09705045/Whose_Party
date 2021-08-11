@@ -41,10 +41,11 @@
         var hr = parseInt(offsetTime / 60 / 60); 
         var day = parseInt(offsetTime / 60 / 60 / 24); 
         var mon = 0;
-        if(nowTime.getMonth() === '8'){
+        var time_2 = new Date();
+        if(time_2.getMonth() === '8'){
             mon = parseInt(offsetTime / 60 / 60 / 24 / 31); 
         }
-        else if(nowTime.getMonth() === '9'){
+        else if(time_2.getMonth() === '9'){
             mon = parseInt(offsetTime / 60 / 60 / 24 / 30); 
         }
         document.getElementsByClassName('typeout-fallback')[0].innerHTML = '你好';
