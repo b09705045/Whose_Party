@@ -43,11 +43,11 @@
             var hr = parseInt((offsetTime / 60 / 60) % 24); 
             var day = parseInt(offsetTime / 60 / 60 / 24); 
             var mon = 0;
-            if(time_2.getMonth() === '8'){
+            if(time_2.getMonth() === 8){
                 mon = parseInt(offsetTime / 60 / 60 / 24 / 31); 
                 day -= ((31 - time_2.getDate()) + 30);
             }
-            else if(time_2.getMonth() === '9'){
+            else if(time_2.getMonth() === 9){
                 mon = parseInt(offsetTime / 60 / 60 / 24 / 30); 
                 day -= (30 - time_2.getDate());
             }
