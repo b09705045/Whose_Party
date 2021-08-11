@@ -81,7 +81,7 @@ layout: compress
                             icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
         }
         var twitterFeedUrl = '{{ site.twitterFeed }}';
-        
+
         var rockstarSpeakers = [
             {% for speaker in site.data.crew %}
                     { name: "{{ speaker.surname }}", company: "{{ speaker.company }}",
@@ -124,13 +124,12 @@ layout: compress
                 var fullDate = [''+ mon +'月'+ day +'日'+ hr +'時'+ min +'分'+ sec +'秒'];
 
                 if ($(window).width() > 767) {
-                    $("#typeout-text").typed({
+                    setInterval($("#typeout-text").typed({
                         strings: fullDate,
                         typeSpeed: 100,
                         backDelay: 900,
-                        loop: true,
-                        loopCount:5
-                    });
+                        loop: true
+                    }),1000);
                 }
             }),1000);
         });
