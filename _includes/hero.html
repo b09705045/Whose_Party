@@ -38,7 +38,7 @@
         var offsetTime = (endTime - nowTime) / 1000; 
         var sec = parseInt(offsetTime % 60); 
         var min = parseInt((offsetTime / 60) % 60); 
-        var hr = parseInt(offsetTime / 60 / 60); 
+        var hr = parseInt((offsetTime / 60 / 60) % 24); 
         var day = parseInt(offsetTime / 60 / 60 / 24); 
         var mon = 0;
         var time_2 = new Date();
