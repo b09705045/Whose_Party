@@ -24,28 +24,28 @@
         </a>
     </div>
     <script>
-        // 當前時間
+        
         var time = new Date();
-        var nowTime = time.getTime(); // 獲取當前毫秒數
-        // 設置結束時間 : 10月23號 0點0分0秒
-        time.setMonth(9); //   獲取當前 月份 (從 '0' 開始算)
-        time.setDate(23); //   獲取當前 日
-        time.setHours(0); //   獲取當前 時
-        time.setMinutes(0); //   獲取當前 分
+        var nowTime = time.getTime(); 
+        
+        time.setMonth(9); 
+        time.setDate(23); 
+        time.setHours(0); 
+        time.setMinutes(0); 
         time.setSeconds(0);
         var endTime = time.getTime();
-        // 倒數計時: 差值
-        var offsetTime = (endTime - nowTime) / 1000; // ** 以秒為單位
-        var sec = parseInt(offsetTime % 60); // 秒
-        var min = parseInt((offsetTime / 60) % 60); // 分 ex: 90秒
-        var hr = parseInt(offsetTime / 60 / 60); // 時
-        var day = parseInt(offsetTime / 60 / 60 / 24); // 日
+        
+        var offsetTime = (endTime - nowTime) / 1000; 
+        var sec = parseInt(offsetTime % 60); 
+        var min = parseInt((offsetTime / 60) % 60); 
+        var hr = parseInt(offsetTime / 60 / 60); 
+        var day = parseInt(offsetTime / 60 / 60 / 24); 
         var mon = 0;
         if(nowTime.getMonth() === '8'){
-            mon = parseInt(offsetTime / 60 / 60 / 24 / 31); // 月
+            mon = parseInt(offsetTime / 60 / 60 / 24 / 31); 
         }
         else if(nowTime.getMonth() === '9'){
-            mon = parseInt(offsetTime / 60 / 60 / 24 / 30); // 月
+            mon = parseInt(offsetTime / 60 / 60 / 24 / 30); 
         }
         document.getElementsByClassName('typeout-fallback')[0].innerHTML = '你好';
     </script>
