@@ -111,7 +111,7 @@ layout: compress
                 });
             }
             
-            if(!crewLoaded){
+            if(crewLoaded === false){
                 var rockstarSpeakers = [
                 {% for speaker in site.data.crew %}
                         { name: "{{ speaker.surname }}", company: "{{ speaker.company }}",
