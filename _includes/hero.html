@@ -11,9 +11,35 @@
                 <h2 style="font-weight: 400; font-family: 'Potta One', cursive;">{{heroText2}} </h2>
                 <p style="font-weight: 500; font-family: 'Merienda', cursive;">{{ site.eventDate }}</p>
                 <h4 style="font-weight: 350;font-family: 'Potta One', cursive;">
-                    <span style="font-weight: 400; font-family: 'Potta One', cursive;">距離宿營還有: </span>
+                    <span style="font-weight: 400; font-family: 'Potta One', cursive;">距離宿營開始還有: </span>
                     <span class="hidden-xs" id="typeout-text"></span>
                     <span class="typeout-fallback">{{ site.typeoutFallback }}</span>
+                    <script>
+                        // 當前時間
+                        var time = new Date();
+                        var nowTime = time.getTime(); // 獲取當前毫秒數
+                        // 設置結束時間 : 10月23號 0點0分0秒
+                        time.setMonth(9); //   獲取當前 月份 (從 '0' 開始算)
+                        time.setDate(23); //   獲取當前 日
+                        time.setHours(0); //   獲取當前 時
+                        time.setMinutes(0); //   獲取當前 分
+                        time.setSeconds(0);
+                        var endTime = time.getTime();
+                        // 倒數計時: 差值
+                        var offsetTime = (endTime - nowTime) / 1000; // ** 以秒為單位
+                        var sec = parseInt(offsetTime % 60); // 秒
+                        var min = parseInt((offsetTime / 60) % 60); // 分 ex: 90秒
+                        var hr = parseInt(offsetTime / 60 / 60); // 時
+                        var day = parseInt(offsetTime / 60 / 60 / 24); // 日
+                        var mon = 0;
+                        if(nowTime.getMonth() === '8'){
+                            mon = parseInt(offsetTime / 60 / 60 / 24 / 31); // 月
+                        }
+                        else if(nowTime.getMonth() === '9'){
+                            mon = parseInt(offsetTime / 60 / 60 / 24 / 30); // 月
+                        }
+                        document.getElementsByClassName('typeout-fallback')[0].innerHTML = ''+ mon +''+ day +''+ hr +''+ min +''+ sec +'';
+                    </script>
                 </h4>
             </div>
         </div>
