@@ -98,8 +98,8 @@ layout: compress
                 var sec = parseInt(offsetTime % 60); 
                 var min = parseInt((offsetTime / 60) % 60); 
                 var hr = parseInt((offsetTime / 60 / 60) % 24); 
-                var day = parseInt(offsetTime / 60 / 60 / 24); 
-                var mon = 0;
+                var day = parseInt((offsetTime / 60 / 60 / 24) % 30); 
+                var mon = parseInt((offsetTime / 60 / 60 / 24 / 30) % 12); ;
 
                 if(time_2.getMonth() === 8){
                     mon = parseInt(offsetTime / 60 / 60 / 24 / 31); 
