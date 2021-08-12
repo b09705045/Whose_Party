@@ -35,7 +35,7 @@
                             </a>
                             {% endfor %}
                         </figcaption>
-                        <p class="bio">{{ crewMember.bio | truncate: 10, "點我看完整個人介紹！" }}</p>
+                        <p class="bio">{{ crewMember.bio | truncate: 30, "⋯⋯" }}</p>
                     </figure>
                 </div>
             </div>
@@ -81,7 +81,7 @@
                             </a>
                             {% endfor %}
                         </figcaption>
-                        <p class="bio">{{ crewMember.bio | truncate: 10, "點我看完整個人介紹！" }}</p>
+                        <p class="bio">{{ crewMember.bio | truncate: 20, "⋯⋯" }}</p>
                     </figure>
                 </div>
             </div>
@@ -119,7 +119,7 @@
                                 </a>
                             {% endfor %}
                         </figcaption>
-                        <p class="bio">{{ crewMember.bio | truncatewords: 12, "⋯⋯點我看完整個人介紹！" }}</p>
+                        <p class="bio">{{ crewMember.bio | truncate: 20, "⋯⋯" }}</p>
                     </figure>
                 </div>
             </div>
