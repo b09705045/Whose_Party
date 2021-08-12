@@ -124,12 +124,12 @@ layout: compress
                 var fullDate = [''+ mon +'月'+ day +'日'+ hr +'時'+ min +'分'+ sec +'秒'];
 
                 if ($(window).width() > 767) {
-                    setInterval($("#typeout-text").typed({
+                    $("#typeout-text").typed({
                         strings: fullDate,
                         typeSpeed: 150,
                         backDelay: 900,
                         loop: true
-                    }),1000);
+                    });
                 }
             }),1000);
         });
