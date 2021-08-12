@@ -99,7 +99,7 @@ layout: compress
                     if ((i)<6) {
                         clearfix = ""
                     }
-                    $('#rockstar-speaker-title').after('<div class="col-md-' + colWidth + ' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay + '"><div class="rockstar-speaker" ><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
+                    $('#rockstar-speaker-title').after('<div class="col-md-' + colWidth + ' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay + '"><div class="rockstar-speaker" ><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name" style="font-weight: 600">' + rockstarSpeakers[i].name + '</div><div class="sub" style="font-weight: 600">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
                     animationDelay -= 500;
                 }
             }
