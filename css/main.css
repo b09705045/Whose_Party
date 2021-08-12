@@ -623,8 +623,8 @@ height: 100%;width: 100%;z-index: 9999999;}
 .statistic hr{width:20px;border-top:1px solid #03a9f4}
 .statistic .small{font-size:15px}
 .latest-news .post{margin-bottom:40px}
-.rockstar-speakers .name{font-size:26px;line-height:1.1;margin-top:5px}
-.rockstar-speakers .sub{font-size:18.2px;color:#03a9f4}
+.rockstar-speakers .name{font-size:26px;line-height:1.1;margin-top:5px;margin: auto}
+.rockstar-speakers .sub{font-size:18.2px;color:#03a9f4;margin: auto}
 .rockstar-speaker{padding-bottom:13px}
 .rockstar-speaker-img{width:140px;height:140px;}
 .pricing-col{overflow:hidden;margin-bottom:26px;padding:0;font-size:16px;font-weight:100;border:1px #ddd solid;}
