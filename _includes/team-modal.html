@@ -12,24 +12,34 @@
                         </svg>
                         <div class="close-mask" data-dismiss="modal"></div>
                     </div>
+                    <br><br>
                     <div class="people-details">
                         <div class="row">
-                            <div class="flow-img img-square people-img" style="background-image: url({{ site.baseurl | append: '/img/team/' | append: teamMember.thumbnailUrl }})">
-                            </div>
                             <div class="col-md-2 col-sm-2">
-                                <div style="text-align: center;" >
+                                <div class="flow-img img-square people-img" style="margin: 0px; background-image: url({{ site.baseurl | append: '/img/team/' | append: teamMember.thumbnailUrl }})">
+                                </div>
+                                <br>
+                                <script>
+                                    var a = document.getElementsByClassName('flow-img img-square people-img');
+                                    if(window.innerWidth >= 768){
+                                        a[{{teamMember.id}}-1].style = "margin: 0px 5px 0px 0px; background-image: url({{ site.baseurl | append: '/img/team/' | append: teamMember.thumbnailUrl }})";
+                                    }
+                                    else{
+                                        a[{{teamMember.id}}-1].style = "margin: auto; background-image: url({{ site.baseurl | append: '/img/team/' | append: teamMember.thumbnailUrl }})";
+                                    }
+                                </script>
+                                <div style="text-align: center;">
                                     <p style="font-size:0.6cm; color:#7c2222; font-family: 'cwTeXFangSong', serif;">
                                     <b>{{teamMember.team}}</b></p>
                                 </div>
                             </div>
                             <div style="text-align: center" class="col-md-10 col-sm-10 ">
-
                                 <p style="font-size:1cm; color:#7c2222; font-weight: 800; font-family: 'cwTeXFangSong', serif;
                                     line-height: 1cm;">
                                 <b>{{teamMember.clan}}</b></p>
                                 <br>
                             </div>
-                            <div style="text-align: center" class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
+                            <div style="text-align: center" class="col-md-10 col-sm-10">
                                 <p style="font-size:0.6cm; color:#7c2222; font-family: 'cwTeXFangSong', serif;">
                                 <b>-家族介紹-</b></p>
                                 <p style="font-size:0.4cm; color:#000000; font-family: 'cwTeXFangSong', serif;">
@@ -67,7 +77,7 @@
                                             {% assign score = baseScore.point | times: 14.29 %}
                                             {% if score != 0 %}
                                                 {% assign newWidth = score | divided_by: 100 %}
-                                                <div class="sub_bar" style="background-color: {{ newColor }}; width: {{ newWidth }}%; border-radius: {% if forloop.index == 1 %} 10px 0px 0px 10px {% elsif forloop.index == forloop.length %} 0px 10px 10px 0px {% endif %}"></div>
+                                                <div class="sub_bar" style="background: linear-gradient(to top,{{ newColor }} 0%, {{ baseScore.color_2 }} 100%); width: {{ newWidth }}%; border-radius: {% if forloop.index == 1 %} 10px 0px 0px 10px {% elsif forloop.index == forloop.length %} 0px 10px 10px 0px {% endif %}"></div>
                                             {% endif %}
                                         {% endfor %}
                                 </div>
@@ -75,11 +85,11 @@
                         </div>
                         <div class="row">
                             <div id="total_score" class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2 total_score"
-                                style="text-align: center; font-family: 'cwTeXFangSong', serif;">
+                                style="text-align: center; font-family: 'cwTeXFangSong', serif; font-size: 35px;">
                                 100
                             </div>
                             <div id="old_score" class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2 old_score"
-                                style="text-align: center; font-family: 'cwTeXFangSong', serif; z-index: -1;">
+                                style="text-align: center; font-family: 'cwTeXFangSong', serif; z-index: -1; font-size: 35px;">
                                 100
                             </div>
                             <br><br>

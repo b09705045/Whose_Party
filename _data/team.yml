@@ -11,15 +11,15 @@
     - {id: 6, name: "", offset: true}
     - {id: 7, name: ""}
   scores:
-    - {id: 1, point: "90", color: "#d45a5a"}
-    - {id: 2, point: "76", color: "#e9a64a"}
-    - {id: 3, point: "84", color: "#efd805"}
-    - {id: 4, point: "100", color: "#76ef05"}
-    - {id: 5, point: "79", color: "#05efd4"}
-    - {id: 6, point: "92", color: "#0566ef"}
-    - {id: 7, point: "66", color: "#d484f1"}
+    - {id: 1, point: "90", color: "#d45a5a", color_2: "#f26d6d"}
+    - {id: 2, point: "76", color: "#e9a64a", color_2: "#ffc069"}
+    - {id: 3, point: "84", color: "#efd805", color_2: "#ffeb33"}
+    - {id: 4, point: "100", color: "#76ef05", color_2: "#9cff40"}
+    - {id: 5, point: "79", color: "#05efd4", color_2: "#3bffe8"}
+    - {id: 6, point: "92", color: "#0566ef", color_2: "#408fff"}
+    - {id: 7, point: "66", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
-  thumbnailUrl: Gryffindor.png
+  thumbnailUrl: Hogwart.png
   edited: false
   family: true
   bio: "從各家族現有的歷史記載看來，一見到你・紫想要・那個家族就一直是這片陸地上最富裕的家族，除了有得天獨厚的資源，還有著代代相傳的商業頭腦，讓這個家族得以致富，並爬上各家族龍頭的位置。雄厚的財力是長年累積下的結果，也是這個龐大家族的命根子，且容易引來其他家族的覬覦，因此和白吃白喝・爽・五敵鐵金剛家族的結盟是必須實行的策略，對於一見到你・紫想要・那個這樹大招風的家族來說，他們需要保鑣來幫忙穩固局勢。<br>
@@ -37,13 +37,13 @@
     - {id: 6, name: "", offset: true}
     - {id: 7, name: ""}
   scores:
-    - {id: 1, point: "100", color: "#d45a5a"}
-    - {id: 2, point: "90", color: "#e9a64a"}
-    - {id: 3, point: "67", color: "#efd805"}
-    - {id: 4, point: "79", color: "#76ef05"}
-    - {id: 5, point: "88", color: "#05efd4"}
-    - {id: 6, point: "82", color: "#0566ef"}
-    - {id: 7, point: "68", color: "#d484f1"}
+    - {id: 1, point: "100", color: "#d45a5a", color_2: "#f26d6d"}
+    - {id: 2, point: "90", color: "#e9a64a", color_2: "#ffc069"}
+    - {id: 3, point: "67", color: "#efd805", color_2: "#ffeb33"}
+    - {id: 4, point: "79", color: "#76ef05", color_2: "#9cff40"}
+    - {id: 5, point: "88", color: "#05efd4", color_2: "#3bffe8"}
+    - {id: 6, point: "82", color: "#0566ef", color_2: "#408fff"}
+    - {id: 7, point: "68", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false
@@ -62,13 +62,13 @@
     - {id: 6, name: "", offset: true}
     - {id: 7, name: ""}
   scores:
-    - {id: 1, point: "100", color: "#d45a5a"}
-    - {id: 2, point: "100", color: "#e9a64a"}
-    - {id: 3, point: "90", color: "#efd805"}
-    - {id: 4, point: "98", color: "#76ef05"}
-    - {id: 5, point: "98", color: "#05efd4"}
-    - {id: 6, point: "78", color: "#0566ef"}
-    - {id: 7, point: "74", color: "#d484f1"}
+    - {id: 1, point: "100", color: "#d45a5a", color_2: "#f26d6d"}
+    - {id: 2, point: "100", color: "#e9a64a", color_2: "#ffc069"}
+    - {id: 3, point: "90", color: "#efd805", color_2: "#ffeb33"}
+    - {id: 4, point: "98", color: "#76ef05", color_2: "#9cff40"}
+    - {id: 5, point: "98", color: "#05efd4", color_2: "#3bffe8"}
+    - {id: 6, point: "78", color: "#0566ef", color_2: "#408fff"}
+    - {id: 7, point: "74", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false
@@ -87,13 +87,13 @@
   - {id: 6, name: "", offset: true}
   - {id: 7, name: ""}
   scores:
-  - {id: 1, point: "100", color: "#d45a5a"}
-  - {id: 2, point: "100", color: "#e9a64a"}
-  - {id: 3, point: "100", color: "#efd805"}
-  - {id: 4, point: "90", color: "#76ef05"}
-  - {id: 5, point: "88", color: "#05efd4"}
-  - {id: 6, point: "92", color: "#0566ef"}
-  - {id: 7, point: "66", color: "#d484f1"}
+  - {id: 1, point: "100", color: "#d45a5a", color_2: "#f26d6d"}
+  - {id: 2, point: "100", color: "#e9a64a", color_2: "#ffc069"}
+  - {id: 3, point: "100", color: "#efd805", color_2: "#ffeb33"}
+  - {id: 4, point: "90", color: "#76ef05", color_2: "#9cff40"}
+  - {id: 5, point: "88", color: "#05efd4", color_2: "#3bffe8"}
+  - {id: 6, point: "92", color: "#0566ef", color_2: "#408fff"}
+  - {id: 7, point: "66", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false
@@ -112,13 +112,13 @@
   - {id: 6, name: "", offset: true}
   - {id: 7, name: ""}
   scores:
-  - {id: 1, point: "100", color: "#d45a5a"}
-  - {id: 2, point: "100", color: "#e9a64a"}
-  - {id: 3, point: "100", color: "#efd805"}
-  - {id: 4, point: "100", color: "#76ef05"}
-  - {id: 5, point: "90", color: "#05efd4"}
-  - {id: 6, point: "67", color: "#0566ef"}
-  - {id: 7, point: "81", color: "#d484f1"}
+  - {id: 1, point: "100", color: "#d45a5a", color_2: "#f26d6d"}
+  - {id: 2, point: "100", color: "#e9a64a", color_2: "#ffc069"}
+  - {id: 3, point: "100", color: "#efd805", color_2: "#ffeb33"}
+  - {id: 4, point: "100", color: "#76ef05", color_2: "#9cff40"}
+  - {id: 5, point: "90", color: "#05efd4", color_2: "#3bffe8"}
+  - {id: 6, point: "67", color: "#0566ef", color_2: "#408fff"}
+  - {id: 7, point: "81", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false
@@ -137,13 +137,13 @@
   - {id: 6, name: "", offset: true}
   - {id: 7, name: ""}
   scores:
-  - {id: 1, point: "100", color: "#d45a5a"}
-  - {id: 2, point: "100", color: "#e9a64a"}
-  - {id: 3, point: "100", color: "#efd805"}
-  - {id: 4, point: "100", color: "#76ef05"}
-  - {id: 5, point: "100", color: "#05efd4"}
-  - {id: 6, point: "90", color: "#0566ef"}
-  - {id: 7, point: "74", color: "#d484f1"}
+  - {id: 1, point: "100", color: "#d45a5a", color_2: "#f26d6d"}
+  - {id: 2, point: "100", color: "#e9a64a", color_2: "#ffc069"}
+  - {id: 3, point: "100", color: "#efd805", color_2: "#ffeb33"}
+  - {id: 4, point: "100", color: "#76ef05", color_2: "#9cff40"}
+  - {id: 5, point: "100", color: "#05efd4", color_2: "#3bffe8"}
+  - {id: 6, point: "90", color: "#0566ef", color_2: "#408fff"}
+  - {id: 7, point: "74", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false
@@ -162,13 +162,13 @@
   - {id: 6, name: "", offset: true}
   - {id: 7, name: ""}
   scores:
-  - {id: 1, point: "100", color: "#d45a5a"}
-  - {id: 2, point: "100", color: "#e9a64a"}
-  - {id: 3, point: "100", color: "#efd805"}
-  - {id: 4, point: "100", color: "#76ef05"}
-  - {id: 5, point: "100", color: "#05efd4"}
-  - {id: 6, point: "100", color: "#0566ef"}
-  - {id: 7, point: "90", color: "#d484f1"}
+  - {id: 1, point: "100", color: "#d45a5a", color_2: "#f26d6d"}
+  - {id: 2, point: "100", color: "#e9a64a", color_2: "#ffc069"}
+  - {id: 3, point: "100", color: "#efd805", color_2: "#ffeb33"}
+  - {id: 4, point: "100", color: "#76ef05", color_2: "#9cff40"}
+  - {id: 5, point: "100", color: "#05efd4", color_2: "#3bffe8"}
+  - {id: 6, point: "100", color: "#0566ef", color_2: "#408fff"}
+  - {id: 7, point: "90", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false
@@ -187,13 +187,13 @@
   - {id: 6, name: "", offset: true}
   - {id: 7, name: ""}
   scores:
-  - {id: 1, point: "100", color: "#d45a5a"}
-  - {id: 2, point: "100", color: "#e9a64a"}
-  - {id: 3, point: "100", color: "#efd805"}
-  - {id: 4, point: "100", color: "#76ef05"}
-  - {id: 5, point: "100", color: "#05efd4"}
-  - {id: 6, point: "100", color: "#0566ef"}
-  - {id: 7, point: "100", color: "#d484f1"}
+  - {id: 1, point: "100", color: "#d45a5a", color_2: "#f26d6d"}
+  - {id: 2, point: "100", color: "#e9a64a", color_2: "#ffc069"}
+  - {id: 3, point: "100", color: "#efd805", color_2: "#ffeb33"}
+  - {id: 4, point: "100", color: "#76ef05", color_2: "#9cff40"}
+  - {id: 5, point: "100", color: "#05efd4", color_2: "#3bffe8"}
+  - {id: 6, point: "100", color: "#0566ef", color_2: "#408fff"}
+  - {id: 7, point: "100", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: Gryffindor.png
   edited: false

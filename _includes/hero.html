@@ -6,17 +6,15 @@
         <div class="jumbotron">
             <div class="animated hiding" data-animation="fadeInDown" data-delay="30">
                 {% assign heroText = site.heroTitle | split:"<typeout>" %}
-                    {% assign heroText2 = site.heroTitle2 | split:"<typeout>" %}
-                        <h1 style="font-weight: 500; font-family: 'Merienda', cursive;">{{heroText}} </h1>
-                        <h2 style="font-weight: 400; font-family: 'Potta One', cursive;">{{heroText2}} </h2>
-                        <h4 style="font-weight: 350;font-family: 'Potta One', cursive;">
-                            <span class="hidden-xs" id="typeout-text"></span>
-                            <span class="typeout-fallback">{{ site.typeoutFallback }}</span>
-                        </h4>
-                        <p style="font-weight: 500; font-family: 'Merienda', cursive;">{{ site.eventDate }}</p>
-                        <!-- {% for button in site.heroButtons %}
-            <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
-            {% endfor %} -->
+                {% assign heroText2 = site.heroTitle2 | split:"<typeout>" %}
+                <h1 style="font-weight: 500; font-family: 'Merienda', cursive;">{{heroText}} </h1>
+                <h2 style="font-weight: 400; font-family: 'Potta One', cursive;">{{heroText2}} </h2>
+                <p style="font-weight: 500; font-family: 'Merienda', cursive;">{{ site.eventDate }}</p>
+                <h4 style="font-weight: 350;font-family: 'Potta One', cursive;">
+                    <span style="font-weight: 400; font-family: 'Potta One', cursive;">距離宿營開始還有: </span>
+                    <span class="hidden-xs" id="typeout-text"></span>
+                    <span class="typeout-fallback">{{ site.typeoutFallback }}</span>
+                </h4>
             </div>
         </div>
         <a href="#about" class="explore">
@@ -25,5 +23,30 @@
             </svg>
         </a>
     </div>
+    <script>
+        
+        var time = new Date();
+        
+        time.setMonth(9); 
+        time.setDate(23); 
+        time.setHours(0); 
+        time.setMinutes(0); 
+        time.setSeconds(0);
+        var endTime = time.getTime();
+        
+        setInterval(function(){
+            var time_2 = new Date();
+            var nowTime = time_2.getTime(); 
+            var offsetTime = (endTime - nowTime) / 1000; 
+            var sec = parseInt(offsetTime % 60); 
+            var min = parseInt((offsetTime / 60) % 60); 
+            var hr = parseInt((offsetTime / 60 / 60) % 24); 
+            var day = parseInt((offsetTime / 60 / 60 / 24) % 30); 
+            var mon = parseInt((offsetTime / 60 / 60 / 24 / 30) % 12); ;
+            
+            document.getElementsByClassName('typeout-fallback')[0].innerHTML = ''+ mon +'月'+ day +'日'+ hr +'時'+ min +'分'+ sec +'秒';
+        },1000);
+        
+    </script>
 </section>
 <!-- End Hero Section -->
