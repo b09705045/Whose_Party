@@ -12,13 +12,13 @@
 				<div class="ellipse" data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}"
 				data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
 					<!-- {% if ticketsOffer.ribbon != null %}<div class="pricing-ribbon">{{ ticketsOffer.ribbon }}</div>{% endif %} -->
-					<div class="pricing-header" style="width: 90%;margin-left:5%; ">
+					<div class="pricing-header">
 						<p class="title" style="color: black;font-weight: 400; font-family: 'Potta One', cursive;">{{ ticketsOffer.name }}</p>
 						<p class="price" style="color:#7c2222"><span class="currency" style="font-family: 'Merienda', cursive;">
 							{{ticketsOffer.priceCurrency }}</span><b style="font-family: 'Merienda', cursive;">{{ ticketsOffer.price }}</b>
 						</p>
 					</div>
-					<div class="pricing-content" style="width: 90%;margin-left:5%; ">
+					<div class="pricing-content">
 						<ul>
 							{% for listItem in ticketsOffer.ticketContentList %}
 							<li style="font-weight: 400; font-family: 'Potta One', cursive; border-bottom: solid 1px #9d9d9d;">{{ listItem }}</li>
