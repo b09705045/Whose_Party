@@ -36,7 +36,7 @@ layout: compress
     {% endif %}
 
     {% include story-modal.html %}
-    
+
     {% if page.permalink == '/schedule/' %}
         {% include sessions-modals.html %}
     {% endif %}
@@ -126,9 +126,8 @@ layout: compress
                 var sec = parseInt(offsetTime % 60); 
                 var min = parseInt((offsetTime / 60) % 60); 
                 var hr = parseInt((offsetTime / 60 / 60) % 24); 
-                var day = parseInt((offsetTime / 60 / 60 / 24) % 30); 
-                var mon = parseInt((offsetTime / 60 / 60 / 24 / 30) % 12); ;
-                var fullDate = [''+ mon +'月'+ day +'日'+ hr +'時'+ min +'分'+ sec +'秒'];
+                var day = parseInt(offsetTime / 60 / 60 / 24); 
+                var fullDate = [''+ day +'日'+ hr +'時'+ min +'分'+ sec +'秒'];
 
                 if ($(window).width() > 767) {
                     $("#typeout-text").typed({

@@ -41,10 +41,9 @@
             var sec = parseInt(offsetTime % 60); 
             var min = parseInt((offsetTime / 60) % 60); 
             var hr = parseInt((offsetTime / 60 / 60) % 24); 
-            var day = parseInt((offsetTime / 60 / 60 / 24) % 30); 
-            var mon = parseInt((offsetTime / 60 / 60 / 24 / 30) % 12); ;
+            var day = parseInt(offsetTime / 60 / 60 / 24); 
             
-            document.getElementsByClassName('typeout-fallback')[0].innerHTML = ''+ mon +'月'+ day +'日'+ hr +'時'+ min +'分'+ sec +'秒';
+            document.getElementsByClassName('typeout-fallback')[0].innerHTML = ''+ day +'日'+ hr +'時'+ min +'分'+ sec +'秒';
         },1000);
         
     </script>
