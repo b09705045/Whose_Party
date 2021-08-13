@@ -7,7 +7,7 @@
         </div>
         <div class="col-lg-10 col-lg-offset-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0"
-                style="font-weight: 400; font-family: 'Potta One', cursive;">
+                style="font-family: 'Noto Serif TC', serif;font-weight: 400; font-family: 'Potta One', cursive;">
                 重要文件</h4>
             {% for teamMember in site.data.download %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
@@ -20,7 +20,7 @@
                                 <h2 class="name" style="font-weight: 400; font-family: 'Potta One', cursive;"><span style="font-size: 0.7cm;">{{ teamMember.surname }}</span></h2>
                             </div>
                         {% for button in teamMember.button %}
-                        <span class="bordered" style="background: #7c2222; color: #ffffff; margin-left: 10%;">
+                        <span class="bordered" style="font-family: 'Noto Serif TC', serif;background: #7c2222; color: #ffffff; margin-left: 10%;">
                             <a href="{{ button.link }}" download="{{ button.text }}" target="_blank" class="btn btn-default bottom-section-link waves-effect waves-button waves-light"
 
                             style="font-weight: 400; font-family: 'Potta One', cursive;">
