@@ -23,8 +23,7 @@
 
 
 #intro .jumbotron{
-    height: 60vh;
-    /*background-color: gray;*/
+    height: 400px;
     width: 100%;
     
 }
@@ -34,17 +33,15 @@
     font-size: 1.4cm;
     font-weight: 800;
     vertical-align: bottom;
+    margin-top: 200px;
+    padding-top: 48px;
 }
 
-#intro .container{
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    margin-left: 0;
-    padding: 0;
+#intro .row{
+    position: absolute;
+    left: 0;
 }
+
 
 #second h2{
     margin: 20px 0;
@@ -275,4 +272,61 @@ legend{ float: none; padding: inherit; }
     margin: 2px 0;
     padding: 5px 8px;
     font-weight: 600;
+}
+
+.style-line span{
+    padding: 10px;
+}
+.style-line::after{
+    background: #1a1a1a;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    left:10%;
+    z-index: 2;
+}
+
+.btn{
+    border: 2px solid black;
+    border-radius: 6px;
+    background: linear-gradient(to right, #2BC0E4 0%, #EAECC6 100%);
+    margin: 2px 0;
+    padding: 2px 7px;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.notice{
+    padding: 0;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.notice-row{
+    margin: 0 21px;
+}
+
+@media screen and (max-width: 768px){
+    .style-line{
+        margin-left: 0;
+    }
+    .style-line::after{
+        width: 60%;
+        left: 20%;
+    }
+    .notice{
+        max-width: fit-content;
+        margin: 0 29px;
+    }
+    #intro .jumbotron{
+        min-height: 200px;
+    }
+    #intro h1{
+        margin-top: 100px;
+        padding: 30px 0;
+    }    
 }
