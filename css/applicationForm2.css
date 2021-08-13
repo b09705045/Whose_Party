@@ -43,14 +43,6 @@
 }
 
 
-#second h2{
-    margin: 20px 0;
-    font-size: 32px;
-    font-weight: 900;
-}
-
-
-
 .form{
     width:100%;
     margin-top: 3px;
@@ -281,7 +273,7 @@ legend{ float: none; padding: inherit; }
     margin-bottom: 24px;
     padding: 10px;
     font-size: 30px;
-    font-weight: 900
+    font-weight: 900;
 }
 
 .style-line span{
