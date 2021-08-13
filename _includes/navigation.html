@@ -12,13 +12,13 @@
             {% for navigationLink in site.navigationLinks %}
             <li>
                 <a class="{% if navigationLink.permalink != null and page.permalink == navigationLink.permalink %}current{% endif %}"  href="{% if navigationLink.permalink != null %} {{ navigationLink.permalink | prepend: site.baseurl }} {% else %} {{ navigationLink.link }} {% endif %}" {% if navigationLink.link != null %}target="_blank"{% endif %}
-                    style="font-weight: 400; font-family: 'Potta One', cursive;">{{ navigationLink.text}}</a>
+                    style="font-weight: 400; font-family: 'Noto Serif TC', serif;">{{ navigationLink.text}}</a>
             </li>
             {% endfor %}
             <span class="bordered" style="background: linear-gradient(to top,#462c20 0%, #9b4a44 100%); border:#4c5192 solid 2px;
                 border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; margin-left: 10px;">
                 <a href="{{site.baseurl}}/applicationform" class="btn btn-default bottom-section-link waves-effect waves-button waves-light"
-                style="font-weight: 400; font-family: 'Potta One', cursive; color: #ffffff; text-shadow: 1px 1px 2px black; border-radius: 10px">
+                style="font-weight: 400; font-family: 'Noto Serif TC', serif; color: #ffffff; text-shadow: 1px 1px 2px black; border-radius: 10px">
                 點我報名</a>
             </span>
         </ul>
