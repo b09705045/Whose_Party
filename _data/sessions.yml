@@ -16,7 +16,7 @@
   description: "全員到齊！活動正式開始！"
 
 - id: 004
-  title: "水土大地 💦 👣"
+  title: "水土大地 🏝"
   # service: true
   place: "Undefined"
   description: "在大太陽底下奔跑吧！我要看到血流成河！"
@@ -33,14 +33,14 @@
   # service: true
   place: "Undefined"
   description: "吃飽喝足之後，來動動腦提振精神吧！"
-  detail: "如果要成為一位合格的莊園主人候選者，舉辦一場賓主盡歡的派對是眾多重要的條件之一！<br>接下來我將要測試你們舉辦派對的能力，盡情的發揮你們的創造力吧！"
+  detail: "如果要成為一位合格的莊園主人候選者，舉辦一場賓主盡歡的派對是眾多重要的條件之一！<br><br>接下來我將要測試你們舉辦派對的能力，盡情的發揮你們的創造力吧！"
 
 - id: 007
   title: "賭場 💰"
   place: "Undefined"
   # teamMember: "ㄎㄎ"
-  description: "賭一把梭哈，搏得數倍身家"
-  detail: "即使本莊園可以讓大家都有個高貴的烤肉，但是大家都一樣，多沒意思啊。沒有金錢的力量，哪來的資格成為本莊園的領主？去吧！廝殺吧！掠奪別人的財產充實自己的實力吧！踩著對手往上爬吧各位！"
+  description: "賭一把梭哈，搏得數倍身家！"
+  detail: "即使本莊園可以讓大家都有個高貴的烤肉，但是大家都一樣，多沒意思啊。沒有金錢的力量，哪來的資格成為本莊園的領主？<br><br>去吧！廝殺吧！掠奪別人的財產充實自己的實力吧！踩著對手往上爬吧各位！"
 
 - id: 010
   title: "BBQ晚餐 🥓"
@@ -49,7 +49,7 @@
   description: "我的肉很大～你忍一下～"
 
 - id: 011
-  title: "假案 👻"
+  title: "假案 🏰"
   description: "莊園假案，等你來辦！"
   place: "Undefined"
   detail: "眾多家族齊聚一堂，為了莊園的所有權一較高下，但你們真的了解這座歷史悠久莊園嗎？百年間的轉變飽含著多少利益關係與恩仇糾葛？又是誰在等待遲來正義呢？讓我們踏入歷史的迴廊，依循散落的線索拼湊真相，揭開莊園的神秘面紗⋯⋯"
@@ -61,7 +61,7 @@
   description: "今晚我想來點⋯⋯戴資穎！戴資穎！第一名！戴資穎！戴資穎！我愛你！"
 
 - id: 100
-  title: "起床 🛏"
+  title: "起床 🐓"
   # place: "餐廳"
   service: true
   description: "鬧鐘就決定是這首歌了（點右邊連結搶先聽！） <a href='https://www.youtube.com/watch?v=vVSZMHaET-Q&ab_channel=%E5%B0%91%E5%84%BF%E5%8A%A8%E7%94%BB%E4%B9%90%E5%9B%AD'>🔗</a>"
@@ -77,7 +77,7 @@
   # service: true
   place: "Undefined"
   description: "想成為時間管理大師嗎？你不平「凡」的大學生活，就從RPG開始！"
-  detail: "想要擁有這座莊園，你必須先問問我的下人們同不同意，解決莊園內的紛紛擾擾，你才能證明你有統御這座莊園的能力。"
+  detail: "想要擁有這座莊園，你必須先問問我的下人們同不同意。解決莊園內的紛紛擾擾，你才能證明你有統御這座莊園的能力。"
 
 - id: 103
   title: "中餐 🍱"
@@ -91,27 +91,26 @@
   place: "Undefined"
   description: "Let’s go party party all afternoon~~ oh~oh~oh "
   # video: "//www.youtube.com/embed/6RNPLsZzBIo"
-  detail: "轉瞬間～就來到了最後一項活動，相信大家身體已經疲憊不堪，所以我為你們精心準備了這個 party ，慰勞大家這兩天的辛勞。<br>
+  detail: "轉瞬間～就來到了最後一項活動，相信大家身體已經疲憊不堪，所以我為你們精心準備了這個 party ，慰勞大家這兩天的辛勞。<br><br>
   在公布莊園新主人之前，希望大家暫時放下勝負欲，欣賞各懷絕技的霍斯特家臣表演，盡情地享受 party 吧！"
 
 - id: 105
   title: "水球 🌊"
-  invisible: true
+  #invisible: true
   place: "Undefined"
   description: "復仇的時刻到了！拿起水球開始大戰吧！"
   detail: "現在，讓我們將這幾天的愛恨情仇加倍奉還，拿起你們的水球，瘋狂砸向那個害你輸掉各個關卡的人吧！不要害羞，回味青春熱血的感覺吧！"
 
 - id: 106
-  title: "閉幕"
+  title: "閉幕 🥲"
   service: true
-  description: "歡樂的時間總是過得特別快，難道⋯我們只能依依不捨地說再見嗎⋯<br>
-  快樂賦歸：希望這次的宿營有帶給你們不管是甚麼東西都好，願你們能在大學生活過得充實愉快！"
+  description: "歡樂的時間總是過得特別快，難道⋯我們只能依依不捨地說再見嗎⋯"
 
 - id: 107
-  title: "返家/校"
+  title: "快樂賦歸 🏠"
   # place: "餐廳"
   service: true
-  description: "收心準備明天開學ㄅ。<br>欸，其實你要返家不是不可以啦，資管系禮拜一應該是有會計課的，你只要不要睡掉基本上都沒事。<br>呃，更正，明天應該沒會計。愚人節快樂。"
+  description: "希望這次的宿營有帶給你們不管是甚麼東西都好，願你們能在大學生活過得充實愉快！"
 
 - id: 501
   title: "晚餐 🍛"

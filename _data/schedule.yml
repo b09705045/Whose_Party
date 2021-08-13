@@ -59,17 +59,17 @@
   timeslots:
     - {
     	startTime: "08:00",
-      endTime: "09:00",
     	sessionIds: [100]
     }
     - {
-    	startTime: "09:00",
+    	startTime: "08:00",
+      endTime: "09:00",
     	sessionIds: [101]
     }
     - {
-        startTime: "09:00",
-        endTime: "12:00",
-        sessionIds: [102]
+      startTime: "09:00",
+      endTime: "12:00",
+      sessionIds: [102]
     }
     - {
     	startTime: "12:00",
@@ -77,27 +77,31 @@
     	sessionIds: [103]
     }
     - { #水球之後把79~90註解
-    	startTime: "13:00", 
+    	startTime: "13:00",
     	endTime: "15:30",
     	sessionIds: [104],
-      invisible: true
+      # invisible: true
     }
     - {
     	startTime: "15:30",
     	endTime: "16:30",
     	sessionIds: [105],
-      invisible: true
+      # invisible: true
     }
     - {
       startTime: "13:00",
     	endTime: "16:30",
     	sessionIds: [104],
-      # invisible: true
+      invisible: true
 
     }
     - {
     	startTime: "16:30",
     	endTime: "18:00",
     	sessionIds: [106]
+    }
+    - {
+    	startTime: "18:00",
+    	sessionIds: [107]
     }
 
