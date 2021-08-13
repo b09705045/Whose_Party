@@ -2,7 +2,7 @@
 <html lang="en-US">
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8"name="viewport" content="width=device-width, initial-scale=1">
   <title>報名頁面 &bull; {{site.title}}</title>
   <link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico" | prepend: site.baseurl }}">
     <link rel="apple-touch-icon" href="{{ "/img/favicons/apple-touch-icon.png" | prepend: site.baseurl }}">
@@ -39,8 +39,32 @@
   <section id="second">
     <div class="container">
       <div class="row">
+        <h2 class="style-line col-md-8 offset-2">
+            <span>報名表單</span>
+        </h2>
+      </div>  
+      <div class="row notice-row">
+        <div class="notice">
+          <span>
+            <p>
+                很開心可以在宿營和大家見面，報名之前有幾件事希望大家能注意<br>
+                <ul>
+                    <li>你們好這裡是台灣，我是台灣人R叩謝和弦，這件外套是我的外套</il>
+                    <li>左下 社交 聯絡人 點我頭像 拜訪家園 </li>
+                    <li>又舔 又舔 你又舔</li>
+                </ul>
+                想了解更多關於活動的資訊，歡迎到首頁了解更多資訊
+                <button class="btn" onclick="location.href='{{ site.baseurl }}';">按<strong>我</strong>回首頁</button><br>    
+            </p>
+          </span>    
+        </div>    
+      </div>    
+    </div>
+  </section>
+  <section id="third">
+    <div class="container">
+      <div class="row">
         <div class="col-md-12">
-          <br><button onclick="location.href='{{ site.baseurl }}';">按<strong>我</strong>回首頁</button><br>
           <form class="form">
             <p>必填資料後方皆用 <strong>【R】</strong>標記</p>
 
@@ -252,36 +276,40 @@
               </div>
             </div>
             <div class="row">
-              <label for="parentAg">
-                <div class="col-md-12 input">
-                  <span class="itemTitle">上傳家長同意書</span>
-                </div>
-                <div class="col-md-12 input">
-                  <div class="upload_field">
-                    <input class="hide-accessibly" type="file" id="parentAg" name="parentAg"
-                      accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf">
-                    <img class="icon" src="../img/favicons/favicon.ico" alt="上傳檔案">
-                    <span>點我上傳</span>
+              <div class="col-md-6">
+                <label for="parentAg">
+                  <div class="col-md-12 input">
+                    <span class="itemTitle">上傳家長同意書</span>
                   </div>
-                  <span class="preview" id="parentAg_pre">尚未上傳檔案</span>
-                </div>
-              </label>
+                  <div class="col-md-12 input">
+                    <div class="upload_field">
+                      <input class="hide-accessibly" type="file" id="parentAg" name="parentAg"
+                        accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf">
+                      <img class="icon" src="../img/favicons/favicon.ico" alt="上傳檔案">
+                      <span>點我上傳</span>
+                    </div>
+                    <span class="preview" id="parentAg_pre">尚未上傳檔案</span>
+                  </div>
+                </label>
+              </div>
             </div>
             <div class="row">
-              <label for="healthDec">
-                <div class="col-md-12 input">
-                  <span class="itemTitle">上傳自主健康聲明書</span>
-                </div>
-                <div class="col-md-12 input">
-                  <div class="upload_field">
-                    <input class="hide-accessibly" type="file" id="healthDec" name="healthDec"
-                      accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf">
-                    <img class="icon" src="../img/favicons/favicon.ico" alt="上傳檔案">
-                    <span>點我上傳</span>
+              <div class="col-md-6">
+                <label for="healthDec">
+                  <div class="col-md-12 input">
+                    <span class="itemTitle">上傳自主健康聲明書</span>
                   </div>
-                  <span class="preview" id="healthDec_pre">尚未上傳檔案</span>
-                </div>
-              </label>
+                  <div class="col-md-12 input">
+                    <div class="upload_field">
+                      <input class="hide-accessibly" type="file" id="healthDec" name="healthDec"
+                        accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf">
+                      <img class="icon" src="../img/favicons/favicon.ico" alt="上傳檔案">
+                      <span>點我上傳</span>
+                    </div>
+                    <span class="preview" id="healthDec_pre">尚未上傳檔案</span>
+                  </div>
+                </label>  
+              </div>
             </div>
             <div class="row">
               <label for="suggestion" class="row justify-content-start align-items-start">
@@ -302,7 +330,7 @@
 
 
             <div>
-              <button type="submit" id="submit" onclick="return confirmSubmit()">按<strong>我</strong>送出</button>
+              <button class="btn" type="submit" id="submit" onclick="return confirmSubmit()">按<strong>我</strong>送出</button>
             </div>
 
           </form>
