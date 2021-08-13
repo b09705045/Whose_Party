@@ -7,9 +7,6 @@
     - {id: 2, name: "稱號二"}
     - {id: 3, name: "稱號三"}
     - {id: 4, name: "稱號四"}
-    - {id: 5, name: "稱號五"}
-    - {id: 6, name: "", offset: true}
-    - {id: 7, name: ""}
   scores:
     - {id: 1, point: "90", color: "#d45a5a", color_2: "#f26d6d"}
     - {id: 2, point: "76", color: "#e9a64a", color_2: "#ffc069"}
@@ -33,9 +30,6 @@
     - {id: 2, name: "稱號二"}
     - {id: 3, name: "稱號三"}
     - {id: 4, name: "稱號四"}
-    - {id: 5, name: "稱號五"}
-    - {id: 6, name: "", offset: true}
-    - {id: 7, name: ""}
   scores:
     - {id: 1, point: "100", color: "#d45a5a", color_2: "#f26d6d"}
     - {id: 2, point: "90", color: "#e9a64a", color_2: "#ffc069"}
@@ -60,9 +54,6 @@
     - {id: 2, name: "稱號二"}
     - {id: 3, name: "稱號三"}
     - {id: 4, name: "稱號四"}
-    - {id: 5, name: "稱號五"}
-    - {id: 6, name: "", offset: true}
-    - {id: 7, name: ""}
   scores:
     - {id: 1, point: "100", color: "#d45a5a", color_2: "#f26d6d"}
     - {id: 2, point: "100", color: "#e9a64a", color_2: "#ffc069"}
@@ -87,9 +78,6 @@
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   - {id: 4, name: "稱號四"}
-  - {id: 5, name: "稱號五"}
-  - {id: 6, name: "", offset: true}
-  - {id: 7, name: ""}
   scores:
   - {id: 1, point: "100", color: "#d45a5a", color_2: "#f26d6d"}
   - {id: 2, point: "100", color: "#e9a64a", color_2: "#ffc069"}
@@ -113,9 +101,6 @@
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   - {id: 4, name: "稱號四"}
-  - {id: 5, name: "稱號五"}
-  - {id: 6, name: "", offset: true}
-  - {id: 7, name: ""}
   scores:
   - {id: 1, point: "100", color: "#d45a5a", color_2: "#f26d6d"}
   - {id: 2, point: "100", color: "#e9a64a", color_2: "#ffc069"}
@@ -139,9 +124,6 @@
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   - {id: 4, name: "稱號四"}
-  - {id: 5, name: "稱號五"}
-  - {id: 6, name: "", offset: true}
-  - {id: 7, name: ""}
   scores:
   - {id: 1, point: "100", color: "#d45a5a", color_2: "#f26d6d"}
   - {id: 2, point: "100", color: "#e9a64a", color_2: "#ffc069"}
@@ -165,9 +147,6 @@
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   - {id: 4, name: "稱號四"}
-  - {id: 5, name: "稱號五"}
-  - {id: 6, name: "", offset: true}
-  - {id: 7, name: ""}
   scores:
   - {id: 1, point: "100", color: "#d45a5a", color_2: "#f26d6d"}
   - {id: 2, point: "100", color: "#e9a64a", color_2: "#ffc069"}
@@ -191,9 +170,6 @@
   - {id: 2, name: "稱號二"}
   - {id: 3, name: "稱號三"}
   - {id: 4, name: "稱號四"}
-  - {id: 5, name: "稱號五"}
-  - {id: 6, name: "", offset: true}
-  - {id: 7, name: ""}
   scores:
   - {id: 1, point: "100", color: "#d45a5a", color_2: "#f26d6d"}
   - {id: 2, point: "100", color: "#e9a64a", color_2: "#ffc069"}
