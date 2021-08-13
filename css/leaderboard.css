@@ -37,7 +37,7 @@
 	display: block;
 	text-decoration: none;
     font-size: 0.5cm;;
-	font-family:  'cwTeXFangSong', serif;
+	font-family: 'Noto Serif TC', serif;
 	color:#ffffff
 }
 #leaderboard ul li a:hover{
@@ -48,13 +48,13 @@
 	color:#a0ffea;
 	opacity: 1;
 	transition: opacity ease 3s;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Noto Serif TC', serif;
 }
 #leaderboard li span:after {
 	content:' pts';
 	color:rgb(255, 255, 255);
 	font-size: 0.5cm;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Noto Serif TC', serif;
 }
 #leaderboard .move{
 
