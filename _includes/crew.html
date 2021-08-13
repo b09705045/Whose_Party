@@ -22,9 +22,9 @@
                         {% endif %}
                         <figcaption>
                             <div class="col-md-9 col-xs-9 text-left">
-                                <h2 class="name" style="color:#7c2222;"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 700;">{{ crewMember.name }}{{ crewMember.surname }}</span></h2>
+                                <h2 class="name" style="color:#7c2222;"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 700;font-family: 'Noto Serif TC', serif;">{{ crewMember.name }}{{ crewMember.surname }}</span></h2>
                                 <div class="clearfix"></div>
-                                <span class="position" style="color:#7c2222">{{ crewMember.title }}</span>
+                                <span class="position" style="font-family: 'Noto Serif TC', serif;color:#7c2222">{{ crewMember.title }}</span>
                             </div>
                             {% for social in crewMember.social %}
                             <a href="{{ social["link"] }}" target="_blank">
@@ -35,7 +35,7 @@
                             </a>
                             {% endfor %}
                         </figcaption>
-                        <p class="bio">{{ crewMember.bio | strip_html | truncate: 60, "⋯⋯" }}</p>
+                        <p class="bio" style="font-family: 'Noto Serif TC', serif;">{{ crewMember.bio | strip_html | truncate: 60, "⋯⋯" }}</p>
                     </figure>
                 </div>
             </div>
@@ -62,32 +62,32 @@
                             {% if crewMember.name == "Chang-Tian-Wei " %}
                             <div class="col-md-11 col-xs-11 text-left">
                                 <div class="clearfix"></div>
-                                <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 700; font-size: 13px;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
-                                <span class="position" style="color:#7c2222">{{ crewMember.title }}</span>
+                                <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 700;font-family: 'Noto Serif TC', serif; font-size: 13px;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
+                                <span class="position" style="font-family: 'Noto Serif TC', serif;color:#7c2222">{{ crewMember.title }}</span>
                             </div>
                             {% elsif crewMember.name == "Tzu Ying Yang " %}
                             <div class="col-md-10 col-xs-10 text-left">
                                 <div class="clearfix"></div>
-                                <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 700;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
-                                <span class="position" style="color:#7c2222">{{ crewMember.title }}</span>
+                                <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 700;font-family: 'Noto Serif TC', serif;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
+                                <span class="position" style="font-family: 'Noto Serif TC', serif;color:#7c2222">{{ crewMember.title }}</span>
                             </div>
                             {% elsif crewMember.name == "chen yingwei " %}
                             <div class="col-md-10 col-xs-10 text-left">
                                 <div class="clearfix"></div>
-                                <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 700;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
-                                <span class="position" style="color:#7c2222">{{ crewMember.title }}</span>
+                                <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 700;font-family: 'Noto Serif TC', serif;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
+                                <span class="position" style="font-family: 'Noto Serif TC', serif;color:#7c2222">{{ crewMember.title }}</span>
                             </div>
                             {% elsif crewMember.name == "Sherry Huang " %}
                             <div class="col-md-10 col-xs-10 text-left">
                                 <div class="clearfix"></div>
-                                <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 700;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
-                                <span class="position" style="color:#7c2222">{{ crewMember.title }}</span>
+                                <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 700;font-family: 'Noto Serif TC', serif;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
+                                <span class="position" style="font-family: 'Noto Serif TC', serif;color:#7c2222">{{ crewMember.title }}</span>
                             </div>
                             {% else %}
                             <div class="col-md-9 col-xs-9 text-left">
                                 <div class="clearfix"></div>
-                                <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 700;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
-                                <span class="position" style="color:#7c2222">{{ crewMember.title }}</span>
+                                <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 700;font-family: 'Noto Serif TC', serif;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
+                                <span class="position" style="font-family: 'Noto Serif TC', serif;color:#7c2222">{{ crewMember.title }}</span>
                             </div>
                             {% endif %}
                             {% for social in crewMember.social %}
@@ -99,7 +99,7 @@
                             </a>
                             {% endfor %}
                         </figcaption>
-                        <p class="bio">{{ crewMember.bio | strip_html | truncate: 60, "⋯⋯" }}</p>
+                        <p class="bio" style="font-family: 'Noto Serif TC', serif;">{{ crewMember.bio | strip_html | truncate: 60, "⋯⋯" }}</p>
                     </figure>
                 </div>
             </div>
@@ -125,8 +125,8 @@
                         <figcaption>
                             <div class="col-md-9 col-xs-9 text-left">
                                 <div class="clearfix"></div>
-                                <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 700;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
-                                <span class="position" style="color:#7c2222">{{ crewMember.title }}</span>
+                                <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 700;font-family: 'Noto Serif TC', serif;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
+                                <span class="position" style="font-family: 'Noto Serif TC', serif;color:#7c2222">{{ crewMember.title }}</span>
                             </div>
                             {% for social in crewMember.social %}
                                 <a href="{{ social["link"] }}" target="_blank">
@@ -137,7 +137,7 @@
                                 </a>
                             {% endfor %}
                         </figcaption>
-                        <p class="bio">{{ crewMember.bio | strip_html | truncate: 60, "⋯⋯" }}</p>
+                        <p class="bio" style="font-family: 'Noto Serif TC', serif;">{{ crewMember.bio | strip_html | truncate: 60, "⋯⋯" }}</p>
                     </figure>
                 </div>
             </div>
