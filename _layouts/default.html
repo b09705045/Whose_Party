@@ -33,6 +33,8 @@ layout: compress
         {% include crew-modal.html %}
     {% elsif page.modal == 'team' %}
         {% include team-modal.html %}
+    {% elsif page.modal == 'story' %}
+        {% include story-modal.html %}
     {% endif %}
 
     {% if page.permalink == '/schedule/' %}
