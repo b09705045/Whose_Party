@@ -77,22 +77,22 @@
     	sessionIds: [103]
     }
     - { #水球之後把79~90註解
-    	startTime: "13:00", 
+    	startTime: "13:00",
     	endTime: "15:30",
     	sessionIds: [104],
-      invisible: true
+      # invisible: true
     }
     - {
     	startTime: "15:30",
     	endTime: "16:30",
     	sessionIds: [105],
-      invisible: true
+      # invisible: true
     }
     - {
       startTime: "13:00",
     	endTime: "16:30",
     	sessionIds: [104],
-      # invisible: true
+      invisible: true
 
     }
     - {
