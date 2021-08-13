@@ -66,6 +66,12 @@
                             {% endif %}{% endfor %}
                         </div>
                         <div class="row">
+                            <iframe
+                                src="https://onedrive.live.com/embed?cid=85EBDFFB4EC13346&amp;resid=85EBDFFB4EC13346%21111&amp;authkey=AI0QQi9GkhCbO00&amp;em=2&amp;wdAr=1.7777777777777777"
+                                width="610px" height="367px" frameborder="0">這是 <a target="_blank" href="https://office.com/webapps">Office</a>
+                                提供的內嵌 <a target="_blank" href="https://office.com">Microsoft Office</a> 簡報。</iframe>
+                        </div>
+                        <div class="row">
                             <div style="text-align: center" class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
                                 <p style="font-size:0.6cm; color:#7c2222; font-family: 'cwTeXFangSong', serif;">
                                 <b>-目前積分-</b></p>
@@ -104,9 +110,9 @@
         {% for teamMember in site.data.team %}
             var total=0, oldTotal=0, temp=-1;
             var pointsArr = [
-                {% for each in teamMember.scores %}    
+                {% for each in teamMember.scores %}
                     '{{ each.point }}'{% if forloop.index!=forloop.length %}, {% endif %}
-                {% endfor %}      
+                {% endfor %}
             ];
             for(var j=0;j<7;j++){
                 if(pointsArr[temp]!=0 && temp>=0){
@@ -114,7 +120,7 @@
                 }
                 total+=parseInt(pointsArr[j],10);
                 temp=j;
-                
+
             }
             document.getElementsByClassName('col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2 total_score')[{{teamMember.id}}-1].innerHTML=''+ total +'';
             document.getElementsByClassName('col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2 old_score')[{{teamMember.id}}-1].innerHTML=''+ oldTotal +'';
