@@ -2,7 +2,7 @@
 layout: post
 title:  "選課指南"
 date:   2021-08-14 08:00:00
-permalink: "/course-post"
+permalink: "/course-navi"
 isStaticPost: false
 ---
 這是一篇給大一新鮮人的選課指南！如果你想成為卷哥卷姐的話，那你一定不能錯過！
