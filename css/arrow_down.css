@@ -1,0 +1,14 @@
+.arrow_display_md{
+    display: none;
+}
+.arrow_display_xs{
+    display: inline-block;
+}
+@media (min-width: 768px){
+    .arrow_display_md{
+        display: inline-block;
+    }
+    .arrow_display_xs{
+        display: none;
+    }
+}
