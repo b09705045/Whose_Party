@@ -594,7 +594,7 @@ height: 100%;width: 100%;z-index: 9999999;}
 .top-section-hero .jumbotron p{font-size:26px;font-weight:100;margin-bottom:15px}
 .top-section-hero .jumbotron .btn{margin:0 3px}
 .typeout-fallback{display:none}
-.explore{margin-left:-16px;position:absolute;bottom:-25px;left:50%;-webkit-animation:callToAction 3.5s linear 0s infinite;animation:callToAction 3.5s linear 0s infinite}
+.explore{margin-left:-16px;position:absolute;bottom:-50px;left:50%;-webkit-animation:callToAction 3.5s linear 0s infinite;animation:callToAction 3.5s linear 0s infinite}
 .icon-arrow-down{width:32px;height:32px;fill:#e6e6e6}
 
 @-webkit-keyframes callToAction{
