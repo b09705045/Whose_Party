@@ -30,7 +30,18 @@
                         <div id="capybara" class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="width: 90%;margin-left:0.5%; border-radius: 20px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage2 }})"></div>
                     </div>
                     <div class="venue-elem-wrapper col-xs-6 visible-xs">
-                        <div id="tent" class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="width: 90%;margin-left:2.5%; border-radius: 20px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage3 }})"></div>
+                        <div id="tent" class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="width: 90%;margin-left:2.5%; border-radius: 20px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage3 }})">
+                            <style>
+                                @media (max-width: 767px){
+                                    .venue-elem .image-section .venue-small-elem .venue-img .animated.hiding{
+                                        width: 90%;
+                                        margin-left:0.5%; 
+                                        border-radius: 20px; 
+                                        background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage3 }});
+                                    }
+                                }
+                            </style>
+                        </div>
                     </div>
                     <br><br>
                 </div>
@@ -46,13 +57,11 @@
             var img_1 = document.getElementById('largest');
             var img_2 = document.getElementById('windmill');
             var img_3 = document.getElementById('capybara');
-            var img_4 = document.getElementById('tent');
             var block = document.getElementById('location_block');
             if(window.innerWidth < 767){
                 img_1.style = "width: 90%;margin-left:5%; border-radius: 20px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueBigImage }})";
                 img_2.style = "width: 90%;margin-left:10%; border-radius: 20px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage1 }})";
                 img_3.style = "width: 90%;margin-left:10%; border-radius: 20px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage2 }})";
-                img_4.style = "width: 90%;margin-left:0.5%; border-radius: 20px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage3 }})";
                 block.style = "width: 90%;margin-left:0.5%; ";
             }
         </script>
