@@ -593,7 +593,7 @@ height: 100%;width: 100%;z-index: 9999999;}
 .top-section-hero .jumbotron{position:relative;top:50%;margin:0;left:0;-webkit-transform:translateY(-60%);-ms-transform:translateY(-60%);transform:translateY(-60%)}
 .top-section-hero .jumbotron p{font-size:26px;font-weight:100;margin-bottom:15px}
 .top-section-hero .jumbotron .btn{margin:0 3px}
-.typeout-fallback{display:none}
+.typeout-fallback{display:inline-block}
 .explore{margin-left:-16px;position:absolute;bottom:-25px;left:50%;-webkit-animation:callToAction 3.5s linear 0s infinite;animation:callToAction 3.5s linear 0s infinite}
 .icon-arrow-down{width:32px;height:32px;fill:#e6e6e6}
 
@@ -1029,7 +1029,6 @@ height: 100%;width: 100%;z-index: 9999999;}
   .top-header.after-scroll nav li a{top:20px}
   .top-header.after-scroll nav li a.current,.top-header.after-scroll nav li a:hover{color:#03a9f4}
   .top-section-hero .jumbotron{margin:0;padding:0}
-  .typeout-fallback{display:inline-block}
   .explore{margin-left:-12.5px;bottom:30px;-webkit-animation:none;animation:none}
   .icon-arrow-down{width:24px;height:24px}
   .top-section{min-height:200px;padding:0}
