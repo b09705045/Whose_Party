@@ -11,7 +11,7 @@
 							</svg>
 							<div class="close-mask" data-dismiss="modal"></div>
 						</div>
-						<h4>{{ session.title }}</h4>
+						<h4 style="font-family: 'Noto Serif TC', serif;">{{ session.title }}</h4>
 						{% if session.language != null %}
 						<span class="theme-metadata"><span class="caption">Language: </span>{{ session.language }}</span>
 						{% endif %}
@@ -23,7 +23,7 @@
 						    <iframe class="embed-responsive-item" src="{{ session.video }}"></iframe>
 						</div>
 						{% endif %}
-						<p class="theme-description col-md-offset-2" style="font-size: 20px; font-weight: 300;">{{ session.detail }}</p>
+						<p class="theme-description col-md-offset-2" style="font-size: 20px; font-weight: 300; font-family: 'Noto Serif TC', serif;">{{ session.detail }}</p>
 						{% if session.presentation %}
 						<a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
 						{% endif %}
