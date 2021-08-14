@@ -1030,7 +1030,7 @@ height: 100%;width: 100%;z-index: 9999999;}
   .top-header.after-scroll nav li a.current,.top-header.after-scroll nav li a:hover{color:#03a9f4}
   .top-section-hero .jumbotron{margin:0;padding:0}
   .typeout-fallback{display:inline-block}
-  .explore{margin-left:-12.5px;bottom:20px;}
+  .explore{margin-left:-12.5px;bottom:20px}
   .icon-arrow-down{width:24px;height:24px}
   .top-section{min-height:200px;padding:0}
   .jumbotron{left:13px;margin-top:100px;padding-left:0;padding-bottom:5px}
