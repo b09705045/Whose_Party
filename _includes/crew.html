@@ -3,7 +3,7 @@
 <section id="crew" class="crew">
     <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1 text-center">
-            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0" style="color:#7c2222"><code><strong>• 召部 •</strong></code></h4>
+            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0" style="color:#7c2222; font-family: 'Noto Serif TC', serif;"><strong>• 召部 •</strong></h4>
             <div class="clearfix"></div>
             {% for crewMember in site.data.crew %} {% if crewMember.executive == true %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
@@ -24,7 +24,7 @@
                             <div class="col-md-9 col-xs-9 text-left">
                                 <h2 class="name" style="color:#7c2222;"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 900;font-family: 'Noto Serif TC', serif;">{{ crewMember.name }}{{ crewMember.surname }}</span></h2>
                                 <div class="clearfix"></div>
-                                <span class="position" style="font-size: 11px;font-weight:400;font-family: 'Noto Serif TC', serif;color:#7c2222">{{ crewMember.title }}</span>
+                                <span class="position" style="font-size: 11px;font-weight:500;font-family: 'Noto Serif TC', serif;color:#7c2222">{{ crewMember.title }}</span>
                             </div>
                             {% for social in crewMember.social %}
                             <a href="{{ social["link"] }}" target="_blank">
@@ -42,7 +42,7 @@
             {% endif %} {% endfor %}
         </div>
         <div class="col-lg-10 col-lg-offset-1 text-center">
-            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0" style="color:#7c2222"><code><b>• 部長 • </b></code></h4>
+            <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0" style="color:#7c2222; font-family: 'Noto Serif TC', serif;"><code><b>• 部長 • </b></code></h4>
             {% for crewMember in site.data.crew %} {% if crewMember.leader %}
             <div class="effect-wrapper col-md-3 col-sm-6 col-xs-12 cols-centered appear-animation">
                 <div class="zoe-effect ribbon-activator" data-toggle="modal" data-target="#crewDetail-{{ crewMember.id }}">
@@ -63,31 +63,31 @@
                             <div class="col-md-10 col-xs-10 text-left">
                                 <div class="clearfix"></div>
                                 <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 900;font-family: 'Noto Serif TC', serif; font-size: 12.5px;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
-                                <span class="position" style="font-size: 11px;font-family: 'Noto Serif TC', serif;color:#7c2222">{{ crewMember.title }}</span>
+                                <span class="position" style="font-size: 11px;font-family: 'Noto Serif TC', serif;font-weight:500;color:#7c2222">{{ crewMember.title }}</span>
                             </div>
                             {% elsif crewMember.name == "Tzu Ying Yang " %}
                             <div class="col-md-10 col-xs-10 text-left">
                                 <div class="clearfix"></div>
                                 <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 900;font-family: 'Noto Serif TC', serif;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
-                                <span class="position" style="font-size: 11px;font-family: 'Noto Serif TC', serif;color:#7c2222">{{ crewMember.title }}</span>
+                                <span class="position" style="font-size: 11px;font-family: 'Noto Serif TC', serif;font-weight:500;color:#7c2222">{{ crewMember.title }}</span>
                             </div>
                             {% elsif crewMember.name == "chen yingwei " %}
                             <div class="col-md-10 col-xs-10 text-left">
                                 <div class="clearfix"></div>
                                 <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 900;font-family: 'Noto Serif TC', serif;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
-                                <span class="position" style="font-size: 11px;font-family: 'Noto Serif TC', serif;color:#7c2222">{{ crewMember.title }}</span>
+                                <span class="position" style="font-size: 11px;font-family: 'Noto Serif TC', serif;font-weight:500;color:#7c2222">{{ crewMember.title }}</span>
                             </div>
                             {% elsif crewMember.name == "Sherry Huang " %}
                             <div class="col-md-10 col-xs-10 text-left">
                                 <div class="clearfix"></div>
                                 <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 900;font-family: 'Noto Serif TC', serif;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
-                                <span class="position" style="font-size: 11px;font-family: 'Noto Serif TC', serif;color:#7c2222">{{ crewMember.title }}</span>
+                                <span class="position" style="font-size: 11px;font-family: 'Noto Serif TC', serif;font-weight:500;color:#7c2222">{{ crewMember.title }}</span>
                             </div>
                             {% else %}
                             <div class="col-md-9 col-xs-9 text-left">
                                 <div class="clearfix"></div>
                                 <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 900;font-family: 'Noto Serif TC', serif;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
-                                <span class="position" style="font-size: 11px;font-family: 'Noto Serif TC', serif;color:#7c2222">{{ crewMember.title }}</span>
+                                <span class="position" style="font-size: 11px;font-family: 'Noto Serif TC', serif;font-weight:500;color:#7c2222">{{ crewMember.title }}</span>
                             </div>
                             {% endif %}
                             {% for social in crewMember.social %}
@@ -128,7 +128,7 @@
                             <div class="col-md-9 col-xs-9 text-left">
                                 <div class="clearfix"></div>
                                 <h2 class="name" style="color:#7c2222"><span style=" background-color: rgba(255,255,255,0.8); font-weight: 900;font-family: 'Noto Serif TC', serif;">{{ crewMember.name }} {{ crewMember.surname }}</span></h2>
-                                <span class="position" style="font-size: 11px;font-family: 'Noto Serif TC', serif;color:#7c2222">{{ crewMember.title }}</span>
+                                <span class="position" style="font-size: 11px;font-family: 'Noto Serif TC', serif;font-weight:500;color:#7c2222">{{ crewMember.title }}</span>
                             </div>
                             {% for social in crewMember.social %}
                                 <a href="{{ social["link"] }}" target="_blank">

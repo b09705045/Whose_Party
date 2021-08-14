@@ -44,7 +44,7 @@
                         <div class="color-line" style="background: {{ day.tracks[slotIndex].color }}"></div>
                         <div class="slot-content" style="border-right-color: {{ day.tracks[slotIndex].color }}">
                             <h5 class="slot-title" itemprop="name">
-                                {{ session.title }}
+                                <b>{{ session.title }}</b>
                             </h5>
                             {% if session.description != null %}
                             <p class="service-description">
@@ -63,7 +63,7 @@
                         <div class="color-line"></div>
                         <div class="slot-content">
                             <h5 class="slot-title" itemprop="name">
-                                {{ session.title }}
+                                <b>{{ session.title }}</b>
                             </h5>
                             {% if session.description != null %}
                             <p class="service-description">
