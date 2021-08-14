@@ -36,7 +36,7 @@
 #leaderboard ul li a{
 	display: block;
 	text-decoration: none;
-    font-size: 0.5cm;;
+    font-size: 0.475cm;;
 	font-family: 'Noto Serif TC', serif;
 	color:#ffffff
 }
@@ -53,7 +53,7 @@
 #leaderboard li span:after {
 	content:' pts';
 	color:rgb(255, 255, 255);
-	font-size: 0.5cm;
+	font-size: 0.475cm;
     font-family: 'Noto Serif TC', serif;
 }
 #leaderboard .move{
