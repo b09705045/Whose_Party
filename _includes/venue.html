@@ -7,15 +7,15 @@
             <div class="row venue-row">
                 <div class="col-md-8 col-sm-8 venue-col">
                     <div class="venue-elem-wrapper">
-                        <div class="venue-elem image-section venue-big-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="width: 90%;margin-left:5%; border-radius: 50px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueBigImage }})"></div>
+                        <div id="largest" class="venue-elem image-section venue-big-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="width: 95%;margin-left:5%; border-radius: 20px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueBigImage }})"></div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-4 venue-col venue-small-col">
                     <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
-                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="150" style="width: 90%;margin-left:5%; border-radius: 50px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage1 }})"></div>
+                        <div id="windmill" class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="150" style="width: 90%;margin-left:0.5%; border-radius: 20px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage1 }})"></div>
                     </div>
                     <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
-                        <div class="venue-elem venue-small-elem venue-text animated hiding" data-animation="fadeIn" data-delay="0" style="width: 90%;margin-left:5%; ">
+                        <div id="location_block" class="venue-elem venue-small-elem venue-text animated hiding" data-animation="fadeIn" data-delay="0" style="width: 90%;margin-left:0.5%; ">
                             <h5 style="font-weight: 500; font-weight: 400; font-family: 'Noto Serif TC', serif;"><a href="https://www.pushin-ranch.com/" style="color:#ffffff">{{ site.venueTitle }}</a></h5>
                             {% for feature in site.venueFeatures %}
                             {% if feature == "地址：桃園市楊梅區幼獅路一段439號" %}
@@ -27,10 +27,10 @@
                         </div>
                     </div>
                     <div class="venue-elem-wrapper col-md-12 col-sm-12 col-xs-6">
-                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="width: 90%;margin-left:5%; border-radius: 50px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage2 }})"></div>
+                        <div id="capybara" class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="width: 90%;margin-left:0.5%; border-radius: 20px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage2 }})"></div>
                     </div>
                     <div class="venue-elem-wrapper col-xs-6 visible-xs">
-                        <div class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="width: 90%;margin-left:5%; border-radius: 50px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage3 }})"></div>
+                        <div id="tent" class="venue-elem image-section venue-small-elem venue-img animated hiding" data-animation="fadeIn" data-delay="0" style="width: 90%;margin-left:2.5%; border-radius: 20px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage3 }})"></div>
                     </div>
                     <br><br>
                 </div>
@@ -42,6 +42,20 @@
                 </svg>
             </a>
         </div>
+        <script>
+            var img_1 = document.getElementById('largest');
+            var img_2 = document.getElementById('windmill');
+            var img_3 = document.getElementById('capybara');
+            var img_4 = document.getElementById('tent');
+            var block = document.getElementById('location_block');
+            if(window.innerWidth < 767){
+                img_1.style = "width: 90%;margin-left:5%; border-radius: 20px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueBigImage }})";
+                img_2.style = "width: 90%;margin-left:10%; border-radius: 20px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage1 }})";
+                img_3.style = "width: 90%;margin-left:10%; border-radius: 20px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage2 }})";
+                img_4.style = "width: 90%;margin-left:0.5%; border-radius: 20px; background-image: url({{ site.baseurl }}/img/venue/{{ site.venueSmallImage3 }})";
+                block.style = "width: 90%;margin-left:0.5%; ";
+            }
+        </script>
     </div>
 </section>
 <!-- End Venue Section -->

@@ -36,8 +36,9 @@
 #leaderboard ul li a{
 	display: block;
 	text-decoration: none;
-    font-size: 0.5cm;;
+    font-size: 0.6cm;;
 	font-family: 'Noto Serif TC', serif;
+	font-weight: 700;
 	color:#ffffff
 }
 #leaderboard ul li a:hover{
@@ -53,7 +54,8 @@
 #leaderboard li span:after {
 	content:' pts';
 	color:rgb(255, 255, 255);
-	font-size: 0.5cm;
+	font-size: 0.6cm;
+	font-weight: 700;
     font-family: 'Noto Serif TC', serif;
 }
 #leaderboard .move{
@@ -77,4 +79,20 @@
 {
 	0% {left: -500px;opacity:0;}
 	100% {left: 0px;opacity:1;}
+}
+
+@media (max-width: 767px){
+	#leaderboard ul li a{
+		display: block;
+		text-decoration: none;
+		font-size: 0.4cm;;
+		font-family: 'Noto Serif TC', serif;
+		color:#ffffff
+	}
+	#leaderboard li span:after {
+		content:' pts';
+		color:rgb(255, 255, 255);
+		font-size: 0.4cm;
+		font-family: 'Noto Serif TC', serif;
+	}
 }
