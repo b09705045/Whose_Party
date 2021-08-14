@@ -111,34 +111,34 @@ layout: compress
                 }
             }
 
-        $(document).ready(function () {
-            $(setInterval(function () {
-                var time = new Date();
-                var nowTime = time.getTime(); 
-                time.setMonth(9); 
-                time.setDate(23); 
-                time.setHours(0); 
-                time.setMinutes(0); 
-                time.setSeconds(0);
-                var endTime = time.getTime();
+        // $(document).ready(function () {
+        //     $(setInterval(function () {
+        //         var time = new Date();
+        //         var nowTime = time.getTime(); 
+        //         time.setMonth(9); 
+        //         time.setDate(23); 
+        //         time.setHours(0); 
+        //         time.setMinutes(0); 
+        //         time.setSeconds(0);
+        //         var endTime = time.getTime();
                 
-                var offsetTime = (endTime - nowTime) / 1000; 
-                var sec = parseInt(offsetTime % 60); 
-                var min = parseInt((offsetTime / 60) % 60); 
-                var hr = parseInt((offsetTime / 60 / 60) % 24); 
-                var day = parseInt(offsetTime / 60 / 60 / 24); 
-                var fullDate = [''+ day +'日'+ hr +'時'+ min +'分'+ sec +'秒'];
+        //         var offsetTime = (endTime - nowTime) / 1000; 
+        //         var sec = parseInt(offsetTime % 60); 
+        //         var min = parseInt((offsetTime / 60) % 60); 
+        //         var hr = parseInt((offsetTime / 60 / 60) % 24); 
+        //         var day = parseInt(offsetTime / 60 / 60 / 24); 
+        //         var fullDate = [''+ day +'日'+ hr +'時'+ min +'分'+ sec +'秒'];
 
-                if ($(window).width() > 767) {
-                    $("#typeout-text").typed({
-                        strings: fullDate,
-                        typeSpeed: 150,
-                        backDelay: 900,
-                        loop: true
-                    });
-                }
-            }),1000);
-        });
+        //         if ($(window).width() > 767) {
+        //             $("#typeout-text").typed({
+        //                 strings: fullDate,
+        //                 typeSpeed: 150,
+        //                 backDelay: 900,
+        //                 loop: true
+        //             });
+        //         }
+        //     }),1000);
+        // });
 
         {% endif %}
     </script>
