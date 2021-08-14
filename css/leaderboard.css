@@ -38,6 +38,7 @@
 	text-decoration: none;
     font-size: 0.6cm;;
 	font-family: 'Noto Serif TC', serif;
+	font-weight: 700;
 	color:#ffffff
 }
 #leaderboard ul li a:hover{
@@ -54,6 +55,7 @@
 	content:' pts';
 	color:rgb(255, 255, 255);
 	font-size: 0.6cm;
+	font-weight: 700;
     font-family: 'Noto Serif TC', serif;
 }
 #leaderboard .move{
