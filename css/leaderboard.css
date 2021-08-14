@@ -40,6 +40,9 @@
 	font-family: 'Noto Serif TC', serif;
 	color:#ffffff
 }
+@media (max-width: 767px){
+	
+}
 #leaderboard ul li a:hover{
 	text-shadow: 0 0 10px rgb(230,230,255);
 }
