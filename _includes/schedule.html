@@ -43,8 +43,8 @@
                         data-target="#sessionDetail-{{ session.id }}">
                         <div class="color-line" style="background: {{ day.tracks[slotIndex].color }}"></div>
                         <div class="slot-content" style="border-right-color: {{ day.tracks[slotIndex].color }}">
-                            <h5 class="slot-title" itemprop="name">
-                                <b>{{ session.title }}</b>
+                            <h5 class="slot-title" itemprop="name" style="font-weight: 500;">
+                                {{ session.title }}
                             </h5>
                             {% if session.description != null %}
                             <p class="service-description">
@@ -62,8 +62,8 @@
                         data-slot-detail="{{ day.tracks[0].title }}">
                         <div class="color-line"></div>
                         <div class="slot-content">
-                            <h5 class="slot-title" itemprop="name">
-                                <b>{{ session.title }}</b>
+                            <h5 class="slot-title" itemprop="name" style="font-weight: 500;">
+                                {{ session.title }}
                             </h5>
                             {% if session.description != null %}
                             <p class="service-description">
