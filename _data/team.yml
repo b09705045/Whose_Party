@@ -10,7 +10,7 @@
   scores:
     - {id: 1, point: "90", color: "#2d5436", color_2: "#488556"} 
     - {id: 2, point: "76", color: "#37566b", color_2: "#4d7996"}
-    - {id: 3, point: "84", color: "#d1de6f", color_2: "#eaf783"}
+    - {id: 3, point: "84", color: "#ffee54", color_2: "#ffed4f"}
     - {id: 4, point: "100", color: "#5c5c5c", color_2: "#828282"}
     - {id: 5, point: "79", color: "#7a2c0d", color_2: "#a63c12"}
   totalScore: "0"
