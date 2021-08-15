@@ -13,8 +13,6 @@
     - {id: 3, point: "84", color: "#efd805", color_2: "#ffeb33"}
     - {id: 4, point: "100", color: "#76ef05", color_2: "#9cff40"}
     - {id: 5, point: "79", color: "#05efd4", color_2: "#3bffe8"}
-    - {id: 6, point: "92", color: "#0566ef", color_2: "#408fff"}
-    - {id: 7, point: "66", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: emblem_1.jpg
   edited: false
@@ -36,8 +34,6 @@
     - {id: 3, point: "67", color: "#efd805", color_2: "#ffeb33"}
     - {id: 4, point: "79", color: "#76ef05", color_2: "#9cff40"}
     - {id: 5, point: "88", color: "#05efd4", color_2: "#3bffe8"}
-    - {id: 6, point: "82", color: "#0566ef", color_2: "#408fff"}
-    - {id: 7, point: "68", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: emblem_2.jpg
   edited: false
@@ -60,8 +56,6 @@
     - {id: 3, point: "90", color: "#efd805", color_2: "#ffeb33"}
     - {id: 4, point: "98", color: "#76ef05", color_2: "#9cff40"}
     - {id: 5, point: "98", color: "#05efd4", color_2: "#3bffe8"}
-    - {id: 6, point: "78", color: "#0566ef", color_2: "#408fff"}
-    - {id: 7, point: "74", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: emblem_3.jpg
   edited: false
@@ -84,8 +78,6 @@
   - {id: 3, point: "100", color: "#efd805", color_2: "#ffeb33"}
   - {id: 4, point: "90", color: "#76ef05", color_2: "#9cff40"}
   - {id: 5, point: "88", color: "#05efd4", color_2: "#3bffe8"}
-  - {id: 6, point: "92", color: "#0566ef", color_2: "#408fff"}
-  - {id: 7, point: "66", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: emblem_4.jpg
   edited: false
@@ -107,8 +99,6 @@
   - {id: 3, point: "100", color: "#efd805", color_2: "#ffeb33"}
   - {id: 4, point: "100", color: "#76ef05", color_2: "#9cff40"}
   - {id: 5, point: "90", color: "#05efd4", color_2: "#3bffe8"}
-  - {id: 6, point: "67", color: "#0566ef", color_2: "#408fff"}
-  - {id: 7, point: "81", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: emblem_5.jpg
   edited: false
@@ -130,8 +120,6 @@
   - {id: 3, point: "100", color: "#efd805", color_2: "#ffeb33"}
   - {id: 4, point: "100", color: "#76ef05", color_2: "#9cff40"}
   - {id: 5, point: "100", color: "#05efd4", color_2: "#3bffe8"}
-  - {id: 6, point: "90", color: "#0566ef", color_2: "#408fff"}
-  - {id: 7, point: "74", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: emblem_6.jpg
   edited: false
@@ -153,8 +141,6 @@
   - {id: 3, point: "100", color: "#efd805", color_2: "#ffeb33"}
   - {id: 4, point: "100", color: "#76ef05", color_2: "#9cff40"}
   - {id: 5, point: "100", color: "#05efd4", color_2: "#3bffe8"}
-  - {id: 6, point: "100", color: "#0566ef", color_2: "#408fff"}
-  - {id: 7, point: "90", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: emblem_7.jpg
   edited: false
@@ -176,8 +162,6 @@
   - {id: 3, point: "100", color: "#efd805", color_2: "#ffeb33"}
   - {id: 4, point: "100", color: "#76ef05", color_2: "#9cff40"}
   - {id: 5, point: "100", color: "#05efd4", color_2: "#3bffe8"}
-  - {id: 6, point: "100", color: "#0566ef", color_2: "#408fff"}
-  - {id: 7, point: "100", color: "#d484f1", color_2: "#ebb3ff"}
   totalScore: "0"
   thumbnailUrl: emblem_8.jpg
   edited: false
