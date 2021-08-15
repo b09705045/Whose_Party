@@ -8,11 +8,11 @@
     - {id: 3, name: "稱號三"}
     - {id: 4, name: "稱號四"}
   scores:
-    - {id: 1, point: "90", color: "#d45a5a", color_2: "#f26d6d"}
-    - {id: 2, point: "76", color: "#e9a64a", color_2: "#ffc069"}
-    - {id: 3, point: "84", color: "#efd805", color_2: "#ffeb33"}
-    - {id: 4, point: "100", color: "#76ef05", color_2: "#9cff40"}
-    - {id: 5, point: "79", color: "#05efd4", color_2: "#3bffe8"}
+    - {id: 1, point: "90", color: "#2d5436", color_2: "#488556"} 
+    - {id: 2, point: "76", color: "#37566b", color_2: "#4d7996"}
+    - {id: 3, point: "84", color: "#d1de6f", color_2: "#eaf783"}
+    - {id: 4, point: "100", color: "#5c5c5c", color_2: "#828282"}
+    - {id: 5, point: "79", color: "#7a2c0d", color_2: "#a63c12"}
   totalScore: "0"
   thumbnailUrl: emblem_1.jpg
   edited: false
