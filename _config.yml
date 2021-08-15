@@ -152,9 +152,9 @@ ticketsOffers:
   #ticketsNumber: "300"
   #buyButtonLink: "{{site.baseurl}}/applicationform"
   buyButtonText: "點我報名"
-  ticketContentList: ["！", "期限至 止"]
+  ticketContentList: ["報名期限至 9/29 23:59 止", "繳費期限至 9/30 23:59 止"]
   validFrom: "2021-09-01T09:00"
-  validThrough: "2021-09-30T23:59"
+  validThrough: "2021-09-29T23:59"
   soldOut: false
   disabled: false
   soldOutText: "--報名已截止--"
