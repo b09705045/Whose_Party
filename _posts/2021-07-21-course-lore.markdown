@@ -4,6 +4,7 @@ title:  "選課指南"
 date:   2021-07-21 08:00:00
 permalink: "/course-lore"
 isStaticPost: false
+image: road.jfif
 ---
 
 We're very excited - not just because of the inordinate amount of caffeine based products consumed - 

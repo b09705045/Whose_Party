@@ -4,6 +4,7 @@ title:  "大學知識科普"
 date:   2021-07-21 08:00:00
 permalink: "/college-lore"
 isStaticPost: false
+image: road.jfif
 ---
 GDG DevFest Ukraine 2014 will be held 24-25th of October in ancient city of Lviv. If you want to be part of this great event as a speaker you knocked at the good door.
 
