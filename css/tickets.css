@@ -16,11 +16,3 @@
   margin-left: 10%;
   background: transparent;
 }
-@media (max-width: 767px){
-  .ellipse{
-    border-radius: 35px;
-    background-color: #caa6a6;
-    margin-left: 5%;
-    width: 80%;
-  }
-}
