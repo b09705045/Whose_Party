@@ -11,6 +11,26 @@
 -
   id: 2
   name: ""
+  surname: "家長同意書"
+  title: ""
+  thumbnailUrl: crystal.png
+  exec: true
+  bio: "HI!"
+  button:
+  - {link: "../assets/demo.pdf", text: "2021WHOSEParty提早離營切結書.pdf"}
+-
+  id: 3
+  name: ""
+  surname: "自主健康聲明書"
+  title: ""
+  thumbnailUrl: crystal.png
+  exec: true
+  bio: "HI!"
+  button:
+  - {link: "../assets/demo.pdf", text: "2021WHOSEParty提早離營切結書.pdf"}
+-
+  id: 4
+  name: ""
   surname: "提早離營切結書"
   title: ""
   thumbnailUrl: crystal.png
