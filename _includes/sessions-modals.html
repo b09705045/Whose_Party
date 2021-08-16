@@ -20,7 +20,7 @@
 						{% endif %}
 						{% if session.video %}
 						<div class="theme-video embed-responsive embed-responsive-16by9">
-						    <iframe class="embed-responsive-item" src="{{ session.video }}"></iframe>
+						    <iframe class="embed-responsive-item" src="{{ site.baseurl }}/img/schedule/{{ session.video }}"></iframe>
 						</div>
 						{% endif %}
 						<p class="theme-description col-md-offset-2" style="font-size: 20px; font-weight: 300; font-family: 'Noto Serif TC', serif;">{{ session.detail }}</p>
