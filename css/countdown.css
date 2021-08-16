@@ -54,20 +54,5 @@
         height: 70px;
     }
 }
-@media (max-width: 575px) {
-
-    .countdown-container {
-        max-width: 100%;
-    }
-
-    .days-container,
-    .hours-container,
-    .minutes-container, 
-    .seconds-container {
-        font-size: 0.5em;
-        width: 50px;
-        height: 50px;
-    }
-}
 
   
