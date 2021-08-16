@@ -10,8 +10,10 @@
                 <div class="col-md-{{ colWidth }} col-xs-12">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                         <h5 style="font-weight: 400; font-family: 'Noto Serif TC', serif;">{{ sponsor.title }}</h5>
-                        <img class="img-circle sponsor_img" src="{{ site.baseurl }}/img/sponsor/{{ sponsor.image }}" height="128"
-                            width="128" alt="{{ about.title }}" href="{{ sponsor.url }}">
+                        <a href="{{ sponsor.url }}">
+                            <img class="img-circle sponsor_img" src="{{ site.baseurl }}/img/sponsor/{{ sponsor.image }}" height="128"
+                            width="128" alt="{{ about.title }}">
+                        </a>
                         <p style="font-weight: 400; font-family: 'Noto Serif TC', serif;">{{ sponsor.text }}</p>
                     </div>
                 </div>
