@@ -18,14 +18,19 @@
 						{% if session.complexity != null %}
 						<span class="theme-metadata"><span class="caption">Complexity: </span>{{ session.complexity }}</span>
 						{% endif %}
-						{% if session.video %}
-						<div class="theme-video embed-responsive embed-responsive-16by9">
-						    <iframe class="embed-responsive-item" src="{{ session.video }}"></iframe>
-						</div>
-						{% endif %}
 						<p class="theme-description col-md-offset-2" style="font-size: 20px; font-weight: 300; font-family: 'Noto Serif TC', serif;">{{ session.detail }}</p>
 						{% if session.presentation %}
 						<a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
+						{% endif %}
+						{% if session.image %}
+						<div class="theme-video embed-responsive embed-responsive-16by9">
+							<iframe class="embed-responsive-item" src="{{ site.baseurl }}/img/schedule/{{ session.image }}"></iframe>
+						</div>
+						{% endif %}
+						{% if session.image %}
+						<div class="theme-video embed-responsive">
+							<iframe class="embed-responsive-item" src="{{ site.baseurl }}/img/schedule/{{ session.image }}"></iframe>
+						</div>
 						{% endif %}
 						<hr>
 						<div class="people-details">
