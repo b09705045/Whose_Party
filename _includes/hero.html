@@ -13,10 +13,9 @@
                 <p style="font-weight: 500; font-family: 'Noto Serif TC', serif;">{{ site.eventDate }}</p>
                 <h4 style="font-weight: 350;font-family: 'Noto Serif TC', serif;">
                     <span style="font-weight: 400; font-family: 'Noto Serif TC', serif;">派對將於 </span>
-                    <span id="typeout-fallback">{{ site.typeoutFallback }}</span>
+                    {% include countdown.html %}
                     <span style="font-weight: 400; font-family: 'Noto Serif TC', serif;"> 後開始</span>
                 </h4>
-                {% include countdown.html %}
             </div>
         </div>
         <a href="#about" class="explore">
@@ -25,29 +24,5 @@
             </svg>
         </a>
     </div>
-    <script>
-        
-        var time = new Date();
-        
-        time.setMonth(9); 
-        time.setDate(23); 
-        time.setHours(0); 
-        time.setMinutes(0); 
-        time.setSeconds(0);
-        var endTime = time.getTime();
-        
-        setInterval(function(){
-            var time_2 = new Date();
-            var nowTime = time_2.getTime(); 
-            var offsetTime = (endTime - nowTime) / 1000; 
-            var sec = parseInt(offsetTime % 60); 
-            var min = parseInt((offsetTime / 60) % 60); 
-            var hr = parseInt((offsetTime / 60 / 60) % 24); 
-            var day = parseInt(offsetTime / 60 / 60 / 24); 
-            
-            document.getElementById('typeout-fallback').innerHTML = ''+ day +'日'+ hr +'時'+ min +'分'+ sec +'秒';
-        },1000);
-        
-    </script>
 </section>
 <!-- End Hero Section -->

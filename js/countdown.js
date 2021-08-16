@@ -16,8 +16,32 @@ setInterval(function(){
     var hr = parseInt((offsetTime / 60 / 60) % 24); 
     var day = parseInt(offsetTime / 60 / 60 / 24); 
     
-    document.querySelector('.days').innerHTML = ''+ day +'';
-    document.querySelector('.hours').innerHTML = ''+ hr +'';
-    document.querySelector('.minutes').innerHTML = ''+ min +'';
-    document.querySelector('.seconds').innerHTML = ''+ sec +'';
+    if(day < 10){
+        document.querySelector('.days').innerHTML = '0'+ day +'';
+    }
+    else{
+        document.querySelector('.days').innerHTML = ''+ day +'';
+    }
+
+    if(hr < 10){
+        document.querySelector('.hours').innerHTML = '0'+ hr +'';
+    }
+    else{
+        document.querySelector('.hours').innerHTML = ''+ hr +'';
+    }
+
+    if(min < 10){
+        document.querySelector('.minutes').innerHTML = '0'+ min +'';
+    }
+    else{
+        document.querySelector('.minutes').innerHTML = ''+ min +'';
+    }
+
+    if(sec < 10){
+        document.querySelector('.seconds').innerHTML = '0'+ sec +'';
+    }
+    else{
+        document.querySelector('.seconds').innerHTML = ''+ sec +'';
+    }
+    
 },1000);
