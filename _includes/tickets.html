@@ -44,12 +44,12 @@
 					<h6 style="text-align: center; font-weight: 700; font-family: 'Noto Serif TC', serif; text-shadow: 1px 1px 2px black; border-top: 5px;">付款須知</h6>
 					<br>
 					<ul>
-						{% for reminder in ticketsOffer.ticketReminderList %}
+						{% for reminder in site.ticketsOffers.ticketReminderList %}
 						<li style="font-weight: 400; font-family: 'Noto Serif TC', serif; border-bottom: solid 1px #9d9d9d;">{{ reminder }}
 						</li>
 						{% endfor %}
 					</ul>
-					{% for reminder in ticketsOffer.ticketReminderList %}
+					{% for reminder in site.ticketsOffers.ticketReminderList %}
 					<div class="line" style="font-size: 0.4cm; font-weight: 400; font-family: 'Noto Serif TC', serif; text-shadow: 1px 1px 2px black;">
 					{{ reminder }}
 					</div>
