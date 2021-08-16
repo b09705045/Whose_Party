@@ -39,7 +39,7 @@
     font-size: 1.5em; 
 }
 
-@media (min-width:576px) and (max-width: 767px) {
+@media (max-width: 767px) {
 
     .countdown-container {
         max-width: 90%;
