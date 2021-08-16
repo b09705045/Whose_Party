@@ -134,6 +134,15 @@ organizersTitle: "合作夥伴"
 partnersTitle: ""
 partnersC4sponsorsButton: ""
 
+# Sponsors Block
+sponsorTitle: "贊助廠商"
+sponsorImage: "night.png"
+sponsorBlock:
+ - {title: "A", image: "ntu_pt.jpg", text: "" }
+ - {title: "B", image: "ntu_im.png", text: "" }
+ - {title: "C", image: "ntu_nur.jpg", text: "" }
+
+
 # Subscribe Block
 # subscribeImage: "subscribe.jpg"
 # subscribeTitle: "在此報名"
