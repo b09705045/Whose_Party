@@ -14,7 +14,7 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(0,0,0,0.1);
-    border: 5px solid rgba(255,255,255,0.3);
+    border: 5px solid rgba(255,255,255,0.7);
     width: 140px;
     height: 140px;
     border-radius: 99px;
@@ -25,6 +25,8 @@
 .hours,
 .minutes,
 .seconds {
+    font-weight: 500; 
+    font-family: 'Noto Serif TC', serif;
     font-size: 2.5em; 
     margin: 10px 0;
 }
