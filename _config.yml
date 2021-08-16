@@ -138,9 +138,12 @@ partnersC4sponsorsButton: ""
 sponsorTitle: "合作夥伴"
 sponsorImage: "night.png"
 sponsorBlock:
- - {title: "A", image: "cheers.png", text: "" }
- - {title: "B", image: "cheers.png", text: "" }
- - {title: "C", image: "cheers.png", text: "" }
+ - {title: "A", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "B", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "C", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "D", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "E", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "F", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
 
 
 # Subscribe Block
