@@ -11,11 +11,8 @@
                 <h1 style="font-weight: 500; font-family: 'Noto Serif TC', serif;">{{heroText}} </h1>
                 <h2 style="font-weight: 400; font-family: 'Noto Serif TC', serif;">{{heroText2}} </h2>
                 <p style="font-weight: 500; font-family: 'Noto Serif TC', serif;">{{ site.eventDate }}</p>
-                <div>
-                    <span style="font-weight: 500; font-family: 'Noto Serif TC', serif; font-size: 1.2cm;">派對將於 </span>
-                    {% include countdown.html %}
-                    <span style="font-weight: 500; font-family: 'Noto Serif TC', serif; font-size: 1.2cm;"> 後開始</span>
-                </div>
+                <p style="font-weight: 500; font-family: 'Noto Serif TC', serif;">Starts in:</p>
+                {% include countdown.html %}
             </div>
         </div>
         <a href="#about" class="explore">
