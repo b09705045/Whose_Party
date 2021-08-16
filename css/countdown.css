@@ -1,9 +1,9 @@
-//mixins
+
 .inline-block{
   display: -moz-inline-stack;
   display: inline-block;
 }
-.border-radius(@radius){
+.border-radius (@radius){
   -moz-border-radius: 	(@radius);
   -o-border-radius: 		(@radius);
   -webkit-border-radius: 	(@radius);
@@ -35,8 +35,7 @@
   -o-transition:      @transition;  
 }
 
-//variables
-@main-color: #4ebdc0; //#DF886D  #4ebdc0
+@main-color: #4ebdc0;
 @time-circle-size: 120px;
 @time-font-size: 54px;
 
