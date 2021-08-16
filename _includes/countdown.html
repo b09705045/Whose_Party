@@ -1,21 +1,72 @@
-<body>
-    <div class="countdown text-center">
-        <div class="time-circle">
-        <div class="progress"></div>
-        <span class="time hours"></span>
-        <span class="time-name">hrs</span>
-        </div>
-        <span class="dots">:</span>
-        <div class="time-circle">
-        <div class="progress"></div>
-        <span class="time minutes"></span>
-        <span class="time-name">min</span>
-        </div>
-        <span class="dots">:</span>
-        <div class="time-circle">
-        <div class="progress"></div>
-        <span class="time seconds"></span>
-        <span class="time-name">sec</span>
-        </div>
+
+<div class="countdown-container container">
+    <div class="clock row">
+    
+    <!-- days --> 
+    <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
+    <div class="wrap">
+    <div class="inner">
+    <div id="canvas_days" class="clock-canvas"></div>
+    <div class="text">
+    <p class="val">0</p>
+    <p class="type-days type-time">DAYS</p>
     </div>
-</body>
+    </div>
+    </div>
+    </div>
+    
+    <!-- hours --> 
+    
+    <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
+    <div class="wrap">
+    <div class="inner">
+    <div id="canvas_hours" class="clock-canvas"></div>
+    <div class="text">
+    <p class="val">0</p>
+    <p class="type-hours type-time">HOURS</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <!-- minutes --> 
+    <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
+    <div class="wrap">
+    <div class="inner">
+    <div id="canvas_minutes" class="clock-canvas"></div>
+    <div class="text">
+    <p class="val">0</p>
+    <p class="type-minutes type-time">MINUTES</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <!-- seconds --> 
+    <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
+    <div class="wrap">
+    <div class="inner">
+    <div id="canvas_seconds" class="clock-canvas"></div>
+    <div class="text">
+    <p class="val">0</p>
+    <p class="type-seconds type-time">SECONDS</p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    </div>
+    <script>
+    $('.countdown').final_countdown({
+    start: '1362139200',
+    end: '1388461320',
+    now: '1387461319'
+    });
+    
+    </script>
+       
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script> 
+    <script type="text/javascript" src="https://www.jqueryscript.net/demo/Modern-Circular-jQuery-Countdown-Timer-Plugin-Final-Countdown/js/kinetic.js"></script> 
+    <script type="text/javascript" src="https://www.jqueryscript.net/demo/Modern-Circular-jQuery-Countdown-Timer-Plugin-Final-Countdown/jquery.final-countdown.js"></script> 
