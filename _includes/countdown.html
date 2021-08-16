@@ -1,60 +1,20 @@
 
-<div class="countdown-container container">
-    <div class="clock row">
-    
-    <!-- days --> 
-    <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
-    <div class="wrap">
-    <div class="inner">
-    <div id="canvas_days" class="clock-canvas"></div>
-    <div class="countdown_text">
-    <p class="val">0</p>
-    <p class="type-days type-time">DAYS</p>
-    </div>
-    </div>
-    </div>
-    </div>
-    
-    <!-- hours --> 
-    
-    <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
-    <div class="wrap">
-    <div class="inner">
-    <div id="canvas_hours" class="clock-canvas"></div>
-    <div class="countdown_text">
-    <p class="val">0</p>
-    <p class="type-hours type-time">HOURS</p>
-    </div>
-    </div>
-    </div>
-    </div>
-    
-    <!-- minutes --> 
-    <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
-    <div class="wrap">
-    <div class="inner">
-    <div id="canvas_minutes" class="clock-canvas"></div>
-    <div class="countdown_text">
-    <p class="val">0</p>
-    <p class="type-minutes type-time">MINUTES</p>
-    </div>
-    </div>
-    </div>
-    </div>
-    
-    <!-- seconds --> 
-    <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
-    <div class="wrap">
-    <div class="inner">
-    <div id="canvas_seconds" class="clock-canvas"></div>
-    <div class="countdown_text">
-    <p class="val">0</p>
-    <p class="type-seconds type-time">SECONDS</p>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    
-    </div>
-    <script src="{{ "/js/countdown.js" | prepend: site.baseurl }}"></script>
+<div class="days-container">
+    <div class="days"></div>
+    <div class="days-label">days</div>
+</div>
+
+<div class="hours-container">
+    <div class="hours"></div>
+    <div class="hours-label">hours</div>
+</div>
+
+<div class="minutes-container">
+    <div class="minutes"></div>
+    <div class="minutes-label">minutes</div>
+</div>
+
+<div class="seconds-container">
+    <div class="seconds"></div>
+    <div class="seconds-label">seconds</div>
+</div>
