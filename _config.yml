@@ -167,6 +167,7 @@ ticketsOffers:
   soldOut: false
   disabled: false
   soldOutText: "--報名已截止--"
+  ticketReminderList: ["123", "456", "789"]
 #  -
 #   name: "台大集合"
 #   price: "$$$"
