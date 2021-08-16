@@ -22,13 +22,9 @@
 						{% if session.presentation %}
 						<a class="theme-presentation" href="{{ session.presentation }}" title="Presentation" target="_blank">View presentation</a>
 						{% endif %}
+						<hr>
 						{% if session.image %}
 						<div class="theme-video embed-responsive embed-responsive-16by9">
-							<iframe class="embed-responsive-item" src="{{ site.baseurl }}/img/schedule/{{ session.image }}"></iframe>
-						</div>
-						{% endif %}
-						{% if session.image %}
-						<div class="theme-video embed-responsive">
 							<iframe class="embed-responsive-item" src="{{ site.baseurl }}/img/schedule/{{ session.image }}"></iframe>
 						</div>
 						{% endif %}
