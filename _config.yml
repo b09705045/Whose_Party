@@ -130,12 +130,12 @@ venueFeatures: ["地址：桃園市楊梅區幼獅路一段439號","TEL：03 464
 
 # Partners Block
 partnersImage: "neon.webp"
-organizersTitle: "合作夥伴"
+organizersTitle: "主辦單位"
 partnersTitle: ""
 partnersC4sponsorsButton: ""
 
 # Sponsors Block
-sponsorTitle: "贊助廠商"
+sponsorTitle: "合作夥伴"
 sponsorImage: "night.png"
 sponsorBlock:
  - {title: "A", image: "ntu_pt.jpg", text: "" }
