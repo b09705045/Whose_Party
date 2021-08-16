@@ -138,9 +138,9 @@ partnersC4sponsorsButton: ""
 sponsorTitle: "合作夥伴"
 sponsorImage: "night.png"
 sponsorBlock:
- - {title: "A", image: "ntu_pt.jpg", text: "" }
- - {title: "B", image: "ntu_im.png", text: "" }
- - {title: "C", image: "ntu_nur.jpg", text: "" }
+ - {title: "A", image: "cheers.png", text: "" }
+ - {title: "B", image: "cheers.png", text: "" }
+ - {title: "C", image: "cheers.png", text: "" }
 
 
 # Subscribe Block
