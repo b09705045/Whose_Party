@@ -17,7 +17,7 @@
     height: 0px;
     padding-bottom: 100%;
 }
-.text {
+.countdown_text {
     color: #fff;
     font-size: 30px;
     font-weight: bold;
@@ -28,10 +28,10 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
     width: 100%;
 }
-.text .val {
+.countdown_text .val {
     font-size: 50px;
 }
-.text .type-time {
+.countdown_text .type-time {
     font-size: 20px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
