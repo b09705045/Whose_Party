@@ -234,7 +234,6 @@ footerBlocks:
         - {link: "https://pdogs.ntu.im/judge/", text: "PDOGS"}
         - {link: "https://www.facebook.com/groups/ntucmnursing/?ref=share", text: "台大護理系交流版"}
 
-<<<<<<< HEAD
   - title: "合作夥伴"
     links:
       - {link: "http://{{site.baseurl}}/sponsorsList", text: "完整贊助名單"}
@@ -246,8 +245,6 @@ footerBlocks:
       # - {link: "http://gdg.org.ua", text: "點我進入贊助頁面"}
 
 
-=======
->>>>>>> de2f8be9ff09287301fe4bc2b290c103228dee3d
   - title: "聯絡資訊"
     links:
       - {link: "tel:+886939818275", text: "物理治療學系窗口：傅彥齊"}
