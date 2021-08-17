@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 下載區
+title: 完整贊助名單
 image: hollow.jpg
 permalink: /sponsorsList/
 ---
@@ -8,22 +8,23 @@ permalink: /sponsorsList/
 {% include top-section.html %}
 
 <div class="col-lg-10 col-lg-offset-1">
-    <h3 style="font-weight: 400; font-family: 'Noto Serif TC', serif;">{{ site.sponsorTitle }}</h3>
     <div class="row about-details">
         {% assign animationDelay = 0 %}
         {% for sponsor in site.sponsorBlock_minor %}
-        {% if forloop.index % 5 == 1 %}{% endif %}
-        {% assign colWidth = 12 | divided_by: forloop.length %}
-        <div class="col-md-{{ colWidth }} col-xs-12">
-            <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-                <h5 style="font-weight: 400; font-family: 'Noto Serif TC', serif;">{{ sponsor.title }}</h5>
-                <a href="{{ sponsor.url }}">
-                    <img class="sponsor_img" src="{{ site.baseurl }}/img/sponsor/{{ sponsor.image }}" height="128"
-                    width="128" alt="{{ about.title }}">
-                </a>
-                <p style="font-weight: 400; font-family: 'Noto Serif TC', serif;">{{ sponsor.text }}</p>
+            {% if forloop.index % 4 == 1 %}
+            {% assign colWidth = 12 %}
+            <div class="col-md-{{ colWidth }} col-xs-12">
+                <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                    <h5 style="font-weight: 400; font-family: 'Noto Serif TC', serif;">{{ sponsor.title }}</h5>
+                    <a href="{{ sponsor.url }}">
+                        <img class="sponsor_img" src="{{ site.baseurl }}/img/sponsor/{{ sponsor.image }}" height="128"
+                        width="128" alt="{{ about.title }}">
+                    </a>
+                    <p style="font-weight: 400; font-family: 'Noto Serif TC', serif;">{{ sponsor.text }}</p>
+                </div>
             </div>
-        </div>
+            {% endif %}
+        
         {% assign animationDelay = animationDelay | plus:500 %}
         {% assign check = forloop.index | modulo:2 %}
         {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
