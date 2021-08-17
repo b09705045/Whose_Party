@@ -50,8 +50,8 @@
     .minutes-container, 
     .seconds-container {
         font-size: 0.75em;
-        width: 90px;
-        height: 90px;
+        width: 75px;
+        height: 75px;
     }
 
     .days-label,
@@ -61,6 +61,14 @@
         text-transform: uppercase;
         margin-bottom: 10px;
         font-size: 1.5em; 
+    }
+
+    .days,
+    .hours,
+    .minutes,
+    .seconds {
+        font-size: 2.5em; 
+        margin: 10px 0;
     }
 }
 
