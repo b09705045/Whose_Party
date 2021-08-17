@@ -13,9 +13,9 @@ permalink: /sponsorsList/
         {% for sponsor in site.sponsorBlock_minor %}
             {% if forloop.index % 4 == 1 %}
             <div class="col-md-3 col-sm-6 col-xs-12">
-                <div style="margin:auto" class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-                    <h5 style="font-weight: 400; font-family: 'Noto Serif TC', serif;">{{ sponsor.title }}</h5>
-                    <a href="{{ sponsor.url }}">
+                <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                    <h5 style="margin:auto; font-weight: 400; font-family: 'Noto Serif TC', serif;">{{ sponsor.title }}</h5>
+                    <a href="{{ sponsor.url }}"  style="margin:auto">
                         <img class="sponsor_img" src="{{ site.baseurl }}/img/sponsor/{{ sponsor.image }}" height="128"
                         width="128" alt="{{ about.title }}">
                     </a>
@@ -24,7 +24,6 @@ permalink: /sponsorsList/
             </div>
             {% endif %}
         
-        {% assign animationDelay = animationDelay | plus:500 %}
         {% assign check = forloop.index | modulo:2 %}
         {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
         {% endfor %}
