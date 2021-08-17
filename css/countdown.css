@@ -52,6 +52,7 @@
         font-size: 0.5em;
         width: 60px;
         height: 60px;
+        border: 2.5px solid rgba(255,255,255,0.8);
     }
 
 }
