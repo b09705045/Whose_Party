@@ -236,7 +236,7 @@ footerBlocks:
 
   - title: "合作夥伴"
     links:
-      - {link: "{{site.baseurl}}/sponsorsList", text: "完整贊助名單"}
+      - {permalink: "/sponsorsList", text: "完整贊助名單"}
       - {link: "http://gdg.org.ua", text: "點我查看合作辦法"}
       - {link: "https://www.mc.ntu.edu.tw/nursing/Index.action", text: "台大護理學系"}
       - {link: "https://www.mc.ntu.edu.tw/ntupt/Index.action", text: "台大物理治療學系"}
