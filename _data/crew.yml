@@ -65,7 +65,7 @@
   leader: false
   dev: false
   social:
-    - {name: "google-plus", link: "instagram.com/yanchi4real_0519"}
+    - {name: "google-plus", link: "https://www.instagram.com/yanchi4real_0519"}
     - {name: "facebook", link: "https://www.facebook.com/CKCR0633"}
 -
   id: 4
@@ -465,7 +465,7 @@
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "https://www.instagram.com/bensonwang2002_"}
     - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100008141530919"}
 -
   id: 21
@@ -551,8 +551,8 @@
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "https://www.instagram.com/syuan_sherry/"}
+    - {name: "facebook", link: "https://www.facebook.com/sherry.huang.737001"}
 -
   id: 25
   name: " "
