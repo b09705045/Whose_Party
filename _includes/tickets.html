@@ -45,14 +45,9 @@
 					<br>
 					<ul style="font-weight: 400; font-family: 'Noto Serif TC', serif; list-style: none; padding-left: 0; margin-left: 10%; width: 80%;">
 						{% for reminder in site.ticketReminderList %}
-						<li style="border-bottom: solid 1px black; text-shadow: 1px 1px 2px black;">{{ reminder }}</li>
+						<li style="font-size: 0.4cm; border-bottom: solid 1px black; text-shadow: 1px 1px 2px black;">{{ reminder }}</li>
 						{% endfor %}
 					</ul>
-					{% for reminder in site.ticketReminderList %}
-					<div class="line" style="font-size: 0.4cm; font-weight: 400; font-family: 'Noto Serif TC', serif; text-shadow: 1px 1px 2px black;">
-					{{ reminder }}
-					</div>
-					{% endfor %}
 				</div>
 			</div>
 		</div>
