@@ -42,34 +42,18 @@
 @media (max-width: 767px) {
 
     .countdown-container {
-        max-width: 90%;
+        max-width: 100%;
     }
 
     .days-container,
     .hours-container,
     .minutes-container, 
     .seconds-container {
-        font-size: 0.75em;
-        width: 75px;
-        height: 75px;
+        font-size: 0.5em;
+        width: 60px;
+        height: 60px;
     }
 
-    .days-label,
-    .hours-label,
-    .minutes-label,
-    .seconds-label {
-        text-transform: uppercase;
-        margin-bottom: 10px;
-        font-size: 1.5em; 
-    }
-
-    .days,
-    .hours,
-    .minutes,
-    .seconds {
-        font-size: 2.5em; 
-        margin: 10px 0;
-    }
 }
 
   
