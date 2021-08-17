@@ -142,9 +142,27 @@ sponsorBlock:
  - {title: "B", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
  - {title: "C", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
  - {title: "D", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+sponsorBlock_minor: 
+ - {title: "A", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "B", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "C", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "D", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
  - {title: "E", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
  - {title: "F", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
-
+ - {title: "G", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "H", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "I", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "J", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "K", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "L", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "M", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "N", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "O", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "P", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "Q", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "R", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "S", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "T", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
 
 # Subscribe Block
 # subscribeImage: "subscribe.jpg"
