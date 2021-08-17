@@ -12,7 +12,7 @@
 				<div class="ellipse pricing-col {% if ticketsOffer.featured != null %}pricing-col-featured{% endif %} animated hiding">
 					<div data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}"
 					data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
-	
+
 						<!-- {% if ticketsOffer.ribbon != null %}<div class="pricing-ribbon">{{ ticketsOffer.ribbon }}</div>{% endif %} -->
 						<div class="pricing-header">
 							<p class="title" style="color: black;font-weight: 700; font-family: 'Noto Serif TC', serif;">{{ ticketsOffer.name }}</p>
@@ -43,12 +43,24 @@
 				<div class="tutorial animated hiding" data-animation="fadeInRight" data-delay="500" style="width: 90%;margin-left:5%; ">
 					<h6 style="text-align: center; font-weight: 700; font-family: 'Noto Serif TC', serif; text-shadow: 1px 1px 2px black; border-top: 5px;">付款須知</h6>
 					<br>
-					{% assign num = 10 %}
-					{% for i in (1..num) %}
+					<ul>
+						{% for reminder in site.ticketReminderList %}
+						<li style="font-weight: 400; font-family: 'Noto Serif TC', serif; border-bottom: solid 1px #9d9d9d;">{{ reminder }}</li>
+						{% endfor %}
+					</ul>
+					{% for reminder in site.ticketReminderList %}
 					<div class="line" style="font-size: 0.4cm; font-weight: 400; font-family: 'Noto Serif TC', serif; text-shadow: 1px 1px 2px black;">
-						野格炸彈，超爽口感，咚咚ㄎㄧㄤ
+					{{ reminder }}
 					</div>
 					{% endfor %}
+				</div>
+				<div class="pricing-content">
+					<ul>
+						{% for reminder in site.ticketReminderList %}
+						<li style="font-size: 0.4cm; font-weight: 400; font-family: 'Noto Serif TC', serif; text-shadow: 1px 1px 2px black;">{{ reminder }}
+						</li>
+						{% endfor %}
+					</ul>
 				</div>
 			</div>
 		</div>
