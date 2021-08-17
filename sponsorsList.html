@@ -12,8 +12,7 @@ permalink: /sponsorsList/
         {% assign animationDelay = 0 %}
         {% for sponsor in site.sponsorBlock_minor %}
             {% if forloop.index % 4 == 1 %}
-            {% assign colWidth = 12 %}
-            <div class="col-md-{{ colWidth }} col-xs-12">
+            <div class="col-md-3 col-sm-6 col-xs-12">
                 <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
                     <h5 style="font-weight: 400; font-family: 'Noto Serif TC', serif;">{{ sponsor.title }}</h5>
                     <a href="{{ sponsor.url }}">
