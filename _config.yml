@@ -214,6 +214,16 @@ socialLinks:
   - {permalink: "/feed.xml", icon: "rss"}
 
 footerBlocks:
+  - title: "合作夥伴"
+    links:
+        - {link: "http://gdg.org.ua", text: "完整贊助名單"}
+        - {link: "http://gdg.org.ua", text: "合作辦法說明"}
+        - {link: "https://www.mc.ntu.edu.tw/nursing/Index.action", text: "台大護理學系"}
+        - {link: "https://www.mc.ntu.edu.tw/ntupt/Index.action", text: "台大物理治療學系"}
+        - {link: "https://management.ntu.edu.tw/IM", text: "台大資訊管理學系"}
+        - {link: "https://www.pushin-ranch.com/", text: "埔心牧場"}
+        # - {link: "http://gdg.org.ua", text: "點我進入贊助頁面"}
+
   - title: "常用連結"
     links:
         - {link: "https://ceiba.ntu.edu.tw/student/index.php", text: "NTU CEIBA"}
@@ -223,17 +233,6 @@ footerBlocks:
         - {link: "http://www.cc.ntu.edu.tw/chinese/services/servicesqa.asp", text: "臺大計算機及資訊網路中心"}
         - {link: "https://pdogs.ntu.im/judge/", text: "PDOGS"}
         - {link: "https://www.facebook.com/groups/ntucmnursing/?ref=share", text: "台大護理系交流版"}
-
-  - title: "合作夥伴"
-    links:
-      - {link: "http://gdg.org.ua", text: "完整贊助名單"}
-      - {link: "http://gdg.org.ua", text: "點我查看合作辦法"}
-      - {link: "https://www.mc.ntu.edu.tw/nursing/Index.action", text: "台大護理學系"}
-      - {link: "https://www.mc.ntu.edu.tw/ntupt/Index.action", text: "台大物理治療學系"}
-      - {link: "https://management.ntu.edu.tw/IM", text: "台大資訊管理學系"}
-      # - {link: "http://gdg.org.ua", text: "點我查看贊助方法"}
-      # - {link: "http://gdg.org.ua", text: "點我進入贊助頁面"}
-
 
   - title: "聯絡資訊"
     links:
