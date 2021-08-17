@@ -213,7 +213,7 @@ footerBlocks:
       - {link: "https://www.mc.ntu.edu.tw/nursing/Index.action", text: "台大護理學系"}
       - {link: "https://www.mc.ntu.edu.tw/ntupt/Index.action", text: "台大物理治療學系"}
       - {link: "https://management.ntu.edu.tw/IM", text: "台大資訊管理學系"}
-      # - {link: "http://gdg.org.ua", text: "點我查看贊助方法"}
+      - {link: "https://www.pushin-ranch.com/", text: "埔心牧場"}
       # - {link: "http://gdg.org.ua", text: "點我進入贊助頁面"}
 
 
