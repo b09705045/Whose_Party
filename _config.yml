@@ -216,30 +216,30 @@ socialLinks:
 footerBlocks:
   - title: "合作夥伴"
     links:
-        - {link: "http://gdg.org.ua", text: "完整贊助名單"}
-        - {link: "http://gdg.org.ua", text: "合作辦法說明"}
-        - {link: "https://www.mc.ntu.edu.tw/nursing/Index.action", text: "台大護理學系"}
-        - {link: "https://www.mc.ntu.edu.tw/ntupt/Index.action", text: "台大物理治療學系"}
-        - {link: "https://management.ntu.edu.tw/IM", text: "台大資訊管理學系"}
-        - {link: "https://www.pushin-ranch.com/", text: "埔心牧場"}
-        # - {link: "http://gdg.org.ua", text: "點我進入贊助頁面"}
+      - {link: "http://gdg.org.ua", text: "完整贊助名單"}
+      - {link: "http://gdg.org.ua", text: "合作辦法說明"}
+      - {link: "https://www.mc.ntu.edu.tw/nursing/Index.action", text: "台大護理學系"}
+      - {link: "https://www.mc.ntu.edu.tw/ntupt/Index.action", text: "台大物理治療學系"}
+      - {link: "https://management.ntu.edu.tw/IM", text: "台大資訊管理學系"}
+      - {link: "https://www.pushin-ranch.com/", text: "埔心牧場"}
+      # - {link: "http://gdg.org.ua", text: "點我進入贊助頁面"}
 
   - title: "常用連結"
     links:
-        - {link: "https://ceiba.ntu.edu.tw/student/index.php", text: "NTU CEIBA"}
-        - {link: "https://cool.ntu.edu.tw/", text: "NTU COOL"}
-        - {link: "https://if192.aca.ntu.edu.tw/index.php", text: "臺大選課系統" }
-        - {link: "https://nol.ntu.edu.tw/nol/guest/index.php", text: "臺大課程網"}
-        - {link: "https://www.cc.ntu.edu.tw/chinese/index.asp", text: "臺大計算機及資訊網路中心"}
-        - {link: "https://pdogs.ntu.im/judge/", text: "PDOGS"}
-        - {link: "https://www.facebook.com/groups/ntucmnursing/?ref=share", text: "台大護理系交流版"}
+      - {link: "https://ceiba.ntu.edu.tw/student/index.php", text: "NTU CEIBA"}
+      - {link: "https://cool.ntu.edu.tw/", text: "NTU COOL"}
+      - {link: "https://if192.aca.ntu.edu.tw/index.php", text: "臺大選課系統" }
+      - {link: "https://nol.ntu.edu.tw/nol/guest/index.php", text: "臺大課程網"}
+      - {link: "https://www.cc.ntu.edu.tw/chinese/index.asp", text: "臺大計算機及資訊網路中心"}
+      - {link: "https://pdogs.ntu.im/judge/", text: "PDOGS"}
+      - {link: "https://www.facebook.com/groups/ntucmnursing/?ref=share", text: "台大護理系交流版"}
 
-    - title: "聯絡資訊"
-      links:
-        - {link: "tel:+886939818275", text: "物理治療學系窗口：傅彥齊"}
-        - {link: "tel:+886987953881", text: "資訊管理學系窗口：吳宇璇"}
-        - {link: "tel:+886966570258", text: "護理學系窗口：陳怡靜"}
-        - {link: "mailto:ptimnur2021@gmail.com", text: "2021 WHOSE Party 臺大護理物治資管聯合迎新宿營 官方信箱"}
+  - title: "聯絡資訊"
+    links:
+      - {link: "tel:+886939818275", text: "物理治療學系窗口：傅彥齊"}
+      - {link: "tel:+886987953881", text: "資訊管理學系窗口：吳宇璇"}
+      - {link: "tel:+886966570258", text: "護理學系窗口：陳怡靜"}
+      - {link: "mailto:ptimnur2021@gmail.com", text: "2021 WHOSE Party 臺大護理物治資管聯合迎新宿營 官方信箱"}
 
 
   # - title: "重點專區"
