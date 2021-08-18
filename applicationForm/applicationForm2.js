@@ -11,15 +11,17 @@ var firebaseConfig = {
 // Initialixe Firebase
   firebase.initializeApp(firebaseConfig);
 
+  var confirm_submit = true;
   function confirmSubmit()
   {
     var agree=confirm("確定要送出報名表了嗎?");
     if (agree){
-      // window.location.reload();
       return true ;
     }
-    else
+    else{
+      confirm_submit = false;
       return false ;
+    }
   }
 
 
@@ -117,7 +119,12 @@ let userSug = document.querySelector("#suggestion")
 let userspecialCase = document.querySelector("#specialCase")
 let userTshirtSize = document.querySelector("#tshirtSize")
 let userAccountL5 = document.querySelector("#accountL5")
-// var radios = document.getElementsByName('#diet')
+let userFB = document.querySelector("#FB")
+let userEmerConRela = document.querySelector("#emerConRela")
+let userBenefOfInsurance = document.querySelector("#benefOfInsurance")
+let userBenefOfInsuranceCon = document.querySelector("#benefOfInsuranceCon")
+let userBenefOfInsuranceTel = document.querySelector("#benefOfInsuranceTel")
+
 
 
 
@@ -126,6 +133,11 @@ let userAccountL5 = document.querySelector("#accountL5")
 submitButtom.addEventListener("click", (e) =>{
   // Prevent Default Form Submission Behavior
   e.preventDefault()
+
+  if(confirm_submit === false){
+    confirm_submit = true;
+    return false
+  }
 
   let userDiet = document.querySelector('input[name= "diet"]:checked');
   let userWayAttend = document.querySelector('input[name= "wayAttend"]:checked');
@@ -145,6 +157,11 @@ submitButtom.addEventListener("click", (e) =>{
   let userspecialCaseInput = userspecialCase.value 
   let userAccountL5Input = userAccountL5.value
   let userWayAttendInput = userWayAttend.value
+  let userFBInput = userFB.value
+  let userEmerConRelaInput = userEmerConRela.value
+  let userBenefOfInsuranceInput = userBenefOfInsurance.value
+  let userBenefOfInsuranceConInput = userBenefOfInsuranceCon.value 
+  let userBenefOfInsuranceTelInput = userBenefOfInsuranceTel.value
   // Save Form Data to Firebase
   db.doc(userNameInput).set({
     名字: userNameInput,
@@ -154,6 +171,7 @@ submitButtom.addEventListener("click", (e) =>{
     電話: userTelInput,
     緊急聯絡人: userEmerConInput,
     緊急聯絡人電話:userEmerTelInput,
+    緊急連絡人關係:userEmerConRelaInput,
     身分證字號:userIDnumberInput,
     系級:userDepartmentInput,
     EMail:userEmailInput,
@@ -162,7 +180,11 @@ submitButtom.addEventListener("click", (e) =>{
     建議: userSugInput,
     特殊病例史: userspecialCaseInput,
     前往方式: userWayAttendInput,
-    匯款後五碼: userAccountL5Input
+    匯款後五碼: userAccountL5Input,
+    FB連結:userFBInput,
+    保險受益人:userBenefOfInsuranceInput,
+    保險受益人關係:userBenefOfInsuranceConInput,
+    保險受益人電話:userBenefOfInsuranceTelInput,
 
 
   })
@@ -172,5 +194,9 @@ submitButtom.addEventListener("click", (e) =>{
   .catch(function(error){
     console.log(error);
   })
+
+  if(confirm_submit === true){
+    window.location.replace("applicationAfConfirm.html")
+  }
 })
 
