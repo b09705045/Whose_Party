@@ -177,6 +177,18 @@
               </label>
             </div>
             <div class="row">
+              <label for="FB" class="row justify-content-start align-items-start">
+                  <div class ="col-md-4 input">
+                      <span class="itemTitle">FB連結</span>
+                  </div>    
+                  <div class ="col-md-8 input">
+                      <input class = "input_field" type="text" id="FB" name="FB" placeholder=" ">
+                      <span class="input_label">讓我們能夠更方便聯絡你</span>
+                      <span class="nothing"></span>
+                  </div>        
+              </label>
+            </div>
+            <div class="row">
               <label for="emerCon" class="row justify-content-start align-items-start">
                 <div class="col-md-4 input">
                   <span class="itemTitle">緊急聯絡人</span>
@@ -187,23 +199,81 @@
                   <span class="nothing"></span>
                 </div>
               </label>
+          </div>
+          <div class="row">
+            <label for="emerCon" class="row justify-content-start align-items-start">
+                <div class ="col-md-4 input">
+                    <span class="itemTitle">與緊急聯絡人關係</span>
+                </div>        
+                <div class ="col-md-8 input">
+                    <input class = "input_field" type="text" id="emerCon" name="emerCon" placeholder=" " required>
+                    <span class="input_label">你跟緊急聯絡人的關係4</span>
+                    <span class="nothing"></span>
+                </div>        
+            </label>
+          </div>
+          <div class="row">
+            <label for="emerTel" class="row justify-content-start align-items-start">
+              <div class="col-md-4 input">
+                <span class="itemTitle">緊急聯絡人電話</span>
+              </div>
+              <div class="col-md-8 input">
+                <input class="input_field" type="tel" id="emerTel" name="emerTel" placeholder=" " required>
+                <span class="input_label">如何聯絡到你的緊急聯絡人</span>
+                <span class="nothing"></span>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <div class="col-md-12 input">
+                <fieldset class="p-2">
+                    <legend class="w-auto">關於保險</legend>
+                    <div class="input_in_fieldset">
+                        <div class="row">
+                            <label for="benefOfInsurance" class="row justify-content-start align-items-start">
+                                <div class ="col-md-4 input">
+                                    <span class="itemTitle">保險受益人</span>
+                                </div>        
+                                <div class ="col-md-8 input">
+                                    <input class = "input_field" type="text" id="benefOfInsurance" name="benefOfInsurance" placeholder=" " required>
+                                    <span class="input_label label_in_fieldset">保險受益人的尊姓大名</span>
+                                    <span class="nothing"></span>
+                                </div>        
+                            </label>
+                        </div>
+                        <div class="row">
+                            <label for="benefOfInsuranceCon" class="row justify-content-start align-items-start">
+                                <div class ="col-md-4 input">
+                                    <span class="itemTitle">與保險受益人關係</span>
+                                </div>        
+                                <div class ="col-md-8 input">
+                                    <input class = "input_field" type="text" id="benefOfInsuranceCon" name="benefOfInsuranceCon" placeholder=" " required>
+                                    <span class="input_label label_in_fieldset">你跟保險受益人的關係4</span>
+                                    <span class="nothing"></span>
+                                </div>        
+                            </label>
+                        </div>
+                        <div class="row">
+                            <label for="benefOfInsuranceTel" class="row justify-content-start align-items-start">
+                                <div class ="col-md-4 input">
+                                    <span class="itemTitle">保險受益聯絡電話</span>
+                                </div>        
+                                <div class ="col-md-8 input">
+                                    <input class = "input_field" type="tel" id="benefOfInsuranceTel" name="benefOfInsuranceTel" placeholder=" " required>
+                                    <span class="input_label label_in_fieldset">保險受益人的電話</span>
+                                    <span class="nothing"></span>
+                                </div>        
+                            </label>
+                        </div>    
+                    </div>
+                </fieldset>
             </div>
-            <div class="row">
-              <label for="emerTel" class="row justify-content-start align-items-start">
-                <div class="col-md-4 input">
-                  <span class="itemTitle">緊急聯絡人電話</span>
-                </div>
-                <div class="col-md-8 input">
-                  <input class="input_field" type="tel" id="emerTel" name="emerTel" placeholder=" " required>
-                  <span class="input_label">如何聯絡到你的緊急聯絡人</span>
-                  <span class="nothing"></span>
-                </div>
-              </label>
-            </div>
+          </div>
+
             <div class="row">
               <label for="specialCase" class="row justify-content-start align-items-start">
                 <div class="col-md-4 input">
-                  <span class="itemTitle">有無特殊病例史</span>
+                  <span class="itemTitle">有無特殊病例史或食物過敏</span>
                 </div>
                 <div class="col-md-8 input">
                   <input class="input_field" type="text" id="specialCase" name="specialCase" placeholder=" " required>
@@ -220,14 +290,22 @@
                 </div>
                 <div class="col-md-8 input">
                   <select class="input_field" name="tshirtSize" id="tshirtSize">
-                    <option value="">--Please choose an option--</option>
+                    <option value="">--選擇尺寸--</option>
+                    <option value="SS">SS</option>                    
                     <option value="S">S</option>
                     <option value="M">M</option>
                     <option value="L">L</option>
-                    <option value="XL">XL</option>
+                    <option value="2L">2L</option>
+                    <option value="3L">3L</option>                    
+                    <option value="4L">4L</option>                    
+                    <option value="5L">5L</option>                    
+                    <option value="6L">6L</option>                    
                   </select>
                 </div>
               </label>
+            </div>
+            <div class="row">
+              <img class="sizeChart" src="../img/tshirt/size.jpg" alt="衣服尺寸表">
             </div>
             <div class="row">
               <label for="accountL5" class="row justify-content-start align-items-start">
@@ -276,39 +354,39 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6">
-                <label for="parentAg">
-                  <div class="col-md-12 input">
-                    <span class="itemTitle">上傳家長同意書</span>
-                  </div>
-                  <div class="col-md-12 input">
-                    <div class="upload_field">
-                      <input class="hide-accessibly" type="file" id="parentAg" name="parentAg"
-                        accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf">
-                      <img class="icon" src="../img/favicons/favicon.ico" alt="上傳檔案">
-                      <span>點我上傳</span>
-                    </div>
-                    <span class="preview" id="parentAg_pre">尚未上傳檔案</span>
-                  </div>
-                </label>
+              <div class="col-md-12 input">                                
+                      <span class="itemTitle">上傳家長同意書</span>
+                      <span class="click_download"><a href="https://youtu.be/zwqwZMYhRGc" download="家長同意書">(點我下載家長同意書)</a></span>
               </div>
+              <div class="col-md-12 input">  
+                  <label class="download" for="parentAg">
+                      <div class="upload_field">
+                          <input class="hide-accessibly" type="file" id="parentAg" name="parentAg" 
+                          accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf">
+                          <img class="icon" src="../img/favicons/favicon.ico" alt="上傳檔案">
+                          <span>點我上傳</span>    
+                      </div>
+                      <span class="preview" id="parentAg_pre">尚未上傳檔案</span>
+                  </label>
+              </div>  
             </div>
             <div class="row">
-              <div class="col-md-6">
-                <label for="healthDec">
-                  <div class="col-md-12 input">
-                    <span class="itemTitle">上傳自主健康聲明書</span>
-                  </div>
-                  <div class="col-md-12 input">
-                    <div class="upload_field">
-                      <input class="hide-accessibly" type="file" id="healthDec" name="healthDec"
-                        accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf">
-                      <img class="icon" src="../img/favicons/favicon.ico" alt="上傳檔案">
-                      <span>點我上傳</span>
-                    </div>
-                    <span class="preview" id="healthDec_pre">尚未上傳檔案</span>
-                  </div>
-                </label>  
+              <div class="col-md-12 input">
+                  <span class="itemTitle">上傳自主健康聲明書</span>
+                  <span class="click_download"><a href="https://youtu.be/zwqwZMYhRGc" download="健康自主同意書">(點我下載健康自主同意書)</a></span>
+              </div>
+              <div class ="col-md-12 input">    
+                  <label for="healthDec" class="download">
+                      <div class="col-md-12 input">
+                          <div class="upload_field">
+                              <input class="hide-accessibly" type="file" id="healthDec" name="healthDec" 
+                              accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf">
+                              <img class="icon" src="../img/favicons/favicon.ico" alt="上傳檔案">
+                              <span>點我上傳</span>    
+                          </div>
+                          <span class="preview" id="healthDec_pre">尚未上傳檔案</span>
+                      </div>  
+                  </label>    
               </div>
             </div>
             <div class="row">
@@ -325,7 +403,6 @@
             </div>
             <div class="row">
               <p> 按讚<a href="https://youtu.be/zwqwZMYhRGc">超志祥</a></p>
-
             </div>
 
 
