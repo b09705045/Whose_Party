@@ -7,9 +7,7 @@ permalink: "/midtown-campus-guide"
 isStaticPost: false
 image: road.jfif
 ---
-<font face="Noto Serif TC">
 這是前言這是前言這是前言這是前言這是前言
-</font>
 
 
 > ##### <font face="Noto Serif TC">問：要怎麼來回總區及城中？</font>
