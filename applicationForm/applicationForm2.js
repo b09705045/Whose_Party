@@ -196,7 +196,7 @@ submitButtom.addEventListener("click", (e) =>{
   })
 
   if(confirm_submit === true){
-    window.location.replace("../../application_confirmed.html")
+    window.location.replace("../../Whose_Party/applicationConfirmed/")
   }
 })
 
