@@ -37,6 +37,6 @@ image: road.jfif
 >> * 總之這是個很棒的地方，有練團室、練鼓室、各種室，我也還沒摸透他，有興趣的人可以去研究一下。
 
 ※註一：校車時刻表※
-<img src="{{ site.baseurl }}/img/sections-background/shuttle_bus.png">
+<img src="{{ site.baseurl }}/img/sections-background/shuttle_bus.png" height="850" width="600">
 
 
