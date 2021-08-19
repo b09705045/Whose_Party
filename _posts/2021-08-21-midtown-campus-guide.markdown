@@ -35,7 +35,7 @@ image: road.jfif
 </font>
 
 ※註一：校車時刻表※
-
+<img src="{{ site.baseurl }}/img/sections-background/shuttle_bus.png">
 ##### 資管新生看這兒
 
 
