@@ -1,11 +1,7 @@
-# WHOSE party official website / Based on project zeppelin
+# WHOSE party - 台大資管Ｘ台大物治Ｘ台大護理聯合迎新宿營
 
-### About
-Project Zeppelin allows you to setup awesome GDG DevFest site in 5 minutes.
-
-Project is built on top of [Jekyll](http://jekyllrb.com/) - simple, blog-aware, static site generator. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your website from GitHub’s servers for free. [Learn more about Jekyll](http://jekyllrb.com/).
-
-Template is brought by [GDG Lviv](http://lviv.gdg.org.ua/) team.
+### 關於
+由國立台灣大學資訊管理學系、物理治療學系、護理學系合辦的迎新宿營，原定於九月中舉辦，但因為COVID-19影響，延後至十月中下旬。
 
 ### Live demo http://gdg-x.github.io/zeppelin/
 
