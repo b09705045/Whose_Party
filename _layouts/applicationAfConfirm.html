@@ -24,8 +24,10 @@
     <header>
 
     </header>
-        <section id="intro">
-        <div class="jumbotron text-left">
+    <section id="intro" class="intro image-section"
+        style="background-image: url('{{ site.baseurl }}/img/sections-background/monochrome.jpg'); background-size: cover;">
+        <div class="overlay gradient-overlay"></div>
+        <div class="jumbotron">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -42,7 +44,7 @@
     </section>
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>    
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
     <script src="{{ site.baseurl }}/applicationForm/applicationForm2.js"></script>
   </body>
 </html>
