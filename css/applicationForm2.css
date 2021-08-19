@@ -42,6 +42,11 @@
     left: 0;
 }
 
+#third h2{
+    margin: 20px 0;
+    font-size: 32px;
+    font-weight: 900;
+}
 
 .form{
     width:100%;
@@ -76,7 +81,6 @@
     display: inline-block;
     margin-right: 2%;
     /* left: -45%; */
-    width: 100%;
     font-size: 20px;
     font-weight: 900;
     /* word-wrap: break-word; */
@@ -312,6 +316,11 @@ legend{ float: none; padding: inherit; }
     margin: 0 21px;
 }
 
+.click_download{
+    margin-top: 10px;
+    color: blue;
+}
+
 @media screen and (max-width: 768px){
     .style-line{
         margin-left: 0;
@@ -330,5 +339,33 @@ legend{ float: none; padding: inherit; }
     #intro h1{
         margin-top: 100px;
         padding: 30px 0;
-    }    
+    }
+    .sizeChart{
+        width: 70%;
+    }            
+}
+
+@media screen and (min-width:768px) {
+    .sizeChart{
+        height: 60vw;
+        width: 50vw;  
+    }
+}
+
+.download{
+    display: flex;
+}
+
+.sizeChart{
+    padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.label_in_fieldset{
+    font-size: 1rem;
+}
+
+.input_in_fieldset{
+    margin-left: 10px;
 }
