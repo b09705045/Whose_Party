@@ -380,6 +380,7 @@ legend{ float: none; padding: inherit; }
     border: black 2.5px solid;
     border-radius: 20px;
     width: 80%;
+    height: 500px;
     margin-left: 10%;
     margin-top: 20%;
 }
