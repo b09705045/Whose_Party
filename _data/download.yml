@@ -17,7 +17,7 @@
   exec: true
   bio: "HI!"
   button:
-  - {link: "../assets/demo.pdf", text: "2021WHOSEParty提早離營切結書.pdf"}
+  - {link: "../assets/家長同意書.pdf", text: "2021WHOSEParty家長同意書.pdf"}
 -
   id: 3
   name: ""
@@ -27,7 +27,7 @@
   exec: true
   bio: "HI!"
   button:
-  - {link: "../assets/demo.pdf", text: "2021WHOSEParty提早離營切結書.pdf"}
+  - {link: "../assets/demo.pdf", text: "2021WHOSEParty參與者健康聲明切結書.pdf"}
 -
   id: 4
   name: ""
@@ -37,4 +37,4 @@
   exec: true
   bio: "HI!"
   button:
-  - {link: "../assets/demo.pdf", text: "2021WHOSEParty提早離營切結書.pdf"}
+  - {link: "../assets/離營切結書.pdf", text: "2021WHOSEParty提早離營切結書.pdf"}
