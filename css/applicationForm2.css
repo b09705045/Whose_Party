@@ -374,3 +374,13 @@ legend{ float: none; padding: inherit; }
 .input_in_fieldset{
     margin-left: 10px;
 }
+
+.afterConfirmed{
+    background-color: white;
+    border: black 2.5px solid;
+    border-radius: 20px;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 20%;
+}
