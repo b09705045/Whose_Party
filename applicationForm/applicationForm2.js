@@ -192,7 +192,7 @@ submitButtom.addEventListener("click", (e) =>{
     console.log("Data saved")
   })
   .then(function(confirm_submit){
-    this.location.replace("applicationAfConfirm.html")
+    this.location.replace("../../Whose_Party/applicationConfirmed/")
     confirm_submit = true;
     console.log("Change")
   })
