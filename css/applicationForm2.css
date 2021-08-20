@@ -21,6 +21,10 @@
     font-weight: 300;
 }
 
+body{
+    font-family: 'Noto Serif TC', serif;
+}
+
 
 #intro .jumbotron{
     height: 400px;
@@ -39,7 +43,7 @@
 
 #intro .row{
     position: absolute;
-    left: 0;
+    left: 11px;
 }
 
 #third h2{
