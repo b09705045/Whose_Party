@@ -5,7 +5,6 @@
   title: ""
   thumbnailUrl: crystal.png
   available: false
-  bio: "HI!"
   button:
   - {link: "../assets/demo.pdf", text: "2021WHOSEParty營手冊.pdf"}
 -
@@ -15,7 +14,6 @@
   title: ""
   thumbnailUrl: crystal.png
   available: true
-  bio: "HI!"
   button:
   - {link: "../assets/家長同意書.pdf", text: "2021WHOSEParty家長同意書.pdf"}
 -
@@ -25,7 +23,6 @@
   title: ""
   thumbnailUrl: crystal.png
   available: true
-  bio: "HI!"
   button:
   - {link: "../assets/demo.pdf", text: "2021WHOSEParty參與者健康聲明切結書.pdf"}
 -
@@ -35,6 +32,5 @@
   title: ""
   thumbnailUrl: crystal.png
   available: true
-  bio: "HI!"
   button:
   - {link: "../assets/離營切結書.pdf", text: "2021WHOSEParty提早離營切結書.pdf"}

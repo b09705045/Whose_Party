@@ -20,12 +20,11 @@
                             </div>
                         {% if teamMember.available == true %}
                         <span class="bordered" style="font-family: 'Noto Serif TC', serif;background: #7c2222; color: #ffffff;">
-                            <a href="{{ button.link }}" download="{{ button.text }}" target="_blank" class="btn btn-default bottom-section-link waves-effect waves-button waves-light"style="font-weight: 700; font-family: 'Noto Serif TC', serif;">下載</a>
+                            <a href="{{ teamMember.button.link }}" download="{{ teamMember.button.text }}" target="_blank" class="btn btn-default bottom-section-link waves-effect waves-button waves-light"style="font-weight: 700; font-family: 'Noto Serif TC', serif;">下載</a>
                         </span>
                         {% else %}
-                        <span class="bordered"
-                            style="font-family: 'Noto Serif TC', serif;background:black; color: #ffffff;">
-                            <a href="{{ button.link }}" download="{{ button.text }}" target="_blank" class="btn btn-default bottom-section-link waves-effect waves-button waves-light" style="font-size: 9px; font-weight: 700; font-family: 'Noto Serif TC', serif;">尚未開放</a>
+                        <span class="bordered" style="font-family: 'Noto Serif TC', serif;background:black; color: #ffffff;">
+                            <a href="{{ teamMember.button.link }}" download="{{ teamMember.button.text }}" target="_blank" class="btn btn-default bottom-section-link waves-effect waves-button waves-light" style="font-size: 9px; font-weight: 700; font-family: 'Noto Serif TC', serif;">尚未開放</a>
                         </span>
                         {% endif %}
                         </figcaption>
