@@ -27,7 +27,13 @@
     </div>
     <div id="st-container" class="st-container disable-scrolling">
       <div class="st-pusher">
-          <div class="st-content"></div>
+          <div class="st-content">
+            
+            {{ content }}
+
+            {% include footer.html %}
+
+          </div>
       </div>
   </div>
     <section id="intro" class="intro image-section"
