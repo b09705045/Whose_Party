@@ -384,3 +384,33 @@ legend{ float: none; padding: inherit; }
     margin-left: 10%;
     margin-top: 10%;
 }
+
+.preloader{
+    position:absolute;
+    z-index:999;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0; 
+    background-size: cover; 
+    background-position: center; 
+    background-color: rgb(255, 255, 255);
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    /* centers the loading animation horizontally on the screen */
+    top: 50%;
+    /* centers the loading animation vertically on the screen */
+    /* path to your loading animation */
+    background-image: url("../img/sprites/logos_1_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: -100px 0 0 -100px;
+    z-index: 1000;
+    /* is width and height divided by two */
+  }
