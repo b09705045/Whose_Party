@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "醫學院（城中校區）生活指南"
-author: "WHOSE Party籌備團隊"
+author: "WHOSE PARTY籌備團隊"
 date:   2021-08-21 08:00:00
 permalink: "/midtown-campus-guide"
 isStaticPost: false

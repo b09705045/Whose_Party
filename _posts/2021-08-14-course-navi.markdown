@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "選課指南"
-author: "WHOSE Party籌備團隊"
+author: "WHOSE PARTY籌備團隊"
 date:   2021-08-14 08:00:00
 permalink: "/course-navi"
 isStaticPost: false

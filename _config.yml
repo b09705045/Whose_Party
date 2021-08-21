@@ -120,7 +120,7 @@ venueSmallImage1: "pushin_2.jpg"
 venueSmallImage2: "pushin_4_1.jpg"
 venueSmallImage3: "pushin_5.jpg"
 venueTitle: "埔心牧場"
-venueFeatures: ["地址：桃園市楊梅區幼獅路一段439號","TEL：03 464 4132"]
+venueFeatures: ["桃園市楊梅區幼獅路一段439號","03 464 4132"]
 
 # Tweets Feed Block
 # tweetsFeedImage: "twitter-feed.jpg"
