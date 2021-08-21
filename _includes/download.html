@@ -25,7 +25,7 @@
                         {% else %}
                         <span class="bordered"
                             style="font-family: 'Noto Serif TC', serif;background:black; color: #ffffff;">
-                            <a class="btn btn-default bottom-section-link waves-effect waves-button waves-light" style="font-size: 9px; font-weight: 700; font-family: 'Noto Serif TC', serif;">尚未開放{% endif %} </a>
+                            <a href="{{ button.link }}" download="{{ button.text }}" target="_blank" class="btn btn-default bottom-section-link waves-effect waves-button waves-light" style="font-size: 9px; font-weight: 700; font-family: 'Noto Serif TC', serif;">尚未開放{% endif %} </a>
                         </span>
                         {% endif %}{% endfor %}
                         </figcaption>
