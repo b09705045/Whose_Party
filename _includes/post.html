@@ -29,14 +29,14 @@
                     <br>
                     <div id="page-navigation" class="page-navigation">
                         <div class="next col-xs-6">
-                            {% if page.next.url %}
+                            {% if page.next.isAvailable == true %}{% if page.next.url %}
                                 <a href="{{ page.next.url | prepend: site.baseurl }}" title="{{ page.next.title | strip_html }}" style="font-family: 'Noto Serif TC', serif;">&laquo; {{page.next.title | strip_html | truncate: 15 }}</a>
-                            {% endif %}
+                            {% endif %}{% endif %}
                         </div>
                         <div class="previous col-xs-6 text-right">
-                            {% if page.previous.url %}
+                            {% if page.previous.isAvailable == true %}{% if page.previous.url %}
                                 <a href="{{ page.previous.url | prepend: site.baseurl }}" title="{{ page.previous.title | strip_html }}" style="font-family: 'Noto Serif TC', serif;">{{page.previous.title | strip_html | truncate: 15 }} &raquo;</a>
-                            {% endif %}
+                            {% endif %}{% endif %}
                         </div>
                     </div>
 
