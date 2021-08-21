@@ -24,25 +24,23 @@
 
 <body>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script>
-      $(window).on('load', function () {
-          $(".container").fadeOut("slow");
-      });
-  </script>
     <div class="preloader" id="preloader">
       <div id="status"></div>
   </div>
   <section id="intro" class="intro image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/monochrome.jpg'); background-size: cover;">
     <div class="overlay gradient-overlay"></div>
     <div class="jumbotron">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>報名頁面</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>報名頁面</h1>
+          </div>
         </div>
       </div>
     </div>
   </section>
   <section id="second">
+    <div class="container">
       <div class="row">
         <h2 class="style-line col-md-8 offset-2">
             <span>報名表單</span>
@@ -64,8 +62,10 @@
           </span>
         </div>
       </div>
+    </div>
   </section>
   <section id="third">
+    <div class="container">
       <div class="row">
         <div class="col-md-12">
           <form class="form">
@@ -418,6 +418,7 @@
 
         </div>
       </div>
+    </div>
   </section>
   <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
