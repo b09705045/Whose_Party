@@ -1,24 +1,30 @@
 ---
 layout: post
 title:  "選課指南"
-author: "WHOSE Party籌備團隊"
+author: "WHOSE PARTY籌備團隊"
 date:   2021-08-14 08:00:00
 permalink: "/course-navi"
 isStaticPost: false
 image: road.jfif
 ---
-<font face="Noto Serif TC">
-這是一篇給大一新鮮人的選課指南！如果你想成為卷哥卷姐的話，那你一定不能錯過！
-</font>
+這是一篇給大一新鮮人的選課指南，想成為卷哥卷姐的話一定不能錯過！<br>
 
-##### 護理新生看這兒
-[點我看護理學系的選課教學](/_posts/B09Nursing.pdf)
+>###### 護理新生看這兒
+>[點我看護理學系選課指南]({{ site.baseurl }}/assets/2021_nur_course_navi.pdf){target="_blank"}
 
 
-##### <font face="Noto Serif TC">物治新生看這兒</font>
+>###### 物治新生看這兒
+>[點我看物理治療學系選課指南]({{ site.baseurl }}/assets/2021_pt_course_navi.pdf){target="_blank"}
 
-<font face="Noto Serif TC">[點我看護理學系的選課教學](/_posts/B09Nursing.pdf)</font>
 
-##### 資管新生看這兒
+>###### 資管新生看這兒
+>[點我看資訊管理學系選課指南]({{ site.baseurl }}/assets/2021_im_course_navi.pdf){target="_blank"}
 
+<br>
+看完了各系學長姐精心準備的選課簡報，相信妳/你一定更了解如何選課了吧！<br>
+
+不過每到學期中總會聽到有人在說：**完了⋯我要停修⋯**<br>
+<br>
+
+停修是什麼？很嚴重嗎？會怎麼樣嗎？
 
