@@ -7,6 +7,7 @@ permalink: "/midtown-campus-guide"
 isStaticPost: false
 image: road.jfif
 ---
+
 想快樂的在城中國生活的話！就認真看學長姐們用心寫的生活指南ㄅ(^o^)/ <br>
 
 > ##### <font>問：要怎麼來回總區及城中？</font>
