@@ -14,7 +14,7 @@
                             <ul class="social-links">
                             {% assign postUrl = page.url | prepend: site.baseurl | prepend: site.url %}
                                 <li>
-                                    <a href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u={{ postUrl }}', 'newwindow', 'width=600, height=500'); return false;">
+                                    <a href="#" onclick="window.open('{{ page.link }}', 'newwindow', 'width=600, height=500'); return false;">
                                         <svg class="icon_news icon-facebook" viewBox="0 0 30 32">
                                             <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-facebook"></use>
                                         </svg>

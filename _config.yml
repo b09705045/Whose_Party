@@ -214,7 +214,7 @@ socialLinks:
   - {permalink: "/feed.xml", icon: "rss"}
 
 footerBlocks:
-  - title: "合作夥伴"
+  - title: "宿營團隊"
     links:
       - {permalink: "/sponsorsList", text: "完整贊助名單"}
       - {permalink: "/assets/demo.pdf", text: "合作辦法說明"}
