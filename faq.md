@@ -46,4 +46,4 @@ isStaticPost: true
 
 **有其他問題歡迎聯繫我們！希望能帶給各位最精彩難忘的大學迎新宿營～**
 
-<p align="right">**WHOSE PARTY籌備團隊 2021.08**</p>
+**<p align="right">WHOSE PARTY籌備團隊 2021.08</p>**
