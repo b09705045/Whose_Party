@@ -10,15 +10,15 @@ image: road.jfif
 這是一篇給大一新鮮人的選課指南，想成為卷哥卷姐的話一定不能錯過！<br>
 
 >###### 護理新生看這兒
->[點我看護理學系的選課指南]({{ site.baseurl }}/assets/2021_nur_course_navi.pdf)
+>[點我看護理學系選課指南]({{ site.baseurl }}/assets/2021_nur_course_navi.pdf){target="_blank"}
 
 
 >###### 物治新生看這兒
->[點我看物理治療學系的選課指南]({{ site.baseurl }}/assets/2021_pt_course_navi.pdf)
+>[點我看物理治療學系選課指南]({{ site.baseurl }}/assets/2021_pt_course_navi.pdf){target="_blank"}
 
 
 >###### 資管新生看這兒
->[點我看資訊管理學系的選課指南]({{ site.baseurl }}/assets/2021_im_course_navi.pdf)
+>[點我看資訊管理學系選課指南]({{ site.baseurl }}/assets/2021_im_course_navi.pdf){target="_blank"}
 
 <br>
 看完了各系學長姐精心準備的選課簡報，相信妳/你一定更了解如何選課了吧！<br>
