@@ -18,14 +18,16 @@
                             <div class="col-md-8 col-xs-8 text-left">
                                 <h2 class="name" style="font-weight: 400; font-family: 'Noto Serif TC', serif;"><span style="font-weight:900;font-size: 0.45cm;">{{ teamMember.surname }}</span></h2>
                             </div>
-                        {% for button in teamMember.button %}
-                        <span class="bordered" style="font-family: 'Noto Serif TC', serif;background: {% if teamMember.available == true %}#7c2222{% else %}black{% endif %}; color: #ffffff;">
-                            <a href="{{ button.link }}" download="{{ button.text }}" target="_blank" class="btn btn-default bottom-section-link waves-effect waves-button waves-light"
-
-                            style="font-weight: 700; font-family: 'Noto Serif TC', serif;">
-                            {% if teamMember.available == true %}下載{% else %}尚未開放{% endif %} </a>
+                        {% for button in teamMember.button %}{% if teamMember.available == true %}
+                        <span class="bordered" style="font-family: 'Noto Serif TC', serif;background: #7c2222; color: #ffffff;">
+                            <a href="{{ button.link }}" download="{{ button.text }}" target="_blank" class="btn btn-default bottom-section-link waves-effect waves-button waves-light"style="font-weight: 700; font-family: 'Noto Serif TC', serif;">下載</a>
                         </span>
-                        {% endfor %}
+                        {% else %}
+                        <span class="bordered"
+                            style="font-family: 'Noto Serif TC', serif;background:black; color: #ffffff;">
+                            <a class="btn btn-default bottom-section-link waves-effect waves-button waves-light" style="font-size: 9px; font-weight: 700; font-family: 'Noto Serif TC', serif;">尚未開放{% endif %} </a>
+                        </span>
+                        {% endif %}{% endfor %}
                         </figcaption>
                     </figure>
                 </div>
