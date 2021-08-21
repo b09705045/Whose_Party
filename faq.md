@@ -5,22 +5,19 @@ permalink: /faq/
 image: brook.jpg
 isStaticPost: true
 ---
-<br>
-<p style="font-family: 'Noto Serif TC', serif;color: #7c2222;font-size: 1cm;font-weight: 600">關於 <code>2021 WHOSE Party</code></p>
-<br>
+1. 關於疫情的規定（像是要全程戴著口罩嗎之類的！） 宿營防疫措施？（感覺大家應該會很關心這個
+2. 可不可以回程（或是去程）自己回去（會不會退錢）
+3. 退費機制說明
+4. 中離相關解答
+5. 來參加宿營可以脫魯嗎！ 宿營會認識新朋友嗎?
+6. 可以帶酒嗎
+7. 可以不玩假案嗎
+8. 可以不玩水大地嗎
+9. 宿營可以去看羊駝嗎?
+10. 如果不能匯款要怎麼辦ㄋ？
+11. 可不可以在營期間離開園區呢？
+12. 房間如何安排？會有枕頭嗎？會有床嗎？
 
-<p style="font-family: 'Noto Serif TC', serif;font-size: 0.5cm;font-weight: 600">關於疫情的規定(像是要全程戴著口罩嗎)？</p>
-<br>
-
-<p style="font-family: 'Noto Serif TC', serif;font-size: 0.5cm;font-weight: 600">請問如果想要去程自行前往/回程自行回家的話，要怎麼辦呢？</p>
-<br>
-
-<p style="font-family: 'Noto Serif TC', serif;color: #7c2222;font-size: 1cm;font-weight: 600">關於台大</p>
-<br>
-
-<p style="font-family: 'Noto Serif TC', serif;font-size: 0.7cm;font-weight: 600">食</p>
-<p style="font-family: 'Noto Serif TC', serif;font-size: 0.5cm;font-weight: 600">台大附近有什麼好吃的?</p>
-<br>
-
-<p style="font-family: 'Noto Serif TC', serif;font-size: 0.7cm;font-weight: 600">住</p>
-<p style="font-family: 'Noto Serif TC', serif;font-size: 0.5cm;font-weight: 600">新生住宿的相關時程?</p>
+（總區生活指南）台大附近吃的
+（總區生活指南）宿舍相關時程
+（選課指南）停修會不會怎樣？
