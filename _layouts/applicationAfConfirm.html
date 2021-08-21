@@ -19,6 +19,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"></script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(window).on('load', function () {
+            $(".container").fadeOut("slow");
+        });
+    </script>
   </head>
     <body>
       <div class="preloader" id="preloader">
@@ -60,12 +66,6 @@
           document.write('<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}><\/script>')
       }
   </script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script>
-        $(window).on('load', function () {
-            $(".container").fadeOut("slow");
-        });
-    </script>
     <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
   </body>
