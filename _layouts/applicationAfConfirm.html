@@ -19,14 +19,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"></script>
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script>
-        $(window).on('load', function () {
-            $(".container").fadeOut("slow");
-        });
-    </script>
-    <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
   </head>
     <body>
       <div class="preloader" id="preloader">
@@ -59,6 +51,14 @@
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
     <script src="{{ site.baseurl }}/applicationForm/applicationForm2.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(window).on('load', function () {
+            $(".container").fadeOut("slow");
+        });
+    </script>
+    <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
+    <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
   </body>
   <footer>
     <p style="margin-left: 10%;">&copy;2021 created by Lawrence Wang</p>
