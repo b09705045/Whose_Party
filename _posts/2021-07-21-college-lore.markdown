@@ -3,6 +3,7 @@ layout: post
 title:  "大學知識科普"
 date:   2021-07-21 08:00:00
 permalink: "/college-lore"
+isAvailable: false
 isStaticPost: false
 image: road.jfif
 ---
@@ -65,5 +66,5 @@ __Please note:__ There is no guarantee that a submission will be put onto the co
 
 The program committee picks the most interesting talk proposals and informs the selected submitters until September 15, 2014.<br/>
 
-#### Any questions? 
+#### Any questions?
 Email organizers at [devfest@gdg.org.ua](mailto:devfest@gdg.org.ua)

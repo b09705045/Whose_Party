@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "總區生活指南"
+title: "總區生活指南"
 author: "WHOSE PARTY籌備團隊"
-date:   2021-08-21 08:00:00
+date: 2021-08-21 08:00:00
+link: https://www.youtube.com/watch?v=v_-Hfwh9G0Y
 permalink: "/main-campus-guide"
+isAvailable: true
 isStaticPost: false
 image: road.jfif
 ---
