@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "選課指南"
+title: "選課指南"
 author: "WHOSE PARTY籌備團隊"
-date:   2021-08-14 08:00:00
+date: 2021-08-14 08:00:00
+link: https://www.youtube.com/watch?v=v_-Hfwh9G0Y
 permalink: "/course-navi"
 isStaticPost: false
 image: road.jfif
@@ -23,8 +24,4 @@ image: road.jfif
 <br>
 看完了各系學長姐精心準備的選課簡報，相信妳/你一定更了解如何選課了吧！<br>
 
-不過每到學期中總會聽到有人在說：**完了⋯我要停修⋯**<br>
-<br>
-
-停修是什麼？很嚴重嗎？會怎麼樣嗎？
 
