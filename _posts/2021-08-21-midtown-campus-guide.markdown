@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "醫學院（城中校區）生活指南"
-author: "WHOSE Party籌備團隊"
+author: "WHOSE PARTY籌備團隊"
 date:   2021-08-21 08:00:00
 permalink: "/midtown-campus-guide"
 isStaticPost: false
 image: road.jfif
 ---
-這是前言這是前言這是前言這是前言這是前言
 
+想快樂的在城中國生活的話！就認真看學長姐們用心寫的生活指南ㄅ(^o^)/ <br>
 
 > ##### <font>問：要怎麼來回總區及城中？</font>
 > ##### <font>答：</font>

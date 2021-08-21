@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "總區生活指南"
-author: "WHOSE Party籌備團隊"
+author: "WHOSE PARTY籌備團隊"
 date:   2021-08-21 08:00:00
 permalink: "/main-campus-guide"
 isStaticPost: false
