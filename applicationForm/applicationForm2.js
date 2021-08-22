@@ -140,7 +140,6 @@ submitButtom.addEventListener("click", (e) =>{
   }
 
   let userDiet = document.querySelector('input[name= "diet"]:checked');
-  let userWayAttend = document.querySelector('input[name= "wayAttend"]:checked');
   let userTshirtSizeInput = userTshirtSize.options[userTshirtSize.selectedIndex].value;
   let userNameInput = userName.value
   let userBirthInput = userBirth.value
@@ -156,7 +155,6 @@ submitButtom.addEventListener("click", (e) =>{
   let userSugInput = userSug.value 
   let userspecialCaseInput = userspecialCase.value 
   let userAccountL5Input = userAccountL5.value
-  let userWayAttendInput = userWayAttend.value
   let userFBInput = userFB.value
   let userEmerConRelaInput = userEmerConRela.value
   let userBenefOfInsuranceInput = userBenefOfInsurance.value
@@ -179,7 +177,6 @@ submitButtom.addEventListener("click", (e) =>{
     飲食習慣:userDietInput,
     建議: userSugInput,
     特殊病例史: userspecialCaseInput,
-    前往方式: userWayAttendInput,
     匯款後五碼: userAccountL5Input,
     FB連結:userFBInput,
     保險受益人:userBenefOfInsuranceInput,
