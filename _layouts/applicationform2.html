@@ -7,7 +7,7 @@
   <link rel="shortcut icon" href="{{ "/img/favicons/favicon.ico" | prepend: site.baseurl }}">
     <link rel="apple-touch-icon" href="{{ "/img/favicons/apple-touch-icon.png" | prepend: site.baseurl }}">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="{{ site.baseurl }}/css/applicationForm2.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
@@ -22,9 +22,11 @@
 </head>
 
 <body>
+
   <header>
 
   </header>
+
   <section id="intro" class="intro image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/monochrome.jpg'); background-size: cover;">
     <div class="overlay gradient-overlay"></div>
     <div class="jumbotron">
@@ -341,21 +343,6 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-md-6 input">
-                <fieldset class="p-2">
-                  <legend class="w-auto">前往方式(價錢因為前往方式不同而不同喔)</legend>
-                  <p class="radioInput">
-                    <input type="radio" id="NTU" name="wayAttend" value="台大集合" required>
-                    <label for="NTU">台大集合($$$$$)</label>
-                  </p>
-                  <p class="radioInput">
-                    <input type="radio" id="Own" name="wayAttend" value="自行前往" required>
-                    <label for="Own">自行前往埔心牧場($$$$$$)</label>
-                  </p>
-                </fieldset>
-              </div>
-            </div>
-            <div class="row">
               <div class="col-md-12 input">
                       <span class="itemTitle">上傳家長同意書</span>
                       <span class="click_download"><a href="../assets/家長同意書.pdf" download="家長同意書.pdf">(點我下載家長同意書)</a></span>
@@ -423,6 +410,17 @@
   <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
   <script src="{{ site.baseurl }}/applicationForm/applicationForm2.js"></script>
   <br><br>
+  <script>
+    window.jQuery || document.write('<script src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.baseurl }}><\/script>')
+  </script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script>
+      if (typeof ($.fn.modal) === 'undefined') {
+          document.write('<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}><\/script>')
+      }
+  </script>
+  <script src="{{ "/js/default.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
 </body>
 <footer>
   <p style="margin-left: 5%;">&copy; 2021 created by Lawrence Wang</p>
