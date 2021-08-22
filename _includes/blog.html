@@ -39,7 +39,7 @@
                                 </ul>
                             </div> -->
                         </div>
-                        <p class="post-body" style="font-family: 'Noto Serif TC', serif;">{{ post.content | strip_html | truncate: 350 }} <a href="{{ site.baseurl | append: post.url }}" style="font-family: 'Noto Serif TC', serif;">繼續閱讀</a></p>
+                        <p class="post-body" style="font-family: 'Noto Serif TC', serif;">{{ post.content | strip_html | truncate: 150 }} <a href="{{ site.baseurl | append: post.url }}" style="font-family: 'Noto Serif TC', serif;">繼續閱讀</a></p>
                     </article>
                 {% endif %}{% endfor %}
 
