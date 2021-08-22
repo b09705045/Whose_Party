@@ -120,7 +120,7 @@ venueSmallImage1: "pushin_2.jpg"
 venueSmallImage2: "pushin_4_1.jpg"
 venueSmallImage3: "pushin_5.jpg"
 venueTitle: "埔心牧場"
-venueFeatures: ["地址：桃園市楊梅區幼獅路一段439號","TEL：03 464 4132"]
+venueFeatures: ["桃園市楊梅區幼獅路一段439號","03 464 4132"]
 
 # Tweets Feed Block
 # tweetsFeedImage: "twitter-feed.jpg"
@@ -214,7 +214,7 @@ socialLinks:
   - {permalink: "/feed.xml", icon: "rss"}
 
 footerBlocks:
-  - title: "合作夥伴"
+  - title: "宿營夥伴"
     links:
       - {permalink: "/sponsorsList", text: "完整贊助名單"}
       - {permalink: "/assets/demo.pdf", text: "合作辦法說明"}
@@ -239,7 +239,7 @@ footerBlocks:
       - {link: "tel:+886939818275", text: "物理治療學系窗口：傅彥齊"}
       - {link: "tel:+886987953881", text: "資訊管理學系窗口：吳宇璇"}
       - {link: "tel:+886966570258", text: "護理學系窗口：陳怡靜"}
-      - {link: "mailto:ptimnur2021@gmail.com", text: "2021 WHOSE Party 臺大護理物治資管聯合迎新宿營 官方信箱"}
+      - {link: "mailto:ptimnur2021@gmail.com", text: "2021 WHOSE PARTY 臺大護理物治資管聯合迎新宿營 官方信箱"}
 
 
   # - title: "重點專區"
