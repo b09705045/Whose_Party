@@ -414,3 +414,17 @@ legend{ float: none; padding: inherit; }
     z-index: 1000;
     /* is width and height divided by two */
 }
+
+input.invalid{
+    border: 3px solid red;
+}
+
+.invalid ~ .nothing::before{
+    position: absolute;
+    left: -31px;
+    bottom: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    content: '✖';
+    color: red;
+}

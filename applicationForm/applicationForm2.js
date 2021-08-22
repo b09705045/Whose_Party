@@ -14,6 +14,109 @@ var firebaseConfig = {
   var confirm_submit = true;
   function confirmSubmit()
   {
+    if(document.getElementById('name').value=="")
+    {
+      alert("[姓名]未填寫!!");
+      document.getElementById('name').focus();
+      return false;
+    }
+    if (document.getElementById('department').value=="")
+    {
+      alert("[系級]未填寫");
+      document.appliForm.Email.focus();
+      return false;
+    }
+    if(document.getElementById('NTUID').value=="")
+    {
+      alert("[學號]未填寫!!");
+      document.appliForm.Content.focus();
+      return false;
+    }
+    if(document.getElementById('birthday').value=="")
+    {
+      alert("[生日]未填寫!!");
+      document.getElementById('').focus();
+      return false;
+    }    
+    if(document.getElementById('genders').value=="")
+    {
+      alert("[生理性別]未填寫!!");
+      document.getElementById('name').focus();
+      return false;
+    }    
+    if(document.getElementById('IDnumber').value=="")
+    {
+      alert("[身分證字號]未填寫!!");
+      document.getElementById('IDnumber').focus();
+      return false;
+    }    
+    if(document.getElementById('cellphone').value=="")
+    {
+      alert("[手機]未填寫!!");
+      document.getElementById('cellphone').focus();
+      return false;
+    }    
+    if(document.getElementById('Email').value=="")
+    {
+      alert("[Email]未填寫!!");
+      document.getElementById('Email').focus();
+      return false;
+    }
+    if(document.getElementById('emerCon').value=="")
+    {
+      alert("[緊急聯絡人]未填寫!!");
+      document.getElementById('emerCon').focus();
+      return false;
+    }
+    if(document.getElementById('emerConRela').value=="")
+    {
+      alert("[與緊急聯絡人關係]未填寫!!");
+      document.getElementById('emerConRela').focus();
+      return false;
+    }
+    if(document.getElementById('emerTel').value=="")
+    {
+      alert("[與緊急聯絡人電話]未填寫!!");
+      document.getElementById('emerTel').focus();
+      return false;
+    }
+    if(document.getElementById('benefOfInsurance').value=="")
+    {
+      alert("[保險受益人]未填寫!!");
+      document.getElementById('benefOfInsurance').focus();
+      return false;
+    }
+    if(document.getElementById('benefOfInsuranceCon').value=="")
+    {
+      alert("[保險受益人關係]未填寫!!");
+      document.getElementById('benefOfInsuranceCon').focus();
+      return false;
+    }
+    if(document.getElementById('benefOfInsuranceTel').value=="")
+    {
+      alert("[保險受益人電話]未填寫!!");
+      document.getElementById('benefOfInsuranceTel').focus();
+      return false;
+    }
+    if(document.getElementById('specialCase').value=="")
+    {
+      alert("[有無特殊病例史或食物過敏]未填寫!!");
+      document.getElementById('specialCase').focus();
+      return false;
+    }
+    if(document.getElementById('tshirtSize').value=="")
+    {
+      alert("[營服尺寸]未填寫!!");
+      document.getElementById('tshirtSize').focus();
+      return false;
+    }
+    if(document.getElementById('accountL5').value=="")
+    {
+      alert("[匯款帳號末五碼]未填寫!!");
+      document.getElementById('accountL5').focus();
+      return false;
+    }
+
     var agree=confirm("確定要送出報名表了嗎?");
     if (agree){
       return true ;
@@ -23,6 +126,21 @@ var firebaseConfig = {
       return false ;
     }
   }
+
+  var inputs = document.querySelectorAll('input')
+  inputs.forEach(input =>{
+    input.addEventListener('input', function(){
+      if(input.checkValidity()){
+        input.classList.add('valid')
+        input.classList.remove('invalid')
+      }
+      else{
+        input.classList.add('invalid')
+        input.classList.remove('valid')
+      }
+    })
+  })
+
 
 
   const input = document.querySelector("#parentAg");
