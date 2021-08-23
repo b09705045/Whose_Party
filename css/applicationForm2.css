@@ -355,6 +355,10 @@ legend{ float: none; padding: inherit; }
         height: 60vw;
         width: 50vw;
     }
+    .afterConfirmed{
+        width: 80%;
+        margin-left: 10%;
+    }
 }
 
 .download{
