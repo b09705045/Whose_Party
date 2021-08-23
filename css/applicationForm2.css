@@ -379,10 +379,10 @@ legend{ float: none; padding: inherit; }
     background-color: white;
     border: black 2.5px solid;
     border-radius: 20px;
-    width: 80%;
-    height: 500px;
-    margin-left: 10%;
-    margin-top: 5%;
+    width: 60%;
+    height: 30%;
+    margin-left: 20%;
+    margin-top: 2%;
 }
 
 .preloader{
