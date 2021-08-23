@@ -21,7 +21,7 @@ image: road.jfif
 
 > ##### <font>問：城中美食沙漠有什麼好吃的嗎？</font>
 > ##### 答：
->>以下分地區介紹食物
+>>###### 以下分地區介紹食物
 >> * 近又方便的醫院微風地下街：好好吃大餛飩、老董牛肉麵、小南門豆花、天仁茗茶、星巴克、摩斯漢堡、yamazaki，這些應該不用我介紹，想跟你們說的其實是，學生證有員工價打九折，很爽。不過一樣很神奇的是，最後你會發現你最常吃的其實是全家。
 >> * 善導寺附近：93牛肉麵(牛肉泡餅好吃)、饌玉豐(紅油炒手麵跟其他各種麵都很好吃)、扁食饌(就是肉羹)、基隆麵館(俗又大碗)、忠青商行(排隊要排很久)
 >> * 醫體旁邊我們俗稱麵街：東峰西瓜汁(沒喝過不要說你讀過醫學院)(我都喝木瓜牛奶)、龍門客棧(小貴)、還有其他各種麵，月底吃土的時候才會去吃ㄏㄏ
@@ -40,6 +40,6 @@ image: road.jfif
 >> 總之這是個很棒的地方，有練團室、練鼓室、各種室，我也還沒摸透他，有興趣的人可以去研究一下。
 
 ※註一：校車時刻表※
-<img src="{{ site.baseurl }}/img/sections-background/shuttle_bus.png" style="display:block; margin:auto;" width="50%" height="auto">
+<img src="{{ site.baseurl }}/img/sections-background/shuttle_bus.png" style="display:block; margin:auto;" width="80%" height="auto">
 
 
