@@ -29,7 +29,7 @@ body{
 #intro .jumbotron{
     height: 400px;
     width: 100%;
-    
+
 }
 
 #intro h1{
@@ -347,13 +347,13 @@ legend{ float: none; padding: inherit; }
     }
     .sizeChart{
         width: 70%;
-    }            
+    }
 }
 
 @media screen and (min-width:768px) {
     .sizeChart{
         height: 60vw;
-        width: 50vw;  
+        width: 50vw;
     }
 }
 
@@ -382,7 +382,7 @@ legend{ float: none; padding: inherit; }
     width: 80%;
     height: 500px;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .preloader{
@@ -391,9 +391,9 @@ legend{ float: none; padding: inherit; }
     top:0;
     right:0;
     bottom:0;
-    left:0; 
-    background-size: cover; 
-    background-position: center; 
+    left:0;
+    background-size: cover;
+    background-position: center;
     background-color: rgb(255, 255, 255);
 }
 
