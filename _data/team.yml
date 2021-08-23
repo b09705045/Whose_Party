@@ -5,7 +5,7 @@
   title:
     - {id: 1, name: "稱號一", offset: true}
     - {id: 2, name: "稱號二"}
-    - {id: 3, name: "稱號三"}
+    - {id: 3, name: "稱號三", offset: true}
     - {id: 4, name: "稱號四"}
   scores:
     - {id: 1, point: "90", color: "#2d5436", color_2: "#488556"}
@@ -26,7 +26,7 @@
   title:
     - {id: 1, name: "稱號一", offset: true}
     - {id: 2, name: "稱號二"}
-    - {id: 3, name: "稱號三"}
+    - {id: 3, name: "稱號三", offset: true}
     - {id: 4, name: "稱號四"}
   scores:
     - {id: 1, point: "90", color: "#2d5436", color_2: "#488556"}
@@ -48,7 +48,7 @@
   title:
     - {id: 1, name: "稱號一", offset: true}
     - {id: 2, name: "稱號二"}
-    - {id: 3, name: "稱號三"}
+    - {id: 3, name: "稱號三", offset: true}
     - {id: 4, name: "稱號四"}
   scores:
     - {id: 1, point: "90", color: "#2d5436", color_2: "#488556"}
@@ -70,7 +70,7 @@
   title:
   - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
-  - {id: 3, name: "稱號三"}
+  - {id: 3, name: "稱號三", offset: true}
   - {id: 4, name: "稱號四"}
   scores:
     - {id: 1, point: "90", color: "#2d5436", color_2: "#488556"}
@@ -91,7 +91,7 @@
   title:
   - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
-  - {id: 3, name: "稱號三"}
+  - {id: 3, name: "稱號三", offset: true}
   - {id: 4, name: "稱號四"}
   scores:
     - {id: 1, point: "92", color: "#2d5436", color_2: "#488556"}
@@ -112,7 +112,7 @@
   title:
   - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
-  - {id: 3, name: "稱號三"}
+  - {id: 3, name: "稱號三", offset: true}
   - {id: 4, name: "稱號四"}
   scores:
     - {id: 1, point: "60", color: "#2d5436", color_2: "#488556"}
@@ -133,7 +133,7 @@
   title:
   - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
-  - {id: 3, name: "稱號三"}
+  - {id: 3, name: "稱號三", offset: true}
   - {id: 4, name: "稱號四"}
   scores:
     - {id: 1, point: "80", color: "#2d5436", color_2: "#488556"}
@@ -154,7 +154,7 @@
   title:
   - {id: 1, name: "稱號一", offset: true}
   - {id: 2, name: "稱號二"}
-  - {id: 3, name: "稱號三"}
+  - {id: 3, name: "稱號三", offset: true}
   - {id: 4, name: "稱號四"}
   scores:
     - {id: 1, point: "90", color: "#2d5436", color_2: "#488556"}
