@@ -13,6 +13,8 @@ image: road.jfif
 想快速融入新環境嗎？那就跟著這篇學長姐的心得，一起邁入大學新生活吧！
 
 > ##### <font>---------- 總區地圖 -----------</font>
+<img src="{{ site.baseurl }}/img/posts/campus_map.png" height="850" width="600">
+<a style="text-align: center;" href="https://www.ntu.edu.tw/about/map.html">更多台大地圖</a>
 
 > ##### <font>---------- 校內食物推薦 -----------</font>
 
@@ -28,6 +30,13 @@ image: road.jfif
 >> * 長興太子學舍（BOT）： 摩斯、 7-11
 
 > ##### <font>---------- 校外食物推薦 -----------</font>
+<img src="{{ site.baseurl }}/img/posts/outer_map.png" height="850" width="600">
+台大附近商圈食物聚集地術語 
+By blink部落格
+<img src="{{ site.baseurl }}/img/posts/food_map1.png" height="850" width="600">
+By 吃貨台大(建議追蹤)
+<img src="{{ site.baseurl }}/img/posts/food_map2.png" height="850" width="600">
+By 逍遙文工作室
 
 > ##### <font>---------- 商圈特點 -----------</font>
 
