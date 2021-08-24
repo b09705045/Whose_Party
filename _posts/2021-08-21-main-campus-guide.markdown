@@ -13,7 +13,7 @@ image: road.jfif
 想快速融入新環境嗎？那就跟著這篇學長姐的心得，一起邁入大學新生活吧！
 
 > ##### <font>---------- 總區地圖 -----------</font>
-<img src="{{ site.baseurl }}/img/posts/campus_map.png" height="600" width="600">
+<img src="{{ site.baseurl }}/img/posts/campus_map.png" height="auto" width="80%">
 <a style="text-align: center;" href="https://www.ntu.edu.tw/about/map.html">更多台大地圖</a>
 
 > ##### <font>---------- 校內食物推薦 -----------</font>
@@ -31,12 +31,12 @@ image: road.jfif
 
 > ##### <font>---------- 校外食物推薦 -----------</font>
 > <br>
-<img src="{{ site.baseurl }}/img/posts/outer_map.png" height="600" width="600">
+<img src="{{ site.baseurl }}/img/posts/outer_map.png" height="auto" width="80%">
 台大附近商圈食物聚集地術語 
 By blink部落格
-<img src="{{ site.baseurl }}/img/posts/food_map1.png" height="600" width="600">
+<img src="{{ site.baseurl }}/img/posts/food_map1.png" height="auto" width="80%">
 By 吃貨台大(建議追蹤)
-<img src="{{ site.baseurl }}/img/posts/food_map2.png" height="600" width="600">
+<img src="{{ site.baseurl }}/img/posts/food_map2.png" height="auto" width="80%">
 By 逍遙文工作室
 
 > ##### <font>---------- 商圈特點 -----------</font>
@@ -86,4 +86,4 @@ By 逍遙文工作室
 >> * P.S. 要去水源辦 車證 被拖才不會找不到 。
 >> * P.S. 不要亂停車， 車被拖吊 真的會很煩躁。
 
-*以上圖片均取自公開部落格或社群帳號，若有違反任何規則，將會進行撤除。
+*以上圖片均取自公開部落格或社群帳號，若原作者有任何疑慮，將會進行撤除。
