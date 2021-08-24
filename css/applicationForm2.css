@@ -351,6 +351,7 @@ legend{ float: none; padding: inherit; }
     height: 30%;
     margin-left: 20%;
     margin-top: 2%;
+    padding: 2% 6%;
 }
 
 .preloader{
@@ -423,6 +424,9 @@ input.invalid{
     .afterConfirmed{
         width: 80%;
         margin-left: 10%;
+    }
+    .h2_confirmed{
+        margin: 5% 0;
     }
 }
 
