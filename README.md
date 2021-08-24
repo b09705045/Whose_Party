@@ -1,7 +1,8 @@
-# WHOSE party - 台大資管Ｘ台大物治Ｘ台大護理聯合迎新宿營
+# WHOSE PARTY - 台大資管Ｘ台大物治Ｘ台大護理聯合迎新宿營
 
 ### About
 由國立台灣大學資訊管理學系、物理治療學系、護理學系合辦的迎新宿營，原定於九月中舉辦，但因為COVID-19影響，延後至十月中下旬。
+This is the official website of 2021 WHOSE PARTY, which is held by the department of IM, PT, NUR from National Taiwan University.
 
 ### Used template
 * [Project Zeppelin](https://github.com/gdg-x/zeppelin)
