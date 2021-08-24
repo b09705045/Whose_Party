@@ -47,17 +47,17 @@
         </h2>
       </div>
       <div class="row notice-row">
-        <div class="notice">
+        <div class="notice" style="width: 60%;">
           <span>
             <p>
-                很開心可以在宿營和大家見面，報名之前有幾件事希望大家能注意<br>
-                <ul>
-                    <li>你們好這裡是台灣，我是台灣人R叩謝和弦，這件外套是我的外套</il>
-                    <li>左下 社交 聯絡人 點我頭像 拜訪家園 </li>
-                    <li>又舔 又舔 你又舔</li>
-                </ul>
-                想了解更多關於活動的資訊，歡迎到首頁了解更多資訊
-                <button class="btn" onclick="location.href='{{ site.baseurl }}';">按<strong>我</strong>回首頁</button><br>
+              很開心可以在宿營和您見面！關於宿營報名有幾件事項說明：<br>
+              <ul style="line-height: 1.5;">
+                <li>為確認報名資格，以下會需要填寫詳細個人資訊。相關個資皆會保密，並保證僅用於活動及保險需求。資料收集亦經過加密處理，請放心填寫。</li><br>
+                <li>為保障您及其他參與本次宿營同學的安全，下方需上傳家長同意書及健康聲明切結書。請自行下載並確認簽章後掃描上傳。感謝您的配合。<br>此外，若您有任何需求及我們須特別留意的事項，請在表單 <b>注意事項</b> 欄位註明，讓我們帶給您最舒適的營期。</li><br>
+                <li>其餘報名及繳費規定請至網站首頁的 <b>在此報名</b> 區域及 <b>FAQ</b> 頁面閱讀。</li>
+              </ul>
+              想了解更多宿營及大學生活大小事，歡迎到宿營首頁了解更多資訊～
+              <button class="btn" onclick="location.href='{{ site.baseurl }}';">按<strong>我</strong>回首頁</button><br>
             </p>
           </span>
         </div>
@@ -146,7 +146,7 @@
             <div class="row">
               <label for="IDnumber" class="row justify-content-start align-items-start">
                 <div class="col-md-4 input">
-                  <span class="itemTitle">身分證字號</span>
+                  <span class="itemTitle">身分證字號或居留證號</span>
                 </div>
                 <div class="col-md-8 input">
                   <input class="input_field" type="text" id="IDnumber" name="IDnumber" placeholder=" " required>
@@ -361,8 +361,8 @@
             </div>
             <div class="row">
               <div class="col-md-12 input">
-                  <span class="itemTitle">上傳參與者健康聲明切結書</span>
-                  <span class="click_download"><a href="../assets/參與者健康聲明切結書 .pdf" download="參與者健康聲明切結書.pdf">(點我下載參與者健康聲明切結書)</a></span>
+                  <span class="itemTitle">上傳健康聲明切結書</span>
+                  <span class="click_download"><a href="../assets/參與者健康聲明切結書 .pdf" download="參與者健康聲明切結書.pdf">(點我下載健康聲明切結書)</a></span>
               </div>
               <div class ="col-md-12 input">
                   <label for="healthDec" class="download">
@@ -423,6 +423,7 @@
   <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
 </body>
 <footer>
-  <p style="margin-left: 5%;">&copy; 2021 created by Lawrence Wang</p>
+  <p style="margin-left: 10%;">&copy; 2021 Created by Lawrence Wang</p>
+  <br>
 </footer>
 </html>

@@ -137,6 +137,7 @@ partnersC4sponsorsButton: ""
 # Sponsors Block
 sponsorTitle: "合作夥伴"
 sponsorImage: "night.png"
+sponsorButtonText: "點我看完整贊助名單"
 sponsorBlock:
  - {title: "A", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
  - {title: "B", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
