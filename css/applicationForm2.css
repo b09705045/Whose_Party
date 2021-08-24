@@ -398,6 +398,11 @@ input.invalid{
     color: red;
 }
 
+.h2_confirmed{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
 @media screen and (max-width: 768px){
     .style-line{
         margin-left: 0;
