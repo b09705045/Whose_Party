@@ -175,7 +175,7 @@ sponsorBlock_minor:
 ticketsImage: "green.jpg"
 ticketsTitle: " 在此報名"
 ticketsInfo: ""
-ticketReminderList: ["123", "0370-979-078141<br>808-玉山銀行<br>傅彥齊", "789"]
+ticketReminderList: ["報名資格：全體台大物治、資管及護理系大一新生","活動日期：10/23-24", "匯款資訊<br>帳戶：0370-979-078141<br>戶名：傅彥齊<br>銀行：808-玉山銀行", "請注意報名期限及繳費期限，逾時不候！", "其他資訊可參考FAQ或聯絡我們！"]
 ticketsOffers:
  -
   name: "報名連結"
