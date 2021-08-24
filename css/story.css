@@ -6,6 +6,7 @@
 }
 .forSmartphone{
     background-color: transparent;
+    display: none;
     width: 100%;
     height: 5%;
 }
