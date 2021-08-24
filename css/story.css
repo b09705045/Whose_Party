@@ -5,6 +5,7 @@
     background-color: #7c2222;
 }
 .forSmartphone{
+    background-color: transparent;
     width: 100%;
-    height: 48px;
+    height: 5%;
 }
