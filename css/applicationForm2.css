@@ -348,16 +348,16 @@ legend{ float: none; padding: inherit; }
     .sizeChart{
         width: 70%;
     }
+    .afterConfirmed{
+        width: 80%;
+        margin-left: 10%;
+    }
 }
 
 @media screen and (min-width:768px) {
     .sizeChart{
         height: 60vw;
         width: 50vw;
-    }
-    .afterConfirmed{
-        width: 80%;
-        margin-left: 10%;
     }
 }
 
