@@ -1,8 +1,10 @@
 # WHOSE PARTY - 台大資管Ｘ台大物治Ｘ台大護理聯合迎新宿營
 
 ### About
-由國立台灣大學資訊管理學系、物理治療學系、護理學系合辦的迎新宿營，原定於九月中舉辦，但因為COVID-19影響，延後至十月中下旬。
-This is the official website of 2021 WHOSE PARTY, which is held by the department of IM, PT, NUR from National Taiwan University.
+
+This is the official website of 2021 WHOSE PARTY, a camp held by the department of IM, PT, NUR from National Taiwan University.
+
+Our website is constructed by Jekyll, and is based on a template called Project Zeppelin. Besides, we refer to some projects from CodePen, including the leaderboard and the countdown timer.
 
 ### Used template
 * [Project Zeppelin](https://github.com/gdg-x/zeppelin)
