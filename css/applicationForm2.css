@@ -325,42 +325,6 @@ legend{ float: none; padding: inherit; }
     color: blue;
 }
 
-@media screen and (max-width: 768px){
-    .style-line{
-        margin-left: 0;
-    }
-    .style-line::after{
-        width: 60%;
-        left: 20%;
-    }
-    .notice{
-        max-width: fit-content;
-        margin: 0 29px;
-    }
-    #intro .jumbotron{
-        min-height: 200px;
-        max-height: 200px;
-    }
-    #intro h1{
-        margin-top: 100px;
-        padding: 30px 0;
-    }
-    .sizeChart{
-        width: 70%;
-    }
-    .afterConfirmed{
-        width: 80%;
-        margin-left: 10%;
-    }
-}
-
-@media screen and (min-width:768px) {
-    .sizeChart{
-        height: 60vw;
-        width: 50vw;
-    }
-}
-
 .download{
     display: flex;
 }
@@ -431,4 +395,40 @@ input.invalid{
     font-weight: 900;
     content: '✖';
     color: red;
+}
+
+@media screen and (max-width: 768px){
+    .style-line{
+        margin-left: 0;
+    }
+    .style-line::after{
+        width: 60%;
+        left: 20%;
+    }
+    .notice{
+        max-width: fit-content;
+        margin: 0 29px;
+    }
+    #intro .jumbotron{
+        min-height: 200px;
+        max-height: 200px;
+    }
+    #intro h1{
+        margin-top: 100px;
+        padding: 30px 0;
+    }
+    .sizeChart{
+        width: 70%;
+    }
+    .afterConfirmed{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .sizeChart{
+        height: 60vw;
+        width: 50vw;
+    }
 }
