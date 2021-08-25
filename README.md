@@ -2,11 +2,11 @@
 
 ### About
 
-This is the official website of 2021 WHOSE PARTY, a camp held by the department of IM, PT, NUR from National Taiwan University.
+This is the official website of 2021 WHOSE PARTY, a camp for the freshmen of department of IM, PT, NUR from National Taiwan University held by the sophomores.
 
-Our website is constructed by Jekyll, and is based on a template called Project Zeppelin. Besides, we refer to some projects from CodePen, including the leaderboard and the countdown timer.
+Our website is constructed by Jekyll, and is based on template Project Zeppelin. Besides, we refer to some projects from CodePen, including the leaderboard and the countdown timer.
 
-### Used template
+### Used template and 
 * [Project Zeppelin](https://github.com/gdg-x/zeppelin)
 
 ### Used libraries
