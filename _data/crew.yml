@@ -606,22 +606,30 @@
     - {abbr: "Head Developer", title: "Head Developer"}
 -
   id: 27
-  name: " "
+  name: "Laurence "
   surname: "王灝融"
   company: ""
   title: "<b>Developer</b> ｜ 資管二"
   modalTitle: "<b>Developer</b><br>資管二"
-  bio: 'Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you
+  bio: '嗨大家，我是資管二的王灝融<s>a.k.a資管CP3</s><br>
+<br>
+來自<b>沒有槍聲四起</b>的台中，雖然現在一年回台中的日子不超過1個月，但是看到從我國小開始計畫的捷運終於蓋好了還是很感動ㄉ🤩🤩 籃球、棒球愛好者，艇迷湖黑、邦迷爪黑 #宇宙邦蒿吐鷺斯 #**圖奇還我超負荷🪓🪓<br>
+<br>
+另外也喜歡到處走走看看，但是睡覺跟懶惰讓我常常只待在房間裡耍廢🙄🙄今年的目標是不要又在睡覺被耶誕城放生了⋯為什麼我說又呢==<br>
+<br>
+回歸正題，<s>快艇總冠軍🏆</s>，希望大家在宿營網站使用上沒有遇到太多的問題，想找到的資訊都能找到，尤其報名的時候，雖然沒有什麼超級漂亮的版面(還參考了一下1922)，但起碼希望大家至少可以清楚方便的完成所有手續💯💯<br>
+<br>
+就醬～～希望大家都能開心滴好好享受整個宿營，身兼隊輔的我，很期待能見到大家，有什麼問題都歡迎來找我🤗😇🧙‍♀️（你快說啊～你快說啊~O我的天~）剩下的就等見面再說ㄌ，那小弟弟我呢⋯⋯今天就先講到這啦( ´▽` )ﾉ<br>
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 27_compressed.jpg
   executive: false
   vice: false
   leader: false
   dev: true
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "github", link: "https://github.com/maxyhwu/Whose_Party"}
+    - {name: "google-plus", link: "https://www.instagram.com/_laurence_0615_3/"}
+    - {name: "facebook", link: "https://www.facebook.com/laurence.wang.18?locale=zh_TW"}
+    - {name: "twitter", link: "https://twitter.com/0615laurence"}
 -
   id: 28
   name: "Max "
