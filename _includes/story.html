@@ -29,20 +29,24 @@
       </div>
       <br><br>
       <a href="#rockstar-speakers" class="explore">
-          <svg class="icon icon-arrow-down" viewBox="0 0 32 32">
+          <svg class="icon icon-arrow-down arrow_display_md" viewBox="0 0 32 32">
               <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-arrow-down"></use>
           </svg>
       </a>
-      <br><br><br><br>
+      <br><br>
   </div>
+  <a href="#rockstar-speakers" class="explore">
+    <svg class="icon icon-arrow-down arrow_display_xs" viewBox="0 0 32 32">
+        <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-arrow-down"></use>
+    </svg>
+</a>
   <script>
+    var block = document.getElementById('forSmartphone');
     if(window.innerWidth > 767){
-        var block = document.getElementById('forSmartphone');
-        block.style.display = "none"
+        block.style.display = "none";
     }
     else{
-      var block = document.getElementById('forSmartphone');
-      block.style.display = "inline-block"
+        block.style.display = "inline-block";
     }
   </script>
 </section>
