@@ -557,21 +557,29 @@
     - {name: "facebook", link: "https://www.facebook.com/sherry.huang.737001"}
 -
   id: 25
-  name: " "
+  name: "LIN,YU-CHIEH "
   surname: "林郁傑"
   company: ""
   title: "<b>執行秘書</b> ｜ 物治二"
   modalTitle: "<b>執行秘書</b><br>物治二"
-  bio: 'Never gonna give you up Never gonna let you down Never gonna run around and desert you Never gonna make you cry Never gonna say goodbye Never gonna tell a lie and hurt you
+  bio: '哈囉大家好！我是物治系二年級的林郁傑<br>
+我從小就喜歡運動，享受競爭享受贏的感覺<br>
+可是現在發現輸贏好像沒那麼重要？哈哈哈<br>
+但我超級不會打籃球的，籃球框超級小，我都投不進<br>
+擅長的運動是足球，在院隊校隊都有踢過，有空時會去當當裁判兼差<br>
+想踢球的來找我喔！<br>
+最後恭喜各位學弟妹加入臺大這個大家庭<br>
+臺大充滿有趣的人事物等著大家去探索<br>
+放心做你想要做的事吧！臺大一定會有相對應的資源可以幫你<br>
   '
-  thumbnailUrl: patrick_1.jpg
+  thumbnailUrl: 25_compressed.jpg
   executive: false
   vice: false
   leader: true
   dev: false
   social:
-    - {name: "google-plus", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
-    - {name: "facebook", link: "https://maxyhwu.github.io/Whose_Party/crew/"}
+    - {name: "google-plus", link: "https://www.instagram.com/u10500096/"}
+    - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100022980812509"}
 -
   id: 26
   name: "Jasper "
