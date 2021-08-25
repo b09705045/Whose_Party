@@ -21,118 +21,133 @@ var firebaseConfig = {
       ValidationRed();
       return false;
     }
-    if (document.getElementById('department').value=="")
+    else if (document.getElementById('department').value=="")
     {
       alert("[系級]未填寫");
       document.appliForm.Email.focus();
       ValidationRed();
       return false;
     }
-    if(document.getElementById('NTUID').value=="")
+    else if(document.getElementById('NTUID').value=="")
     {
       alert("[學號]未填寫!!");
       document.appliForm.Content.focus();
       ValidationRed();
       return false;
     }
-    if(document.getElementById('birthday').value=="")
+    else if(document.getElementById('birthday').value=="")
     {
       alert("[生日]未填寫!!");
       document.getElementById('').focus();
       ValidationRed();
       return false;
     }    
-    if(document.getElementById('genders').value=="")
+    else if(document.getElementById('genders').value=="")
     {
       alert("[生理性別]未填寫!!");
       document.getElementById('name').focus();
       ValidationRed();
       return false;
     }    
-    if(document.getElementById('IDnumber').value=="")
+    else if(document.getElementById('IDnumber').value=="")
     {
       alert("[身分證字號]未填寫!!");
       document.getElementById('IDnumber').focus();
       ValidationRed();
       return false;
     }    
-    if(document.getElementById('cellphone').value=="")
+    else if(document.getElementById('cellphone').value=="")
     {
       alert("[手機]未填寫!!");
       document.getElementById('cellphone').focus();
       ValidationRed();
       return false;
     }    
-    if(document.getElementById('Email').value=="")
+    else if(document.getElementById('Email').value=="")
     {
       alert("[Email]未填寫!!");
       document.getElementById('Email').focus();
       ValidationRed();
       return false;
     }
-    if(document.getElementById('emerCon').value=="")
+    else if(document.getElementById('emerCon').value=="")
     {
       alert("[緊急聯絡人]未填寫!!");
       document.getElementById('emerCon').focus();
       ValidationRed();
       return false;
     }
-    if(document.getElementById('emerConRela').value=="")
+    else if(document.getElementById('emerConRela').value=="")
     {
       alert("[與緊急聯絡人關係]未填寫!!");
       document.getElementById('emerConRela').focus();
       ValidationRed();
       return false;
     }
-    if(document.getElementById('emerTel').value=="")
+    else if(document.getElementById('emerTel').value=="")
     {
       alert("[與緊急聯絡人電話]未填寫!!");
       document.getElementById('emerTel').focus();
       ValidationRed();
       return false;
     }
-    if(document.getElementById('benefOfInsurance').value=="")
+    else if(document.getElementById('benefOfInsurance').value=="")
     {
       alert("[保險受益人]未填寫!!");
       document.getElementById('benefOfInsurance').focus();
       ValidationRed();
       return false;
     }
-    if(document.getElementById('benefOfInsuranceCon').value=="")
+    else if(document.getElementById('benefOfInsuranceCon').value=="")
     {
       alert("[保險受益人關係]未填寫!!");
       document.getElementById('benefOfInsuranceCon').focus();
       ValidationRed();
       return false;
     }
-    if(document.getElementById('benefOfInsuranceTel').value=="")
+    else if(document.getElementById('benefOfInsuranceTel').value=="")
     {
       alert("[保險受益人電話]未填寫!!");
       document.getElementById('benefOfInsuranceTel').focus();
       ValidationRed();
       return false;
     }
-    if(document.getElementById('specialCase').value=="")
+    else if(document.getElementById('specialCase').value=="")
     {
       alert("[有無特殊病例史或食物過敏]未填寫!!");
       document.getElementById('specialCase').focus();
       ValidationRed();
       return false;
     }
-    if(document.getElementById('tshirtSize').value=="")
+    else if(document.getElementById('tshirtSize').value=="")
     {
       alert("[營服尺寸]未填寫!!");
       document.getElementById('tshirtSize').focus();
       ValidationRed();
       return false;
     }
-    if(document.getElementById('accountL5').value=="")
+    else if(document.getElementById('accountL5').value=="")
     {
       alert("[匯款帳號末五碼]未填寫!!");
       document.getElementById('accountL5').focus();
       ValidationRed();
       return false;
     }
+    else if(check_Diet == null){
+      alert("[飲食習慣]未選擇");
+      document.getElementById('diet').focus();
+      return false;
+    }
+    else if(document.querySelector('input[name="iHaveConfirmed"]:checked') == null){
+      alert("[我已確認報名資料無誤]未勾選");
+      document.getElementById('iHaveConfirmed').focus();
+      return false;
+    }
+    else if(document.querySelector('input[name="iWillFollowRule"]:checked') == null){
+      alert("[上營期間我會遵守規定]未勾選");
+      document.getElementById('iWillFollowRule').focus();
+      return false;
+    } 
 
     var agree=confirm("確定要送出報名表了嗎?");
     if (agree){
