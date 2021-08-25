@@ -133,7 +133,7 @@ var firebaseConfig = {
       ValidationRed();
       return false;
     }
-    else if(check_Diet == null){
+    else if( document.querySelector('input[name= "diet"]:checked') == null){
       alert("[飲食習慣]未選擇");
       document.getElementById('diet').focus();
       return false;
