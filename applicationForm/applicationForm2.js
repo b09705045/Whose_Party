@@ -135,7 +135,7 @@ var firebaseConfig = {
     }
     else if( document.querySelector('input[name= "diet"]:checked') == null){
       alert("[飲食習慣]未選擇");
-      document.getElementById('diet').focus();
+      document.getElementsByName('diet').focus();
       return false;
     }
     else if(document.querySelector('input[name="iHaveConfirmed"]:checked') == null){
