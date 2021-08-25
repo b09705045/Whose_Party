@@ -54,14 +54,15 @@
                                 <b>-擁有的頭銜-</b></p>
                             </div>
                             {% for titles in teamMember.title %}{% if titles.name != null %}
-                            <div class="achievement"></div>
                                 {% if titles.offset %}
                                 <div style="text-align: center" class="col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2">
+                                    <div class="achievement"></div>
                                     <p style="font-size:0.4cm; color:#000000; font-family: 'Noto Serif TC', serif;">
                                         <b><strong style="background: #8fc7ff">{{titles.name}}</strong></b></p>
                                 </div>
                                 {% else %}
                                 <div style="text-align: center" class="col-md-2 col-sm-2">
+                                    <div class="achievement"></div>
                                     <p style="font-size:0.4cm; color:#000000; font-family: 'Noto Serif TC', serif;">
                                         <b><strong style="background: #5fff87">{{titles.name}}</strong></b></p>
                                 </div>
