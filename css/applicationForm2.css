@@ -449,4 +449,7 @@ input.invalid{
         height: 60vw;
         width: 50vw;
     }
+    .notice{
+        width: 60%;
+    }
 }
