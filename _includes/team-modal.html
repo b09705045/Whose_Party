@@ -49,13 +49,14 @@
                             </div>
                         </div>
                         <div class="row">
+                            <br><br>
                             <div style="text-align: center" class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
                                 <p style="font-weight:600;font-size:0.6cm; color:#7c2222; font-family: 'Noto Serif TC', serif; margin-left: 10px;">
                                 <b>-擁有的頭銜-</b></p>
                             </div>
                             {% for titles in teamMember.title %}{% if titles.name != null %}
                                 {% if titles.offset %}
-                                <div style="text-align: center" class="col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2">
+                                <div style="text-align: center" class="col-md-2 col-md-offset-3 col-sm-2 col-sm-offset-3">
                                     <div class="achievement">
                                         <p style="font-size:0.4cm; color:#000000; font-family: 'Noto Serif TC', serif;">
                                             <b><strong style="background: #8fc7ff">{{titles.name}}</strong></b></p>
@@ -70,8 +71,10 @@
                                 </div>
                                 {% endif %}
                             {% endif %}{% endfor %}
+                            <br><br>
                         </div>
                         <div class="row">
+                            <br><br>
                             <div style="text-align: center" class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
                                 <p style="font-weight:600;font-size:0.6cm; color:#7c2222; font-family: 'Noto Serif TC', serif;">
                                 <b>-目前積分-</b></p>
