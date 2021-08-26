@@ -49,11 +49,11 @@
                             </div>
                         </div>
                         <div class="row">
-                            <br><br>
                             <div style="text-align: center" class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
                                 <p style="font-weight:600;font-size:0.6cm; color:#7c2222; font-family: 'Noto Serif TC', serif; margin-left: 10px;">
                                 <b>-擁有的頭銜-</b></p>
                             </div>
+                            <br><br>
                             {% for titles in teamMember.title %}{% if titles.name != null %}
                                 {% if titles.offset %}
                                 <div style="text-align: center" class="col-md-2 col-md-offset-3 col-sm-2 col-sm-offset-3">
@@ -74,11 +74,11 @@
                             <br><br>
                         </div>
                         <div class="row">
-                            <br><br>
                             <div style="text-align: center" class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
                                 <p style="font-weight:600;font-size:0.6cm; color:#7c2222; font-family: 'Noto Serif TC', serif;">
                                 <b>-目前積分-</b></p>
                             </div>
+                            <br><br>
                             <div class="col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2">
                                 <div class="score_bar flex">
                                         {% for baseScore in teamMember.scores %}
