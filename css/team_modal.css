@@ -80,6 +80,7 @@
     height: 30px;
     border: 2.5px solid #7c2222;
     background-color: transparent;
+    margin-top: 1%;
 }
 
 @media(max-width: 767px){
@@ -88,6 +89,7 @@
         height: 30px;
         border: 2.5px solid #7c2222;
         background-color: transparent;
+        margin-top: 2%;
     }
 }
 
