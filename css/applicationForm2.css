@@ -403,6 +403,15 @@ input.invalid{
     margin-top: 2%;
     margin-bottom: 0;
 }
+
+.radioTitle{
+    bottom: 5px;
+    position: absolute;
+    left: 27px;
+    font-size: 13px;
+    font-weight: 800;
+}
+
 @media screen and (max-width: 768px){
     .style-line{
         margin-left: 0;
@@ -439,5 +448,8 @@ input.invalid{
     .sizeChart{
         height: 60vw;
         width: 50vw;
+    }
+    .notice{
+        width: 60%;
     }
 }
