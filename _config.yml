@@ -139,34 +139,34 @@ sponsorTitle: "合作夥伴"
 sponsorImage: "night.png"
 sponsorButtonText: "點我看完整贊助名單"
 sponsorBlock:
- - {title: "A", image: "logo1.png", url: "" }
- - {title: "B", image: "logo2.png", url: "" }
- - {title: "C", image: "logo3.jpg", url: "" }
- - {title: "D", image: "logo4.jpg", url: "" }
- - {title: "E", image: "logo5.jpg", url: "" }
+ - {title: "雪坊優格", image: "logo1.png", url: "" }
+ - {title: "BAR BEER", image: "logo2.png", url: "" }
+ - {title: "oneway cafe", image: "logo3.jpg", url: "" }
+ - {title: "京阪豚骨拉麵", image: "logo4.jpg", url: "" }
+ - {title: "轉轉義大利麵", image: "logo5.jpg", url: "" }
 sponsorBlock_minor:
- - {title: "A", image: "logo1.png", url: "" }
- - {title: "B", image: "logo2.png", url: "" }
- - {title: "C", image: "logo3.jpg", url: "" }
- - {title: "D", image: "logo4.jpg", url: "" }
- - {title: "E", image: "logo5.jpg", url: "" }
- - {title: "F", image: "logo6.jpg", url: "" }
- - {title: "G", image: "logo7.jpg", url: "" }
- - {title: "H", image: "logo8.jpg", url: "" }
- - {title: "I", image: "logo9.jpg", url: "" }
- - {title: "J", image: "logo10.jpg", url: "" }
- - {title: "K", image: "logo11.jpg", url: "" }
- - {title: "L", image: "logo12.jpg", url: "" }
- - {title: "M", image: "logo13.jpg", url: "" }
- - {title: "N", image: "logo14.jpg", url: "" }
- - {title: "O", image: "logo15.jpg", url: "" }
- - {title: "P", image: "logo16.jpg", url: "" }
- - {title: "Q", image: "logo17.jpg", url: "" }
- - {title: "R", image: "logo18.jpg", url: "" }
- - {title: "S", image: "logo19.jpg", url: "" }
- - {title: "T", image: "logo20.jpg", url: "" }
- - {title: "U", image: "logo21.jpg", url: "" }
- - {title: "V", image: "logo22.png", url: "" }
+ - {title: "雪坊優格", image: "logo1.png", url: "" }
+ - {title: "BAR BEER", image: "logo2.png", url: "" }
+ - {title: "oneway cafe", image: "logo3.jpg", url: "" }
+ - {title: "京阪豚骨拉麵", image: "logo4.jpg", url: "" }
+ - {title: "轉轉義大利麵", image: "logo5.jpg", url: "" }
+ - {title: "七里亭", image: "logo6.jpg", url: "" }
+ - {title: "人性空間", image: "logo7.jpg", url: "" }
+ - {title: "小飯廳", image: "logo8.jpg", url: "" }
+ - {title: "台一牛奶大王", image: "logo9.jpg", url: "" }
+ - {title: "左巴好室", image: "logo10.jpg", url: "" }
+ - {title: "好想吃冰", image: "logo11.jpg", url: "" }
+ - {title: "安好食", image: "logo12.jpg", url: "" }
+ - {title: "希臘左巴", image: "logo13.jpg", url: "" }
+ - {title: "金湯匙豆花", image: "logo14.jpg", url: "" }
+ - {title: "香料廚房", image: "logo15.jpg", url: "" }
+ - {title: "搗飛豆花", image: "logo16.jpg", url: "" }
+ - {title: "溏老鴨小火鍋", image: "logo17.jpg", url: "" }
+ - {title: "韓庭州", image: "logo18.jpg", url: "" }
+ - {title: "蘇草", image: "logo19.jpg", url: "" }
+ - {title: "barkers美式餐廳", image: "logo20.jpg", url: "" }
+ - {title: "Lazy thai", image: "logo21.jpg", url: "" }
+ - {title: "yu poke", image: "logo22.png", url: "" }
 # Subscribe Block
 # subscribeImage: "subscribe.jpg"
 # subscribeTitle: "在此報名"
@@ -220,7 +220,7 @@ footerBlocks:
   - title: "宿營夥伴"
     links:
       - {permalink: "/sponsorsList", text: "完整贊助名單"}
-      - {permalink: "/assets/demo.pdf", text: "合作辦法說明"}
+      - {permalink: "/assets/proposal.pdf", text: "合作辦法說明"}
       - {link: "https://www.mc.ntu.edu.tw/nursing/Index.action", text: "台大護理學系"}
       - {link: "https://www.mc.ntu.edu.tw/ntupt/Index.action", text: "台大物理治療學系"}
       - {link: "https://management.ntu.edu.tw/IM", text: "台大資訊管理學系"}
