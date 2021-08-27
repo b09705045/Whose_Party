@@ -139,33 +139,35 @@ sponsorTitle: "合作夥伴"
 sponsorImage: "night.png"
 sponsorButtonText: "點我看完整贊助名單"
 sponsorBlock:
+
  - {title: "雪坊優格", image: "cheers.png", url: "https://jasperchan5.github.io/Whose_Party/sponsor_intro_1" }
  - {title: "BAR BEER", image: "cheers.png", url: "https://jasperchan5.github.io/Whose_Party/sponsor_intro_2" }
  - {title: "ONEWAY CAFE", image: "cheers.png", url: "https://jasperchan5.github.io/Whose_Party/sponsor_intro_3" }
  - {title: "京阪豚骨拉麵", image: "cheers.png", url: "https://jasperchan5.github.io/Whose_Party/sponsor_intro_4" }
  - {title: "轉轉義大利麵", image: "cheers.png", url: "https://jasperchan5.github.io/Whose_Party/sponsor_intro_5" }
 sponsorBlock_minor:
- - {title: "A", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "B", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "C", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "D", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "E", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "F", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "G", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "H", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "I", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "J", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "K", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "L", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "M", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "N", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "O", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "P", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "Q", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "R", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "S", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "T", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
-
+ - {title: "雪坊優格", image: "logo1.png", url: "" }
+ - {title: "BAR BEER", image: "logo2.png", url: "" }
+ - {title: "oneway cafe", image: "logo3.jpg", url: "" }
+ - {title: "京阪豚骨拉麵", image: "logo4.jpg", url: "" }
+ - {title: "轉轉義大利麵", image: "logo5.jpg", url: "" }
+ - {title: "七里亭", image: "logo6.jpg", url: "" }
+ - {title: "人性空間", image: "logo7.jpg", url: "" }
+ - {title: "小飯廳", image: "logo8.jpg", url: "" }
+ - {title: "台一牛奶大王", image: "logo9.jpg", url: "" }
+ - {title: "左巴好室", image: "logo10.jpg", url: "" }
+ - {title: "好想吃冰", image: "logo11.jpg", url: "" }
+ - {title: "安好食", image: "logo12.jpg", url: "" }
+ - {title: "希臘左巴", image: "logo13.jpg", url: "" }
+ - {title: "金湯匙豆花", image: "logo14.jpg", url: "" }
+ - {title: "香料廚房", image: "logo15.jpg", url: "" }
+ - {title: "搗飛豆花", image: "logo16.jpg", url: "" }
+ - {title: "溏老鴨小火鍋", image: "logo17.jpg", url: "" }
+ - {title: "韓庭州", image: "logo18.jpg", url: "" }
+ - {title: "蘇草", image: "logo19.jpg", url: "" }
+ - {title: "barkers美式餐廳", image: "logo20.jpg", url: "" }
+ - {title: "Lazy thai", image: "logo21.jpg", url: "" }
+ - {title: "yu poke", image: "logo22.png", url: "" }
 # Subscribe Block
 # subscribeImage: "subscribe.jpg"
 # subscribeTitle: "在此報名"
@@ -176,7 +178,7 @@ sponsorBlock_minor:
 ticketsImage: "green.jpg"
 ticketsTitle: " 在此報名"
 ticketsInfo: ""
-ticketReminderList: ["報名資格：全體台大物治、資管及護理系大一新生","活動日期：10/23～24","活動地點：埔心牧場", "匯款資訊<br>帳戶：0370-979-078141<br>戶名：傅彥齊<br>銀行：808-玉山銀行", "請注意報名期限及繳費期限，逾時不候！","宿營防疫規劃可參考FAQ說明！", "其他資訊可參考FAQ說明，也歡迎直接聯絡我們喔！", "<br>"]
+ticketReminderList: ["報名資格：全體台大物治、資管及護理系大一新生","活動日期：10/23～24","活動地點：埔心牧場", "匯款資訊<br>帳戶：007005725407<br>戶名：林郁傑<br>銀行：005-土地銀行", "請注意報名期限及繳費期限，逾時不候！","宿營防疫規劃及其他資訊可參考FAQ說明，也歡迎直接聯絡我們喔！", "<br>"]
 ticketsOffers:
  -
   name: "報名連結"
@@ -219,7 +221,7 @@ footerBlocks:
   - title: "宿營夥伴"
     links:
       - {permalink: "/sponsorsList", text: "完整贊助名單"}
-      - {permalink: "/assets/demo.pdf", text: "合作辦法說明"}
+      - {permalink: "/assets/proposal.pdf", text: "合作辦法說明"}
       - {link: "https://www.mc.ntu.edu.tw/nursing/Index.action", text: "台大護理學系"}
       - {link: "https://www.mc.ntu.edu.tw/ntupt/Index.action", text: "台大物理治療學系"}
       - {link: "https://management.ntu.edu.tw/IM", text: "台大資訊管理學系"}

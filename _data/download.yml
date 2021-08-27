@@ -24,7 +24,7 @@
   thumbnailUrl: crystal.png
   available: true
   button:
-  - {link: "../assets/demo.pdf", text: "2021WHOSEPARTY參與者健康聲明切結書.pdf"}
+  - {link: "../assets/參與者健康聲明切結書.pdf", text: "2021WHOSEPARTY參與者健康聲明切結書.pdf"}
 -
   id: 4
   name: ""
