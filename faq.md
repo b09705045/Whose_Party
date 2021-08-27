@@ -51,6 +51,6 @@ isStaticPost: true
 
 <br>
 
-**有其他問題歡迎聯繫我們！希望能帶給各位最精彩難忘的大學迎新宿營～**
+**有其他問題歡迎[聯繫我們](mailto:ptimnur2021@gmail.com)！希望能帶給各位最精彩難忘的大學迎新宿營～**
 
 <p align="right">WHOSE PARTY籌備團隊 2021.08</p>
