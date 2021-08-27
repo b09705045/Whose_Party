@@ -139,32 +139,34 @@ sponsorTitle: "合作夥伴"
 sponsorImage: "night.png"
 sponsorButtonText: "點我看完整贊助名單"
 sponsorBlock:
- - {title: "A", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "B", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "C", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "D", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
+ - {title: "A", image: "logo1.png", url: "" }
+ - {title: "B", image: "logo2.png", url: "" }
+ - {title: "C", image: "logo3.jpg", url: "" }
+ - {title: "D", image: "logo4.jpg", url: "" }
+ - {title: "E", image: "logo5.jpg", url: "" }
 sponsorBlock_minor:
- - {title: "A", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "B", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "C", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "D", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "E", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "F", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "G", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "H", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "I", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "J", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "K", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "L", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "M", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "N", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "O", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "P", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "Q", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "R", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "S", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
- - {title: "T", image: "cheers.png", url: "https://www.taisunshop.com.tw/taisunshop/index.php?action=product_detail&prod_no=P0000100000140" }
-
+ - {title: "A", image: "logo1.png", url: "" }
+ - {title: "B", image: "logo2.png", url: "" }
+ - {title: "C", image: "logo3.jpg", url: "" }
+ - {title: "D", image: "logo4.jpg", url: "" }
+ - {title: "E", image: "logo5.jpg", url: "" }
+ - {title: "F", image: "logo6.jpg", url: "" }
+ - {title: "G", image: "logo7.jpg", url: "" }
+ - {title: "H", image: "logo8.jpg", url: "" }
+ - {title: "I", image: "logo9.jpg", url: "" }
+ - {title: "J", image: "logo10.jpg", url: "" }
+ - {title: "K", image: "logo11.jpg", url: "" }
+ - {title: "L", image: "logo12.jpg", url: "" }
+ - {title: "M", image: "logo13.jpg", url: "" }
+ - {title: "N", image: "logo14.jpg", url: "" }
+ - {title: "O", image: "logo15.jpg", url: "" }
+ - {title: "P", image: "logo16.jpg", url: "" }
+ - {title: "Q", image: "logo17.jpg", url: "" }
+ - {title: "R", image: "logo18.jpg", url: "" }
+ - {title: "S", image: "logo19.jpg", url: "" }
+ - {title: "T", image: "logo20.jpg", url: "" }
+ - {title: "U", image: "logo21.jpg", url: "" }
+ - {title: "V", image: "logo22.png", url: "" }
 # Subscribe Block
 # subscribeImage: "subscribe.jpg"
 # subscribeTitle: "在此報名"
