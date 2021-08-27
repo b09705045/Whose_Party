@@ -140,11 +140,11 @@ sponsorImage: "night.png"
 sponsorButtonText: "點我看完整贊助名單"
 sponsorBlock:
 
- - {title: "雪坊優格", image: "cheers.png", url: "https://jasperchan5.github.io/Whose_Party/sponsor_intro_1" }
- - {title: "BAR BEER", image: "cheers.png", url: "https://jasperchan5.github.io/Whose_Party/sponsor_intro_2" }
- - {title: "ONEWAY CAFE", image: "cheers.png", url: "https://jasperchan5.github.io/Whose_Party/sponsor_intro_3" }
- - {title: "京阪豚骨拉麵", image: "cheers.png", url: "https://jasperchan5.github.io/Whose_Party/sponsor_intro_4" }
- - {title: "轉轉義大利麵", image: "cheers.png", url: "https://jasperchan5.github.io/Whose_Party/sponsor_intro_5" }
+ - {title: "雪坊優格", image: "logo1.png", url: "sponsor_intro_1" }
+ - {title: "BAR BEER", image: "logo2.png", url: "sponsor_intro_2" }
+ - {title: "ONEWAY CAFE", image: "logo3.jpg", url: "sponsor_intro_3" }
+ - {title: "京阪豚骨拉麵", image: "logo4.jpg", url: "sponsor_intro_4" }
+ - {title: "轉轉義大利麵", image: "logo5.jpg", url: "sponsor_intro_5" }
 sponsorBlock_minor:
  - {title: "雪坊優格", image: "logo1.png", url: "" }
  - {title: "BAR BEER", image: "logo2.png", url: "" }
