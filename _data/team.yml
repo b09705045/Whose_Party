@@ -28,10 +28,10 @@
   team: "二小"
   clan: "肚子二‧普茲普茲‧布朗尼"
   title:
-    - {id: 1, name: "稱號一", offset: true}
-    - {id: 2, name: "稱號二"}
-    - {id: 3, name: "稱號三", offset: true}
-    - {id: 4, name: "稱號四"}
+    - {id: 1, name: "玉皇大地", offset: true}
+    - {id: 2, name: ""}
+    - {id: 3, name: "賭神 • 大潤發", offset: true}
+    - {id: 4, name: "園丁格爾"}
   scores:
     - {id: 1, point: "90", color: "#2d5436", color_2: "#488556"}
     - {id: 2, point: "71", color: "#37566b", color_2: "#4d7996"}
