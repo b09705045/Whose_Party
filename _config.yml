@@ -161,10 +161,10 @@ sponsorBlock_minor:
  - {title: "金湯匙豆花", image: "logo14.jpg", url: "" }
  - {title: "香料廚房", image: "logo15.jpg", url: "" }
  - {title: "韓庭州", image: "logo18.jpg", url: "" }
+ - {title: "yu poke", image: "logo22.png", url: "" }
  - {title: "蘇草", image: "logo19.jpg", url: "" }
  - {title: "barkers美式餐廳", image: "logo20.jpg", url: "" }
- - {title: "Lazy thai", image: "logo21.jpg", url: "" }
- - {title: "yu poke", image: "logo22.png", url: "" }
+ - {title: "Lazy thai", image: "logo21.jpg", url: "" 
  - {title: "台一牛奶大王", image: "logo9.jpg", url: "" }
  - {title: "溏老鴨小火鍋", image: "logo17.jpg", url: "" }
  - {title: "搗飛豆花", image: "logo16.jpg", url: "" }
