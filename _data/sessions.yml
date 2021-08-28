@@ -18,7 +18,7 @@
 - id: 004
   title: "水土大地 🏝"
   # service: true
-  place: "Undefined"
+  place: ""
   description: "在大太陽底下奔跑吧！我要看到血流成河！"
   detail: "在這裡將有重重關卡等著你，不僅考驗各位的體力、腦袋跟肢體的協調更是勝負關鍵，若想成為莊園主人，這些都是必備能力之一啊！為你所屬的家族爭取榮耀吧！"
   image: "newmap.jpg"
@@ -32,14 +32,14 @@
 - id: 006
   title: "策略 🎮"
   # service: true
-  place: "Undefined"
+  place: ""
   description: "吃飽喝足之後，來動動腦提振精神吧！"
   detail: "如果要成為一位合格的莊園主人候選者，舉辦一場賓主盡歡的派對是眾多重要的條件之一！<br><br>接下來我將要測試你們舉辦派對的能力，盡情的發揮你們的創造力吧！"
   image: "newmap.jpg"
 
 - id: 007
   title: "賭場 💰"
-  place: "Undefined"
+  place: ""
   # teamMember: "ㄎㄎ"
   description: "賭一把梭哈，搏得數倍身家！"
   detail: "即使本莊園可以讓大家都有個高貴的烤肉，但是大家都一樣，多沒意思啊。沒有金錢的力量，哪來的資格成為本莊園的領主？<br><br>去吧！廝殺吧！掠奪別人的財產充實自己的實力吧！踩著對手往上爬吧各位！"
@@ -54,7 +54,7 @@
 - id: 011
   title: "假案 🏰"
   description: "莊園假案，等你來辦！"
-  place: "Undefined"
+  place: ""
   detail: "眾多家族齊聚一堂，為了莊園的所有權一較高下，但你們真的了解這座歷史悠久莊園嗎？百年間的轉變飽含著多少利益關係與恩仇糾葛？又是誰在等待遲來正義呢？讓我們踏入歷史的迴廊，依循散落的線索拼湊真相，揭開莊園的神秘面紗⋯⋯"
   image: "newmap.jpg"
 
@@ -79,7 +79,7 @@
 - id: 102
   title: "RPG 🧭"
   # service: true
-  place: "Undefined"
+  place: ""
   description: "想成為時間管理大師嗎？你不平「凡」的大學生活，就從RPG開始！"
   detail: "想要擁有這座莊園，你必須先問問我的下人們同不同意。解決莊園內的紛紛擾擾，你才能證明你有統御這座莊園的能力。"
   image: "newmap.jpg"
@@ -93,7 +93,7 @@
 - id: 104
   title: "WHOSE PARTY 🎭"
   # service: true
-  place: "Undefined"
+  place: ""
   description: "Let’s go party party all afternoon~~ oh~oh~oh "
   # video: "//www.youtube.com/embed/6RNPLsZzBIo"
   detail: "轉瞬間～就來到了最後一項活動，相信大家身體已經疲憊不堪，所以我為你們精心準備了這個 party ，慰勞大家這兩天的辛勞。<br><br>
@@ -103,13 +103,13 @@
 - id: 105
   title: "水球 🌊"
   #invisible: true
-  place: "Undefined"
+  place: ""
   description: "復仇的時刻到了！拿起水球開始大戰吧！"
   detail: "現在，讓我們將這幾天的愛恨情仇加倍奉還，拿起你們的水球，瘋狂砸向那個害你輸掉各個關卡的人吧！不要害羞，回味青春熱血的感覺吧！"
   image: "newmap.jpg"
 
 - id: 106
-  title: "閉幕 🥲"
+  title: "閉幕 😢"
   service: true
   description: "歡樂的時間總是過得特別快，難道⋯我們只能依依不捨地說再見嗎⋯"
 
