@@ -163,11 +163,11 @@ sponsorBlock_minor:
  - {title: "yu poke", image: "logo22.png", url: "" }
  - {title: "蘇草", image: "logo19.jpg", url: "" }
  - {title: "barkers美式餐廳", image: "logo20.jpg", url: "" }
- - {title: "韓庭州", image: "logo18.jpg", url: "" }
  - {title: "好想吃冰", image: "logo11.jpg", url: "" }
  - {title: "安好食", image: "logo12.jpg", url: "" }
  - {title: "搗飛豆花", image: "logo16.jpg", url: "" }
  - {title: "希臘左巴", image: "logo13.jpg", url: "" }
+ - {title: "韓庭州", image: "logo18.jpg", url: "" }
 # Subscribe Block
 # subscribeImage: "subscribe.jpg"
 # subscribeTitle: "在此報名"
