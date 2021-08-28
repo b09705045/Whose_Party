@@ -13,7 +13,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "2021 WHOSE PARTY - 資管 X 物治 X 護理 三系聯合宿營"
 email: "ptimnur2021@gmail.com"
 description: "Oct. 23 ~ Oct. 24 | Join us!"
-baseurl: "/whoseparty"
+baseurl: "/Whose_Party"
 url: "https://ntu.im"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
