@@ -80,19 +80,19 @@
     	startTime: "13:00",
     	endTime: "15:30",
     	sessionIds: [104],
-      # invisible: true
+      invisible: true
     }
     - {
     	startTime: "15:30",
     	endTime: "16:30",
     	sessionIds: [105],
-      # invisible: true
+      invisible: true
     }
     - {
       startTime: "13:00",
     	endTime: "16:30",
     	sessionIds: [104],
-      invisible: true
+      # invisible: true
     }
     - {
     	startTime: "16:30",
