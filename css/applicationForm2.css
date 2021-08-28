@@ -442,6 +442,13 @@ input.invalid{
     .h2_confirmed{
         margin: 5% 0;
     }
+    .radioTitle{
+        bottom: 5px;
+        position: absolute;
+        left: 27px;
+        font-size: 10px;
+        font-weight: 800;
+    }
 }
 
 @media screen and (min-width:768px) {
