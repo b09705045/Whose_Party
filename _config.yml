@@ -182,7 +182,7 @@ ticketReminderList: ["報名資格：全體台大物治、資管及護理系大�
 ticketsOffers:
  -
   name: "報名連結"
-  price: "$$$"
+  price: "2,900"
   priceCurrency: "NT$  "
   #ticketsNumber: "300"
   #buyButtonLink: "{{site.baseurl}}/applicationform"
