@@ -9,7 +9,6 @@
                 {% assign colWidth = 12 | divided_by: forloop.length %}
                 <div class="col-md-{{ colWidth }} {% if forloop.index == 1 %} col-md-offset-1 {% endif %} col-xs-12">
                     <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
-                        <h5 style="font-weight: 400; font-family: 'Noto Serif TC', serif; font-size: 0.4cm;">{{ sponsor.title }}</h5>
                         <a href="{{ sponsor.url }}">
                             <img class="sponsor_img" src="{{ site.baseurl }}/img/sponsor/{{ sponsor.image }}"
                             alt="{{ about.title }}">
