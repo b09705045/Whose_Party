@@ -354,7 +354,7 @@ submitButtom.addEventListener("click", (e) =>{
     console.log("Data saved")
   })
   .then(function(confirm_submit){
-    this.location.replace("../../applicationConfirmed/")
+    this.location.replace("../applicationConfirmed/")
     confirm_submit = true;
     console.log("Change")
   })
