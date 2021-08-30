@@ -354,7 +354,7 @@ submitButtom.addEventListener("click", (e) =>{
     console.log("Data saved")
   })
   .then(function(confirm_submit){
-    this.location.replace("../../Whose_Party/applicationConfirmed/")
+    this.location.replace("https://ntu.im/whoseparty/applicationConfirmed/")
     confirm_submit = true;
     console.log("Change")
   })
