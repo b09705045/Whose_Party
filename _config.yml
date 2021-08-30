@@ -1,5 +1,5 @@
 # Plugins
-gems:
+plugins:
 - jekyll-sitemap
 safe: false
 
@@ -10,11 +10,11 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "2021 WHOSE PARTY - 資管 X 物治 X 護理 三系聯合宿營"
+title: "2021WHOSEPARTY"
 email: "ptimnur2021@gmail.com"
 description: "Oct. 23 ~ Oct. 24 | Join us!"
-baseurl: "/Whose_Party"
-url: "https://jasperchan5.github.io/Whose_Party"
+baseurl: "https://ntu.im/whoseparty"
+url: ""
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
@@ -139,17 +139,17 @@ sponsorImage: "night.png"
 sponsorButtonText: "點我看完整贊助名單"
 sponsorBlock:
 
- - {title: "雪坊優格", image: "logo1.png", url: "sponsor_intro_1" }
- - {title: "BAR BEER", image: "logo2.png", url: "sponsor_intro_2" }
- - {title: "ONEWAY CAFE", image: "logo3.jpg", url: "sponsor_intro_3" }
- - {title: "京阪豚骨拉麵", image: "logo4.jpg", url: "sponsor_intro_4" }
- - {title: "轉轉義大利麵", image: "logo5.jpg", url: "sponsor_intro_5" }
+ - {title: "雪坊優格", image: "logo1.png", url: "sponsor_intro_1.html" }
+ - {title: "BAR BEER", image: "logo2.png", url: "sponsor_intro_2.html" }
+ - {title: "ONEWAY CAFE", image: "logo3.jpg", url: "sponsor_intro_3.html" }
+ - {title: "京阪豚骨拉麵", image: "logo4.jpg", url: "sponsor_intro_4.html" }
+ - {title: "轉轉義大利麵", image: "logo5.jpg", url: "sponsor_intro_5.html" }
 sponsorBlock_minor:
- - {title: "雪坊優格", image: "logo1.png", url: "" }
- - {title: "BAR BEER", image: "logo2.png", url: "" }
- - {title: "oneway cafe", image: "logo3.jpg", url: "" }
- - {title: "京阪豚骨拉麵", image: "logo4.jpg", url: "" }
- - {title: "轉轉義大利麵", image: "logo5.jpg", url: "" }
+ - {title: "雪坊優格", image: "logo1.png", url: "sponsor_intro_1.html" }
+ - {title: "BAR BEER", image: "logo2.png", url: "sponsor_intro_2.html" }
+ - {title: "oneway cafe", image: "logo3.jpg", url: "sponsor_intro_3.html" }
+ - {title: "京阪豚骨拉麵", image: "logo4.jpg", url: "sponsor_intro_4.html" }
+ - {title: "轉轉義大利麵", image: "logo5.jpg", url: "sponsor_intro_5.html" }
  - {title: "七里亭", image: "logo6.jpg", url: "" }
  - {title: "人性空間", image: "logo7.jpg", url: "" }
  - {title: "小飯廳", image: "logo8.jpg", url: "" }

@@ -7,16 +7,16 @@
     #策略：{策無遺算公爵、運策決機侯爵、驅雷策電伯爵、出謀劃策子爵、足智多謀策略男爵}
     #賭場：{賭神 • 大潤發、賭聖 • 周奔馳、賭俠 • 六的滑、賭眼怪 • 皮老闆、賭爛 • 甄賭爛}
     #RPG：{管家中閔、鋼鐵人馬斯克、園丁格爾、高登奧利佛、亡靈守衛}
-    - {id: 1, name: "水土不服地", offset: true}
-    - {id: 2, name: "足智多謀策略男爵"}
-    - {id: 3, name: "賭眼怪 • 皮老闆", offset: true}
-    - {id: 4, name: "鋼鐵人馬斯克"}
+    - {id: 1, name: "", offset: true}
+    - {id: 2, name: ""}
+    - {id: 3, name: "", offset: true}
+    - {id: 4, name: ""}
   scores:
-    - {id: 1, point: "90", color: "#2d5436", color_2: "#488556"}
-    - {id: 2, point: "76", color: "#37566b", color_2: "#4d7996"}
-    - {id: 3, point: "84", color: "#c9ba2a", color_2: "#ffed4f"}
-    - {id: 4, point: "100", color: "#5c5c5c", color_2: "#828282"}
-    - {id: 5, point: "79", color: "#7a2c0d", color_2: "#a63c12"}
+    - {id: 1, point: "0", color: "#2d5436", color_2: "#488556"}
+    - {id: 2, point: "0", color: "#37566b", color_2: "#4d7996"}
+    - {id: 3, point: "0", color: "#c9ba2a", color_2: "#ffed4f"}
+    - {id: 4, point: "0", color: "#5c5c5c", color_2: "#828282"}
+    - {id: 5, point: "0", color: "#7a2c0d", color_2: "#a63c12"}
   totalScore: "0"
   thumbnailUrl: emblem_1.jpg
   edited: false
@@ -28,16 +28,16 @@
   team: "二小"
   clan: "肚子二‧普茲普茲‧布朗尼"
   title:
-    - {id: 1, name: "玉皇大地", offset: true}
+    - {id: 1, name: "", offset: true}
     - {id: 2, name: ""}
-    - {id: 3, name: "賭神 • 大潤發", offset: true}
-    - {id: 4, name: "園丁格爾"}
+    - {id: 3, name: "", offset: true}
+    - {id: 4, name: ""}
   scores:
-    - {id: 1, point: "90", color: "#2d5436", color_2: "#488556"}
-    - {id: 2, point: "71", color: "#37566b", color_2: "#4d7996"}
-    - {id: 3, point: "81", color: "#c9ba2a", color_2: "#ffed4f"}
-    - {id: 4, point: "100", color: "#5c5c5c", color_2: "#828282"}
-    - {id: 5, point: "79", color: "#7a2c0d", color_2: "#a63c12"}
+    - {id: 1, point: "0", color: "#2d5436", color_2: "#488556"}
+    - {id: 2, point: "0", color: "#37566b", color_2: "#4d7996"}
+    - {id: 3, point: "0", color: "#c9ba2a", color_2: "#ffed4f"}
+    - {id: 4, point: "0", color: "#5c5c5c", color_2: "#828282"}
+    - {id: 5, point: "0", color: "#7a2c0d", color_2: "#a63c12"}
   totalScore: "0"
   thumbnailUrl: emblem_2_revised.jpg
   edited: false
@@ -50,16 +50,16 @@
   team: "三小"
   clan: "黑芝麻‧三明治‧嘿咻嘿咻"
   title:
-    - {id: 1, name: "稱號一", offset: true}
-    - {id: 2, name: "稱號二"}
-    - {id: 3, name: "稱號三", offset: true}
-    - {id: 4, name: "稱號四"}
+    - {id: 1, name: "", offset: true}
+    - {id: 2, name: ""}
+    - {id: 3, name: "", offset: true}
+    - {id: 4, name: ""}
   scores:
-    - {id: 1, point: "90", color: "#2d5436", color_2: "#488556"}
-    - {id: 2, point: "76", color: "#37566b", color_2: "#4d7996"}
-    - {id: 3, point: "84", color: "#c9ba2a", color_2: "#ffed4f"}
-    - {id: 4, point: "100", color: "#5c5c5c", color_2: "#828282"}
-    - {id: 5, point: "72", color: "#7a2c0d", color_2: "#a63c12"}
+    - {id: 1, point: "0", color: "#2d5436", color_2: "#488556"}
+    - {id: 2, point: "0", color: "#37566b", color_2: "#4d7996"}
+    - {id: 3, point: "0", color: "#c9ba2a", color_2: "#ffed4f"}
+    - {id: 4, point: "0", color: "#5c5c5c", color_2: "#828282"}
+    - {id: 5, point: "0", color: "#7a2c0d", color_2: "#a63c12"}
   totalScore: "0"
   thumbnailUrl: emblem_3.jpg
   edited: false
@@ -72,16 +72,16 @@
   team: "四小"
   clan: "四巴拉稀‧肛鐵人‧歐蘭吉"
   title:
-  - {id: 1, name: "稱號一", offset: true}
-  - {id: 2, name: "稱號二"}
-  - {id: 3, name: "稱號三", offset: true}
-  - {id: 4, name: "稱號四"}
+  - {id: 1, name: "", offset: true}
+  - {id: 2, name: ""}
+  - {id: 3, name: "", offset: true}
+  - {id: 4, name: ""}
   scores:
-    - {id: 1, point: "90", color: "#2d5436", color_2: "#488556"}
-    - {id: 2, point: "76", color: "#37566b", color_2: "#4d7996"}
-    - {id: 3, point: "88", color: "#c9ba2a", color_2: "#ffed4f"}
-    - {id: 4, point: "100", color: "#5c5c5c", color_2: "#828282"}
-    - {id: 5, point: "79", color: "#7a2c0d", color_2: "#a63c12"}
+    - {id: 1, point: "0", color: "#2d5436", color_2: "#488556"}
+    - {id: 2, point: "0", color: "#37566b", color_2: "#4d7996"}
+    - {id: 3, point: "0", color: "#c9ba2a", color_2: "#ffed4f"}
+    - {id: 4, point: "0", color: "#5c5c5c", color_2: "#828282"}
+    - {id: 5, point: "0", color: "#7a2c0d", color_2: "#a63c12"}
   totalScore: "0"
   thumbnailUrl: emblem_4.jpg
   edited: false
@@ -93,16 +93,16 @@
   team: "五小"
   clan: "白吃白喝‧爽‧五敵鐵金剛"
   title:
-  - {id: 1, name: "稱號一", offset: true}
-  - {id: 2, name: "稱號二"}
-  - {id: 3, name: "稱號三", offset: true}
-  - {id: 4, name: "稱號四"}
+  - {id: 1, name: "", offset: true}
+  - {id: 2, name: ""}
+  - {id: 3, name: "", offset: true}
+  - {id: 4, name: ""}
   scores:
-    - {id: 1, point: "92", color: "#2d5436", color_2: "#488556"}
-    - {id: 2, point: "72", color: "#37566b", color_2: "#4d7996"}
-    - {id: 3, point: "84", color: "#c9ba2a", color_2: "#ffed4f"}
-    - {id: 4, point: "80", color: "#5c5c5c", color_2: "#828282"}
-    - {id: 5, point: "79", color: "#7a2c0d", color_2: "#a63c12"}
+    - {id: 1, point: "0", color: "#2d5436", color_2: "#488556"}
+    - {id: 2, point: "0", color: "#37566b", color_2: "#4d7996"}
+    - {id: 3, point: "0", color: "#c9ba2a", color_2: "#ffed4f"}
+    - {id: 4, point: "0", color: "#5c5c5c", color_2: "#828282"}
+    - {id: 5, point: "0", color: "#7a2c0d", color_2: "#a63c12"}
   totalScore: "0"
   thumbnailUrl: emblem_5.jpg
   edited: false
@@ -114,16 +114,16 @@
   team: "六小"
   clan: "六到開‧瑪莎拉‧蒂芬妮綠"
   title:
-  - {id: 1, name: "稱號一", offset: true}
-  - {id: 2, name: "稱號二"}
-  - {id: 3, name: "稱號三", offset: true}
-  - {id: 4, name: "稱號四"}
+  - {id: 1, name: "", offset: true}
+  - {id: 2, name: ""}
+  - {id: 3, name: "", offset: true}
+  - {id: 4, name: ""}
   scores:
-    - {id: 1, point: "60", color: "#2d5436", color_2: "#488556"}
-    - {id: 2, point: "76", color: "#37566b", color_2: "#4d7996"}
-    - {id: 3, point: "84", color: "#c9ba2a", color_2: "#ffed4f"}
-    - {id: 4, point: "100", color: "#5c5c5c", color_2: "#828282"}
-    - {id: 5, point: "79", color: "#7a2c0d", color_2: "#a63c12"}
+    - {id: 1, point: "0", color: "#2d5436", color_2: "#488556"}
+    - {id: 2, point: "0", color: "#37566b", color_2: "#4d7996"}
+    - {id: 3, point: "0", color: "#c9ba2a", color_2: "#ffed4f"}
+    - {id: 4, point: "0", color: "#5c5c5c", color_2: "#828282"}
+    - {id: 5, point: "0", color: "#7a2c0d", color_2: "#a63c12"}
   totalScore: "0"
   thumbnailUrl: emblem_6.jpg
   edited: false
@@ -135,16 +135,16 @@
   team: "七小"
   clan: "藍莓‧七泡冰‧史戈史戈"
   title:
-  - {id: 1, name: "稱號一", offset: true}
-  - {id: 2, name: "稱號二"}
-  - {id: 3, name: "稱號三", offset: true}
-  - {id: 4, name: "稱號四"}
+  - {id: 1, name: "", offset: true}
+  - {id: 2, name: ""}
+  - {id: 3, name: "", offset: true}
+  - {id: 4, name: ""}
   scores:
-    - {id: 1, point: "80", color: "#2d5436", color_2: "#488556"}
-    - {id: 2, point: "76", color: "#37566b", color_2: "#4d7996"}
-    - {id: 3, point: "84", color: "#c9ba2a", color_2: "#ffed4f"}
-    - {id: 4, point: "78", color: "#5c5c5c", color_2: "#828282"}
-    - {id: 5, point: "75", color: "#7a2c0d", color_2: "#a63c12"}
+    - {id: 1, point: "0", color: "#2d5436", color_2: "#488556"}
+    - {id: 2, point: "0", color: "#37566b", color_2: "#4d7996"}
+    - {id: 3, point: "0", color: "#c9ba2a", color_2: "#ffed4f"}
+    - {id: 4, point: "0", color: "#5c5c5c", color_2: "#828282"}
+    - {id: 5, point: "0", color: "#7a2c0d", color_2: "#a63c12"}
   totalScore: "0"
   thumbnailUrl: emblem_7.jpg
   edited: false
@@ -156,16 +156,16 @@
   team: "八小"
   clan: "扒了你‧領主大人‧灰生氣"
   title:
-  - {id: 1, name: "稱號一", offset: true}
-  - {id: 2, name: "稱號二"}
-  - {id: 3, name: "稱號三", offset: true}
-  - {id: 4, name: "稱號四"}
+  - {id: 1, name: "", offset: true}
+  - {id: 2, name: ""}
+  - {id: 3, name: "", offset: true}
+  - {id: 4, name: ""}
   scores:
-    - {id: 1, point: "90", color: "#2d5436", color_2: "#488556"}
-    - {id: 2, point: "76", color: "#37566b", color_2: "#4d7996"}
-    - {id: 3, point: "87", color: "#c9ba2a", color_2: "#ffed4f"}
-    - {id: 4, point: "70", color: "#5c5c5c", color_2: "#828282"}
-    - {id: 5, point: "89", color: "#7a2c0d", color_2: "#a63c12"}
+    - {id: 1, point: "0", color: "#2d5436", color_2: "#488556"}
+    - {id: 2, point: "0", color: "#37566b", color_2: "#4d7996"}
+    - {id: 3, point: "0", color: "#c9ba2a", color_2: "#ffed4f"}
+    - {id: 4, point: "0", color: "#5c5c5c", color_2: "#828282"}
+    - {id: 5, point: "0", color: "#7a2c0d", color_2: "#a63c12"}
   totalScore: "0"
   thumbnailUrl: emblem_8.jpg
   edited: false
