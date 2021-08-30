@@ -147,7 +147,7 @@ var firebaseConfig = {
       alert("[上營期間我會遵守防疫及安全規範，保護自己也保護他人]未勾選");
       document.getElementById('iWillFollowRule').focus();
       return false;
-    } 
+    }
 
     var agree=confirm("確定要送出報名表了嗎?");
     if (agree){
@@ -258,8 +258,8 @@ var firebaseConfig = {
     );
 
   }, false);
-  
-  
+
+
 var firestore = firebase.firestore()
 
 // Variable to access database collection
@@ -314,16 +314,16 @@ submitButtom.addEventListener("click", (e) =>{
   let userEmailInput = userEmail.value
   let userDepartmentInput = userDepartment.value
   let userDietInput = userDiet.value
-  let userNTUIDInput = userNTUID.value 
-  let userGendersInput = userGenders.value 
-  let userEmerConInput = userEmerCon.value 
-  let userSugInput = userSug.value 
-  let userspecialCaseInput = userspecialCase.value 
+  let userNTUIDInput = userNTUID.value
+  let userGendersInput = userGenders.value
+  let userEmerConInput = userEmerCon.value
+  let userSugInput = userSug.value
+  let userspecialCaseInput = userspecialCase.value
   let userAccountL5Input = userAccountL5.value
   let userFBInput = userFB.value
   let userEmerConRelaInput = userEmerConRela.value
   let userBenefOfInsuranceInput = userBenefOfInsurance.value
-  let userBenefOfInsuranceConInput = userBenefOfInsuranceCon.value 
+  let userBenefOfInsuranceConInput = userBenefOfInsuranceCon.value
   let userBenefOfInsuranceTelInput = userBenefOfInsuranceTel.value
   // Save Form Data to Firebase
   db.doc(userNameInput).set({
@@ -338,7 +338,7 @@ submitButtom.addEventListener("click", (e) =>{
     身分證字號:userIDnumberInput,
     系級:userDepartmentInput,
     EMail:userEmailInput,
-    營服尺寸:userTshirtSizeInput, 
+    營服尺寸:userTshirtSizeInput,
     飲食習慣:userDietInput,
     建議: userSugInput,
     特殊病例史: userspecialCaseInput,
@@ -355,6 +355,7 @@ submitButtom.addEventListener("click", (e) =>{
   })
   .then(function(confirm_submit){
     this.location.replace("https://ntu.im/whoseparty/applicationConfirmed/")
+
     confirm_submit = true;
     console.log("Change")
   })
