@@ -139,13 +139,12 @@ var firebaseConfig = {
       return false;
     }
     if(document.querySelector('input[name="iHaveConfirmed"]:checked') == null){
-      alert("[我已確認報名資料無誤]未勾選");
+      alert("[我已確認報名資料無誤並上傳必要文件]未勾選");
       document.getElementById('iHaveConfirmed').focus();
       return false;
     }
     if(document.querySelector('input[name="iWillFollowRule"]:checked') == null){
-      alert("[上營期間我會遵守規定]未勾選");
-
+      alert("[上營期間我會遵守防疫及安全規範，保護自己也保護他人]未勾選");
       document.getElementById('iWillFollowRule').focus();
       return false;
     }
