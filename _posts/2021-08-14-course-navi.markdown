@@ -4,7 +4,7 @@ title: "選課指南"
 author: "WHOSE PARTY籌備團隊"
 date: 2021-08-14 08:00:00
 link: https://www.youtube.com/watch?v=v_-Hfwh9G0Y
-permalink: "/course-navi"
+permalink: "/course-navi.html"
 isAvailable: true
 isStaticPost: false
 image: road.jfif

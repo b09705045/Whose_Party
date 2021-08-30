@@ -4,7 +4,7 @@ title: "醫學院（城中校區）生活指南"
 author: "WHOSE PARTY籌備團隊"
 date: 2021-08-21 08:00:00
 link: https://www.youtube.com/watch?v=v_-Hfwh9G0Y
-permalink: "/midtown-campus-guide"
+permalink: "/midtown-campus-guide.html"
 isAvailable: true
 isStaticPost: false
 image: road.jfif
