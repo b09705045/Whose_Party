@@ -3,7 +3,7 @@ layout: post
 title: "合作夥伴介紹-雪坊優格"
 author: "WHOSE PARTY籌備團隊"
 date: 2021-08-07 08:00:00
-link: https://www.youtube.com/watch?v=v_-Hfwh9G0Y
+link: https://www.facebook.com/2021臺大物治x護理x資管聯合迎新宿營-102707671523379/
 permalink: "/sponsor_intro_1.html"
 isAvailable: true
 isStaticPost: false

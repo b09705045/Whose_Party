@@ -3,7 +3,7 @@ layout: post
 title: "總區生活指南"
 author: "WHOSE PARTY籌備團隊"
 date: 2021-08-21 08:00:00
-link: https://www.youtube.com/watch?v=v_-Hfwh9G0Y
+link: https://www.facebook.com/2021臺大物治x護理x資管聯合迎新宿營-102707671523379/
 permalink: "/main-campus-guide.html"
 isAvailable: true
 isStaticPost: false
