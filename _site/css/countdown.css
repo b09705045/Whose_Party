@@ -1,0 +1,60 @@
+.countdown-container {
+    display: flex;
+    width: 100%;
+    max-width: 70%;
+    justify-content: space-between;
+}
+
+.days-container,
+.hours-container,
+.minutes-container, 
+.seconds-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.1);
+    border: 5px solid rgba(255,255,255,0.8);
+    width: 140px;
+    height: 140px;
+    border-radius: 99px;
+    margin:auto;
+}
+
+.days,
+.hours,
+.minutes,
+.seconds {
+    font-size: 2.5em; 
+    margin: 10px 0;
+}
+
+
+.days-label,
+.hours-label,
+.minutes-label,
+.seconds-label {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-size: 1.5em; 
+}
+
+@media (max-width: 768px) {
+
+    .countdown-container {
+        max-width: 100%;
+    }
+
+    .days-container,
+    .hours-container,
+    .minutes-container, 
+    .seconds-container {
+        font-size: 0.5em;
+        width: 60px;
+        height: 60px;
+        border: 2.5px solid rgba(255,255,255,0.8);
+    }
+
+}
+
+  

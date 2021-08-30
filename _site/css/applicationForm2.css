@@ -1,0 +1,462 @@
+@import url('https://rsms.me/inter/inter.css');
+
+:root {
+    --color-light: white;
+    --color-dark: #212121;
+    --color-signal: #fab700;
+
+    --color-background: var(--color-light);
+    --color-text: var(--color-dark);
+    --color-accent: var(--color-signal);
+
+    --size-bezel: .5rem;
+    --size-radius: 4px;
+
+    line-height: 1.4;
+
+    font-family: 'Inter', sans-serif;
+    font-size: calc(.6rem + .4vw);
+    color: var(--color-text);
+    background: var(--color-background);
+    font-weight: 300;
+}
+
+body{
+    font-family: 'Noto Serif TC', serif;
+}
+
+
+#intro .jumbotron{
+    height: 400px;
+    width: 100%;
+
+}
+
+#intro h1{
+    color: white;
+    font-size: 1.4cm;
+    font-weight: 800;
+    vertical-align: bottom;
+    margin-top: 200px;
+    padding-top: 48px;
+}
+
+#intro .row{
+    position: absolute;
+    left: 11px;
+}
+
+#third h2{
+    margin: 20px 0;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.form{
+    width:100%;
+    margin-top: 3px;
+    background: var(--color-background);
+    padding: calc(4 * var(--size-bezel));
+    margin-top: 0 15% 0 15%;
+    border-radius: var(--size-radius);
+    border: 3px solid var(--color-shadow, currentColor);
+    box-shadow: .5rem .5rem 0 var(--color-shadow, currentColor);
+}
+
+/* input[type="text"] {
+    -webkit-appearance: none;
+    appearance: none;
+} */
+
+.input{
+    position: relative;
+    padding-left: 0%;
+    display: flex;
+    margin: 5px 0;
+    /* padding:0; */
+    /* left : 30%;
+    width: 100%;
+    display: inline-block; */
+
+}
+
+.itemTitle{
+    /* position:absolute; */
+    display: inline-block;
+    margin-right: 2%;
+    /* left: -45%; */
+    font-size: 20px;
+    font-weight: 900;
+    /* word-wrap: break-word; */
+    padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * .5);
+    color : black;
+    /* border: 3px solid purple; */
+
+    /* _______________________input內的設計_________________________ */
+
+}
+.input_label{
+    position: absolute;
+    float: left;
+    left: 4px;
+    top: 2px;
+    padding: calc(var(--size-bezel) * 0.75) calc(var(--size-bezel) * .5);
+    margin: calc(var(--size-bezel) * 0.75 + 3px) calc(var(--size-bezel) * .5);
+    background: pink;
+    white-space: nowrap;
+    transform: translate(0, 0);
+    transform-origin: 0 0;
+    background: var(--color-background);
+    transition: transform 120ms ease-in;
+    font-weight: bold;
+    line-height: 1.2;
+    color: lightgray;
+}
+
+.input_field{
+
+    box-sizing: border-box;
+    margin-left: 0;
+    display: block;
+    font-size: 15px;
+    width: 70%;
+    border: 3px solid currentColor;
+    padding: calc(var(--size-bezel) * 1.5) var(--size-bezel);
+    color: currentColor;
+    background: transparent;
+    border-radius: var(--size-radius);
+}
+
+.input_field:focus{
+
+    /* outline: none;
+    color: rgba(117, 228, 214, 0.7);
+    border: 5px solid rgba(117, 228, 214, 0.7);
+    box-shadow: 0 0 0 0.2rem rgba(117, 228, 214, 0.7); */
+
+    color: #495057;
+    background-color: #fff;
+    border-color:#80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+
+.input_field:focus + .input_label,
+.input_field:not(:placeholder-shown) +.input_label{
+    transform: translate(.25rem, -65%) scale(.8);
+    color: #fab700;
+}
+
+/* _______________________input內的設計_________________________ */
+/* _______________________黃色require設計_______________________ */
+.block{
+    display: flex;
+}
+
+.nothing {
+    position: relative;
+    display: inline-block;
+}
+
+input:required ~ .nothing::after {
+    font-size: 0.7rem;
+    position: absolute;
+    content: "R";
+    color: white;
+    background-color: #fab700;
+    border-radius: var(--size-radius);
+    padding: 2px 10px;
+    bottom: 1px;
+    left: 5px;
+}
+
+/* _______________________黃色require設計_______________________ */
+
+
+input[type="radio"]{
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    outline: none;
+}
+
+
+/* ____________ 點跑出紅色_______________ */
+
+
+
+input[type="radio"]::before {
+    display: block;
+    content: " ";
+    width: 10px;
+    height: 10px;
+    border-radius: 6px;
+    background-color: red;
+    font-size: 1.2em;
+    transform: translate(3px, 3px) scale(0);
+    transform-origin: center;
+    transition: all 0.3s ease-in;
+}
+
+input[type="radio"]:checked::before {
+    transform: translate(3px, 3px) scale(1);
+    transition: all 0.3s cubic-bezier(0.25, 0.25, 0.56, 2);
+}
+
+/* ____________ 點跑出紅色_______________ */
+
+/* ____________ 紅色閃光_______________ */
+
+input[type="radio"]:indeterminate {
+    border: 2px solid red;
+    animation: 0.4s linear infinite alternate border-pulse;
+}
+
+@keyframes border-pulse {
+    from {
+    border: 2px solid red;
+    }
+
+    to {
+    border: 6px solid red;
+    }
+}
+/* ____________ 紅色閃光_______________ */
+
+
+fieldset {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: 900;
+    justify-content: space-between;
+    border: 3px solid black !important;
+}
+
+.radioInput{
+    margin-left: 7px;
+}
+
+legend{ float: none; padding: inherit; }
+
+
+.icon{
+    width: 2vw;
+    height: 2vw;
+    margin-bottom: 3px
+}
+
+.hide-accessibly{
+    position: absolute; left: -99999rem
+}
+
+.upload_field{
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 2px 0;
+    padding: 2px 7px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.preview{
+    margin: 2px 0;
+    padding: 5px 8px;
+    font-weight: 600;
+}
+
+.style-line{
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.style-line span{
+    padding: 10px;
+}
+.style-line::after{
+    background: #1a1a1a;
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    left:10%;
+    z-index: 2;
+}
+
+.btn{
+    border: 2px solid black;
+    border-radius: 6px;
+    background: linear-gradient(to right, #2BC0E4 0%, #EAECC6 100%);
+    margin: 2px 0;
+    padding: 2px 7px;
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.notice{
+    padding: 0;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.notice-row{
+    margin: 0 21px;
+}
+
+.click_download{
+    margin-top: 10px;
+    color: blue;
+}
+
+.download{
+    display: flex;
+}
+
+.sizeChart{
+    padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.label_in_fieldset{
+    font-size: 1rem;
+}
+
+.input_in_fieldset{
+    margin-left: 10px;
+}
+
+.afterConfirmed{
+    background-color: white;
+    border: black 2.5px solid;
+    border-radius: 20px;
+    width: 60%;
+    height: 30%;
+    margin-left: 20%;
+    margin-top: 2%;
+    padding: 2% 5%;
+}
+
+.preloader{
+    position:absolute;
+    z-index:999;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    /* centers the loading animation horizontally on the screen */
+    top: 50%;
+    /* centers the loading animation vertically on the screen */
+    /* path to your loading animation */
+    background-image: url("../img/sprites/logos_1_1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: -100px 0 0 -100px;
+    z-index: 1000;
+    /* is width and height divided by two */
+}
+
+input.invalid{
+    border: 3px solid red;
+}
+
+.invalid ~ .nothing::before{
+    position: absolute;
+    left: -31px;
+    bottom: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    content: '✖';
+    color: red;
+}
+
+.h2_confirmed{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.radioTitle{
+    bottom: 5px;
+    position: absolute;
+    left: 27px;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 768px){
+    .style-line{
+        margin-left: 0;
+    }
+    .style-line::after{
+        width: 60%;
+        left: 20%;
+    }
+    .notice{
+        max-width: fit-content;
+        margin: 0 29px;
+    }
+    #intro .jumbotron{
+        min-height: 200px;
+        max-height: 200px;
+    }
+    #intro h1{
+        margin-top: 100px;
+        padding: 30px 0;
+    }
+    .sizeChart{
+        width: 70%;
+    }
+    .afterConfirmed{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .h2_confirmed{
+        margin: 5% 0;
+    }
+    .radioTitle{
+        bottom: 5px;
+        position: absolute;
+        left: 27px;
+        font-size: 10px;
+        font-weight: 800;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .sizeChart{
+        height: 60vw;
+        width: 50vw;
+    }
+    .notice{
+        width: 60%;
+    }
+}
