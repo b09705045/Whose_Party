@@ -1,0 +1,13 @@
+@media(min-width:768px){
+    .bordered2{display:inline-block;color:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.6);border-radius:0}
+    .bordered2.dark-border{color:rgba(51,51,51,0.6);border-color:rgba(51,51,51,0.6)}.colored{color:#4285f4;fill:#4285f4}
+    .waves-effect2{position:relative;cursor:pointer;display:inline-block;overflow:hidden;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;-webkit-transition:all 0.3s ease-out;transition:all 0.3s ease-out}
+    .waves-effect2 .waves-ripple{position:absolute;border-radius:50%;width:100px;height:100px;margin-top:-50px;margin-left:-50px;opacity:0;background:rgba(0,0,0,0.2);background:-webkit-radial-gradient(rgba(0,0,0,0.2) 0, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.5) 60%, rgba(255,255,255,0) 70%);background:-webkit-radial-gradient(rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.3) 40%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.5) 60%, rgba(255,255,255,0) 70%);background:radial-gradient(rgba(0,0,0,0.2) 0%,rgba(0,0,0,0.3) 40%,rgba(0,0,0,0.4) 50%,rgba(0,0,0,0.5) 60%,rgba(255,255,255,0) 70%);-webkit-transition:all 0.5s ease-out;transition:all 0.5s ease-out;-webkit-transition-property:-webkit-transform, opacity;transition-property:transform, opacity;-webkit-transform:scale(0);-ms-transform:scale(0);transform:scale(0);pointer-events:none}
+    .waves-effect2.waves-light2 .waves-ripple{background:rgba(255,255,255,0.4);background:-webkit-radial-gradient(rgba(255,255,255,0.2) 0, rgba(255,255,255,0.3) 40%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.5) 60%, rgba(255,255,255,0) 70%);background:-webkit-radial-gradient(rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.3) 40%, rgba(255,255,255,0.4) 50%, rgba(255,255,255,0.5) 60%, rgba(255,255,255,0) 70%);background:radial-gradient(rgba(255,255,255,0.2) 0%,rgba(255,255,255,0.3) 40%,rgba(255,255,255,0.4) 50%,rgba(255,255,255,0.5) 60%,rgba(255,255,255,0) 70%)}
+    .waves-effect2.waves-classic .waves-ripple{background:rgba(0,0,0,0.2)}
+    .waves-effect2.waves-classic.waves-light2 .waves-ripple{background:rgba(255,255,255,0.4)}
+    .waves-notransition{-webkit-transition:none !important;transition:none !important}
+    .waves-button2,.waves-circle{-webkit-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);-webkit-mask-image:-webkit-radial-gradient(circle, #fff 100%, #000 100%)}
+    .waves-button2,.waves-button:hover,.waves-button2:visited,.waves-button2-input{white-space:nowrap;vertical-align:middle;cursor:pointer;border:none;outline:none;color:inherit;background-color:transparent;font-size:1em;line-height:1em;text-align:center;text-decoration:none;z-index:1}
+    .waves-button2{padding:0.85em 1.1em;border-radius:0.2em}
+}

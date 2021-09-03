@@ -1,0 +1,20 @@
+<div class="col-lg-10 col-lg-offset-1">
+    <div class="row about-details">
+        {% assign animationDelay = 0 %}
+        {% for sponsor in site.sponsorBlock_minor %}
+            {% if forloop.index % 4 == 1 %}
+            <div class="col-md-3 col-sm-4 col-xs-6">
+                <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                    <a href="{{site.baseurl}}/{{ sponsor.url }}"  style="margin:auto">
+                        <img class="sponsor_img" src="{{ site.baseurl }}/img/sponsor/{{ sponsor.image }}" alt="{{ about.title }}">
+                    </a>
+                    <p style="font-weight: 400; font-family: 'Noto Serif TC', serif;">{{ sponsor.text }}</p>
+                </div>
+            </div>
+            {% endif %}
+
+        {% assign check = forloop.index | modulo:2 %}
+        {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
+        {% endfor %}
+    </div>
+</div>

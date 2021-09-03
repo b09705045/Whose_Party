@@ -1,0 +1,36 @@
+-
+  id: 1
+  name: ""
+  surname: "營手冊"
+  title: ""
+  thumbnailUrl: crystal.png
+  available: false
+  button:
+  - {link: "../assets/demo.pdf", text: "2021WHOSEPARTY營手冊.pdf"}
+-
+  id: 2
+  name: ""
+  surname: "家長同意書"
+  title: ""
+  thumbnailUrl: crystal.png
+  available: true
+  button:
+  - {link: "../assets/家長同意書.pdf", text: "2021WHOSEPARTY家長同意書.pdf"}
+-
+  id: 3
+  name: ""
+  surname: "健康聲明切結書"
+  title: ""
+  thumbnailUrl: crystal.png
+  available: true
+  button:
+  - {link: "../assets/參與者健康聲明切結書.pdf", text: "2021WHOSEPARTY參與者健康聲明切結書.pdf"}
+-
+  id: 4
+  name: ""
+  surname: "提早離營切結書"
+  title: ""
+  thumbnailUrl: crystal.png
+  available: true
+  button:
+  - {link: "../assets/離營切結書.pdf", text: "2021WHOSEPARTY提早離營切結書.pdf"}

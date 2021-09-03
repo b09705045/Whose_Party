@@ -1,0 +1,292 @@
+<!-- Begin Application Form -->
+<!--<section id="intro">
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>報名頁面</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>-->
+<section id="second">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2>這裡報名</h2>
+        <form class="form">
+          <p>必填資料後方皆用 <strong>【R】</strong>標記</p>
+
+          <h2>個人聯絡資訊</h2>
+          <div class="row">
+            <label class="row justify-content-start align-items-start">
+              <div class="col-md-4 input">
+                <span class="itemTitle">姓名</span>
+              </div>
+              <div class="col-md-8 input no-gutters">
+                <input class="input_field" type="text" id="name" name="name" placeholder=" " required>
+                <span class="input_label">輸入你的大名</span>
+                <span class="nothing"></span>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <label for="department" class="row justify-content-start align-items-start">
+              <div class="col-md-4 input">
+                <span class="itemTitle">系級</span>
+              </div>
+              <div class="col-md-8 input">
+                <input class="input_field" stype="text" id="department" name="department" list="departmentSug"
+                  placeholder=" " required>
+                <span class="input_label">輸入或選取你是哪個系的</span>
+                <datalist id="departmentSug">
+                  <option>資管</option>
+                  <option>護理</option>
+                  <option>物治</option>
+                </datalist>
+                <span class="nothing"></span>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <label for="NTUID" class="row justify-content-start align-items-start">
+              <div class="col-md-4 input">
+                <span class="itemTitle">學號</span>
+              </div>
+              <div class="col-md-8 input">
+                <input class="input_field" type="text" id="NTUID" name="NTUID" placeholder=" " required>
+                <span class="input_label">請問你的學號是</span>
+                <span class="nothing"></span>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <label for="birthday" class="row justify-content-start align-items-start">
+              <div class="col-md-4 input">
+                <span class="itemTitle">生日</span>
+              </div>
+              <div class="col-md-8 input">
+                <input class="input_field" type="date" id="birthday" name="birthday" placeholder=" " required>
+                <span class="nothing"></span>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <label for="genders" class="row justify-content-start align-items-start">
+              <div class="col-md-4 input">
+                <span class="itemTitle">生理性別</span>
+              </div>
+              <div class="col-md-8 input">
+                <input class="input_field" stype="text" id="genders" name="genders" list="genderSug" placeholder=" "
+                  required>
+                <span class="input_label">輸入或選取你的性別</span>
+                <datalist id="genderSug">
+                  <option>男性</option>
+                  <option>女性</option>
+                  <option>其他</option>
+                </datalist>
+                <span class="nothing"></span>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <label for="IDnumber" class="row justify-content-start align-items-start">
+              <div class="col-md-4 input">
+                <span class="itemTitle">身分證字號</span>
+              </div>
+              <div class="col-md-8 input">
+                <input class="input_field" type="text" id="IDnumber" name="IDnumber" placeholder=" " required>
+                <span class="input_label">作保險用途絕不外流</span>
+                <span class="nothing"></span>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <label for="cellphone" class="row justify-content-start align-items-start">
+              <div class="col-md-4 input">
+                <span class="itemTitle">手機</span>
+              </div>
+              <div class="col-md-8 input">
+                <input class="input_field" type="tel" id="cellphone" name="cellphone" placeholder=" " required>
+                <span class="input_label">可以給我們你的手機號碼嗎</span>
+                <span class="nothing"></span>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <label for="Email" class="row justify-content-start align-items-start">
+              <div class="col-md-4 input">
+                <span class="itemTitle">E-mail</span>
+              </div>
+              <div class="col-md-8 input">
+                <input class="input_field" type="email" id="Email" name="Email" placeholder=" " required>
+                <span class="input_label">讓我們能夠聯絡你</span>
+                <span class="nothing"></span>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <label for="emerCon" class="row justify-content-start align-items-start">
+              <div class="col-md-4 input">
+                <span class="itemTitle">緊急聯絡人</span>
+              </div>
+              <div class="col-md-8 input">
+                <input class="input_field" type="text" id="emerCon" name="emerCon" placeholder=" " required>
+                <span class="input_label">緊急時刻我們要聯絡誰</span>
+                <span class="nothing"></span>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <label for="emerTel" class="row justify-content-start align-items-start">
+              <div class="col-md-4 input">
+                <span class="itemTitle">緊急聯絡人電話</span>
+              </div>
+              <div class="col-md-8 input">
+                <input class="input_field" type="tel" id="emerTel" name="emerTel" placeholder=" " required>
+                <span class="input_label">如何聯絡到你的緊急聯絡人</span>
+                <span class="nothing"></span>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <label for="specialCase" class="row justify-content-start align-items-start">
+              <div class="col-md-4 input">
+                <span class="itemTitle">有無特殊病例史</span>
+              </div>
+              <div class="col-md-8 input">
+                <input class="input_field" type="text" id="specialCase" name="specialCase" placeholder=" " required>
+                <span class="input_label">讓大家都有一個更快樂安全的旅程</span>
+                <span class="nothing"></span>
+              </div>
+            </label>
+          </div>
+          <h2>上營需要資料</h2>
+          <div class="row">
+            <label for="tshirtSize" class="row justify-content-start align-items-start">
+              <div class="col-md-4 input">
+                <span class="itemTitle">營服尺寸</span>
+              </div>
+              <div class="col-md-8 input">
+                <select class="input_field" name="tshirtSize" id="tshirtSize">
+                  <option value="">--Please choose an option--</option>
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                </select>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <label for="accountL5" class="row justify-content-start align-items-start">
+              <div class="col-md-4 input">
+                <span class="itemTitle">匯款帳號末五碼</span>
+              </div>
+              <div class="col-md-8 input">
+                <input class="input_field" type="text" id="accountL5" name="accountL5" placeholder=" " required>
+                <span class="input_label">確認繳費程序保障你我權利</span>
+                <span class="nothing"></span>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <div class="col-md-6 input">
+              <fieldset class="p-2">
+                <legend class="w-auto">飲食習慣</legend>
+                <p class="radioInput">
+                  <input type="radio" id="meat" name="diet" value="葷" required>
+                  <label for="meat">葷</label>
+                </p>
+                <p class="radioInput">
+                  <input type="radio" id="Veg" name="diet" value="純素" required>
+                  <label for="Veg">純素</label>
+                </p>
+                <p class="radioInput">
+                  <input type="radio" id="lactoVeg" name="diet" value="蛋奶素" required>
+                  <label for="lactoVeg">蛋奶素</label>
+                </p>
+              </fieldset>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 input">
+              <fieldset class="p-2">
+                <legend class="w-auto">前往方式(價錢因為前往方式不同而不同喔)</legend>
+                <p class="radioInput">
+                  <input type="radio" id="NTU" name="wayAttend" value="台大集合" required>
+                  <label for="NTU">台大集合($$$$$)</label>
+                </p>
+                <p class="radioInput">
+                  <input type="radio" id="Own" name="wayAttend" value="自行前往" required>
+                  <label for="Own">自行前往埔心牧場($$$$$$)</label>
+                </p>
+              </fieldset>
+            </div>
+          </div>
+          <div class="row">
+            <label for="parentAg">
+              <div class="col-md-12 input">
+                <span class="itemTitle">上傳家長同意書</span>
+              </div>
+              <div class="col-md-12 input">
+                <div class="upload_field">
+                  <input class="hide-accessibly" type="file" id="parentAg" name="parentAg"
+                    accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf">
+                  <img class="icon" src="../img/favicons/favicon.ico" alt="上傳檔案">
+                  <span>點我上傳</span>
+                </div>
+                <span class="preview" id="parentAg_pre">尚未上傳檔案</span>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <label for="healthDec">
+              <div class="col-md-12 input">
+                <span class="itemTitle">上傳自主健康聲明書</span>
+              </div>
+              <div class="col-md-12 input">
+                <div class="upload_field">
+                  <input class="hide-accessibly" type="file" id="healthDec" name="healthDec"
+                    accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,.pdf">
+                  <img class="icon" src="../img/favicons/favicon.ico" alt="上傳檔案">
+                  <span>點我上傳</span>
+                </div>
+                <span class="preview" id="healthDec_pre">尚未上傳檔案</span>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <label for="suggestion" class="row justify-content-start align-items-start">
+              <div class="col-md-4 input">
+                <span class="itemTitle">有什麼想跟我們說的話或建議</span>
+              </div>
+              <div class="col-md-8 input">
+                <textarea class="input_field" id="suggestion" name="suggestion" rows="5" cols="33"
+                  placeholder=" "></textarea>
+                <span class="input_label">你快說阿你快說阿O我的天~</span>
+              </div>
+            </label>
+          </div>
+          <div class="row">
+            <p> 按讚<a href="https://youtu.be/zwqwZMYhRGc">超志祥</a></p>
+
+          </div>
+
+
+          <div>
+            <button type="submit" id="submit" onclick="return confirmSubmit()">按<strong>我</strong>送出</button>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </div>
+</section>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
+<script src="{{ site.baseurl }}/applicationForm/applicationForm2.js"></script>
+<!-- End Application Form-->
